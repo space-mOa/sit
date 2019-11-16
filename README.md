@@ -1,6 +1,6 @@
 Tento repozitář snad bude obahovat kód pro vizualizaci a analýzu sítě. 
 
-Zdroj dat pro analýzu je: [Sociologická encyklopedie](https://encyklopedie.soc.cas.cz/w/Hlavn%C3%AD_strana)
+Zdrojem dat je: [Sociologická encyklopedie](https://encyklopedie.soc.cas.cz/w/Hlavn%C3%AD_strana)
 
 ## Získání dat z XML
 ### Co chci získat
