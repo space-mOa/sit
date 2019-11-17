@@ -19,6 +19,7 @@ type WikiData struct {
 	Page     []Page     `xml:"page"`
 }
 
+// SiteInfo obsahuje informace o stránce a Namespace
 type SiteInfo struct {
 	XMLName    xml.Name      `xml:"siteinfo"`
 	SiteName   string        `xml:"sitename"`
@@ -68,9 +69,9 @@ type Revision struct {
 	Text        []byte       `xml:"text"`
 }
 
-func (w *WikiData) getData(terms map[string][]byte) {
-	reAut := regexp.MustCompile(string(terms["authors"]))
-	reLinks := regexp.MustCompile(string(terms["links"]))
+func (w *WikiData) getData(terms map[string]string) {
+	reAut := regexp.MustCompile(terms["authors"])
+	reLinks := regexp.MustCompile(terms["links"])
 	for _, d := range w.Page {
 		fmt.Println("Název hesla:", d.Title)
 		fnAut := reAut.FindAll(d.Revision.Text, -1)
@@ -110,9 +111,9 @@ func main() {
 		found := re.FindAll(data.Page[300].Revision.Text, -1)
 		fmt.Println("\n\nNašlo se:", (string(found[1])), string(found[0]), string(found[2]))
 	*/
-	searchTerms := map[string][]byte{
-		"authors": []byte(`(\[\[Kategorie:Aut:.*\]\])`),
-		"lang":    []byte(`(<span lang=.*)(<\/span>)`),
-		"links":   []byte(`(\[\[([A-Za-zěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9|])*\]\])`)}
+	searchTerms := map[string]string{
+		"authors": `(\[\[Kategorie:Aut:.*\]\])`,
+		"lang":    `(<span lang=.*)(<\/span>)`,
+		"links":   `(\[\[([A-Za-zěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9|])*\]\])`}
 	data.getData(searchTerms)
 }
