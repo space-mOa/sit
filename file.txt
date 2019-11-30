@@ -1,0 +1,23 @@
+název článku 
+autor
+odkaz
+
+
+Název hesla: VSgS:Původní předmluva
+Autor: [[Kategorie:Aut: Petrusek Miloslav| Předmluva k původnímu knižnímu vydání Velkého sociologického slovníku]]
+Autor: [[Kategorie:Aut: Vodáková Alena| Předmluva k původnímu knižnímu vydání Velkého sociologického slovníku]]
+Link: [[teorie]]  
+
+
+
+heslo život má v sobě odkazy např. čase -> tento odkaz, ale neodkazuje pouze na jedno heslo, ale hned na několik -> https://encyklopedie.soc.cas.cz/w/%C4%8Cas
+https://encyklopedie.soc.cas.cz/w/%C5%BDivot -čase-> https://encyklopedie.soc.cas.cz/w/%C4%8Cas
+
+autor - heslo
+[[Kategorie:Aut: Petrusek Miloslav| Předmluva k původnímu knižnímu vydání Velkého sociologického slovníku]]
+
+https://play.golang.org/p/JhvXm7cG1wt
+
+
+go run main.go | Out-File output.txt -encoding OEM
+go run main.go > output.txt

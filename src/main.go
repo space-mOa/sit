@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"regexp"
+	"strings"
 )
 
 // WikiData je struct pro XML soubor
@@ -21,16 +22,16 @@ type WikiData struct {
 
 // SiteInfo obsahuje informace o stránce a Namespace
 type SiteInfo struct {
-	XMLName    xml.Name      `xml:"siteinfo"`
-	SiteName   string        `xml:"sitename"`
-	DbName     string        `xml:"dbname"`
-	Base       string        `xml:"base"`
-	Generator  string        `xml:"generator"`
-	Case       string        `xml:"case"`
-	Namespaces []Namespacese `xml:"namespaces"`
+	XMLName    xml.Name    `xml:"siteinfo"`
+	SiteName   string      `xml:"sitename"`
+	DbName     string      `xml:"dbname"`
+	Base       string      `xml:"base"`
+	Generator  string      `xml:"generator"`
+	Case       string      `xml:"case"`
+	Namespaces []Namespace `xml:"namespaces"`
 }
 
-type Namespacese struct {
+type Namespace struct {
 	XMLName xml.Name    `xml:"namespaces"`
 	Name    []NameSpace `xml:"namespace"`
 }
@@ -72,12 +73,18 @@ type Revision struct {
 func (w *WikiData) getData(terms map[string]string) {
 	reAut := regexp.MustCompile(terms["authors"])
 	reLinks := regexp.MustCompile(terms["links"])
+	reAut2 := regexp.MustCompile(`:\s[A-Za-z\sěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9]*`)
 	for _, d := range w.Page {
 		fmt.Println("Název hesla:", d.Title)
 		fnAut := reAut.FindAll(d.Revision.Text, -1)
 		fnLinks := reLinks.FindAll(d.Revision.Text, -1)
 		for _, f := range fnAut {
 			fmt.Println("Autor:", string(f))
+			l := reAut2.FindAll(f, -1)
+			for _, n := range l {
+				n := strings.TrimPrefix(string(n), `: `)
+				fmt.Println(string(n))
+			}
 		}
 		for _, f := range fnLinks {
 			fmt.Println("Link:", string(f))
