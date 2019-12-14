@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"regexp"
+	"strconv"
 	"strings"
 )
 
@@ -70,10 +71,60 @@ type Revision struct {
 	Text        []byte       `xml:"text"`
 }
 
-func (w *WikiData) getData(terms map[string]string) {
-	reAut := regexp.MustCompile(terms["authors"])
-	reLinks := regexp.MustCompile(terms["links"])
-	reAut2 := regexp.MustCompile(`:\s[A-Za-z\sěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9]*`)
+func (w *WikiData) getAuthors(regex string, trim string) {
+	var authors []string
+	rgx := getRegexp(regex, trim)
+	for _, chunk := range w.Page {
+		fndAut := rgx[0].FindAll(chunk.Revision.Text, -1)
+		for _, trimAut := range fndAut {
+			aut := rgx[1].FindAll(trimAut, -1)
+			for _, a := range aut {
+				a := strings.TrimPrefix(string(a), `: `)
+				fmt.Println(string(a))
+				authors = append(authors, a)
+			}
+		}
+	}
+}
+
+func (w *WikiData) getSociologists() (soc Node) {
+	rgx := getRegexp(`(\[\[Kategorie:Aut:.*\]\])`,
+		`:\s[A-Za-z\sěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9]*`,
+		`(\[\[Kategorie:SCSg.*\]\])`,
+		`(\[\[([A-Za-zěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9|])*\]\])`)
+	soc.name = "Sociologist"
+	var index uint64 = 0
+	for _, chunk := range w.Page {
+		fndArt := rgx[2].FindAll(chunk.Revision.Text, -1)
+		if len(fndArt) == 0 {
+			continue
+		}
+		fndLinks := rgx[3].FindAll(chunk.Revision.Text, -1)
+		var value Values
+		index = index + 1
+		value.line = append(value.line, strconv.FormatUint(index, 10))
+		value.line = append(value.line, string(chunk.Title))
+		fmt.Println(string(chunk.Title))
+		for _, art := range fndArt {
+			fmt.Println(string(art), "\n\n")
+		}
+		for _, link := range fndLinks {
+			value.links = append(value.links, string(link))
+		}
+		soc.values = append(soc.values, value)
+	}
+	for _, sociologist := range soc.values {
+		fmt.Println(sociologist)
+	}
+
+	return soc
+}
+
+// udělej více obecné
+func (w *WikiData) getData(terms map[string][]string) {
+	reAut := regexp.MustCompile(terms["authors"][0])
+	reLinks := regexp.MustCompile(terms["links"][0])
+	reAut2 := regexp.MustCompile(terms["authors"][1])
 	for _, d := range w.Page {
 		fmt.Println("Název hesla:", d.Title)
 		fnAut := reAut.FindAll(d.Revision.Text, -1)
@@ -91,6 +142,38 @@ func (w *WikiData) getData(terms map[string]string) {
 		}
 		fmt.Println("\n")
 	}
+}
+
+// Node v síti, hodnoty v sobě zahtnují název a atributy
+type Node struct {
+	name   string
+	values []Values
+	rgx    []string
+}
+
+type Values struct {
+	line  []string
+	links []string
+}
+
+// Edge je vztah mezi dvěma uzly
+type Edge struct {
+	name string
+	line [][]string
+}
+
+// Save uloží do souboru CSV
+type Save interface {
+	save()
+}
+
+func getRegexp(rs ...string) []*regexp.Regexp {
+	var listReg []*regexp.Regexp
+	for _, s := range rs {
+		reg := regexp.MustCompile(s)
+		listReg = append(listReg, reg)
+	}
+	return listReg
 }
 
 func unpackFile(v *WikiData, name string) (err error) {
@@ -111,16 +194,17 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println("DÉLKA", len(data.Page)-1, "\n")
-	fmt.Println(string(data.Page[300].Revision.Text))
 	/*
-		re := regexp.MustCompile(`(<span lang=.*)(<\/span>)`)
-		found := re.FindAll(data.Page[300].Revision.Text, -1)
-		fmt.Println("\n\nNašlo se:", (string(found[1])), string(found[0]), string(found[2]))
+		fmt.Println("DÉLKA", len(data.Page)-1, "\n")
+		fmt.Println(string(data.Page[300].Revision.Text))
 	*/
-	searchTerms := map[string]string{
-		"authors": `(\[\[Kategorie:Aut:.*\]\])`,
-		"lang":    `(<span lang=.*)(<\/span>)`,
-		"links":   `(\[\[([A-Za-zěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9|])*\]\])`}
-	data.getData(searchTerms)
+	/*
+		searchTerms := map[string][]string{
+			"authors": []string{`(\[\[Kategorie:Aut:.*\]\])`, `:\s[A-Za-z\sěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9]*`},
+			"lang":    []string{`(<span lang=.*)(<\/span>)`},
+			"links":   []string{`(\[\[([A-Za-zěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9|])*\]\])`}}
+		data.getData(searchTerms)
+	*/
+	// data.getAuthors(`(\[\[Kategorie:Aut:.*\]\])`, `:\s[A-Za-z\sěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9]*`)
+	data.getSociologists()
 }
