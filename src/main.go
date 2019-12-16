@@ -91,7 +91,7 @@ func (w *WikiData) getSociologists() (soc Node) {
 	rgx := getRegexp(`(\[\[Kategorie:Aut:.*\]\])`,
 		`:\s[A-Za-z\sěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9]*`,
 		`(\[\[Kategorie:SCSg.*\]\])`,
-		`(\[\[([A-Za-zěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9|])*\]\])`)
+		`(\[\[[A-Za-zěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9|\s]*\]\])`)
 	soc.name = "Sociologist"
 	var index uint64 = 0
 	for _, chunk := range w.Page {
@@ -100,16 +100,23 @@ func (w *WikiData) getSociologists() (soc Node) {
 			continue
 		}
 		fndLinks := rgx[3].FindAll(chunk.Revision.Text, -1)
+		if fndLinks == nil {
+			fmt.Println("nic nenašlo u:", chunk.Title)
+		}
 		var value Values
 		index = index + 1
 		value.line = append(value.line, strconv.FormatUint(index, 10))
 		value.line = append(value.line, string(chunk.Title))
-		fmt.Println(string(chunk.Title))
-		for _, art := range fndArt {
-			fmt.Println(string(art), "\n\n")
-		}
 		for _, link := range fndLinks {
 			value.links = append(value.links, string(link))
+		}
+		if chunk.Title == "Von Wieser Friedrich" {
+			fmt.Println(len(fndLinks), string(chunk.Revision.Text))
+			fmt.Println(string(chunk.Title), value.line[:])
+			fmt.Println(value.links[:])
+			for _, art := range fndArt {
+				fmt.Println(string(art), "\n\n")
+			}
 		}
 		soc.values = append(soc.values, value)
 	}
