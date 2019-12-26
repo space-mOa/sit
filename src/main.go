@@ -88,34 +88,56 @@ func (w *WikiData) getAuthors(regex string, trim string) {
 }
 
 func (w *WikiData) getSociologists() (soc Node) {
-	rgx := getRegexp(`(\[\[Kategorie:Aut:.*\]\])`,
-		`:\s[A-Za-z\sěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9]*`,
+	rgx := getRegexp(`<span class="PERSON_BORN"><time datetime=.*>.*</time>.*</span>`,
+		`datetime=".*"`,
 		`(\[\[Kategorie:SCSg.*\]\])`,
-		`(\[\[[A-Za-zěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9|\s]*\]\])`)
+		`\[\[[^]]*\]\]`,
+		`Soubor:`,
+		`[[:digit:]]-*`)
 	soc.name = "Sociologist"
 	var index uint64 = 0
 	for _, chunk := range w.Page {
+		// Najdi heslo se sociology
 		fndArt := rgx[2].FindAll(chunk.Revision.Text, -1)
 		if len(fndArt) == 0 {
 			continue
 		}
+		// Najdi datum narozeni, úmrtí, másto narození
+		var time string
+		fndBorn := rgx[0].FindAll(chunk.Revision.Text, -1)
+		for _, date := range fndBorn {
+			datetime := rgx[1].FindAll(date, -1)
+			fmt.Println(string(date))
+			for _, t := range datetime {
+				timeCh := rgx[5].FindAll(t, -1)
+				for _, t := range timeCh {
+					time = time + string(t)
+				}
+			}
+		}
+		fmt.Println(time, "end")
+		// Najdi linky
 		fndLinks := rgx[3].FindAll(chunk.Revision.Text, -1)
 		if fndLinks == nil {
 			fmt.Println("nic nenašlo u:", chunk.Title)
 		}
+		// Index Name Born Died BornIn
 		var value Values
 		index = index + 1
 		value.line = append(value.line, strconv.FormatUint(index, 10))
 		value.line = append(value.line, string(chunk.Title))
+		value.line = append(value.line, time)
+		// Vyhoď nepotřebné linky např. Soubor:...
 		for _, link := range fndLinks {
-			value.links = append(value.links, string(link))
-		}
-		if chunk.Title == "Von Wieser Friedrich" {
-			fmt.Println(len(fndLinks), string(chunk.Revision.Text))
-			fmt.Println(string(chunk.Title), value.line[:])
-			fmt.Println(value.links[:])
-			for _, art := range fndArt {
-				fmt.Println(string(art), "\n\n")
+			notWanted := rgx[4].FindAll(link, -1)
+			if notWanted == nil {
+				str := strings.Split(string(link), "|")
+				if len(str) > 2 {
+					panic("Více jak dva stringy ve splitu. funkce trimString(s)")
+				}
+				s := strings.TrimPrefix(str[0], `[[`)
+				s = strings.TrimRight(s, "]]")
+				value.links = append(value.links, s)
 			}
 		}
 		soc.values = append(soc.values, value)
@@ -123,7 +145,6 @@ func (w *WikiData) getSociologists() (soc Node) {
 	for _, sociologist := range soc.values {
 		fmt.Println(sociologist)
 	}
-
 	return soc
 }
 
@@ -172,6 +193,11 @@ type Edge struct {
 // Save uloží do souboru CSV
 type Save interface {
 	save()
+}
+
+func trimString(s string) (newString string) {
+
+	return newString
 }
 
 func getRegexp(rs ...string) []*regexp.Regexp {
