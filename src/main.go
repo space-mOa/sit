@@ -73,22 +73,6 @@ type Revision struct {
 	Text        []byte       `xml:"text"`
 }
 
-func (w *WikiData) getAuthors(regex string, trim string) {
-	var authors []string
-	rgx := getRegexp(regex, trim)
-	for _, chunk := range w.Page {
-		fndAut := rgx[0].FindAll(chunk.Revision.Text, -1)
-		for _, trimAut := range fndAut {
-			aut := rgx[1].FindAll(trimAut, -1)
-			for _, a := range aut {
-				a := strings.TrimPrefix(string(a), `: `)
-				fmt.Println(string(a))
-				authors = append(authors, a)
-			}
-		}
-	}
-}
-
 func (w *WikiData) getSociologists() (soc Node) {
 	rgx := getRegexp(`<span class="PERSON_BORN"><time datetime=.*>.*</time>.*</span>`,
 		`datetime=".*"`,
@@ -116,6 +100,7 @@ func (w *WikiData) getSociologists() (soc Node) {
 				}
 			}
 		}
+		// NAJDI JINÝ ZPŮSOB
 		born = strings.ReplaceAll(born, "\"", "")
 		var died string
 		fndDied := rgx[6].FindAll(chunk.Revision.Text, -1)
@@ -138,6 +123,7 @@ func (w *WikiData) getSociologists() (soc Node) {
 		if len(died) == 0 {
 			died = "2030"
 		}
+		// NAJDI JINÝ ZPŮSOB
 		died = strings.ReplaceAll(died, "\"", "")
 		// Najdi linky
 		fndLinks := rgx[3].FindAll(chunk.Revision.Text, -1)
@@ -174,30 +160,6 @@ func (w *WikiData) getSociologists() (soc Node) {
 	return soc
 }
 
-// udělej více obecné
-func (w *WikiData) getData(terms map[string][]string) {
-	reAut := regexp.MustCompile(terms["authors"][0])
-	reLinks := regexp.MustCompile(terms["links"][0])
-	reAut2 := regexp.MustCompile(terms["authors"][1])
-	for _, d := range w.Page {
-		fmt.Println("Název hesla:", d.Title)
-		fnAut := reAut.FindAll(d.Revision.Text, -1)
-		fnLinks := reLinks.FindAll(d.Revision.Text, -1)
-		for _, f := range fnAut {
-			fmt.Println("Autor:", string(f))
-			l := reAut2.FindAll(f, -1)
-			for _, n := range l {
-				n := strings.TrimPrefix(string(n), `: `)
-				fmt.Println(string(n))
-			}
-		}
-		for _, f := range fnLinks {
-			fmt.Println("Link:", string(f))
-		}
-		fmt.Println("\n")
-	}
-}
-
 // Node v síti, hodnoty v sobě zahtnují název a atributy
 type Node struct {
 	name   string
@@ -231,6 +193,55 @@ type Values struct {
 type Edge struct {
 	name string
 	line [][]string
+}
+
+func (e *Edge) save(name string, head []string) {
+	file, err := os.Create(name)
+	if err != nil {
+		fmt.Println(err)
+	}
+	writer := csv.NewWriter(file)
+	writer.Write(head)
+	for _, v := range e.line {
+		writer.Write(v)
+	}
+	writer.Flush()
+	err = file.Close()
+	if err != nil {
+		fmt.Println(err)
+	}
+}
+
+func (e *Edge) makeFromOne(n Node) {
+	var index uint64 = 0
+	for _, soc1 := range n.values {
+		soc1Died, err := strconv.ParseInt(soc1.line[3][:4], 10, 64)
+		if err != nil {
+			fmt.Println(err)
+		}
+		for _, soc2 := range n.values {
+			if soc1.line[1] == soc2.line[1] {
+				continue
+			}
+			soc2Born, err := strconv.ParseInt(soc2.line[2][:4], 10, 64)
+			if err != nil {
+				fmt.Println(err)
+			}
+			soc2Died, err := strconv.ParseInt(soc2.line[3][:4], 10, 64)
+			if err != nil {
+				fmt.Println(err)
+			}
+			if soc1Died > soc2Born || soc1Died >= soc2Died {
+				var record []string
+				index += 1
+				record = append(record, strconv.FormatUint(index, 10))
+				record = append(record, soc1.line[1])
+				record = append(record, soc2.line[1])
+				e.line = append(e.line, record)
+				//	fmt.Println("---------------\n", soc1.line[1], soc1Born, soc1Died, soc2.line[1], soc2Born, soc2Died)
+			}
+		}
+	}
 }
 
 func getRegexp(rs ...string) []*regexp.Regexp {
@@ -275,4 +286,7 @@ func main() {
 	// data.getAuthors(`(\[\[Kategorie:Aut:.*\]\])`, `:\s[A-Za-z\sěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9]*`)
 	soc := data.getSociologists()
 	soc.save("soc.csv", []string{"index", "name", "born", "died"})
+	var edge Edge
+	edge.makeFromOne(soc)
+	edge.save("living.csv", []string{"index", "Sociolog_1", "Sociolog_2"})
 }
