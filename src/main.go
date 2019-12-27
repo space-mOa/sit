@@ -103,7 +103,7 @@ func (w *WikiData) getSociologists() (soc Node) {
 			continue
 		}
 		// Najdi datum narozeni, úmrtí, másto narození
-		var time string
+		var born string
 		fndBorn := rgx[0].FindAll(chunk.Revision.Text, -1)
 		for _, date := range fndBorn {
 			datetime := rgx[1].FindAll(date, -1)
@@ -111,11 +111,11 @@ func (w *WikiData) getSociologists() (soc Node) {
 			for _, t := range datetime {
 				timeCh := rgx[5].FindAll(t, -1)
 				for _, t := range timeCh {
-					time = time + string(t)
+					born = born + string(t)
 				}
 			}
 		}
-		fmt.Println(time, "end")
+		fmt.Println(born, "end")
 		// Najdi linky
 		fndLinks := rgx[3].FindAll(chunk.Revision.Text, -1)
 		if fndLinks == nil {
@@ -126,7 +126,7 @@ func (w *WikiData) getSociologists() (soc Node) {
 		index = index + 1
 		value.line = append(value.line, strconv.FormatUint(index, 10))
 		value.line = append(value.line, string(chunk.Title))
-		value.line = append(value.line, time)
+		value.line = append(value.line, born)
 		// Vyhoď nepotřebné linky např. Soubor:...
 		for _, link := range fndLinks {
 			notWanted := rgx[4].FindAll(link, -1)
