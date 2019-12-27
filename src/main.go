@@ -1,9 +1,11 @@
 package main
 
 import (
+	"encoding/csv"
 	"encoding/xml"
 	"fmt"
 	"io/ioutil"
+	"os"
 	"regexp"
 	"strconv"
 	"strings"
@@ -93,7 +95,8 @@ func (w *WikiData) getSociologists() (soc Node) {
 		`(\[\[Kategorie:SCSg.*\]\])`,
 		`\[\[[^]]*\]\]`,
 		`Soubor:`,
-		`[[:digit:]]-*`)
+		`[[:digit:]-]*"`,
+		`<span class="PERSON_DIED"><time datetime=.*>.*</time>.*</span>`)
 	soc.name = "Sociologist"
 	var index uint64 = 0
 	for _, chunk := range w.Page {
@@ -102,12 +105,10 @@ func (w *WikiData) getSociologists() (soc Node) {
 		if len(fndArt) == 0 {
 			continue
 		}
-		// Najdi datum narozeni, úmrtí, másto narození
 		var born string
 		fndBorn := rgx[0].FindAll(chunk.Revision.Text, -1)
 		for _, date := range fndBorn {
 			datetime := rgx[1].FindAll(date, -1)
-			fmt.Println(string(date))
 			for _, t := range datetime {
 				timeCh := rgx[5].FindAll(t, -1)
 				for _, t := range timeCh {
@@ -115,18 +116,41 @@ func (w *WikiData) getSociologists() (soc Node) {
 				}
 			}
 		}
-		fmt.Println(born, "end")
+		born = strings.ReplaceAll(born, "\"", "")
+		var died string
+		fndDied := rgx[6].FindAll(chunk.Revision.Text, -1)
+		for _, date := range fndDied {
+			datetime := rgx[1].FindAll(date, -1)
+			for _, t := range datetime {
+				timeCh := rgx[5].FindAll(t, -1)
+				var count int
+				for _, t := range timeCh {
+					if string(t) == `"` {
+						count += 1
+					}
+					if count == 2 {
+						break
+					}
+					died = died + string(t)
+				}
+			}
+		}
+		if len(died) == 0 {
+			died = "2030"
+		}
+		died = strings.ReplaceAll(died, "\"", "")
 		// Najdi linky
 		fndLinks := rgx[3].FindAll(chunk.Revision.Text, -1)
 		if fndLinks == nil {
 			fmt.Println("nic nenašlo u:", chunk.Title)
 		}
-		// Index Name Born Died BornIn
+		// Index Name Born Died
 		var value Values
 		index = index + 1
 		value.line = append(value.line, strconv.FormatUint(index, 10))
 		value.line = append(value.line, string(chunk.Title))
 		value.line = append(value.line, born)
+		value.line = append(value.line, died)
 		// Vyhoď nepotřebné linky např. Soubor:...
 		for _, link := range fndLinks {
 			notWanted := rgx[4].FindAll(link, -1)
@@ -142,9 +166,11 @@ func (w *WikiData) getSociologists() (soc Node) {
 		}
 		soc.values = append(soc.values, value)
 	}
-	for _, sociologist := range soc.values {
-		fmt.Println(sociologist)
-	}
+	/*
+		for _, sociologist := range soc.values {
+			fmt.Println(sociologist)
+		}
+	*/
 	return soc
 }
 
@@ -179,6 +205,23 @@ type Node struct {
 	rgx    []string
 }
 
+func (n *Node) save(name string, head []string) {
+	file, err := os.Create(name)
+	if err != nil {
+		fmt.Println(err)
+	}
+	writer := csv.NewWriter(file)
+	writer.Write(head)
+	for _, v := range n.values {
+		writer.Write(v.line)
+	}
+	writer.Flush()
+	err = file.Close()
+	if err != nil {
+		fmt.Println(err)
+	}
+}
+
 type Values struct {
 	line  []string
 	links []string
@@ -188,16 +231,6 @@ type Values struct {
 type Edge struct {
 	name string
 	line [][]string
-}
-
-// Save uloží do souboru CSV
-type Save interface {
-	save()
-}
-
-func trimString(s string) (newString string) {
-
-	return newString
 }
 
 func getRegexp(rs ...string) []*regexp.Regexp {
@@ -240,5 +273,6 @@ func main() {
 		data.getData(searchTerms)
 	*/
 	// data.getAuthors(`(\[\[Kategorie:Aut:.*\]\])`, `:\s[A-Za-z\sěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9]*`)
-	data.getSociologists()
+	soc := data.getSociologists()
+	soc.save("soc.csv", []string{"index", "name", "born", "died"})
 }
