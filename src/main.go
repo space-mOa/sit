@@ -80,7 +80,8 @@ func (w *WikiData) getSociologists() (soc Node) {
 		`\[\[[^]]*\]\]`,
 		`Soubor:`,
 		`[[:digit:]-]*"`,
-		`<span class="PERSON_DIED"><time datetime=.*>.*</time>.*</span>`)
+		`<span class="PERSON_DIED"><time datetime=.*>.*</time>.*</span>`,
+		`<span class="PERSON_DIED">\?\?\?</span>`)
 	soc.name = "Sociologist"
 	var index uint64 = 0
 	for _, chunk := range w.Page {
@@ -120,6 +121,10 @@ func (w *WikiData) getSociologists() (soc Node) {
 				}
 			}
 		}
+		fndDied = rgx[7].FindAll(chunk.Revision.Text, -1)
+		if fndDied != nil {
+			died = "0000"
+		}
 		if len(died) == 0 {
 			died = "2030"
 		}
@@ -151,12 +156,13 @@ func (w *WikiData) getSociologists() (soc Node) {
 			}
 		}
 		soc.values = append(soc.values, value)
+
+		/*
+			for _, sociologist := range soc.values {
+				fmt.Println(sociologist)
+			}
+		*/
 	}
-	/*
-		for _, sociologist := range soc.values {
-			fmt.Println(sociologist)
-		}
-	*/
 	return soc
 }
 
@@ -215,12 +221,16 @@ func (e *Edge) save(name string, head []string) {
 func (e *Edge) makeFromOne(n Node) {
 	var index uint64 = 0
 	for _, soc1 := range n.values {
+		soc1Born, err := strconv.ParseInt(soc1.line[2][:4], 10, 64)
+		if err != nil {
+			fmt.Println(err)
+		}
 		soc1Died, err := strconv.ParseInt(soc1.line[3][:4], 10, 64)
 		if err != nil {
 			fmt.Println(err)
 		}
 		for _, soc2 := range n.values {
-			if soc1.line[1] == soc2.line[1] {
+			if soc1.line[0] == soc2.line[0] {
 				continue
 			}
 			soc2Born, err := strconv.ParseInt(soc2.line[2][:4], 10, 64)
@@ -231,20 +241,35 @@ func (e *Edge) makeFromOne(n Node) {
 			if err != nil {
 				fmt.Println(err)
 			}
-			// špatně
-			// b 1937 d 2030
-			// b 1781 d 1848
-			if soc1Died >= soc2Born && soc1Died <= soc2Died {
-				var record []string
-				index += 1
-				record = append(record, strconv.FormatUint(index, 10))
-				record = append(record, soc1.line[0])
-				record = append(record, soc2.line[0])
-				record = append(record, soc1.line[1])
-				record = append(record, soc2.line[1])
-				e.line = append(e.line, record)
-				//	fmt.Println("---------------\n", soc1.line[1], soc1Born, soc1Died, soc2.line[1], soc2Born, soc2Died)
+			// Ti u kterých se neví jejich doba úmrtí
+			if soc1Died == 0000 || soc2Died == 0000 {
+				continue
 			}
+			var record []string
+			// Zkontroluj zdali spolu žili
+			if soc1Died >= soc2Born {
+				if soc2Died <= soc1Died {
+					if soc1Born <= soc2Died {
+						index += 1
+						record = append(record, strconv.FormatUint(index, 10))
+						record = append(record, soc1.line[0])
+						record = append(record, soc2.line[0])
+						record = append(record, soc1.line[1])
+						record = append(record, soc2.line[1])
+						e.line = append(e.line, record)
+					}
+				} else {
+					index += 1
+					record = append(record, strconv.FormatUint(index, 10))
+					record = append(record, soc1.line[0])
+					record = append(record, soc2.line[0])
+					record = append(record, soc1.line[1])
+					record = append(record, soc2.line[1])
+					e.line = append(e.line, record)
+				}
+			}
+			//	fmt.Println("---------------\n", soc1.line[1], soc1Born, soc1Died, soc2.line[1], soc2Born, soc2Died)
+
 		}
 	}
 }
