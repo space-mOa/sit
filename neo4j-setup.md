@@ -4,3 +4,5 @@
 - jdi do `neo4j-community-3...../bin/` v command line poté `neo4j console`
 - v prohlížeči `http://localhost:7474/`
 - pokus se přihlásit `username: neo4j` `password: neo4j` - pokud to z nějakého důvodu nefunguje, jdi do složky `neo4j-community-3...../data/dbms` a vymaž `auth`
+- `.\neo4j-admin.bat set-initial-password novéHeslo`
+- `.\cypher-shell.bat -u "neo4j" -p "neo4jj"`

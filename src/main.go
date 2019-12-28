@@ -231,10 +231,15 @@ func (e *Edge) makeFromOne(n Node) {
 			if err != nil {
 				fmt.Println(err)
 			}
-			if soc1Died > soc2Born || soc1Died >= soc2Died {
+			// špatně
+			// b 1937 d 2030
+			// b 1781 d 1848
+			if soc1Died >= soc2Born && soc1Died <= soc2Died {
 				var record []string
 				index += 1
 				record = append(record, strconv.FormatUint(index, 10))
+				record = append(record, soc1.line[0])
+				record = append(record, soc2.line[0])
 				record = append(record, soc1.line[1])
 				record = append(record, soc2.line[1])
 				e.line = append(e.line, record)
@@ -288,5 +293,5 @@ func main() {
 	soc.save("soc.csv", []string{"index", "name", "born", "died"})
 	var edge Edge
 	edge.makeFromOne(soc)
-	edge.save("living.csv", []string{"index", "Sociolog_1", "Sociolog_2"})
+	edge.save("living.csv", []string{"index", "Sociolog_1_ID", "Sociolog_2_ID", "Sociolog_1", "Sociolog_2"})
 }
