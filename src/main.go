@@ -156,12 +156,6 @@ func (w *WikiData) getSociologists() (soc Node) {
 			}
 		}
 		soc.values = append(soc.values, value)
-
-		/*
-			for _, sociologist := range soc.values {
-				fmt.Println(sociologist)
-			}
-		*/
 	}
 	return soc
 }
@@ -247,10 +241,33 @@ func (e *Edge) makeFromOne(n Node) {
 			}
 			var record []string
 			// Zkontroluj zdali spolu žili
+			skip := false
 			if soc1Died >= soc2Born {
 				if soc2Died <= soc1Died {
 					if soc1Born <= soc2Died {
-						index += 1
+						for _, line := range e.line {
+							if soc1.line[0] == line[2] && soc2.line[0] == line[1] {
+								skip = true
+							}
+						}
+						if !(skip) {
+							index++
+							record = append(record, strconv.FormatUint(index, 10))
+							record = append(record, soc1.line[0])
+							record = append(record, soc2.line[0])
+							record = append(record, soc1.line[1])
+							record = append(record, soc2.line[1])
+							e.line = append(e.line, record)
+						}
+					}
+				} else {
+					for _, line := range e.line {
+						if soc1.line[0] == line[2] && soc2.line[0] == line[1] {
+							skip = true
+						}
+					}
+					if !(skip) {
+						index++
 						record = append(record, strconv.FormatUint(index, 10))
 						record = append(record, soc1.line[0])
 						record = append(record, soc2.line[0])
@@ -258,20 +275,11 @@ func (e *Edge) makeFromOne(n Node) {
 						record = append(record, soc2.line[1])
 						e.line = append(e.line, record)
 					}
-				} else {
-					index += 1
-					record = append(record, strconv.FormatUint(index, 10))
-					record = append(record, soc1.line[0])
-					record = append(record, soc2.line[0])
-					record = append(record, soc1.line[1])
-					record = append(record, soc2.line[1])
-					e.line = append(e.line, record)
 				}
 			}
-			//	fmt.Println("---------------\n", soc1.line[1], soc1Born, soc1Died, soc2.line[1], soc2Born, soc2Died)
-
 		}
 	}
+
 }
 
 func getRegexp(rs ...string) []*regexp.Regexp {
@@ -302,18 +310,6 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	/*
-		fmt.Println("DÉLKA", len(data.Page)-1, "\n")
-		fmt.Println(string(data.Page[300].Revision.Text))
-	*/
-	/*
-		searchTerms := map[string][]string{
-			"authors": []string{`(\[\[Kategorie:Aut:.*\]\])`, `:\s[A-Za-z\sěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9]*`},
-			"lang":    []string{`(<span lang=.*)(<\/span>)`},
-			"links":   []string{`(\[\[([A-Za-zěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9|])*\]\])`}}
-		data.getData(searchTerms)
-	*/
-	// data.getAuthors(`(\[\[Kategorie:Aut:.*\]\])`, `:\s[A-Za-z\sěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9]*`)
 	soc := data.getSociologists()
 	soc.save("soc.csv", []string{"index", "name", "born", "died"})
 	var edge Edge
