@@ -1,36 +1,82 @@
 :) 
 
 ## Udělat
-1. [] ulož autory 
-2. [] ulož články
-2. [] ulož autory jako sociology 
+1. [x] ulož sociology
+2. diagram
 
 
 ### misto
 [data imp](https://neo4j.com/docs/getting-started/current/cypher-intro/load-csv/)
 [dat imp2](https://neo4j.com/docs/cypher-manual/current/clauses/load-csv/)
-```go
-getRegexp(`(\[\[([A-Za-zěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9|])*\]\])`, `:\s[A-Za-z\sěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9]*`)
-func newNodes(name ...string) (nodes []Node) {
-	for _, n := range name {
-		node := Node{name: n}
-		nodes = append(nodes, node)
-	}
-	return nodes
-}
-```
-
+[dat imp3](https://neo4j.com/graphgist/importing-csv-files-with-cypher)
 https://encyklopedie.soc.cas.cz/w/%C5%BDalud_Augustin -> [[Masaryk Tomáš Garrigue|Masarykovi]] odkaz se skloňováním
 ```<title>Masaryk Tomáš Garrigue</title>```
 
-#### úkol na příště 
-- v sešitu je vymyšleno jak vytvářet sociology a instituce, naprogramuj. 
-- pamatuj, že v odkazu je první část přesné znění názvu hesla na který odkazuje - to před | [[Masaryk Tomáš Garrigue|
+možnost omezit na aktivní dobu věku
 
-## Co mám
-název článku 
-autor
-odkaz
+původně se směry
+26 554
+/2 bez
+13 277
+
+sociolog bude spolu svázány pokud žili ve stejný čassy
+
+IMPORT
+```
+CREATE CONSTRAINT ON (sociolog:Sociolog) ASSERT sociolog.id IS UNIQUE
+
+LOAD CSV WITH HEADERS FROM "file:///soc.csv" as csvLine
+CREATE (s:Sociolog {id: toInteger(csvLine.index), name: csvLine.name, born: csvLine.born, died: csvLine.died});
+
+LOAD CSV WITH HEADERS FROM "file:///living.csv" AS csvLine
+MATCH (s1:Sociolog {id: toInteger(csvLine.Sociolog_1_ID)}),(s2:Sociolog {id: toInteger(csvLine.Sociolog_2_ID)})
+CREATE (s1)-[:LIVED_WITH]->(s2);
+
+
+Sociolog_1_ID,Sociolog_2_ID
+
+MATCH (n)
+DETACH DELETE n;
+
+MATCH ()-[r:LIVED_WITH]-() 
+DELETE r;
+
+USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM "file:///roles.csv" AS csvLine
+MATCH (person:Person {id: toInteger(csvLine.personId)}),(movie:Movie {id: toInteger(csvLine.movieId)})
+CREATE (person)-[:PLAYED {role: csvLine.role}]->(movie)
+```
+
+https://neo4j.com/docs/getting-started/current/cypher-intro/load-csv/
+https://www.quackit.com/neo4j/tutorial/neo4j_delete_a_node_using_cypher.cfm
+
+
+EXPORT 
+```
+/// UZLY
+CALL apoc.export.json.query("MATCH (n:Sociolog) RETURN collect(n{.id, .name, .born, .died}) as nodes","nodes.json");
+CALL apoc.export.csv.query("MATCH (n:Sociolog) RETURN n.id as ID, n.name as NAME, n.born as BORN, n.died as DIED","nodes.csv", {});
+
+/// HRANY 
+/// jako csv
+CALL apoc.export.csv.query("MATCH (n)-[r:LIVED_WITH]-(l) 
+RETURN n.id as v1_id, l.id as v2_id, n.name as v1_name, l.name as v2_name", "query.csv", {});
+
+
+CALL apoc.export.json.query("MATCH (n)-[r:LIVED_WITH]-(l) RETURN collect(n{.name, .id}) as nodes","query.json");
+CALL apoc.export.json.query("MATCH (n)-[r:LIVED_WITH]-(l) RETURN distinct(n{.id, .name, .born, .died}) as nodes","query.json");
+
+/// příklady
+CALL apoc.export.json.query("MATCH (u:User)-[r:KNOWS]->(d:User) RETURN u {.*}, d {.*}, r {.*}","/tmp/map.json",{params:{age:10}})
+
+MATCH (nod:User)
+MATCH ()-[rels:KNOWS]->()
+WITH collect(nod) as a, collect(rels) as b
+CALL apoc.export.json.data(a, b, "tmp/data.json", null)
+YIELD nodes, relationships, properties, file, source,format, time
+RETURN *
+
+```
 
 ## Co obsahuje
 - je tvořena 5 publikacemi: 
