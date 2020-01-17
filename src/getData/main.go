@@ -73,25 +73,72 @@ type Revision struct {
 	Text        []byte       `xml:"text"`
 }
 
+func unpackFile(v *WikiData, name string) (err error) {
+	c, err := ioutil.ReadFile(name)
+	if err != nil {
+		return err
+	}
+	err = xml.Unmarshal(c, &v)
+	if err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (w *WikiData) getSIZCSg() (inst Node) {
+	rgx := getRegexp(
+		`(\[\[Kategorie:SIZCSg.*\]\])`, // 0 Články spadající do Kategorie: SIZCSg (Slovník institucionálního zázemí české sociologie)
+		`\[\[[^]]*\]\]`,                // 1 Odkazy
+		`Soubor:`)                      // 2 Vybrání souboru pro jeho zahození
+	inst.name = "Instituce"
+	var index uint64 = 0
+	for _, chunk := range w.Page {
+		fndArt := rgx[0].FindAll(chunk.Revision.Text, -1) // Najdi hesla, co patří do Slovníku institucí
+		if len(fndArt) == 0 {
+			continue
+		}
+		fndLinks := rgx[1].FindAll(chunk.Revision.Text, -1) // Najdi všechny odkazy v heslu
+		var value Values                                    // value: ID INSTITUCE
+		index = index + 1
+		value.line = append(value.line, strconv.FormatUint(index, 10))
+		value.line = append(value.line, string(chunk.Title))
+		for _, link := range fndLinks { // Uprav string v odkazech a uprav jej
+			notWanted := rgx[2].FindAll(link, -1) // Vybere nechtěné linky
+			if notWanted == nil {
+				str := strings.Split(string(link), "|")
+				if len(str) > 2 {
+					panic("Více jak dva stringy ve splitu. funkce trimString(s)")
+				}
+				s := strings.TrimPrefix(str[0], `[[`)
+				s = strings.TrimRight(s, "]]")
+				value.links = append(value.links, s)
+			}
+		}
+		inst.values = append(inst.values, value)
+	}
+	return inst
+}
+
 func (w *WikiData) getSociologists() (soc Node) {
-	rgx := getRegexp(`<span class="PERSON_BORN"><time datetime=.*>.*</time>.*</span>`,
-		`datetime=".*"`,
-		`(\[\[Kategorie:SCSg.*\]\])`,
-		`\[\[[^]]*\]\]`,
-		`Soubor:`,
-		`[[:digit:]-]*"`,
-		`<span class="PERSON_DIED"><time datetime=.*>.*</time>.*</span>`,
-		`<span class="PERSON_DIED">\?\?\?</span>`)
+	rgx := getRegexp(
+		`<span class="PERSON_BORN"><time datetime=.*>.*</time>.*</span>`, // 0 Vybere datum narození
+		`datetime=".*"`,              // 1 Vyber časový údaj s datetime
+		`(\[\[Kategorie:SCSg.*\]\])`, // 2 Články spadající do Kategorie: SCSg (Slovník českých sociologů)
+		`\[\[[^]]*\]\]`,              // 3 Odkazy
+		`Soubor:`,                    // 4 Vybrání souboru pro jeho zahození
+		`[[:digit:]-]*"`,             // 5 Vyber číslice
+		`<span class="PERSON_DIED"><time datetime=.*>.*</time>.*</span>`, // 6 vybere datum úmrtí
+		`<span class="PERSON_DIED">\?\?\?</span>`)                        // 7 Vybere neznámé datum umrtí
 	soc.name = "Sociologist"
 	var index uint64 = 0
 	for _, chunk := range w.Page {
-		// Najdi heslo se sociology
-		fndArt := rgx[2].FindAll(chunk.Revision.Text, -1)
+		fndArt := rgx[2].FindAll(chunk.Revision.Text, -1) // Najdi heslo se sociology
 		if len(fndArt) == 0 {
 			continue
 		}
 		var born string
-		fndBorn := rgx[0].FindAll(chunk.Revision.Text, -1)
+		fndBorn := rgx[0].FindAll(chunk.Revision.Text, -1) // Najdi datum narození
 		for _, date := range fndBorn {
 			datetime := rgx[1].FindAll(date, -1)
 			for _, t := range datetime {
@@ -104,7 +151,7 @@ func (w *WikiData) getSociologists() (soc Node) {
 		// NAJDI JINÝ ZPŮSOB
 		born = strings.ReplaceAll(born, "\"", "")
 		var died string
-		fndDied := rgx[6].FindAll(chunk.Revision.Text, -1)
+		fndDied := rgx[6].FindAll(chunk.Revision.Text, -1) // Najdi datum úmrtí
 		for _, date := range fndDied {
 			datetime := rgx[1].FindAll(date, -1)
 			for _, t := range datetime {
@@ -121,7 +168,7 @@ func (w *WikiData) getSociologists() (soc Node) {
 				}
 			}
 		}
-		fndDied = rgx[7].FindAll(chunk.Revision.Text, -1)
+		fndDied = rgx[7].FindAll(chunk.Revision.Text, -1) // Pokud není známo nebo ještě žije
 		if fndDied != nil {
 			died = "0000"
 		}
@@ -130,21 +177,18 @@ func (w *WikiData) getSociologists() (soc Node) {
 		}
 		// NAJDI JINÝ ZPŮSOB
 		died = strings.ReplaceAll(died, "\"", "")
-		// Najdi linky
-		fndLinks := rgx[3].FindAll(chunk.Revision.Text, -1)
+		fndLinks := rgx[3].FindAll(chunk.Revision.Text, -1) // Najdi linky
 		if fndLinks == nil {
 			fmt.Println("nic nenašlo u:", chunk.Title)
 		}
-		// Index Name Born Died
-		var value Values
+		var value Values // value: INDEX NAME BORN DIE
 		index = index + 1
 		value.line = append(value.line, strconv.FormatUint(index, 10))
 		value.line = append(value.line, string(chunk.Title))
 		value.line = append(value.line, born)
 		value.line = append(value.line, died)
-		// Vyhoď nepotřebné linky např. Soubor:...
-		for _, link := range fndLinks {
-			notWanted := rgx[4].FindAll(link, -1)
+		for _, link := range fndLinks { // Uprav string v odkazech a uprav jej
+			notWanted := rgx[4].FindAll(link, -1) // Vybere nechtěné linky
 			if notWanted == nil {
 				str := strings.Split(string(link), "|")
 				if len(str) > 2 {
@@ -184,6 +228,16 @@ func (n *Node) save(name string, head []string) {
 	}
 }
 
+func (n *Node) printNodes() {
+	fmt.Println(n.name)
+	for _, v := range n.values {
+		fmt.Println("\nLINE:\n", v.line, "\nLINKS:")
+		for _, link := range v.links {
+			fmt.Println(" ", link)
+		}
+	}
+}
+
 type Values struct {
 	line  []string
 	links []string
@@ -212,37 +266,36 @@ func (e *Edge) save(name string, head []string) {
 	}
 }
 
-func (e *Edge) makeFromOne(n Node) {
+// socTime: Udělá vztah pokud spolu sociologové žili
+func (e *Edge) socTime(n Node) {
 	var index uint64 = 0
-	for _, soc1 := range n.values {
-		soc1Born, err := strconv.ParseInt(soc1.line[2][:4], 10, 64)
+	for _, soc1 := range n.values { // Vezmi Sociologa 1
+		soc1Born, err := strconv.ParseInt(soc1.line[2][:4], 10, 64) // Narození Sociologa 1
 		if err != nil {
 			fmt.Println(err)
 		}
-		soc1Died, err := strconv.ParseInt(soc1.line[3][:4], 10, 64)
+		soc1Died, err := strconv.ParseInt(soc1.line[3][:4], 10, 64) // Úmrtí Sociologa 1
 		if err != nil {
 			fmt.Println(err)
 		}
-		for _, soc2 := range n.values {
+		for _, soc2 := range n.values { // Vezmi Sociologa 2
 			if soc1.line[0] == soc2.line[0] {
 				continue
 			}
-			soc2Born, err := strconv.ParseInt(soc2.line[2][:4], 10, 64)
+			soc2Born, err := strconv.ParseInt(soc2.line[2][:4], 10, 64) // Narození Sociologa 2
 			if err != nil {
 				fmt.Println(err)
 			}
-			soc2Died, err := strconv.ParseInt(soc2.line[3][:4], 10, 64)
+			soc2Died, err := strconv.ParseInt(soc2.line[3][:4], 10, 64) // Úmrtí Sociologa 2
 			if err != nil {
 				fmt.Println(err)
 			}
-			// Ti u kterých se neví jejich doba úmrtí
-			if soc1Died == 0000 || soc2Died == 0000 {
+			if soc1Died == 0000 || soc2Died == 0000 { // Ti u kterých se neví jejich doba úmrtí
 				continue
 			}
 			var record []string
-			// Zkontroluj zdali spolu žili
 			skip := false
-			if soc1Died >= soc2Born {
+			if soc1Died >= soc2Born { // Zkontroluj zdali spolu žili Socilog 1 a Sociolog 2
 				if soc2Died <= soc1Died {
 					if soc1Born <= soc2Died {
 						for _, line := range e.line {
@@ -279,7 +332,28 @@ func (e *Edge) makeFromOne(n Node) {
 			}
 		}
 	}
+}
 
+func getJournals(n Node) (journals Node) {
+	rgx := getRegexp(
+		`Kategorie:Vědecká a odborná periodika.*`,              // 0 Vyber Vědecká a odborná periodika
+		`Kategorie:Ostatní subjekty se vztahem k sociologii.*`) // 1 Vyber Ostatní subjekty se vztahem k sociologii
+	for _, v := range n.values {
+		for _, link := range v.links {
+			fndJournals := rgx[0].FindAllString(link, -1)
+			if fndJournals != nil {
+				NotWanted := rgx[1].FindAllString(link, -1)
+				if NotWanted == nil {
+					fmt.Println("\n", v.line)
+					for _, link := range v.links {
+						fmt.Println(link)
+					}
+				}
+			}
+		}
+
+	}
+	return journals
 }
 
 func getRegexp(rs ...string) []*regexp.Regexp {
@@ -291,19 +365,6 @@ func getRegexp(rs ...string) []*regexp.Regexp {
 	return listReg
 }
 
-func unpackFile(v *WikiData, name string) (err error) {
-	c, err := ioutil.ReadFile(name)
-	if err != nil {
-		return err
-	}
-	err = xml.Unmarshal(c, &v)
-	if err != nil {
-		return err
-	}
-
-	return nil
-}
-
 func main() {
 	data := &WikiData{}
 	err := unpackFile(data, "./dump.xml")
@@ -313,6 +374,8 @@ func main() {
 	soc := data.getSociologists()
 	soc.save("soc.csv", []string{"index", "name", "born", "died"})
 	var edge Edge
-	edge.makeFromOne(soc)
+	edge.socTime(soc)
 	edge.save("living.csv", []string{"index", "Sociolog_1_ID", "Sociolog_2_ID", "Sociolog_1", "Sociolog_2"})
+	SIZCSg := data.getSIZCSg()
+	getJournals(SIZCSg)
 }
