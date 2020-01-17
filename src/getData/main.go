@@ -99,11 +99,11 @@ func (w *WikiData) getSIZCSg() (inst Node) {
 			continue
 		}
 		fndLinks := rgx[1].FindAll(chunk.Revision.Text, -1) // Najdi všechny odkazy v heslu
-		var value Values                                    // value: ID INSTITUCE
+		var value Values                                    // value je value.line: ID INSTITUCE, value.links: ODKAZY V ČLÁNCÍCH
 		index = index + 1
 		value.line = append(value.line, strconv.FormatUint(index, 10))
 		value.line = append(value.line, string(chunk.Title))
-		for _, link := range fndLinks { // Uprav string v odkazech a uprav jej
+		for _, link := range fndLinks { // Uprav string v odkazech
 			notWanted := rgx[2].FindAll(link, -1) // Vybere nechtěné linky
 			if notWanted == nil {
 				str := strings.Split(string(link), "|")
@@ -181,13 +181,13 @@ func (w *WikiData) getSociologists() (soc Node) {
 		if fndLinks == nil {
 			fmt.Println("nic nenašlo u:", chunk.Title)
 		}
-		var value Values // value: INDEX NAME BORN DIE
+		var value Values // value je value.line: INDEX NAME BORN DIE, value.links: ODKAZY V ČLÁNCÍCH
 		index = index + 1
 		value.line = append(value.line, strconv.FormatUint(index, 10))
 		value.line = append(value.line, string(chunk.Title))
 		value.line = append(value.line, born)
 		value.line = append(value.line, died)
-		for _, link := range fndLinks { // Uprav string v odkazech a uprav jej
+		for _, link := range fndLinks { // Uprav string v odkazech
 			notWanted := rgx[4].FindAll(link, -1) // Vybere nechtěné linky
 			if notWanted == nil {
 				str := strings.Split(string(link), "|")
@@ -238,6 +238,7 @@ func (n *Node) printNodes() {
 	}
 }
 
+// Values jednotlivé Uzly
 type Values struct {
 	line  []string
 	links []string
@@ -336,22 +337,30 @@ func (e *Edge) socTime(n Node) {
 
 func getJournals(n Node) (journals Node) {
 	rgx := getRegexp(
-		`Kategorie:Vědecká a odborná periodika.*`,              // 0 Vyber Vědecká a odborná periodika
-		`Kategorie:Ostatní subjekty se vztahem k sociologii.*`) // 1 Vyber Ostatní subjekty se vztahem k sociologii
+		`Kategorie:Vědecká a odborná periodika.*`,            // 0 Vyber Vědecká a odborná periodika
+		`Kategorie:Ostatní subjekty se vztahem k sociologii`) // 1 Vyber Ostatní subjekty se vztahem k sociologii pro vyhození
+	journals.name = "journals"
+	var index uint64 = 0
 	for _, v := range n.values {
 		for _, link := range v.links {
-			fndJournals := rgx[0].FindAllString(link, -1)
+			fndJournals := rgx[0].FindAllString(link, -1) // Najdi články spadající do: Vědecká a odborná periodika
 			if fndJournals != nil {
-				NotWanted := rgx[1].FindAllString(link, -1)
-				if NotWanted == nil {
-					fmt.Println("\n", v.line)
-					for _, link := range v.links {
-						fmt.Println(link)
+				NotWanted := rgx[1].MatchString(v.line[1]) // Vyhoď heslo: Ostatní subjekty se vztahem k sociologii pro vyhození
+				if NotWanted == false {
+					index++
+					var value Values // value je value.line: INDEX NÁZEV, value.links: ODKAZY V ČLÁNCÍCH
+					value.line = append(value.line, strconv.FormatUint(index, 10))
+					value.line = append(value.line, v.line[1])
+					for _, l := range v.links {
+						NotWanted := rgx[0].MatchString(v.line[1])
+						if NotWanted == false {
+							value.links = append(value.links, l)
+						}
 					}
+					journals.values = append(journals.values, value)
 				}
 			}
 		}
-
 	}
 	return journals
 }
@@ -377,5 +386,6 @@ func main() {
 	edge.socTime(soc)
 	edge.save("living.csv", []string{"index", "Sociolog_1_ID", "Sociolog_2_ID", "Sociolog_1", "Sociolog_2"})
 	SIZCSg := data.getSIZCSg()
-	getJournals(SIZCSg)
+	journals := getJournals(SIZCSg)
+	journals.printNodes()
 }
