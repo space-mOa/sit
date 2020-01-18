@@ -104,20 +104,24 @@ RETURN *
     - seznam zkratek 
 
 ### 2, Slovník českých sociologů 
-Obsah:
+- Obsah:
     - medailony českých sociologů 
-2003 vydání
-2010 - 13 období vzniku
-178 hesel/medailonů
-sociologové nejenom z ČSR (ti co měli podstatný vliv na Českou sociologii)
-hesla o sociolozích od 19. století 
-výběr osobností především na základě jejich publikační aktivity: knižní a periodické publikace (přiznaná subjektivita), tedy jako zásadní a napsali nějaké podstatné a diferenciované dílo
-do přínosu nejsou zahrnovány jen ty pozitivní - dle dněšního pohledu 
-uvedená bibliografie je výběrová, ale jsou tam i ty nějvíce významná a citovaná
+- Dále pak:
+    - 2003 vydání
+    - 2010 - 13 období vzniku
+    - 178 hesel/medailonů
+    - sociologové nejenom z ČSR (ti co měli podstatný vliv na Českou sociologii)
+    - hesla o sociolozích od 19. století 
+    - výběr osobností především na základě jejich publikační aktivity: knižní a periodické publikace (přiznaná subjektivita), tedy jako zásadní a napsali nějaké podstatné a diferenciované dílo
+    - do přínosu nejsou zahrnovány jen ty pozitivní - dle dněšního pohledu 
+    - uvedená bibliografie je výběrová, ale jsou tam i ty nějvíce významná a citovaná
 
 Název hesla: VSgS:Původní předmluva
+
 Autor: [[Kategorie:Aut: Petrusek Miloslav| Předmluva k původnímu knižnímu vydání Velkého sociologického slovníku]]
+
 Autor: [[Kategorie:Aut: Vodáková Alena| Předmluva k původnímu knižnímu vydání Velkého sociologického slovníku]]
+
 Link: [[teorie]]  
 
 heslo život má v sobě odkazy např. čase -> tento odkaz, ale neodkazuje pouze na jedno heslo, ale hned na několik -> https://encyklopedie.soc.cas.cz/w/%C4%8Cas
