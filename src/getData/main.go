@@ -204,7 +204,7 @@ func (w *WikiData) getSociologists() (soc Node) {
 	return soc
 }
 
-// Node v síti, hodnoty v sobě zahtnují název a atributy
+// Node v síti, hodnoty v sobě zahrnují název a atributy
 type Node struct {
 	name   string
 	values []Values
@@ -464,6 +464,7 @@ func main() {
 	edge.save("living.csv", []string{"index", "Sociolog_1_ID", "Sociolog_2_ID", "Sociolog_1", "Sociolog_2"})
 	SIZCSg := data.getSIZCSg()
 	journals := getJournals(SIZCSg)
+	journals.save("casopisy.csv", []string{"index", "Nazev"})
 	var edge2 Edge
 	edge2.fromTwoNodes(soc, journals)
 	edge2.save("souvisiSocJour.csv", []string{"index", "Sociolog_ID", "Casopis_ID", "Sociolog", "Casopis"})
