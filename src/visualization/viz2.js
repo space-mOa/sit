@@ -6,13 +6,13 @@ class Network {
         this.edges = edges 
     }
 }
-
+// Každý žil s každým 
 d3.csv("./data/SocJour.csv").then(socjour => {
     d3.json("./data/nodes.json").then(sociologists => {
             d3.csv("./data/casopisy.csv").then(casopisy => {
                 dates(sociologists.nodes)
                 sociologists.nodes.sort((a, b) => {
-                    return a.born.getFullYear() - b.born.getFullYear()
+                    return a.died.getFullYear() - b.died.getFullYear()
                 })
                 let filtredEdges = pluck(socjour, "Sociolog", 10) // Vyber položky, kde je 10 unikátních socilogů
                 // console.log(filtredEdges, "\n",pick(filtredEdges, "Sociolog"), "\n", shave(pick(filtredEdges, "Sociolog"), "Sociolog")) 
@@ -65,7 +65,27 @@ d3.csv("./data/SocJour.csv").then(socjour => {
                         .attr("x", 350)
                         .attr("y", d => d.y)
                         .style("font", "8px")
-                            .attr("transform", "translate(-125,116)");
+                            .attr("transform", "translate(-125,110)");
+                paper.selectAll("dates")
+                        .data(soc.nodes)
+                        .enter()
+                        .append("text")
+                            .text((d) => {
+                                let died = d.died.getFullYear()
+                                if (d.died.getFullYear() == 0) {
+                                    return d.born.getFullYear() + "  -  " + "???"                                    
+                                }
+                                if (d.died.getFullYear() == 2030) {
+                                    return d.born.getFullYear() + "  -  " + ""
+                                }
+                                return d.born.getFullYear() + "  -  " + died
+                            })
+                            .attr("fill", "DarkSeaGreen")
+                            .attr("text-anchor", "middle")
+                            .attr("x", 350)
+                            .attr("y", d => d.y)
+                            .style("font-size", "12px")
+                                .attr("transform", "translate(-125,129)");
                 paper.selectAll("journal")
                     .data(cas.nodes)
                     .enter()
