@@ -429,16 +429,17 @@ func removeDuplicates(slice []string) (newSlice []string) {
 	}
 	newSlice = append(newSlice, slice[0])
 	for _, v1 := range slice {
-		encountred := 0
+		encountred := false
 		for _, v2 := range newSlice {
 			if v1 == v2 {
-				encountred++
+				encountred = true
 			}
 		}
-		if encountred == 0 {
+		if encountred == false {
 			newSlice = append(newSlice, v1)
 		}
 	}
+	fmt.Println(slice, newSlice)
 	return newSlice
 }
 
@@ -468,4 +469,5 @@ func main() {
 	var edge2 Edge
 	edge2.fromTwoNodes(soc, journals)
 	edge2.save("souvisiSocJour.csv", []string{"index", "Sociolog_ID", "Casopis_ID", "Sociolog", "Casopis"})
+	removeDuplicates([]string{"aa", "aa", "c", "b", "b", "c", "d"})
 }
