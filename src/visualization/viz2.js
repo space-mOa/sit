@@ -12,13 +12,15 @@ d3.csv("./data/SocJour.csv").then(socjour => {
             d3.csv("./data/casopisy.csv").then(casopisy => {
                 dates(sociologists.nodes)
                 sociologists.nodes.sort((a, b) => {
-                    return a.died.getFullYear() - b.died.getFullYear()
+                    return a.born.getFullYear() - b.born.getFullYear()
                 })
-                let filtredEdges = pluck(socjour, "Sociolog", 10) // Vyber položky, kde je 10 unikátních socilogů
-                // console.log(filtredEdges, "\n",pick(filtredEdges, "Sociolog"), "\n", shave(pick(filtredEdges, "Sociolog"), "Sociolog")) 
+                socjour.sort((a, b) => {
+                    return parseInt(a.Sociolog_ID) - parseInt(b.Sociolog_ID)
+                })
+                let filtredEdges = pluck(socjour, "Sociolog", 20) // Vyber položky, kde je 10 unikátních socilogů 
+                console.log(filtredEdges)
                 let nameOfJournals = shave(pick(filtredEdges, "Casopis"), "Casopis") 
                 let nameOfSociologists = shave(pick(filtredEdges, "Sociolog"), "Sociolog")
-                // console.log("hello", filtredEdges, nameOfJournals, nameOfSociologists)
                 let soc = new Network(
                     sociologists.nodes.filter(element => {
                         if (nameOfSociologists.includes(element.name)) {
@@ -34,13 +36,37 @@ d3.csv("./data/SocJour.csv").then(socjour => {
                     }),
                     filtredEdges
                 );
+                // nejvíce hran u Časopisů
+                u = []
+                nameOfJournals.forEach(n => {
+                    let p = filtredEdges.filter(e => n == e.Casopis)
+                    u.push([p.length -1, n])
+                })
+                let maxJour = u[0]
+                u.forEach(e => {
+                    if (maxJour[0] < e[0]) {
+                        maxJour = e
+                    }
+                })
+                // nejvíc hran Sociologů
+                u = []
+                nameOfSociologists.forEach(n => {
+                    let p =  filtredEdges.filter(e => n == e.Sociolog)
+                    u.push([p.length, n])
+                })
+                let maxSoc = u[0]
+                u.forEach(e => {
+                    if (maxSoc[0] < e[0]) {
+                        maxSoc = e
+                    }
+                })
                 sociologists = null
                 socjour = null
                 filtredEdges = null
                 let paper = d3.select("body")
                     .append("svg")
                         .attr("width", innerWidth * 0.95)
-                        .attr("height", innerHeight * 0.95)
+                        .attr("height", 1800)
                         .append("g")
                             .attr("transform", "translate(0, 80)")
                             .attr("render-order", "1");
@@ -93,7 +119,7 @@ d3.csv("./data/SocJour.csv").then(socjour => {
                         .attr("fill", "LightSalmon")
                         .attr("cx", 1100)
                         .attr("cy", yAxis)
-                        .attr("r", 20);
+                        .attr("r", 20)
                 paper.selectAll("titles")
                     .data(cas.nodes)
                     .enter()
@@ -123,8 +149,12 @@ d3.csv("./data/SocJour.csv").then(socjour => {
                         })
                         .attr("stroke", d => {
                             let color = "lightgrey"
-                            if (parseInt(d.Casopis_ID) == 14) { color = "LightSalmon" }
-                            if (parseInt(d.Sociolog_ID) == 6) { color = "DarkSeaGreen"}
+                            if (d.Casopis == maxJour[1]) {
+                                color = "LightSalmon"
+                            }
+                            if (d.Sociolog == maxSoc[1]) {
+                                color = "DarkSeaGreen"
+                            }
                             return color
                         })
                         .attr("stroke-width", "1.5")
@@ -134,7 +164,6 @@ d3.csv("./data/SocJour.csv").then(socjour => {
 })
 
 // pluck vezme položky na základě daného klíče, které jsou unikátní
-// položky v novém poli nejsou unikátní a jsou celé
 function pluck(array, selection, quantity) {
     let newArray = []
     let unique = []
@@ -145,15 +174,15 @@ function pluck(array, selection, quantity) {
             if (!match) {
                 unique.push(element[selection])  
                 newArray.push(element)
-            } 
-            newArray.push(element)
+            } else {
+                newArray.push(element)
+            }
         }
     }
     return newArray
 }
 
 // takeUnique vezme položky na základě daného klíče, které josu unikátní
-// položky v novém poli jsou unikátní a jsou celé
 function pick(array, selection) {
     let newArray = []
     let unique = []
