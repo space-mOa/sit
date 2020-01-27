@@ -17,7 +17,7 @@ d3.csv("./data/SocJour.csv").then(socjour => {
                 socjour.sort((a, b) => {
                     return parseInt(a.Sociolog_ID) - parseInt(b.Sociolog_ID)
                 })
-                let filtredEdges = pluck(socjour, "Sociolog", 20) // Vyber položky, kde je 10 unikátních socilogů 
+                let filtredEdges = pluck(socjour, "Sociolog", 30) 
                 console.log(filtredEdges)
                 let nameOfJournals = shave(pick(filtredEdges, "Casopis"), "Casopis") 
                 let nameOfSociologists = shave(pick(filtredEdges, "Sociolog"), "Sociolog")
@@ -97,14 +97,13 @@ d3.csv("./data/SocJour.csv").then(socjour => {
                         .enter()
                         .append("text")
                             .text((d) => {
-                                let died = d.died.getFullYear()
                                 if (d.died.getFullYear() == 0) {
                                     return d.born.getFullYear() + "  -  " + "???"                                    
                                 }
                                 if (d.died.getFullYear() == 2030) {
                                     return d.born.getFullYear() + "  -  " + ""
                                 }
-                                return d.born.getFullYear() + "  -  " + died
+                                return d.born.getFullYear() + "  -  " + d.died.getFullYear()
                             })
                             .attr("fill", "DarkSeaGreen")
                             .attr("text-anchor", "middle")
@@ -157,8 +156,15 @@ d3.csv("./data/SocJour.csv").then(socjour => {
                             }
                             return color
                         })
-                        .attr("stroke-width", "1.5")
-            
+                        .attr("stroke-width", d => {
+                            let width = "1.2"
+                            if (d.Casopis == maxJour[1]) {
+                                width = "2"
+                            }
+                            if (d.Sociolog == maxSoc[1]) {
+                                width = "2"
+                            }
+                            return width})
         })  
     })   
 })
