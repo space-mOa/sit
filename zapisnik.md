@@ -2,7 +2,8 @@
 
 ## Udělat
 1. [x] ulož sociology
-2. diagram
+2. [x] ulož časopisy
+3. [x] diagram
 
 
 ### misto
@@ -50,12 +51,10 @@ CREATE (person)-[:PLAYED {role: csvLine.role}]->(movie)
 https://neo4j.com/docs/getting-started/current/cypher-intro/load-csv/
 https://www.quackit.com/neo4j/tutorial/neo4j_delete_a_node_using_cypher.cfm
 
-
 EXPORT 
 ```
 /// UZLY
 CALL apoc.export.json.query("MATCH (n:Sociolog) RETURN collect(n{.id, .name, .born, .died}) as nodes","nodes.json");
-CALL apoc.export.csv.query("MATCH (n:Sociolog) RETURN n.id as ID, n.name as NAME, n.born as BORN, n.died as DIED","nodes.csv", {});
 
 /// HRANY 
 /// jako csv
@@ -77,6 +76,18 @@ YIELD nodes, relationships, properties, file, source,format, time
 RETURN *
 
 ```
+
+#### úkol na příště 
+- v sešitu je vymyšleno jak vytvářet sociology a instituce, naprogramuj. 
+- pamatuj, že v odkazu je první část přesného znění názvu hesla na který odkazuje - to před | [[Masaryk Tomáš Garrigue|
+- máš skoro vytvořený uzel. Musíš upravit odkazy - tak aby se neopakovaly, nevynechávaly a zformátovat 
+- U Von Wieser Friedrich neneajde odkazy, ikdyž tam jsou - Německý uni. v Praze 
+- U Von Wieser Friedric - pokud prohledávám se speciálními znaky XML - nic to nenajde, když dám UNESCAPE najde to! \[\[[A-Za-zěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9|\s]*\]\]
+
+## Co mám
+- vrcholy: socilogy a časopisy
+- vztahy: žili spolu, souvisí s časopisem
+- první vizualizace
 
 ## Co obsahuje
 - je tvořena 5 publikacemi: 
@@ -106,7 +117,7 @@ RETURN *
 ### 2, Slovník českých sociologů 
 - Obsah:
     - medailony českých sociologů 
-- Dále pak:
+- Dále pak:    
     - 2003 vydání
     - 2010 - 13 období vzniku
     - 178 hesel/medailonů
@@ -117,11 +128,8 @@ RETURN *
     - uvedená bibliografie je výběrová, ale jsou tam i ty nějvíce významná a citovaná
 
 Název hesla: VSgS:Původní předmluva
-
 Autor: [[Kategorie:Aut: Petrusek Miloslav| Předmluva k původnímu knižnímu vydání Velkého sociologického slovníku]]
-
 Autor: [[Kategorie:Aut: Vodáková Alena| Předmluva k původnímu knižnímu vydání Velkého sociologického slovníku]]
-
 Link: [[teorie]]  
 
 heslo život má v sobě odkazy např. čase -> tento odkaz, ale neodkazuje pouze na jedno heslo, ale hned na několik -> https://encyklopedie.soc.cas.cz/w/%C4%8Cas

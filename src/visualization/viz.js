@@ -1,87 +1,42 @@
-d3.csv("./data/living.csv").then(links => {
-    d3.json("./data/nodes.json").then((nodes) => {
-        let network = {
-            nodes: [],
-            links: []
-        };
-        nodes.nodes.forEach(element => element.x = 1)
-        nodes.nodes.forEach(element => element.y = 1)
-        network.nodes = nodes.nodes;
-        network.links = links;
-        dates(network.nodes)
-        network.nodes.sort((a, b) => {
+class Network {
+    constructor(nodes, edges) {
+        nodes.forEach(element => element.x = 0)
+        nodes.forEach(element => element.y = 0)
+        this.nodes = []
+        this.nodes.push(nodes)
+        this.edges = []
+        this.edges.push(edges)
+    }
+    addEdges(edges) {
+        this.edges.push(edges)
+    }
+    addNodes(nodes) {
+        nodes.forEach(element => element.x = 0)
+        nodes.forEach(element => element.y = 0)
+        this.nodes.push(nodes)
+    }
+}
+
+d3.csv("./data/living.csv").then(lived => {
+    d3.json("./data/nodes.json").then((soc) => {
+        let selection = dates(soc.nodes)
+        .sort((a, b) => {
             return a.born.getFullYear() - b.born.getFullYear()
-            })
-        nodes = null
-        links = null
-        console.log(network)
+        })
+        .slice(0, 20)
+        let net = new Network(
+            selection,
+                lived)
+        soc.nodes = null; lived = null; selection = null; 
         let paper = d3.select("body")
             .append("svg")
-                .attr("width", innerWidth * 0.95)
-                .attr("height", innerHeight * 0.95)
-                .append("g")
-                    .attr("transform", "translate(135, 90)");
-        paper.selectAll("circle")
-            .data(network.nodes.filter(element => {
-                return element.died.getFullYear() < 1940
-            }))
-            .enter()
-            .append("circle")
-                .attr("fill", "YellowGreen")
-                .attr("cx", xAxis)
-                .attr("cy", 400)
-                .attr("r", 18);       
-        paper.selectAll("text")
-            .data(network.nodes.filter(element => {
-                return element.died.getFullYear() < 1940
-            }))
-            .enter()
-            .append("text")
-                .text((d) => {
-                    return d.id
-                })
-                .attr("fill", "Black")
-                .attr("text-anchor", "middle")
-                .attr("x", d => {return d.x})
-                .attr("y", 405)
-                .style("font", "8px")
-        // vyfiltruj linky jen pro ty nodes, co máš
-        let forties = []
-        network.nodes.forEach(element => {
-            if (element.died.getFullYear() < 1940) {
-                forties.push(element.id)
-                
-            }
-        })
-        let nodesForties = network.nodes.filter(element => {
-            if (element.died.getFullYear() < 1940) {
-                return element 
-            }
-        })
-        let linksForties = network.links.filter(element => {
-            if (forties.includes(parseInt(element.Sociolog_1_ID)) && forties.includes(parseInt(element.Sociolog_2_ID))) {
-                return element
-            }
-        })
-        // https://vanseodesign.com/web-design/svg-paths-curve-commands/
-        console.log(linksForties, nodesForties)
-        paper.selectAll("link")
-                .data(linksForties)
-                .enter()
-                    .append("path")
-                    .attr("d", d => {
-                        let source = nodesForties.find(element => {                        
-                            return parseInt(element.id) == parseInt(d.Sociolog_1_ID)
-                        })
-                        let target = nodesForties.find(element => {                        
-                            return parseInt(element.id) == parseInt(d.Sociolog_2_ID)
-                        })
-                        console.log(source.x, target.x)
-                        return "M " + source.x + " "+ "405" + " Q1000,-350 " + target.x + " " + "405"
-                        //return "M100,200 Q250,100 400,200"
-                    })
-                    .attr("stroke", "black")
-                    .attr("fill-opacity", "0")
+                .attr("width", innerWidth  - 25)
+                .attr("height", innerHeight - 25)
+            .append("g")
+        let m = Math.min(...getRow(net.nodes[0], "died").map(element => element = element.getFullYear())) // Rok prvně narozeného
+        console.log(m, net.nodes[0][1].died.getFullYear(), net, "☔️")
+        years(net.nodes[0])
+        
     })
 })
 
@@ -90,23 +45,29 @@ function dates(dates) {
         element.born = new Date(element.born)
         element.died = new Date(element.died)
     })
+    return dates
 }
 
-function xAxis(d, i) {
-    return d.x = d.x * i * 65
+// bere pole s objekty a vybere položky na základě klíče -> vrací jen sloupec newArray
+function getRow(array, key) {
+    let newArray = []
+    array.forEach(element => {
+        newArray.push(element[key])
+    })
+    return newArray
 }
 
-function modify(nodes) {
-    nodes.sort((a, b) => {
-        return a.born.getFullYear() - b.born.getFullYear()
-    }).forEach(element => console.log(element.name, element.born.getFullYear()))
-    console.log(nodes)
+// nefunguje je pokud má tabulka prázdný rádek
+function years(array) {
+    let s = [...array]
+    s[0].m = "k"
+    let newArray = [...array, ...array]
+    newArray
+        .map(e => e.axis = 0)
+    newArray.sort((a, b) => parseInt(a.axis) - parseInt(b.axis))
+    console.log(newArray, s)
+    return newArray
 }
-
-// Navrhované rozložení (died): 
-// >= 1950 (136 položek)
-// < 1950 (42 položek)
-// >= 2000 (61 položek)
 
 // D3.js By Example - Autor: Heydt, Michael
 // https://www.dashingd3js.com/svg-basic-shapes-and-d3js

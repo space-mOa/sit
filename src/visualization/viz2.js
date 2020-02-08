@@ -6,7 +6,7 @@ class Network {
         this.edges = edges 
     }
 }
-// Každý žil s každým 
+
 d3.csv("./data/SocJour.csv").then(socjour => {
     d3.json("./data/nodes.json").then(sociologists => {
             d3.csv("./data/casopisy.csv").then(casopisy => {
@@ -66,7 +66,7 @@ d3.csv("./data/SocJour.csv").then(socjour => {
                 let paper = d3.select("body")
                     .append("svg")
                         .attr("width", innerWidth * 0.95)
-                        .attr("height", 1800)
+                        .attr("height", 2300)
                         .append("g")
                             .attr("transform", "translate(0, 80)")
                             .attr("render-order", "1");
@@ -169,7 +169,8 @@ d3.csv("./data/SocJour.csv").then(socjour => {
     })   
 })
 
-// pluck vezme položky na základě daného klíče, které jsou unikátní
+// pluck vezme položky na základě daného klíče, které jsou unikátní + počet
+// řádek v tabulce: KlíčA, KlíčC -> vrátí řádek např. 30 uníkátních autorů má 120 položek
 function pluck(array, selection, quantity) {
     let newArray = []
     let unique = []
@@ -189,6 +190,7 @@ function pluck(array, selection, quantity) {
 }
 
 // takeUnique vezme položky na základě daného klíče, které josu unikátní
+// řádek v tabulce: KlíčA, KlíčC -> vrátí řádek dle vybraného klíče
 function pick(array, selection) {
     let newArray = []
     let unique = []
@@ -206,6 +208,7 @@ function pick(array, selection) {
 
 // shave vezme položky na základě daného klíče
 // vybyere jen ty položky na základě klíče
+// řádek v tabulce: KlíčA, KlíčC -> vrátí jen položku dle vybraného klíče
 function shave(array, selection) {
     let newArray = []
     array.forEach(element => {
