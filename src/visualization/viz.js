@@ -1,7 +1,7 @@
 class Network {
     constructor(nodes, edges) {
-        nodes.forEach(element => element.x = 0)
-        nodes.forEach(element => element.y = 0)
+        nodes.forEach(element => element.x = 1)
+        nodes.forEach(element => element.y = 1)
         this.nodes = []
         this.nodes.push(nodes)
         this.edges = []
@@ -11,9 +11,35 @@ class Network {
         this.edges.push(edges)
     }
     addNodes(nodes) {
-        nodes.forEach(element => element.x = 0)
-        nodes.forEach(element => element.y = 0)
+        nodes.forEach(element => element.x = 1)
+        nodes.forEach(element => element.y = 1)
         this.nodes.push(nodes)
+    }
+    setX(number, i) {
+        this.nodes[i].forEach((e,i) => {
+            e.x = e.x * i * number
+        })
+    }
+    setY(number, i) {
+        this.nodes[i].forEach(e => {
+            e.y = number
+        })
+    }
+    getX(input, key, i) {
+        let n = this.nodes[i].find(f => {
+            if (f[key] === input) {
+                return f
+            }
+        })
+        return n.x
+    }
+    getY(input, key, i) {
+        let n = this.nodes[i].find(f => {
+            if (f[key] === input) {
+                return f
+            }
+        })
+        return n.y
     }
 }
 
@@ -22,10 +48,10 @@ d3.csv("./data/SocJour.csv").then(SocJour => {
         d3.json("./data/nodes.json").then((soc) => {
             // PREPARE
             let selection = dates(soc.nodes)
-            .sort((a, b) => {
-                return a.born.getFullYear() - b.born.getFullYear()
-            })
-            .slice(0, 20)
+                .sort((a, b) => {
+                    return a.born.getFullYear() - b.born.getFullYear()
+                })
+                .slice(0, 70)
             let net = new Network(
                 selection,
                     lived)
@@ -33,7 +59,7 @@ d3.csv("./data/SocJour.csv").then(SocJour => {
             soc.nodes = null; lived = null; selection = null; SocJour = null;
             let journals = [] // Array s objekty, kdy 1 objekt = jeden časopis. Objekt obsahuje všechny soc. se kterými souvisí 
             getRow(pick(net.edges[1], "Casopis"), "Casopis")    // Najdi unikátní časopisy
-                .map(e => {
+                .forEach(e => {
                     journals.push(net.edges[1].filter(f => {  // Získej všechny sociology pro Časipis A
                         if (f.Casopis === e) {
                             return f
@@ -41,11 +67,11 @@ d3.csv("./data/SocJour.csv").then(SocJour => {
                     }))
                 })
             let eds = []; // Array s objekty {casopisy, sociologové{kteří souvisí s casopisem a zároveň spolu žili}}
-            let nds = []; // Array se věemi sociology dle eds
+            let nds = []; // Array se všemi sociology dle eds
             journals.forEach(j => {
                 // console.log("|", j[0].Casopis, "|")
                 let socs = []
-                getEdges(j, j, net.edges[0], socs) // Pokud vrátí pro časopis A prázdny array znamená, to že je s časopisem spojen jen jeden Sociolog B
+                getEdges(j, j, net.edges[0], socs) // Pokud vrátí pro časopis A prázdny array znamená, to že je s časopisem spojen jen jeden Sociolog B, socs se mění
                 if(!isEmpty(socs)) {
                     eds.push({journal: j[0].Casopis, soc: socs})
                     if (isEmpty(nds)) {
@@ -73,15 +99,93 @@ d3.csv("./data/SocJour.csv").then(SocJour => {
                     })
                 }
             })
-            console.log(net,eds, nds.sort(),"🥽")
+            net.addEdges(eds)
+            nds.sort()
+            net.addNodes(net.nodes[0].filter(e => { // jen ty sociologové, co jsou v nds
+                if (nds.includes(e.name)) {
+                    return e
+                }
+            }))
+            net.setY(700, 1)
+            net.setX(45, 1)
+            console.log(net,"🥽")
+            console.log(net.edges[2],"Vypsaní sociologové:", net.nodes[1], net.nodes[1][0].name, getRow(net.nodes[1], "name").includes("Durdík Josef"))
+            net.addEdges(net.edges[2].map(e => { // vyber jen ty hrany, pro soc. kteří jsou vykreslení, net.nodes[1]
+                let a = e.soc.filter(element => {
+                    if (getRow(net.nodes[1], "name").includes(element.Sociolog_1) && getRow(net.nodes[1], "name").includes(element.Sociolog_2)) {
+                        return element
+                    }
+                })
+                return {journal: e.journal, soc: a}
+            }).filter(f => {
+                if (f.soc.length != 0) {
+                    return f
+                }
+            }))
             // DRAW
             let paper = d3.select("body")
                 .append("svg")
-                    .attr("width", innerWidth  - 25)
+                    .attr("width", innerWidth - 25)
                     .attr("height", innerHeight - 25)
                 .append("g")
-
-                
+                    .attr("transform", "translate(80,0)")
+            paper.selectAll("Sociologist-name")
+                .data(net.nodes[1])
+                .enter()
+                .append("text")
+                    .text(d => {
+                        return d.name
+                    })
+                    .attr("fill", "darkblue")
+                    .attr("text-anchor", "middle")
+                    .attr("x", d => d.x)
+                    .attr("y", d => d.y)
+                    .style("font", "12px")
+                    .attr("transform", d => {                        
+                        return "rotate("+ "290" + "," + d.x + "," + d.y +")" // šikmé jména
+                    })
+            console.log(net.getX("Štern Evžen","name", 1), net.edges[3])
+            let y = net.nodes[1][0].y - 200
+            let colors = ["asdf", "red", "sadf", "green", "asdf", "asdf", "sdfsdf", "sdfs", "magenta", "brown"]
+            net.edges[3].forEach((e, i) => {
+                console.log(y)
+                if (i == 1 || i == 3 || i == 9 || i == 8) {
+                y = y - 250
+                paper.selectAll("link")
+                    .data(e.soc)
+                    .enter()
+                    .append("path")
+                        .attr("d", d => {
+                            let x1 = net.getX(d.Sociolog_1, "name", 1) + 10
+                            let x2 = net.getX(d.Sociolog_2, "name", 1) + 10
+                            let y1 = net.getY(d.Sociolog_1, "name", 1) - 60
+                            let y2 = net.getY(d.Sociolog_1, "name", 1) - 60
+                            let mid = 0
+                            if (x1 > x2) {
+                                mid = (x1 - x2) / 2
+                                mid = x2 + mid
+                            } else {
+                                mid = (x2 - x1) / 2
+                                mid = x1 + mid
+                            }
+                            //console.log(x1, x2, mid, y)
+                            let m = "M " + x1 + " " + y1 + " Q " + mid + " " + y + " " + x2 + " " + y2;
+                            console.log(m) 
+                            return m
+                        })
+                        .attr("stroke", colors[i])
+                        .attr("fill-opacity", "0")
+                }
+            })
+            console.log(net.edges[3])
+            paper.selectAll("link")
+                .data(net.edges[2][0].soc)
+                .enter()
+                .append("path")
+                    .attr("d", d => {
+                        
+                    })
+                    
 
                 
         })
@@ -163,3 +267,5 @@ function findMatch(s1, array, searchIn, newArray) {
 // https://www.tutorialspoint.com/d3js/d3js_svg_transformation.htm
 // https://www.npmjs.com/package/d3-transform
 // https://www.dashingd3js.com/svg-paths-and-d3js
+// http://apex.infogridpacific.com/SVG/svg-tutorial-lesson18-path-quadratics.html
+// https://www.w3schools.com/js/js_random.asp
