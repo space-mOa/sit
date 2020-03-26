@@ -121,6 +121,26 @@ func (w *WikiData) getSIZCSg() (inst Node) {
 	return inst
 }
 
+// NEFUNGUJE
+// VSgS (Velký sociologický slovník)
+func (w *WikiData) getVSgS() (vsgs Node) {
+	rgx := getRegexp(
+		`\[\[Kategorie:VSgS.*\]\]`,
+		`#REDIRECT`,
+	)
+	vsgs.name = "Velký sociologický slovník"
+	var index uint64 = 0
+	for _, chunk := range w.Page {
+		if len(rgx[0].FindAll(chunk.Revision.Text, -1)) == 0 || len(rgx[1].FindAll(chunk.Revision.Text, -1)) != 0 {
+			continue
+		}
+		index++
+		fmt.Println(index, chunk.Title)
+	}
+
+	return vsgs
+}
+
 // SCSg (Slovník českých sociologů)
 func (w *WikiData) getSCSg() (soc Node) {
 	rgx := getRegexp(

@@ -34,7 +34,6 @@ func getJournals(n Node) (journals Node) {
 			}
 		}
 	}
-
 	return journals
 }
 
@@ -45,7 +44,7 @@ func getInstitutions(n Node) (institutions Node) {
 	institutions.name = "institutions"
 	var index uint64 = 0
 	for _, v := range n.values {
-		if strings.Contains(v.line[1], "Kategorie:") { // Přeskočí ty hesla, co mají v názvu Kategorie:...
+		if strings.Contains(v.line[1], "Kategorie:") { // Přeskočí ty hesla, co mají v názvu (<title><title/>) Kategorie:...
 			continue
 		}
 		skip := false
@@ -115,6 +114,7 @@ func main() {
 	insSoc.save("InsSoc.csv", []string{"index", "Instituce_ID", "Sociolog_ID", "Instituce", "Sociolog"})
 	var insJour Edge
 	insJour.fromTwoNodes(institutions, journals, "insJour")
-	insJour.printEdges()
 	insJour.save("InsJour.csv", []string{"index", "Instituce_ID", "Casopis_ID", "Instituce", "Casopis"})
+	data.getVSgS()
+
 }
