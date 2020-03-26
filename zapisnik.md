@@ -1,10 +1,6 @@
 :) 
 
 ## Udělat
-1. [x] ulož sociology
-2. [x] ulož časopisy
-3. [x] diagram
-
 
 ### misto
 [data imp](https://neo4j.com/docs/getting-started/current/cypher-intro/load-csv/)
@@ -147,4 +143,8 @@ go run main.go | Out-File output.txt -encoding OEM
 ```
 ```Bash 
 go run main.go > output.txt
+```
+
+```bash
+go run .
 ```

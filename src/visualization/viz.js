@@ -8,7 +8,7 @@ class Network {
         this.edges.push(edges)
     }
     addEdges(edges) {
-        this.edges.push(edges)
+        this.edges.push(edges)  
     }
     addNodes(nodes) {
         nodes.forEach(element => element.x = 1)
@@ -144,7 +144,7 @@ d3.csv("./data/SocJour.csv").then(SocJour => {
                     .attr("transform", d => {                        
                         return "rotate("+ "290" + "," + d.x + "," + d.y +")" // šikmé jména
                     })
-            console.log(net.getX("Štern Evžen","name", 1), net.edges[3])
+            /* jen ukazka vyběru */
             let y = net.nodes[1][0].y - 200
             let colors = ["asdf", "red", "sadf", "green", "asdf", "asdf", "sdfsdf", "sdfs", "magenta", "brown"]
             net.edges[3].forEach((e, i) => {
@@ -170,24 +170,27 @@ d3.csv("./data/SocJour.csv").then(SocJour => {
                             }
                             //console.log(x1, x2, mid, y)
                             let m = "M " + x1 + " " + y1 + " Q " + mid + " " + y + " " + x2 + " " + y2;
-                            console.log(m) 
                             return m
                         })
                         .attr("stroke", colors[i])
                         .attr("fill-opacity", "0")
                 }
             })
-            console.log(net.edges[3])
-            paper.selectAll("link")
-                .data(net.edges[2][0].soc)
+            let sc = ["red", "green", "magenta", "brown"]
+            let xsc = [80, 300, 640, 950]
+            paper.selectAll("journals")
+                .data(["Statistický obzor",  "Sociální pracovnice", "Časopis Svobodné školy politických nauk v Praze", "Athenaeum"])
                 .enter()
-                .append("path")
-                    .attr("d", d => {
-                        
+                .append("text")
+                    .text(d => {return d})
+                    .attr("fill", (d, i) => {
+                        return sc[i]
                     })
-                    
-
-                
+                    .attr("text-anchor", "middle")
+                    .attr("x", (d,i) => { return xsc[i]})
+                    .attr("y", 850)
+                    .style("font", "12px")
+                    .attr("transform", "translate(80,0)")
         })
     })
 })
