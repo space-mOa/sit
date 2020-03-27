@@ -121,24 +121,41 @@ func (w *WikiData) getSIZCSg() (inst Node) {
 	return inst
 }
 
-// NEFUNGUJE
 // VSgS (Velký sociologický slovník)
 func (w *WikiData) getVSgS() (vsgs Node) {
 	rgx := getRegexp(
-		`\[\[Kategorie:VSgS.*\]\]`,
-		`#REDIRECT`,
+		`\[\[Kategorie:VSgS.*\]\]`, // 0 najde hesla v kategorii: VSgS (Velký sociologický slovník)
+		`\[\[[^]]*\]\]`,            // 1 Najde odkazy
+		`#REDIRECT`,                // 2 Odstraní hesla co mají #Redirect
 	)
 	vsgs.name = "Velký sociologický slovník"
 	var index uint64 = 0
 	for _, chunk := range w.Page {
-		if len(rgx[0].FindAll(chunk.Revision.Text, -1)) == 0 || len(rgx[1].FindAll(chunk.Revision.Text, -1)) != 0 {
+		if len(rgx[0].FindAll(chunk.Revision.Text, -1)) == 0 || len(rgx[2].FindAll(chunk.Revision.Text, -1)) != 0 {
 			continue
 		}
 		index++
-		fmt.Println(index, chunk.Title)
+		fndLinks := rgx[1].FindAll(chunk.Revision.Text, -1)
+		var links []string
+		for _, link := range fndLinks {
+			links = append(links, trimLink(string(link), string(chunk.Title)))
+		}
+		vsgs.addNode([]string{strconv.FormatUint(index, 10), string(chunk.Title)}, links)
 	}
-
+	vsgs.printNodes()
 	return vsgs
+}
+
+// Pomáhá očistit odkazy
+func trimLink(str string, title string) (newStr string) {
+	new := strings.Split(string(str), "|")
+	if len(new) > 2 {
+		fmt.Println(new, title)
+		panic("Více jak dva stringy ve splitu. Funkce trimLink()")
+	}
+	newStr = strings.TrimPrefix(new[0], `[[`)
+	newStr = strings.TrimRight(newStr, "]]")
+	return newStr
 }
 
 // SCSg (Slovník českých sociologů)

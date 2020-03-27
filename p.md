@@ -2,7 +2,7 @@
 stanovit a krájet na období, vytvoření nových uzlů jako charakteristiku - např pořádali konference, nebo jako atribut, jiný vztah
 Entity: Časopis, Instituce
 
-Sociolog - Socilogie
+Sociolog <- Socilogie
 * přímý [prováděl výzkumy], nepřímý, charakter práce [kreativní,-]
 
 Sociolog <- Sociolog
@@ -11,7 +11,7 @@ Sociolog <- Sociolog
 Časopis <- Sociolog
 * (zakládal/podílel se na založení), šéfredaktor/vedl, člen redakce, publikovat, vydávat
 
-Instituce - Sociolog
+Instituce <- Sociolog
 * být členem, studovat [dokončit, nedokončit], pracovat, založit, hlavní představitel, __publikoval -- zkontrolovat, kde se vyskytují__
 
 Téma/oblast - Soociolog 
