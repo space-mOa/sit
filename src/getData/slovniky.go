@@ -121,6 +121,7 @@ func (w *WikiData) getSIZCSg() (inst Node) {
 	return inst
 }
 
+// NEGUNHUJE
 // VSgS (Velký sociologický slovník)
 func (w *WikiData) getVSgS() (vsgs Node) {
 	rgx := getRegexp(
