@@ -146,6 +146,68 @@ func (w *WikiData) getCategoryModify(name string, head []string, r string, f fun
 	return ctg
 }
 
+// SIZCSg (Slovník institucionálního zázemí české sociologie)
+func (w *WikiData) getSIZCSg() (inst Node) {
+	rgx := getRegexp(
+		`(\[\[Kategorie:SIZCSg.*\]\])`, // 0 Články spadající do Kategorie: SIZCSg (Slovník institucionálního zázemí české sociologie)
+		`\[\[[^]]*\]\]`,                // 1 Odkazy
+		`Soubor:`,                      // 2 Vybrání souboru pro jeho zahození
+		`#REDIRECT`,                    // 3 REDIRECT odstraní duplikovaná hesla
+	)
+	inst.name = "Sizc"
+	inst.head = []string{"ID", "heslo"}
+	var index uint64 = 0
+	for _, chunk := range w.Page {
+		if len(rgx[0].FindAll(chunk.Revision.Text, -1)) == 0 || len(rgx[3].FindAll(chunk.Revision.Text, -1)) != 0 {
+			continue
+		}
+		fndLinks := rgx[1].FindAll(chunk.Revision.Text, -1) // Najdi všechny odkazy v heslu
+		var value Values                                    // value je value.line: ID INSTITUCE, value.links: ODKAZY V ČLÁNCÍCH
+		index = index + 1
+		value.line = append(value.line, strconv.FormatUint(index, 10))
+		value.line = append(value.line, string(chunk.Title))
+		for _, link := range fndLinks { // Uprav string v odkazech
+			notWanted := rgx[2].FindAll(link, -1) // Vybere nechtěné linky
+			if notWanted == nil {
+				str := strings.Split(string(link), "|")
+				if len(str) > 2 {
+					panic("Více jak dva stringy ve splitu. funkce trimString(s)")
+				}
+				s := strings.TrimPrefix(str[0], `[[`)
+				s = strings.TrimRight(s, "]]")
+				value.links = append(value.links, s)
+			}
+		}
+		inst.values = append(inst.values, value)
+	}
+	return inst
+}
+
+// VSgS (Velký sociologický slovník) - obsahuje i některá odkazová slovníky např. viz Adjustace
+func (w *WikiData) getVSgS() (vsgs Node) {
+	rgx := getRegexp(
+		`\[\[Kategorie:VSgS.*\]\]`, // 0 najde hesla v kategorii: VSgS (Velký sociologický slovník)
+		`\[\[[^]]*\]\]`,            // 1 Najde odkazy
+		`#REDIRECT`,                // 2 Odstraní hesla, co mají #REDIRECT v textu
+	)
+	vsgs.name = "VelkySgS"
+	vsgs.head = []string{"ID", "heslo"}
+	var index uint64 = 0
+	for _, chunk := range w.Page {
+		if len(rgx[0].FindAll(chunk.Revision.Text, -1)) == 0 || len(rgx[2].FindAll(chunk.Revision.Text, -1)) != 0 {
+			continue
+		}
+		index++
+		fndLinks := rgx[1].FindAll(chunk.Revision.Text, -1)
+		var links []string
+		for _, link := range fndLinks {
+			links = append(links, trimLink(string(link), string(chunk.Title)))
+		}
+		vsgs.addNode([]string{strconv.FormatUint(index, 10), string(chunk.Title)}, links)
+	}
+	return vsgs
+}
+
 func (w *WikiData) allLinks() {
 	rgx := getRegexp(
 		`\[\[[^]]*\]\]`,
@@ -156,6 +218,34 @@ func (w *WikiData) allLinks() {
 			fmt.Println(string(link), " ->  ", string(chunk.Title))
 		}
 	}
+}
+
+// MSgS (Malý sociologický slovník)
+func (w *WikiData) getMsgS() (msgs Node) {
+	rgx := getRegexp(
+		`\[\[Kategorie:MSgS.*\]\]`, // 0 najde hesla v kategorii: MSgS (Malý sociologický slovník)
+		`\[\[[^]]*\]\]`,            // 1 Najde odkazy
+		`#REDIRECT`,                // 2 Odstraní hesla, co mají #REDIRECT v textu
+		`Soubor:`,                  // 3 Vybrání souboru pro jeho zahození
+	)
+	msgs.name = "MalySgS"
+	msgs.head = []string{"ID", "heslo"}
+	var index uint64 = 0
+	for _, chunk := range w.Page {
+		if len(rgx[0].FindAll(chunk.Revision.Text, -1)) == 0 || len(rgx[2].FindAll(chunk.Revision.Text, -1)) != 0 {
+			continue
+		}
+		index++
+		fndLinks := rgx[1].FindAll(chunk.Revision.Text, -1)
+		var links []string
+		for _, link := range fndLinks {
+			if rgx[3].FindAllString(string(link), -1) == nil {
+				links = append(links, trimLink(string(link), string(chunk.Title)))
+			}
+		}
+		msgs.addNode([]string{strconv.FormatUint(index, 10), string(chunk.Title)}, links)
+	}
+	return msgs
 }
 
 // Pomáhá očistit odkazy

@@ -1,0 +1,32 @@
+new
+$ wc -l *.csv | sort -n
+    1 MalySgSN_CasopisyN.csv
+    1 MalySgSN_InstituceN.csv
+    1 MalySgSN_SizcN.csv
+   22 VelkySgSN_CasopisyN.csv
+   41 CasopisyN_InstituceN.csv
+   45 VelkySgSN_InstituceN.csv
+   66 VelkySgSN_SizcN.csv
+   78 SizcN_CasopisyN.csv
+  198 VelkySgSN_MalySgSN.csv
+  210 SizcN_InstituceN.csv
+  663 total
+
+old
+wc -l *.csv | sort -n
+     1 MalySgS_Casopisy.csv
+     1 MalySgS_Instituce.csv
+     1 MalySgS_Sizc.csv
+     1 Sociologove_MalySgS.csv
+    22 Casopisy_VelkySgS.csv
+    41 Casopisy_Instituce.csv
+    45 Instituce_VelkySgS.csv
+    66 Sizc_VelkySgS.csv
+    78 Sizc_Casopisy.csv
+   198 MalySgS_VelkySgS.csv
+   210 Sizc_Instituce.csv
+   214 Sociologove_Casopisy.csv
+   460 Sociologove_Instituce.csv
+   529 Sociologove_VelkySgS.csv
+   673 Sociologove_Sizc.csv
+  2540 total

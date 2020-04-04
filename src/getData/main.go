@@ -3,66 +3,8 @@ package main
 import (
 	"fmt"
 	"regexp"
-	"strconv"
 	"strings"
 )
-
-func getJournals(n Node) (journals Node) {
-	rgx := getRegexp(
-		`Kategorie:Vědecká a odborná periodika.*`,            // 0 Vyber Vědecká a odborná periodika
-		`Kategorie:Ostatní subjekty se vztahem k sociologii`) // 1 Vyber Ostatní subjekty se vztahem k sociologii pro vyhození
-	journals.name = "Casopisy"
-	journals.head = []string{"ID", "nazev"}
-	var index uint64 = 0
-	for _, v := range n.values {
-		for _, link := range v.links {
-			fndJournals := rgx[0].FindAllString(link, -1) // Najdi články spadající do: Vědecká a odborná periodika
-			if fndJournals != nil {
-				NotWanted := rgx[1].MatchString(v.line[1]) // Vyhoď článek: Ostatní subjekty se vztahem k sociologii pro vyhození
-				if NotWanted == false {
-					index++
-					var value Values // value je value.line: INDEX NÁZEV, value.links: ODKAZY V ČLÁNCÍCH
-					value.line = append(value.line, strconv.FormatUint(index, 10))
-					value.line = append(value.line, v.line[1])
-					for _, l := range v.links { // Vybere nechtěné položky
-						NotWanted := rgx[0].MatchString(v.line[1])
-						if NotWanted == false {
-							value.links = append(value.links, l)
-						}
-					}
-					journals.values = append(journals.values, value)
-				}
-			}
-		}
-	}
-	return journals
-}
-
-func getInstitutions(n Node) (institutions Node) {
-	rgx := getRegexp(
-		`Kategorie:Vědecká a odborná periodika.*`, // 0 vybere Vědecká a odborná periodika
-	)
-	institutions.name = "Instituce"
-	institutions.head = []string{"ID", "nazev"}
-	var index uint64 = 0
-	for _, v := range n.values {
-		if strings.Contains(v.line[1], "Kategorie:") { // Přeskočí ty hesla, co mají v názvu (<title><title/>) Kategorie:...
-			continue
-		}
-		skip := false
-		for _, link := range v.links {
-			if rgx[0].FindAllString(link, -1) != nil { // Najde všechny články, které neobsahují kategorii: Vědecká a odborná periodika
-				skip = true
-				break
-			}
-		}
-		if !(skip) { // Skočí dovnitř pokud, heslo nemá odkaz na kategorii: Vědecká a odborná periodika
-			index++
-			institutions.addNode([]string{strconv.FormatUint(index, 10), v.line[1]}, v.links)
-		}
-	}
-	return institutions
-}
 
 func removeDuplicates(slice []string) (newSlice []string) {
 	if len(slice) == 0 {
@@ -117,21 +59,11 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-
-	MSgS := data.getMsgS()
-	SIZCSg := data.getSIZCSg()
-	journals := getJournals(SIZCSg)
-	/*
-		institutions := getInstitutions(SIZCSg)
-		VSgS := data.getVSgS()
-		soc := data.getSCSg()
-		saveNodes("./data/nodes/", soc, MSgS, SIZCSg, journals, institutions, VSgS)
-		makeAndSaveEdges("./data/edges/", soc, MSgS, SIZCSg, journals, institutions, VSgS)
-	*/
-	checkCorrectness(SIZCSg, data.getCategory("Sizc", []string{"ID", "heslo"}, `(\[\[Kategorie:SIZCSg.*\]\])`))
-	checkCorrectness(MSgS, data.getCategory("MalySgS", []string{"ID", "heslo"}, `\[\[Kategorie:MSgS.*\]\]`))
-	data.getCategory("VelkySgS", []string{"ID", "heslo"}, `\[\[Kategorie:VSgS.*\]\]`)
-	journalsN := data.getCategoryModify("Casopisy", []string{"ID", "nazev"}, `(\[\[Kategorie:SIZCSg.*\]\])`, func(page Page) []string {
+	soc := data.getSCSg()
+	Sizc := data.getCategory("Sizc", []string{"ID", "heslo"}, `(\[\[Kategorie:SIZCSg.*\]\])`)
+	MalySgS := data.getCategory("MalySgS", []string{"ID", "heslo"}, `\[\[Kategorie:MSgS.*\]\]`)
+	VelkySgS := data.getCategory("VelkySgS", []string{"ID", "heslo"}, `\[\[Kategorie:VSgS.*\]\]`)
+	journals := data.getCategoryModify("Casopisy", []string{"ID", "nazev"}, `(\[\[Kategorie:SIZCSg.*\]\])`, func(page Page) []string {
 		rgx := getRegexp(
 			`\[\[Kategorie:Vědecká a odborná periodika.*\]\]`,            // 0 Vyber Vědecká a odborná periodika
 			`\[\[Kategorie:Ostatní subjekty se vztahem k sociologii\]\]`, // 1 Vyber Ostatní subjekty se vztahem k sociologii pro vyhození
@@ -144,15 +76,17 @@ func main() {
 		}
 		return nil
 	})
-	checkCorrectness(journals, journalsN)
-	data.getCategoryModify("Instituce", []string{"ID", "nazev"}, `\[\[Kategorie:Vědecká a odborná periodika.*\]\]`, func(page Page) []string {
+	institutions := data.getCategoryModify("Instituce", []string{"ID", "nazev"}, `\[\[Kategorie:SIZCSg.*\]\]`, func(page Page) []string {
 		rgx := getRegexp(
 			`\[\[Kategorie:Vědecká a odborná periodika.*\]\]`, // 0 vybere Vědecká a odborná periodika)
 		)
 		text := string(page.Revision.Text)
-		if rgx[0].FindAllString(text, -1) != nil {
-
+		if rgx[0].FindAllString(text, -1) == nil && strings.Contains(string(page.Title), "Kategorie:") == false {
+			return []string{string(page.Title)}
 		}
 		return nil
 	})
+	saveNodes("./data/nodes/", soc, MalySgS, Sizc, journals, institutions, VelkySgS)
+	makeAndSaveEdges("./data/edges/", soc, MalySgS, Sizc, journals, institutions, VelkySgS)
+
 }

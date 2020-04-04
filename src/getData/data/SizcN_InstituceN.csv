@@ -1,0 +1,210 @@
+ID,SizcNID,InstituceNID,SizcN,InstituceN
+1,1,12,Česká akademie věd a umění,Masarykova akademie práce
+2,1,68,Česká akademie věd a umění,Společnost pro sociální bádání
+3,2,3,Grantová agentura České republiky,"Rada pro výzkum, vývoj a inovace"
+4,3,2,"Rada pro výzkum, vývoj a inovace",Grantová agentura České republiky
+5,4,16,Vědecké kolegium filosofie a sociologie ČSAV,Sociologický ústav ČSAV
+6,4,64,Vědecké kolegium filosofie a sociologie ČSAV,Československá sociologická společnost při ČSAV
+7,7,24,Československý ústav pro výzkum veřejného mínění,Ústav pro výzkum veřejného mínění ČSAV
+8,8,12,Československý ústav práce,Masarykova akademie práce
+9,8,20,Československý ústav práce,Sociální ústav ČSR
+10,8,30,Československý ústav práce,Výzkumný ústav sociálního rozvoje a práce
+11,9,31,Dům techniky ČSVTS Pardubice,Výzkumný ústav strojírenské technologie a ekonomiky
+12,9,59,Dům techniky ČSVTS Pardubice,Vysoká škola strojní a elektrotechnická v Plzni
+13,12,6,Masarykova akademie práce,Československý ústav zahraniční
+14,12,8,Masarykova akademie práce,Československý ústav práce
+15,16,4,Sociologický ústav ČSAV,Vědecké kolegium filosofie a sociologie ČSAV
+16,16,9,Sociologický ústav ČSAV,Dům techniky ČSVTS Pardubice
+17,16,10,Sociologický ústav ČSAV,Etnologický ústav AV ČR
+18,16,15,Sociologický ústav ČSAV,Sociologický ústav AV ČR
+19,16,22,Sociologický ústav ČSAV,Ústav pro filosofii a sociologii ČSAV
+20,16,26,Sociologický ústav ČSAV,Ústav sociálně politických věd UK
+21,16,64,Sociologický ústav ČSAV,Československá sociologická společnost při ČSAV
+22,17,23,Sociologický ústav ČSS,Ústav pro sociální a hospodářskou výchovu ČSS
+23,17,65,Sociologický ústav ČSS,Masarykova sociologická společnost
+24,19,6,Státní úřad statistický,Československý ústav zahraniční
+25,20,8,Sociální ústav ČSR,Československý ústav práce
+26,20,30,Sociální ústav ČSR,Výzkumný ústav sociálního rozvoje a práce
+27,20,65,Sociální ústav ČSR,Masarykova sociologická společnost
+28,22,4,Ústav pro filosofii a sociologii ČSAV,Vědecké kolegium filosofie a sociologie ČSAV
+29,22,15,Ústav pro filosofii a sociologii ČSAV,Sociologický ústav AV ČR
+30,22,16,Ústav pro filosofii a sociologii ČSAV,Sociologický ústav ČSAV
+31,23,65,Ústav pro sociální a hospodářskou výchovu ČSS,Masarykova sociologická společnost
+32,24,4,Ústav pro výzkum veřejného mínění ČSAV,Vědecké kolegium filosofie a sociologie ČSAV
+33,24,7,Ústav pro výzkum veřejného mínění ČSAV,Československý ústav pro výzkum veřejného mínění
+34,24,25,Ústav pro výzkum veřejného mínění ČSAV,Ústav pro výzkum veřejného mínění FSÚ
+35,25,15,Ústav pro výzkum veřejného mínění FSÚ,Sociologický ústav AV ČR
+36,25,19,Ústav pro výzkum veřejného mínění FSÚ,Státní úřad statistický
+37,25,24,Ústav pro výzkum veřejného mínění FSÚ,Ústav pro výzkum veřejného mínění ČSAV
+38,25,27,Ústav pro výzkum veřejného mínění FSÚ,Ústav vědeckého ateismu ČSAV
+39,26,39,Ústav sociálně politických věd UK,Karlova univerzita v Praze
+40,27,4,Ústav vědeckého ateismu ČSAV,Vědecké kolegium filosofie a sociologie ČSAV
+41,27,25,Ústav vědeckého ateismu ČSAV,Ústav pro výzkum veřejného mínění FSÚ
+42,29,30,Výzkumný ústav práce a sociálních věcí,Výzkumný ústav sociálního rozvoje a práce
+43,30,8,Výzkumný ústav sociálního rozvoje a práce,Československý ústav práce
+44,30,29,Výzkumný ústav sociálního rozvoje a práce,Výzkumný ústav práce a sociálních věcí
+45,33,37,Biskupské semináře,Husova československá evangelická teologická fakulta v Praze
+46,33,39,Biskupské semináře,Karlova univerzita v Praze
+47,33,45,Biskupské semináře,Palackého univerzita v Olomouci
+48,62,64,Česká demografická společnost,Československá sociologická společnost při ČSAV
+49,62,68,Česká demografická společnost,Společnost pro sociální bádání
+50,63,17,Česká sociologická společnost,Sociologický ústav ČSS
+51,63,61,Česká sociologická společnost,Česká asociace pro sociální antropologii
+52,63,64,Česká sociologická společnost,Československá sociologická společnost při ČSAV
+53,64,61,Československá sociologická společnost při ČSAV,Česká asociace pro sociální antropologii
+54,64,62,Československá sociologická společnost při ČSAV,Česká demografická společnost
+55,64,63,Československá sociologická společnost při ČSAV,Česká sociologická společnost
+56,64,65,Československá sociologická společnost při ČSAV,Masarykova sociologická společnost
+57,64,68,Československá sociologická společnost při ČSAV,Společnost pro sociální bádání
+58,64,73,Československá sociologická společnost při ČSAV,Sociologické nakladatelství (SLON)
+59,65,17,Masarykova sociologická společnost,Sociologický ústav ČSS
+60,65,20,Masarykova sociologická společnost,Sociální ústav ČSR
+61,65,23,Masarykova sociologická společnost,Ústav pro sociální a hospodářskou výchovu ČSS
+62,65,41,Masarykova sociologická společnost,Masarykova univerzita v Brně
+63,65,68,Masarykova sociologická společnost,Společnost pro sociální bádání
+64,65,70,Masarykova sociologická společnost,Knihovna Sociálních problémů
+65,65,71,Masarykova sociologická společnost,Sociologická knihovna MSS
+66,68,20,Společnost pro sociální bádání,Sociální ústav ČSR
+67,68,61,Společnost pro sociální bádání,Česká asociace pro sociální antropologii
+68,68,62,Společnost pro sociální bádání,Česká demografická společnost
+69,68,64,Společnost pro sociální bádání,Československá sociologická společnost při ČSAV
+70,68,65,Společnost pro sociální bádání,Masarykova sociologická společnost
+71,68,70,Společnost pro sociální bádání,Knihovna Sociálních problémů
+72,68,71,Společnost pro sociální bádání,Sociologická knihovna MSS
+73,70,45,Acta Universitatis Palackianae Olomucensis – Facultas Philosophica – Sociologica et Andragogica,Palackého univerzita v Olomouci
+74,75,15,Data a výzkum – SDA info,Sociologický ústav AV ČR
+75,77,29,Fórum sociální politiky,Výzkumný ústav práce a sociálních věcí
+76,78,15,"Gender, rovné příležitosti, výzkum",Sociologický ústav AV ČR
+77,79,10,Historická demografie,Etnologický ústav AV ČR
+78,79,15,Historická demografie,Sociologický ústav AV ČR
+79,79,39,Historická demografie,Karlova univerzita v Praze
+80,80,39,Historická sociologie,Karlova univerzita v Praze
+81,81,67,Kruh,Sociologický kruh posluchačů vysokých škol pražských
+82,82,39,Lidé města,Karlova univerzita v Praze
+83,84,15,Naše společnost,Sociologický ústav AV ČR
+84,87,26,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,Ústav sociálně politických věd UK
+85,88,41,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),Masarykova univerzita v Brně
+86,95,65,Sociální problémy,Masarykova sociologická společnost
+87,95,68,Sociální problémy,Společnost pro sociální bádání
+88,95,70,Sociální problémy,Knihovna Sociálních problémů
+89,96,20,Sociální revue,Sociální ústav ČSR
+90,99,41,Sociální studia,Masarykova univerzita v Brně
+91,100,45,Sociologica,Palackého univerzita v Olomouci
+92,101,21,Sociologická revue,Ukrajinský sociologický ústav
+93,101,39,Sociologická revue,Karlova univerzita v Praze
+94,101,41,Sociologická revue,Masarykova univerzita v Brně
+95,101,65,Sociologická revue,Masarykova sociologická společnost
+96,103,4,Sociologický časopis / Czech Sociological Review,Vědecké kolegium filosofie a sociologie ČSAV
+97,103,15,Sociologický časopis / Czech Sociological Review,Sociologický ústav AV ČR
+98,103,22,Sociologický časopis / Czech Sociological Review,Ústav pro filosofii a sociologii ČSAV
+99,105,11,Sociologie a historie zemědělství,Institut sociologie venkova a historie zemědělství VÚZEI
+100,106,19,Statistický obzor,Státní úřad statistický
+101,107,19,Statistika,Státní úřad statistický
+102,109,39,Studia sociologica,Karlova univerzita v Praze
+103,110,7,Veřejné mínění,Československý ústav pro výzkum veřejného mínění
+104,111,26,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy,Ústav sociálně politických věd UK
+105,112,68,Knihovna Sociálních problémů,Společnost pro sociální bádání
+106,112,71,Knihovna Sociálních problémů,Sociologická knihovna MSS
+107,112,73,Knihovna Sociálních problémů,Sociologické nakladatelství (SLON)
+108,113,65,Sociologická knihovna MSS,Masarykova sociologická společnost
+109,113,70,Sociologická knihovna MSS,Knihovna Sociálních problémů
+110,113,73,Sociologická knihovna MSS,Sociologické nakladatelství (SLON)
+111,114,73,Sociologická knižnice nakladatelství Svoboda,Sociologické nakladatelství (SLON)
+112,115,72,Sociologické nakladatelství (SLON),Sociologická knižnice nakladatelství Svoboda
+113,123,61,Kategorie:Vědecké společnosti a spolky,Česká asociace pro sociální antropologii
+114,123,62,Kategorie:Vědecké společnosti a spolky,Česká demografická společnost
+115,123,63,Kategorie:Vědecké společnosti a spolky,Česká sociologická společnost
+116,123,64,Kategorie:Vědecké společnosti a spolky,Československá sociologická společnost při ČSAV
+117,123,65,Kategorie:Vědecké společnosti a spolky,Masarykova sociologická společnost
+118,123,67,Kategorie:Vědecké společnosti a spolky,Sociologický kruh posluchačů vysokých škol pražských
+119,123,68,Kategorie:Vědecké společnosti a spolky,Společnost pro sociální bádání
+120,123,69,Kategorie:Vědecké společnosti a spolky,Spolek pro založení a vydržování soukromého institutu věd sociologických a filosofických
+122,12,1,Masarykova akademie práce,Česká akademie věd a umění
+124,68,1,Společnost pro sociální bádání,Česká akademie věd a umění
+126,120,1,Kategorie:Orgány řízení vědy,Česká akademie věd a umění
+128,121,1,Kategorie:Státní a veřejné výzkumné instituce,Česká akademie věd a umění
+131,120,2,Kategorie:Orgány řízení vědy,Grantová agentura České republiky
+134,120,3,Kategorie:Orgány řízení vědy,"Rada pro výzkum, vývoj a inovace"
+137,64,4,Československá sociologická společnost při ČSAV,Vědecké kolegium filosofie a sociologie ČSAV
+140,120,4,Kategorie:Orgány řízení vědy,Vědecké kolegium filosofie a sociologie ČSAV
+142,121,5,Kategorie:Státní a veřejné výzkumné instituce,Československá akademie zemědělská
+144,121,6,Kategorie:Státní a veřejné výzkumné instituce,Československý ústav zahraniční
+148,121,7,Kategorie:Státní a veřejné výzkumné instituce,Československý ústav pro výzkum veřejného mínění
+153,121,8,Kategorie:Státní a veřejné výzkumné instituce,Československý ústav práce
+155,31,9,Výzkumný ústav strojírenské technologie a ekonomiky,Dům techniky ČSVTS Pardubice
+157,59,9,Vysoká škola strojní a elektrotechnická v Plzni,Dům techniky ČSVTS Pardubice
+159,116,9,Analýza (časopis),Dům techniky ČSVTS Pardubice
+161,121,9,Kategorie:Státní a veřejné výzkumné instituce,Dům techniky ČSVTS Pardubice
+163,125,9,Kategorie:Ostatní subjekty se vztahem k sociologii,Dům techniky ČSVTS Pardubice
+165,121,11,Kategorie:Státní a veřejné výzkumné instituce,Institut sociologie venkova a historie zemědělství VÚZEI
+167,6,12,Československý ústav zahraniční,Masarykova akademie práce
+170,121,12,Kategorie:Státní a veřejné výzkumné instituce,Masarykova akademie práce
+172,121,13,Kategorie:Státní a veřejné výzkumné instituce,Slezský studijní ústav v Opavě
+174,121,14,Kategorie:Státní a veřejné výzkumné instituce,Slezský ústav v Praze
+176,121,15,Kategorie:Státní a veřejné výzkumné instituce,Sociologický ústav AV ČR
+179,9,16,Dům techniky ČSVTS Pardubice,Sociologický ústav ČSAV
+181,10,16,Etnologický ústav AV ČR,Sociologický ústav ČSAV
+183,15,16,Sociologický ústav AV ČR,Sociologický ústav ČSAV
+186,26,16,Ústav sociálně politických věd UK,Sociologický ústav ČSAV
+188,64,16,Československá sociologická společnost při ČSAV,Sociologický ústav ČSAV
+190,121,16,Kategorie:Státní a veřejné výzkumné instituce,Sociologický ústav ČSAV
+192,23,17,Ústav pro sociální a hospodářskou výchovu ČSS,Sociologický ústav ČSS
+195,121,17,Kategorie:Státní a veřejné výzkumné instituce,Sociologický ústav ČSS
+197,121,18,Kategorie:Státní a veřejné výzkumné instituce,Sportpropag
+199,6,19,Československý ústav zahraniční,Státní úřad statistický
+201,95,19,Sociální problémy,Státní úřad statistický
+205,117,19,Demografie (časopis),Státní úřad statistický
+207,121,19,Kategorie:Státní a veřejné výzkumné instituce,Státní úřad statistický
+209,125,19,Kategorie:Ostatní subjekty se vztahem k sociologii,Státní úřad statistický
+212,30,20,Výzkumný ústav sociálního rozvoje a práce,Sociální ústav ČSR
+216,121,20,Kategorie:Státní a veřejné výzkumné instituce,Sociální ústav ČSR
+218,121,21,Kategorie:Státní a veřejné výzkumné instituce,Ukrajinský sociologický ústav
+220,4,22,Vědecké kolegium filosofie a sociologie ČSAV,Ústav pro filosofii a sociologii ČSAV
+222,15,22,Sociologický ústav AV ČR,Ústav pro filosofii a sociologii ČSAV
+225,102,22,Sociologické aktuality,Ústav pro filosofii a sociologii ČSAV
+228,121,22,Kategorie:Státní a veřejné výzkumné instituce,Ústav pro filosofii a sociologii ČSAV
+231,121,23,Kategorie:Státní a veřejné výzkumné instituce,Ústav pro sociální a hospodářskou výchovu ČSS
+233,4,24,Vědecké kolegium filosofie a sociologie ČSAV,Ústav pro výzkum veřejného mínění ČSAV
+237,121,24,Kategorie:Státní a veřejné výzkumné instituce,Ústav pro výzkum veřejného mínění ČSAV
+239,125,24,Kategorie:Ostatní subjekty se vztahem k sociologii,Ústav pro výzkum veřejného mínění ČSAV
+241,15,25,Sociologický ústav AV ČR,Ústav pro výzkum veřejného mínění FSÚ
+243,19,25,Státní úřad statistický,Ústav pro výzkum veřejného mínění FSÚ
+247,125,25,Kategorie:Ostatní subjekty se vztahem k sociologii,Ústav pro výzkum veřejného mínění FSÚ
+249,39,26,Karlova univerzita v Praze,Ústav sociálně politických věd UK
+253,121,26,Kategorie:Státní a veřejné výzkumné instituce,Ústav sociálně politických věd UK
+255,4,27,Vědecké kolegium filosofie a sociologie ČSAV,Ústav vědeckého ateismu ČSAV
+258,121,27,Kategorie:Státní a veřejné výzkumné instituce,Ústav vědeckého ateismu ČSAV
+260,121,28,Kategorie:Státní a veřejné výzkumné instituce,Vojenský sociologický kruh
+264,121,29,Kategorie:Státní a veřejné výzkumné instituce,Výzkumný ústav práce a sociálních věcí
+268,121,31,Kategorie:Státní a veřejné výzkumné instituce,Výzkumný ústav strojírenské technologie a ekonomiky
+270,121,32,Kategorie:Státní a veřejné výzkumné instituce,Výzkumný ústav výstavby a architektury
+272,37,33,Husova československá evangelická teologická fakulta v Praze,Biskupské semináře
+274,39,33,Karlova univerzita v Praze,Biskupské semináře
+276,45,33,Palackého univerzita v Olomouci,Biskupské semináře
+278,122,33,"Kategorie:Vysoké, případně vyšší školy",Biskupské semináře
+280,105,35,Sociologie a historie zemědělství,Česká zemědělská univerzita v Praze
+282,122,36,"Kategorie:Vysoké, případně vyšší školy",České vysoké učení technické v Praze
+284,122,39,"Kategorie:Vysoké, případně vyšší školy",Karlova univerzita v Praze
+286,122,40,"Kategorie:Vysoké, případně vyšší školy",Komenského univerzita v Bratislavě
+288,122,41,"Kategorie:Vysoké, případně vyšší školy",Masarykova univerzita v Brně
+290,122,43,"Kategorie:Vysoké, případně vyšší školy",Německá univerzita v Praze
+292,122,45,"Kategorie:Vysoké, případně vyšší školy",Palackého univerzita v Olomouci
+294,122,47,"Kategorie:Vysoké, případně vyšší školy",Svobodná škola politických nauk v Praze
+296,122,48,"Kategorie:Vysoké, případně vyšší školy",Ukrajinská svobodná univerzita v Praze
+298,122,56,"Kategorie:Vysoké, případně vyšší školy",Vysoká škola politická a sociální v Praze
+304,17,63,Sociologický ústav ČSS,Česká sociologická společnost
+306,61,63,Česká asociace pro sociální antropologii,Česká sociologická společnost
+309,102,63,Sociologické aktuality,Česká sociologická společnost
+312,61,64,Česká asociace pro sociální antropologii,Československá sociologická společnost při ČSAV
+316,65,64,Masarykova sociologická společnost,Československá sociologická společnost při ČSAV
+319,115,64,Sociologické nakladatelství (SLON),Československá sociologická společnost při ČSAV
+325,41,65,Masarykova univerzita v Brně,Masarykova sociologická společnost
+328,96,65,Sociální revue,Masarykova sociologická společnost
+331,112,65,Knihovna Sociálních problémů,Masarykova sociologická společnost
+334,121,65,Kategorie:Státní a veřejné výzkumné instituce,Masarykova sociologická společnost
+339,20,68,Sociální ústav ČSR,Společnost pro sociální bádání
+341,61,68,Česká asociace pro sociální antropologii,Společnost pro sociální bádání
+347,113,68,Sociologická knihovna MSS,Společnost pro sociální bádání
+352,115,70,Sociologické nakladatelství (SLON),Knihovna Sociálních problémů
+356,115,71,Sociologické nakladatelství (SLON),Sociologická knihovna MSS
+359,102,73,Sociologické aktuality,Sociologické nakladatelství (SLON)
