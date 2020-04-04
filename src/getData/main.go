@@ -93,17 +93,19 @@ func getRegexp(rs ...string) []*regexp.Regexp {
 }
 
 func checkCorrectness(n Node, checkN Node) {
-	fmt.Println(n.name, checkN.name, "len", len(checkN.values) == len(n.values))
+	fmt.Println(n.name, checkN.name, "length is same:", len(checkN.values) == len(n.values))
 	for i := 0; i < len(checkN.values)-1; i++ {
 		for iV, v := range checkN.values[i].line {
 			if v != n.values[i].line[iV] {
 				fmt.Println("error")
+				panic("PANIC")
 			}
 		}
 		for iL, l := range checkN.values[i].links {
 			if l != n.values[i].links[iL] {
 				fmt.Println("ERORR", n.values[i].links[iL], l)
 				fmt.Println("\n\ncheck:\n", checkN.values[i].links, "nodes\n", n.values[i].links)
+				panic("PANIC")
 			}
 		}
 	}
@@ -116,16 +118,41 @@ func main() {
 		fmt.Println(err)
 	}
 
-	soc := data.getSCSg()
 	MSgS := data.getMsgS()
-	VSgS := data.getVSgS()
 	SIZCSg := data.getSIZCSg()
 	journals := getJournals(SIZCSg)
-	institutions := getInstitutions(SIZCSg)
-	saveNodes("./data/nodes/", soc, MSgS, SIZCSg, journals, institutions, VSgS)
-	makeAndSaveEdges("./data/edges/", soc, MSgS, SIZCSg, journals, institutions, VSgS)
+	/*
+		institutions := getInstitutions(SIZCSg)
+		VSgS := data.getVSgS()
+		soc := data.getSCSg()
+		saveNodes("./data/nodes/", soc, MSgS, SIZCSg, journals, institutions, VSgS)
+		makeAndSaveEdges("./data/edges/", soc, MSgS, SIZCSg, journals, institutions, VSgS)
+	*/
+	checkCorrectness(SIZCSg, data.getCategory("Sizc", []string{"ID", "heslo"}, `(\[\[Kategorie:SIZCSg.*\]\])`))
+	checkCorrectness(MSgS, data.getCategory("MalySgS", []string{"ID", "heslo"}, `\[\[Kategorie:MSgS.*\]\]`))
+	data.getCategory("VelkySgS", []string{"ID", "heslo"}, `\[\[Kategorie:VSgS.*\]\]`)
+	journalsN := data.getCategoryModify("Casopisy", []string{"ID", "nazev"}, `(\[\[Kategorie:SIZCSg.*\]\])`, func(page Page) []string {
+		rgx := getRegexp(
+			`\[\[Kategorie:Vědecká a odborná periodika.*\]\]`,            // 0 Vyber Vědecká a odborná periodika
+			`\[\[Kategorie:Ostatní subjekty se vztahem k sociologii\]\]`, // 1 Vyber Ostatní subjekty se vztahem k sociologii pro vyhození
+		)
+		text := string(page.Revision.Text)
+		if rgx[0].FindAllString(text, -1) != nil {
+			if nil == rgx[1].FindAllString(text, -1) {
+				return []string{string(page.Title)}
+			}
+		}
+		return nil
+	})
+	checkCorrectness(journals, journalsN)
+	data.getCategoryModify("Instituce", []string{"ID", "nazev"}, `\[\[Kategorie:Vědecká a odborná periodika.*\]\]`, func(page Page) []string {
+		rgx := getRegexp(
+			`\[\[Kategorie:Vědecká a odborná periodika.*\]\]`, // 0 vybere Vědecká a odborná periodika)
+		)
+		text := string(page.Revision.Text)
+		if rgx[0].FindAllString(text, -1) != nil {
 
-	checkN := data.getCategory("SIZCSg", []string{"ID", "heslo"}, `(\[\[Kategorie:SIZCSg.*\]\])`)
-	checkCorrectness(SIZCSg, checkN)
-
+		}
+		return nil
+	})
 }

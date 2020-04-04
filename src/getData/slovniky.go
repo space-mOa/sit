@@ -112,6 +112,40 @@ func (w *WikiData) getCategory(name string, head []string, r string) (ctg Node) 
 	return ctg
 }
 
+func (w *WikiData) getCategoryModify(name string, head []string, r string, f func(piece Page) []string) (ctg Node) {
+	rgx := getRegexp(
+		r,               // 0 reg
+		`\[\[[^]]*\]\]`, // 1 Odkazy
+		`Soubor:`,       // 2 Vybrání souboru pro jeho zahození
+		`#REDIRECT`,     // 3 REDIRECT odstraní duplikovaná hesla
+	)
+	ctg.name = name
+	ctg.head = head
+	var index uint64 = 0
+	for _, piece := range w.Page {
+		if len(rgx[0].FindAll(piece.Revision.Text, -1)) == 0 || len(rgx[3].FindAll(piece.Revision.Text, -1)) != 0 {
+			continue
+		}
+		if attributes := f(piece); attributes != nil {
+			index++
+			fndLinks := rgx[1].FindAll(piece.Revision.Text, -1)
+			var links []string
+			for _, link := range fndLinks {
+				if rgx[2].FindAllString(string(link), -1) == nil {
+					links = append(links, trimLink(string(link), string(piece.Title)))
+				}
+			}
+			vals := []string{strconv.FormatUint(index, 10)}
+			for _, a := range attributes {
+				vals = append(vals, a)
+			}
+			ctg.addNode(vals, links)
+		}
+
+	}
+	return ctg
+}
+
 // SIZCSg (Slovník institucionálního zázemí české sociologie)
 func (w *WikiData) getSIZCSg() (inst Node) {
 	rgx := getRegexp(
