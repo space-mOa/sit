@@ -85,6 +85,33 @@ func unpackFile(v *WikiData, name string) (err error) {
 
 /* Získá každý slovník/encyklopedii */
 
+func (w *WikiData) getCategory(name string, head []string, r string) (ctg Node) {
+	rgx := getRegexp(
+		r,               // 0 reg
+		`\[\[[^]]*\]\]`, // 1 Odkazy
+		`Soubor:`,       // 2 Vybrání souboru pro jeho zahození
+		`#REDIRECT`,     // 3 REDIRECT odstraní duplikovaná hesla
+	)
+	ctg.name = name
+	ctg.head = head
+	var index uint64 = 0
+	for _, piece := range w.Page {
+		if len(rgx[0].FindAll(piece.Revision.Text, -1)) == 0 || len(rgx[3].FindAll(piece.Revision.Text, -1)) != 0 {
+			continue
+		}
+		index++
+		fndLinks := rgx[1].FindAll(piece.Revision.Text, -1)
+		var links []string
+		for _, link := range fndLinks {
+			if rgx[2].FindAllString(string(link), -1) == nil {
+				links = append(links, trimLink(string(link), string(piece.Title)))
+			}
+		}
+		ctg.addNode([]string{strconv.FormatUint(index, 10), string(piece.Title)}, links)
+	}
+	return ctg
+}
+
 // SIZCSg (Slovník institucionálního zázemí české sociologie)
 func (w *WikiData) getSIZCSg() (inst Node) {
 	rgx := getRegexp(
@@ -93,7 +120,8 @@ func (w *WikiData) getSIZCSg() (inst Node) {
 		`Soubor:`,                      // 2 Vybrání souboru pro jeho zahození
 		`#REDIRECT`,                    // 3 REDIRECT odstraní duplikovaná hesla
 	)
-	inst.name = "Instituce"
+	inst.name = "Sizc"
+	inst.head = []string{"ID", "heslo"}
 	var index uint64 = 0
 	for _, chunk := range w.Page {
 		if len(rgx[0].FindAll(chunk.Revision.Text, -1)) == 0 || len(rgx[3].FindAll(chunk.Revision.Text, -1)) != 0 {
@@ -128,7 +156,8 @@ func (w *WikiData) getVSgS() (vsgs Node) {
 		`\[\[[^]]*\]\]`,            // 1 Najde odkazy
 		`#REDIRECT`,                // 2 Odstraní hesla, co mají #REDIRECT v textu
 	)
-	vsgs.name = "Velký sociologický slovník"
+	vsgs.name = "VelkySgS"
+	vsgs.head = []string{"ID", "heslo"}
 	var index uint64 = 0
 	for _, chunk := range w.Page {
 		if len(rgx[0].FindAll(chunk.Revision.Text, -1)) == 0 || len(rgx[2].FindAll(chunk.Revision.Text, -1)) != 0 {
@@ -165,7 +194,8 @@ func (w *WikiData) getMsgS() (msgs Node) {
 		`#REDIRECT`,                // 2 Odstraní hesla, co mají #REDIRECT v textu
 		`Soubor:`,                  // 3 Vybrání souboru pro jeho zahození
 	)
-	msgs.name = "Malý sociologický slovník"
+	msgs.name = "MalySgS"
+	msgs.head = []string{"ID", "heslo"}
 	var index uint64 = 0
 	for _, chunk := range w.Page {
 		if len(rgx[0].FindAll(chunk.Revision.Text, -1)) == 0 || len(rgx[2].FindAll(chunk.Revision.Text, -1)) != 0 {
@@ -207,7 +237,8 @@ func (w *WikiData) getSCSg() (soc Node) {
 		`[[:digit:]-]*"`,             // 5 Vyber číslice
 		`<span class="PERSON_DIED"><time datetime=.*>.*</time>.*</span>`, // 6 vybere datum úmrtí
 		`<span class="PERSON_DIED">\?\?\?</span>`)                        // 7 Vybere neznámé datum umrtí
-	soc.name = "Sociologist"
+	soc.name = "Sociologove"
+	soc.head = []string{"ID", "jmeno", "narozeni", "umrti"}
 	var index uint64 = 0
 	for _, chunk := range w.Page {
 		fndArt := rgx[2].FindAll(chunk.Revision.Text, -1) // Najdi heslo se sociology

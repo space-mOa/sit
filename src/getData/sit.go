@@ -11,6 +11,7 @@ import (
 // Node v síti, hodnoty v sobě zahrnují název a atributy
 type Node struct {
 	name   string
+	head   []string
 	values []Values
 	rgx    []string
 }
@@ -21,13 +22,13 @@ type Values struct {
 	links []string
 }
 
-func (n *Node) save(name string, head []string) {
-	file, err := os.Create(name)
+func (n *Node) save(path string) {
+	file, err := os.Create(path + n.name + ".csv")
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println("\nZkontrolujte zda máte vytvořenou složku uvedenou v PATH.\nPATH:", path, "\nERROR:", err)
 	}
 	writer := csv.NewWriter(file)
-	writer.Write(head)
+	writer.Write(n.head)
 	for _, v := range n.values {
 		writer.Write(v.line)
 	}
@@ -36,7 +37,13 @@ func (n *Node) save(name string, head []string) {
 	if err != nil {
 		fmt.Println(err)
 	}
-	//	fmt.Printf("Nodes \"%v\" saved to \"%v\"\n", n.name, name)
+	// fmt.Printf("Nodes \"%v\" saved to \"%v\"\n", n.name, path+n.name+".csv")
+}
+
+func saveNodes(path string, nodes ...Node) {
+	for _, n := range nodes {
+		n.save(path)
+	}
 }
 
 func (n *Node) printNodes() {
@@ -72,13 +79,12 @@ func (e *Edge) printEdges() {
 	}
 }
 
-func (e *Edge) save(name string, head []string) {
-	file, err := os.Create(name)
+func (e *Edge) save(path string) {
+	file, err := os.Create(path + e.name + ".csv")
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println("\nZkontrolujte zda máte vytvořenou složku uvedenou v PATH.\nPATH:", path, "\nERROR:", err)
 	}
 	writer := csv.NewWriter(file)
-	writer.Write(head)
 	for _, v := range e.line {
 		writer.Write(v)
 	}
@@ -87,13 +93,37 @@ func (e *Edge) save(name string, head []string) {
 	if err != nil {
 		fmt.Println(err)
 	}
-	//	fmt.Printf("Edges \"%v\" saved to \"%v\"\n", e.name, name)
+	// fmt.Printf("Edges \"%v\" saved to \"%v\"\n", e.name, path+e.name+".csv")
+}
+
+// makeEdges round-robin
+func makeAndSaveEdges(path string, nodes ...Node) {
+	fmt.Printf("This function makes edges from nodes and saves them. All nodes with All nodes.")
+	terminate := len(nodes) - 1
+	var namesN string
+	for _, n := range nodes {
+		namesN = namesN + " " + n.name
+	}
+	fmt.Printf("\nNODES: %v\nlength: %v\nterminate at: %v\n", namesN, len(nodes), terminate)
+	for i, n := range nodes {
+		if terminate == i {
+			break
+		}
+		fmt.Printf("\n%v. %v\n", i, n.name)
+		for _, withN := range nodes[i+1:] {
+			var e Edge
+			fmt.Printf(" - %v\n", withN.name)
+			e.fromTwoNodes(n, withN, n.name+"_"+withN.name)
+			e.save(path)
+		}
+	}
 }
 
 // fromTwoNodes bere dva uzly a vytvoří pro ně hrany na základě odkazů a názvů
 // názvy jsou totiž identické s první částí uvedenou v odkazech před znakem: |
 func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
 	e.name = edgeName
+	e.line = append(e.line, []string{"ID", n1.name + "ID", n2.name + "ID", n1.name, n2.name})
 	var index uint64 = 0
 	for _, n1V := range n1.values { // Vyber uzel z n1. vezme n1: název, n2: odkazy
 		n1Title := n1V.line[1]          // Název pro n1
@@ -148,6 +178,7 @@ func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
 func (e *Edge) socTime(n Node) {
 	e.name = "lived"
 	var index uint64 = 0
+	e.line = append(e.line, []string{"index", "Sociolog_1_ID", "Sociolog_2_ID", "Sociolog_1", "Sociolog_2"})
 	for _, soc1 := range n.values { // Vezmi Sociologa 1
 		soc1Born, err := strconv.ParseInt(soc1.line[2][:4], 10, 64) // Narození Sociologa 1
 		if err != nil {

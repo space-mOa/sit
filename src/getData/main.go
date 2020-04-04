@@ -11,7 +11,8 @@ func getJournals(n Node) (journals Node) {
 	rgx := getRegexp(
 		`Kategorie:Vědecká a odborná periodika.*`,            // 0 Vyber Vědecká a odborná periodika
 		`Kategorie:Ostatní subjekty se vztahem k sociologii`) // 1 Vyber Ostatní subjekty se vztahem k sociologii pro vyhození
-	journals.name = "journals"
+	journals.name = "Casopisy"
+	journals.head = []string{"ID", "nazev"}
 	var index uint64 = 0
 	for _, v := range n.values {
 		for _, link := range v.links {
@@ -41,7 +42,8 @@ func getInstitutions(n Node) (institutions Node) {
 	rgx := getRegexp(
 		`Kategorie:Vědecká a odborná periodika.*`, // 0 vybere Vědecká a odborná periodika
 	)
-	institutions.name = "institutions"
+	institutions.name = "Instituce"
+	institutions.head = []string{"ID", "nazev"}
 	var index uint64 = 0
 	for _, v := range n.values {
 		if strings.Contains(v.line[1], "Kategorie:") { // Přeskočí ty hesla, co mají v názvu (<title><title/>) Kategorie:...
@@ -90,6 +92,23 @@ func getRegexp(rs ...string) []*regexp.Regexp {
 	return listReg
 }
 
+func checkCorrectness(n Node, checkN Node) {
+	fmt.Println(n.name, checkN.name, "len", len(checkN.values) == len(n.values))
+	for i := 0; i < len(checkN.values)-1; i++ {
+		for iV, v := range checkN.values[i].line {
+			if v != n.values[i].line[iV] {
+				fmt.Println("error")
+			}
+		}
+		for iL, l := range checkN.values[i].links {
+			if l != n.values[i].links[iL] {
+				fmt.Println("ERORR", n.values[i].links[iL], l)
+				fmt.Println("\n\ncheck:\n", checkN.values[i].links, "nodes\n", n.values[i].links)
+			}
+		}
+	}
+}
+
 func main() {
 	data := &WikiData{}
 	err := unpackFile(data, "./dump.xml")
@@ -98,54 +117,15 @@ func main() {
 	}
 
 	soc := data.getSCSg()
-	soc.save("sociologove.csv", []string{"index", "name", "born", "died"})
-
 	MSgS := data.getMsgS()
-	MSgS.save("ms.csv", []string{"index", "ms"})
-
+	VSgS := data.getVSgS()
 	SIZCSg := data.getSIZCSg()
 	journals := getJournals(SIZCSg)
-	journals.save("casopisy.csv", []string{"index", "Nazev"})
 	institutions := getInstitutions(SIZCSg)
-	institutions.save("instituce.csv", []string{"index", "instituce"})
+	saveNodes("./data/nodes/", soc, MSgS, SIZCSg, journals, institutions, VSgS)
+	makeAndSaveEdges("./data/edges/", soc, MSgS, SIZCSg, journals, institutions, VSgS)
 
-	VSgS := data.getVSgS()
-	VSgS.save("vs.csv", []string{"index", "vs"})
+	checkN := data.getCategory("SIZCSg", []string{"ID", "heslo"}, `(\[\[Kategorie:SIZCSg.*\]\])`)
+	checkCorrectness(SIZCSg, checkN)
 
-	var edge Edge
-	edge.socTime(soc)
-	edge.save("living.csv", []string{"index", "Sociolog_1_ID", "Sociolog_2_ID", "Sociolog_1", "Sociolog_2"})
-
-	var socJour Edge
-	socJour.fromTwoNodes(soc, journals, "SociologistsJournals")
-	socJour.save("SocJour.csv", []string{"index", "Sociolog_ID", "Casopis_ID", "Sociolog", "Casopis"})
-
-	var insSoc Edge
-	insSoc.fromTwoNodes(institutions, soc, "InsSoc")
-	insSoc.save("InsSoc.csv", []string{"index", "Instituce_ID", "Sociolog_ID", "Instituce", "Sociolog"})
-
-	var insJour Edge
-	insJour.fromTwoNodes(institutions, journals, "insJour")
-	insJour.save("InsJour.csv", []string{"index", "Instituce_ID", "Casopis_ID", "Instituce", "Casopis"})
-
-	var msVs Edge
-	msVs.fromTwoNodes(MSgS, VSgS, "msVs")
-	msVs.save("msVs.csv", []string{"index", "ms_ID", "vs_ID", "ms", "vs"})
-
-	var socVs Edge
-	socVs.fromTwoNodes(VSgS, soc, "socVs")
-	socVs.save("socVs.csv", []string{"index", "vs_ID", "Sociolog_ID", "vs", "Sociolog"})
-
-	var sziVs Edge
-	sziVs.fromTwoNodes(VSgS, SIZCSg, "inSlVS")
-	sziVs.save("sziVs.csv", []string{"index", "vs_ID", "siz_ID", "vs", "siz"})
-
-	var socMs Edge
-	socMs.fromTwoNodes(MSgS, soc, "socMs")
-	socMs.printEdges()
-	socMs.save("socMs.csv", []string{"index", "ms_ID", "Sociolog_ID", "ms", "Sociolog"})
-
-	var sziMs Edge
-	sziMs.fromTwoNodes(MSgS, SIZCSg, "inSlVS")
-	sziMs.save("msSZI.csv", []string{"index", "ms_ID", "siz_ID", "ms", "siz"})
 }

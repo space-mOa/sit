@@ -1,0 +1,673 @@
+ID,SociologoveID,SizcID,Sociologove,Sizc
+1,1,7,Adamec Čeněk,Československý ústav pro výzkum veřejného mínění
+2,1,24,Adamec Čeněk,Ústav pro výzkum veřejného mínění ČSAV
+3,1,25,Adamec Čeněk,Ústav pro výzkum veřejného mínění FSÚ
+4,1,36,Adamec Čeněk,České vysoké učení technické v Praze
+5,1,64,Adamec Čeněk,Československá sociologická společnost při ČSAV
+6,1,67,Adamec Čeněk,Sociologický kruh posluchačů vysokých škol pražských
+7,1,81,Adamec Čeněk,Kruh
+8,1,110,Adamec Čeněk,Veřejné mínění
+9,1,114,Adamec Čeněk,Sociologická knižnice nakladatelství Svoboda
+10,2,18,Alan Josef,Sportpropag
+11,2,26,Alan Josef,Ústav sociálně politických věd UK
+12,2,30,Alan Josef,Výzkumný ústav sociálního rozvoje a práce
+13,2,39,Alan Josef,Karlova univerzita v Praze
+14,2,104,Alan Josef,Sociologický obzor
+15,2,114,Alan Josef,Sociologická knižnice nakladatelství Svoboda
+16,2,115,Alan Josef,Sociologické nakladatelství (SLON)
+17,3,39,Árnason Johann Pál,Karlova univerzita v Praze
+18,4,6,Auerhan Jan,Československý ústav zahraniční
+19,4,19,Auerhan Jan,Státní úřad statistický
+20,4,83,Auerhan Jan,Naše doba
+21,4,106,Auerhan Jan,Statistický obzor
+22,5,20,Beneš Edvard,Sociální ústav ČSR
+23,5,36,Beneš Edvard,České vysoké učení technické v Praze
+24,5,39,Beneš Edvard,Karlova univerzita v Praze
+25,5,65,Beneš Edvard,Masarykova sociologická společnost
+26,5,67,Beneš Edvard,Sociologický kruh posluchačů vysokých škol pražských
+27,5,74,Beneš Edvard,Česká mysl
+28,5,83,Beneš Edvard,Naše doba
+29,5,113,Beneš Edvard,Sociologická knihovna MSS
+30,6,5,Bláha Inocenc Arnošt,Československá akademie zemědělská
+31,6,14,Bláha Inocenc Arnošt,Slezský ústav v Praze
+32,6,34,Bláha Inocenc Arnošt,Česká technická vysoká škola v Brně
+33,6,41,Bláha Inocenc Arnošt,Masarykova univerzita v Brně
+34,6,58,Bláha Inocenc Arnošt,Vysoká škola sociální v Brně
+35,6,65,Bláha Inocenc Arnošt,Masarykova sociologická společnost
+36,6,74,Bláha Inocenc Arnošt,Česká mysl
+37,6,83,Bláha Inocenc Arnošt,Naše doba
+38,6,88,Bláha Inocenc Arnošt,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+39,6,94,Bláha Inocenc Arnošt,Sociální pracovnice
+40,6,96,Bláha Inocenc Arnošt,Sociální revue
+41,6,101,Bláha Inocenc Arnošt,Sociologická revue
+42,6,113,Bláha Inocenc Arnošt,Sociologická knihovna MSS
+43,6,118,Bláha Inocenc Arnošt,Parlament (časopis)
+44,7,18,Blažek Bohuslav,Sportpropag
+45,8,5,Boháč Antonín,Československá akademie zemědělská
+46,8,19,Boháč Antonín,Státní úřad statistický
+47,8,36,Boháč Antonín,České vysoké učení technické v Praze
+48,8,39,Boháč Antonín,Karlova univerzita v Praze
+49,8,56,Boháč Antonín,Vysoká škola politická a sociální v Praze
+50,8,68,Boháč Antonín,Společnost pro sociální bádání
+51,8,83,Boháč Antonín,Naše doba
+52,8,95,Boháč Antonín,Sociální problémy
+53,8,106,Boháč Antonín,Statistický obzor
+54,8,112,Boháč Antonín,Knihovna Sociálních problémů
+55,10,15,Brokl Lubomír,Sociologický ústav AV ČR
+56,10,16,Brokl Lubomír,Sociologický ústav ČSAV
+57,10,26,Brokl Lubomír,Ústav sociálně politických věd UK
+58,10,31,Brokl Lubomír,Výzkumný ústav strojírenské technologie a ekonomiky
+59,10,49,Brokl Lubomír,Univerzita Hradec Králové
+60,10,102,Brokl Lubomír,Sociologické aktuality
+61,11,101,Butter Oskar,Sociologická revue
+62,15,5,Čep Tomáš,Československá akademie zemědělská
+63,15,14,Čep Tomáš,Slezský ústav v Praze
+64,15,42,Čep Tomáš,Mendelova univerzita v Brně
+65,15,65,Čep Tomáš,Masarykova sociologická společnost
+66,15,101,Čep Tomáš,Sociologická revue
+67,16,39,Dědek František,Karlova univerzita v Praze
+68,16,67,Dědek František,Sociologický kruh posluchačů vysokých škol pražských
+69,16,68,Dědek František,Společnost pro sociální bádání
+70,16,81,Dědek František,Kruh
+71,17,26,Disman Miroslav,Ústav sociálně politických věd UK
+72,17,39,Disman Miroslav,Karlova univerzita v Praze
+73,17,64,Disman Miroslav,Československá sociologická společnost při ČSAV
+74,17,87,Disman Miroslav,Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+75,17,111,Disman Miroslav,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy
+76,17,114,Disman Miroslav,Sociologická knižnice nakladatelství Svoboda
+77,18,16,Dubská Irena,Sociologický ústav ČSAV
+78,18,64,Dubská Irena,Československá sociologická společnost při ČSAV
+79,18,76,Dubská Irena,Filosofický časopis
+80,18,103,Dubská Irena,Sociologický časopis / Czech Sociological Review
+81,21,19,Fajfr František,Státní úřad statistický
+82,21,39,Fajfr František,Karlova univerzita v Praze
+83,21,62,Fajfr František,Česká demografická společnost
+84,21,65,Fajfr František,Masarykova sociologická společnost
+85,21,74,Fajfr František,Česká mysl
+86,21,101,Fajfr František,Sociologická revue
+87,21,106,Fajfr František,Statistický obzor
+88,21,113,Fajfr František,Sociologická knihovna MSS
+89,21,117,Fajfr František,Demografie (časopis)
+90,22,15,Filipcová Blanka,Sociologický ústav AV ČR
+91,22,16,Filipcová Blanka,Sociologický ústav ČSAV
+92,22,22,Filipcová Blanka,Ústav pro filosofii a sociologii ČSAV
+93,22,26,Filipcová Blanka,Ústav sociálně politických věd UK
+94,22,39,Filipcová Blanka,Karlova univerzita v Praze
+95,22,56,Filipcová Blanka,Vysoká škola politická a sociální v Praze
+96,22,64,Filipcová Blanka,Československá sociologická společnost při ČSAV
+97,22,76,Filipcová Blanka,Filosofický časopis
+98,22,85,Filipcová Blanka,Nová mysl
+99,22,114,Filipcová Blanka,Sociologická knižnice nakladatelství Svoboda
+100,23,22,Filipec Jindřich,Ústav pro filosofii a sociologii ČSAV
+101,23,39,Filipec Jindřich,Karlova univerzita v Praze
+102,23,64,Filipec Jindřich,Československá sociologická společnost při ČSAV
+103,23,76,Filipec Jindřich,Filosofický časopis
+104,23,85,Filipec Jindřich,Nová mysl
+105,23,114,Filipec Jindřich,Sociologická knižnice nakladatelství Svoboda
+106,24,41,Fischer Josef Ludvík,Masarykova univerzita v Brně
+107,24,45,Fischer Josef Ludvík,Palackého univerzita v Olomouci
+108,24,64,Fischer Josef Ludvík,Československá sociologická společnost při ČSAV
+109,24,65,Fischer Josef Ludvík,Masarykova sociologická společnost
+110,24,74,Fischer Josef Ludvík,Česká mysl
+111,24,101,Fischer Josef Ludvík,Sociologická revue
+112,24,113,Fischer Josef Ludvík,Sociologická knihovna MSS
+113,25,42,Foret Miroslav,Mendelova univerzita v Brně
+114,25,62,Foret Miroslav,Česká demografická společnost
+115,25,114,Foret Miroslav,Sociologická knižnice nakladatelství Svoboda
+116,27,39,Foustka Břetislav,Karlova univerzita v Praze
+117,27,65,Foustka Břetislav,Masarykova sociologická společnost
+118,27,74,Foustka Břetislav,Česká mysl
+119,27,83,Foustka Břetislav,Naše doba
+120,27,101,Foustka Břetislav,Sociologická revue
+121,27,113,Foustka Břetislav,Sociologická knihovna MSS
+122,27,118,Foustka Břetislav,Parlament (časopis)
+123,28,39,Frič Pavol,Karlova univerzita v Praze
+124,30,22,Gabal Ivan,Ústav pro filosofii a sociologii ČSAV
+125,30,39,Gabal Ivan,Karlova univerzita v Praze
+126,30,104,Gabal Ivan,Sociologický obzor
+127,32,18,Gál Fedor,Sportpropag
+128,33,4,Galla Karel,Vědecké kolegium filosofie a sociologie ČSAV
+129,33,5,Galla Karel,Československá akademie zemědělská
+130,33,17,Galla Karel,Sociologický ústav ČSS
+131,33,23,Galla Karel,Ústav pro sociální a hospodářskou výchovu ČSS
+132,33,28,Galla Karel,Vojenský sociologický kruh
+133,33,39,Galla Karel,Karlova univerzita v Praze
+134,33,64,Galla Karel,Československá sociologická společnost při ČSAV
+135,33,65,Galla Karel,Masarykova sociologická společnost
+136,33,101,Galla Karel,Sociologická revue
+137,34,68,Geist Bohumil,Společnost pro sociální bádání
+138,35,61,Gellner Ernest (Arnošt),Česká asociace pro sociální antropologii
+139,37,41,Hájek Mojmír,Masarykova univerzita v Brně
+140,37,65,Hájek Mojmír,Masarykova sociologická společnost
+141,38,39,Hampl Martin,Karlova univerzita v Praze
+142,39,101,Hanáček Jaroslav,Sociologická revue
+143,40,39,Havelka Miloš,Karlova univerzita v Praze
+144,40,103,Havelka Miloš,Sociologický časopis / Czech Sociological Review
+145,41,40,Hirner Alexander,Komenského univerzita v Bratislavě
+146,41,56,Hirner Alexander,Vysoká škola politická a sociální v Praze
+147,42,37,Hník František Maria,Husova československá evangelická teologická fakulta v Praze
+148,45,15,Huláková Marie,Sociologický ústav AV ČR
+149,45,16,Huláková Marie,Sociologický ústav ČSAV
+150,45,22,Huláková Marie,Ústav pro filosofii a sociologii ČSAV
+151,45,64,Huláková Marie,Československá sociologická společnost při ČSAV
+152,46,5,Chalupný Emanuel,Československá akademie zemědělská
+153,46,17,Chalupný Emanuel,Sociologický ústav ČSS
+154,46,36,Chalupný Emanuel,České vysoké učení technické v Praze
+155,46,41,Chalupný Emanuel,Masarykova univerzita v Brně
+156,46,47,Chalupný Emanuel,Svobodná škola politických nauk v Praze
+157,46,48,Chalupný Emanuel,Ukrajinská svobodná univerzita v Praze
+158,46,52,Chalupný Emanuel,Vojenská politická akademie Klementa Gottwalda v Praze
+159,46,65,Chalupný Emanuel,Masarykova sociologická společnost
+160,46,73,Chalupný Emanuel,Časopis Svobodné školy politických nauk v Praze
+161,46,96,Chalupný Emanuel,Sociální revue
+162,46,101,Chalupný Emanuel,Sociologická revue
+163,46,113,Chalupný Emanuel,Sociologická knihovna MSS
+164,47,4,Charvát František,Vědecké kolegium filosofie a sociologie ČSAV
+165,47,15,Charvát František,Sociologický ústav AV ČR
+166,47,22,Charvát František,Ústav pro filosofii a sociologii ČSAV
+167,47,64,Charvát František,Československá sociologická společnost při ČSAV
+168,47,114,Charvát František,Sociologická knižnice nakladatelství Svoboda
+169,48,15,Illner Michal,Sociologický ústav AV ČR
+170,48,16,Illner Michal,Sociologický ústav ČSAV
+171,48,22,Illner Michal,Ústav pro filosofii a sociologii ČSAV
+172,48,62,Illner Michal,Česká demografická společnost
+173,48,102,Illner Michal,Sociologické aktuality
+174,48,103,Illner Michal,Sociologický časopis / Czech Sociological Review
+175,48,114,Illner Michal,Sociologická knižnice nakladatelství Svoboda
+176,49,39,Jeřábek Hynek,Karlova univerzita v Praze
+177,49,53,Jeřábek Hynek,Vysoká škola CEVRO Institut v Praze
+178,49,60,Jeřábek Hynek,Západočeská univerzita v Plzni
+179,50,16,Jodl Miroslav,Sociologický ústav ČSAV
+180,51,45,Jochmann Vladimír,Palackého univerzita v Olomouci
+181,52,25,Jungmann Bohumil,Ústav pro výzkum veřejného mínění FSÚ
+182,52,26,Jungmann Bohumil,Ústav sociálně politických věd UK
+183,52,30,Jungmann Bohumil,Výzkumný ústav sociálního rozvoje a práce
+184,52,87,Jungmann Bohumil,Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+185,52,111,Jungmann Bohumil,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy
+186,53,18,Kabele Jiří,Sportpropag
+187,53,39,Kabele Jiří,Karlova univerzita v Praze
+188,54,17,Kadlec Vladimír,Sociologický ústav ČSS
+189,54,65,Kadlec Vladimír,Masarykova sociologická společnost
+190,55,16,Kadlecová Erika,Sociologický ústav ČSAV
+191,55,57,Kadlecová Erika,Vysoká škola politická ÚV KSČ v Praze
+192,55,64,Kadlecová Erika,Československá sociologická společnost při ČSAV
+193,55,85,Kadlecová Erika,Nová mysl
+194,56,71,Kaizl Josef,Athenaeum
+195,56,83,Kaizl Josef,Naše doba
+196,56,115,Kaizl Josef,Sociologické nakladatelství (SLON)
+197,57,4,Kaláb Miloš,Vědecké kolegium filosofie a sociologie ČSAV
+198,57,16,Kaláb Miloš,Sociologický ústav ČSAV
+199,57,26,Kaláb Miloš,Ústav sociálně politických věd UK
+200,57,64,Kaláb Miloš,Československá sociologická společnost při ČSAV
+201,57,76,Kaláb Miloš,Filosofický časopis
+202,60,39,Kapr Jaroslav,Karlova univerzita v Praze
+203,60,46,Kapr Jaroslav,Slezská univerzita v Opavě
+204,60,102,Kapr Jaroslav,Sociologické aktuality
+205,62,41,Keller Jan,Masarykova univerzita v Brně
+206,62,44,Keller Jan,Ostravská univerzita v Ostravě
+207,62,102,Keller Jan,Sociologické aktuality
+208,62,115,Keller Jan,Sociologické nakladatelství (SLON)
+209,65,4,Klofáč Jaroslav,Vědecké kolegium filosofie a sociologie ČSAV
+210,65,57,Klofáč Jaroslav,Vysoká škola politická ÚV KSČ v Praze
+211,65,64,Klofáč Jaroslav,Československá sociologická společnost při ČSAV
+212,65,68,Klofáč Jaroslav,Společnost pro sociální bádání
+213,65,85,Klofáč Jaroslav,Nová mysl
+214,65,114,Klofáč Jaroslav,Sociologická knižnice nakladatelství Svoboda
+215,67,4,Kohout Jaroslav,Vědecké kolegium filosofie a sociologie ČSAV
+216,67,54,Kohout Jaroslav,Vysoká škola ekonomická v Praze
+217,67,56,Kohout Jaroslav,Vysoká škola politická a sociální v Praze
+218,67,64,Kohout Jaroslav,Československá sociologická společnost při ČSAV
+219,67,114,Kohout Jaroslav,Sociologická knižnice nakladatelství Svoboda
+220,67,115,Kohout Jaroslav,Sociologické nakladatelství (SLON)
+221,69,39,Korčák Jaromír,Karlova univerzita v Praze
+222,69,62,Korčák Jaromír,Česká demografická společnost
+223,69,68,Korčák Jaromír,Společnost pro sociální bádání
+224,69,106,Korčák Jaromír,Statistický obzor
+225,70,74,Kozák Jan Blahoslav,Česká mysl
+226,71,41,Köttner Mojmír,Masarykova univerzita v Brně
+227,72,1,Král Josef,Česká akademie věd a umění
+228,72,5,Král Josef,Československá akademie zemědělská
+229,72,28,Král Josef,Vojenský sociologický kruh
+230,72,39,Král Josef,Karlova univerzita v Praze
+231,72,40,Král Josef,Komenského univerzita v Bratislavě
+232,72,56,Král Josef,Vysoká škola politická a sociální v Praze
+233,72,64,Král Josef,Československá sociologická společnost při ČSAV
+234,72,65,Král Josef,Masarykova sociologická společnost
+235,72,67,Král Josef,Sociologický kruh posluchačů vysokých škol pražských
+236,72,68,Král Josef,Společnost pro sociální bádání
+237,72,74,Král Josef,Česká mysl
+238,72,81,Král Josef,Kruh
+239,72,95,Král Josef,Sociální problémy
+240,72,112,Král Josef,Knihovna Sociálních problémů
+241,72,118,Král Josef,Parlament (časopis)
+242,73,74,Krejčí František,Česká mysl
+243,75,65,Krejčí Karel,Masarykova sociologická společnost
+244,78,16,Lamser Václav,Sociologický ústav ČSAV
+245,78,39,Lamser Václav,Karlova univerzita v Praze
+246,78,62,Lamser Václav,Česká demografická společnost
+247,78,64,Lamser Václav,Československá sociologická společnost při ČSAV
+248,78,87,Lamser Václav,Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+249,78,114,Lamser Václav,Sociologická knižnice nakladatelství Svoboda
+250,78,117,Lamser Václav,Demografie (časopis)
+251,79,41,Librová Hana,Masarykova univerzita v Brně
+252,79,88,Librová Hana,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+253,81,15,Linhart Jiří,Sociologický ústav AV ČR
+254,81,22,Linhart Jiří,Ústav pro filosofii a sociologii ČSAV
+255,81,26,Linhart Jiří,Ústav sociálně politických věd UK
+256,81,64,Linhart Jiří,Československá sociologická společnost při ČSAV
+257,81,102,Linhart Jiří,Sociologické aktuality
+258,81,103,Linhart Jiří,Sociologický časopis / Czech Sociological Review
+259,82,65,Macek Josef,Masarykova sociologická společnost
+260,82,83,Macek Josef,Naše doba
+261,82,94,Macek Josef,Sociální pracovnice
+262,82,96,Macek Josef,Sociální revue
+263,83,41,Macků Jan,Masarykova univerzita v Brně
+264,83,64,Macků Jan,Československá sociologická společnost při ČSAV
+265,83,88,Macků Jan,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+266,84,4,Machonin Pavel,Vědecké kolegium filosofie a sociologie ČSAV
+267,84,15,Machonin Pavel,Sociologický ústav AV ČR
+268,84,16,Machonin Pavel,Sociologický ústav ČSAV
+269,84,18,Machonin Pavel,Sportpropag
+270,84,26,Machonin Pavel,Ústav sociálně politických věd UK
+271,84,52,Machonin Pavel,Vojenská politická akademie Klementa Gottwalda v Praze
+272,84,56,Machonin Pavel,Vysoká škola politická a sociální v Praze
+273,84,85,Machonin Pavel,Nová mysl
+274,84,87,Machonin Pavel,Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+275,85,19,Machotka Otakar,Státní úřad statistický
+276,85,39,Machotka Otakar,Karlova univerzita v Praze
+277,85,40,Machotka Otakar,Komenského univerzita v Bratislavě
+278,85,56,Machotka Otakar,Vysoká škola politická a sociální v Praze
+279,85,65,Machotka Otakar,Masarykova sociologická společnost
+280,85,68,Machotka Otakar,Společnost pro sociální bádání
+281,85,94,Machotka Otakar,Sociální pracovnice
+282,85,95,Machotka Otakar,Sociální problémy
+283,85,106,Machotka Otakar,Statistický obzor
+284,85,112,Machotka Otakar,Knihovna Sociálních problémů
+285,85,113,Machotka Otakar,Sociologická knihovna MSS
+286,85,118,Machotka Otakar,Parlament (časopis)
+287,86,19,Maiwald Karel,Státní úřad statistický
+288,86,45,Maiwald Karel,Palackého univerzita v Olomouci
+289,86,83,Maiwald Karel,Naše doba
+290,89,41,Mareš Petr,Masarykova univerzita v Brně
+291,90,39,Marušiak Martin,Karlova univerzita v Praze
+292,90,64,Marušiak Martin,Československá sociologická společnost při ČSAV
+293,91,39,Masaryk Tomáš Garrigue,Karlova univerzita v Praze
+294,91,65,Masaryk Tomáš Garrigue,Masarykova sociologická společnost
+295,91,71,Masaryk Tomáš Garrigue,Athenaeum
+296,91,74,Masaryk Tomáš Garrigue,Česká mysl
+297,91,83,Masaryk Tomáš Garrigue,Naše doba
+298,91,102,Masaryk Tomáš Garrigue,Sociologické aktuality
+299,92,20,Masaryková Alice,Sociální ústav ČSR
+300,92,65,Masaryková Alice,Masarykova sociologická společnost
+301,93,2,Matějů Petr,Grantová agentura České republiky
+302,93,3,Matějů Petr,"Rada pro výzkum, vývoj a inovace"
+303,93,15,Matějů Petr,Sociologický ústav AV ČR
+304,93,22,Matějů Petr,Ústav pro filosofii a sociologii ČSAV
+305,93,39,Matějů Petr,Karlova univerzita v Praze
+306,93,53,Matějů Petr,Vysoká škola CEVRO Institut v Praze
+307,93,55,Matějů Petr,Vysoká škola finanční a správní v Praze
+308,94,28,Mertl Jan,Vojenský sociologický kruh
+309,94,36,Mertl Jan,České vysoké učení technické v Praze
+310,94,65,Mertl Jan,Masarykova sociologická společnost
+311,94,68,Mertl Jan,Společnost pro sociální bádání
+312,94,83,Mertl Jan,Naše doba
+313,94,95,Mertl Jan,Sociální problémy
+314,94,96,Mertl Jan,Sociální revue
+315,94,112,Mertl Jan,Knihovna Sociálních problémů
+316,94,113,Mertl Jan,Sociologická knihovna MSS
+317,94,118,Mertl Jan,Parlament (časopis)
+318,96,65,Modráček František,Masarykova sociologická společnost
+319,96,83,Modráček František,Naše doba
+320,96,101,Modráček František,Sociologická revue
+321,97,41,Možný Ivo,Masarykova univerzita v Brně
+322,97,88,Možný Ivo,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+323,97,104,Možný Ivo,Sociologický obzor
+324,97,115,Možný Ivo,Sociologické nakladatelství (SLON)
+325,97,117,Možný Ivo,Demografie (časopis)
+326,98,15,Musil Jiří,Sociologický ústav AV ČR
+327,98,32,Musil Jiří,Výzkumný ústav výstavby a architektury
+328,98,36,Musil Jiří,České vysoké učení technické v Praze
+329,98,62,Musil Jiří,Česká demografická společnost
+330,98,64,Musil Jiří,Československá sociologická společnost při ČSAV
+331,98,102,Musil Jiří,Sociologické aktuality
+332,98,103,Musil Jiří,Sociologický časopis / Czech Sociological Review
+333,98,106,Musil Jiří,Statistický obzor
+334,98,114,Musil Jiří,Sociologická knižnice nakladatelství Svoboda
+335,98,117,Musil Jiří,Demografie (časopis)
+336,100,101,Nejedlý Zdeněk,Sociologická revue
+337,101,33,Neuschl Robert,Biskupské semináře
+338,102,41,Nový Lubomír,Masarykova univerzita v Brně
+339,102,88,Nový Lubomír,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+340,103,40,Obrdlík Antonín,Komenského univerzita v Bratislavě
+341,103,41,Obrdlík Antonín,Masarykova univerzita v Brně
+342,103,65,Obrdlík Antonín,Masarykova sociologická společnost
+343,103,101,Obrdlík Antonín,Sociologická revue
+344,103,113,Obrdlík Antonín,Sociologická knihovna MSS
+345,104,41,Obrdlíková Juliana,Masarykova univerzita v Brně
+346,104,45,Obrdlíková Juliana,Palackého univerzita v Olomouci
+347,104,58,Obrdlíková Juliana,Vysoká škola sociální v Brně
+348,104,65,Obrdlíková Juliana,Masarykova sociologická společnost
+349,104,113,Obrdlíková Juliana,Sociologická knihovna MSS
+350,105,41,Ovesný Miroslav,Masarykova univerzita v Brně
+351,105,88,Ovesný Miroslav,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+352,106,39,Pavlík Zdeněk,Karlova univerzita v Praze
+353,106,53,Pavlík Zdeněk,Vysoká škola CEVRO Institut v Praze
+354,106,62,Pavlík Zdeněk,Česká demografická společnost
+355,106,79,Pavlík Zdeněk,Historická demografie
+356,106,106,Pavlík Zdeněk,Statistický obzor
+357,108,15,Petrusek Miloslav,Sociologický ústav AV ČR
+358,108,22,Petrusek Miloslav,Ústav pro filosofii a sociologii ČSAV
+359,108,26,Petrusek Miloslav,Ústav sociálně politických věd UK
+360,108,39,Petrusek Miloslav,Karlova univerzita v Praze
+361,108,64,Petrusek Miloslav,Československá sociologická společnost při ČSAV
+362,108,87,Petrusek Miloslav,Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+363,108,102,Petrusek Miloslav,Sociologické aktuality
+364,108,104,Petrusek Miloslav,Sociologický obzor
+365,108,109,Petrusek Miloslav,Studia sociologica
+366,108,111,Petrusek Miloslav,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy
+367,108,114,Petrusek Miloslav,Sociologická knižnice nakladatelství Svoboda
+368,108,115,Petrusek Miloslav,Sociologické nakladatelství (SLON)
+369,109,65,Pistorius Theodor,Masarykova sociologická společnost
+370,109,95,Pistorius Theodor,Sociální problémy
+371,110,26,Porket Josef Ludvík,Ústav sociálně politických věd UK
+372,111,3,Potůček Martin,"Rada pro výzkum, vývoj a inovace"
+373,111,18,Potůček Martin,Sportpropag
+374,111,39,Potůček Martin,Karlova univerzita v Praze
+375,111,41,Potůček Martin,Masarykova univerzita v Brně
+376,114,41,Rabušic Ladislav,Masarykova univerzita v Brně
+377,115,74,Rádl Emanuel,Česká mysl
+378,115,83,Rádl Emanuel,Naše doba
+379,116,95,Reif Gustav,Sociální problémy
+380,116,96,Reif Gustav,Sociální revue
+381,117,5,Reich Edvard,Československá akademie zemědělská
+382,117,42,Reich Edvard,Mendelova univerzita v Brně
+383,118,33,Reyl František,Biskupské semináře
+384,119,22,Richta Radovan,Ústav pro filosofii a sociologii ČSAV
+385,120,95,Rouček Joseph Slabey,Sociální problémy
+386,121,15,Rychtaříková Jitka,Sociologický ústav AV ČR
+387,121,39,Rychtaříková Jitka,Karlova univerzita v Praze
+388,121,62,Rychtaříková Jitka,Česká demografická společnost
+389,123,16,Řehák Jan,Sociologický ústav ČSAV
+390,123,39,Řehák Jan,Karlova univerzita v Praze
+391,123,64,Řehák Jan,Československá sociologická společnost při ČSAV
+392,125,9,Sedláček Oto,Dům techniky ČSVTS Pardubice
+393,125,16,Sedláček Oto,Sociologický ústav ČSAV
+394,125,29,Sedláček Oto,Výzkumný ústav práce a sociálních věcí
+395,125,39,Sedláček Oto,Karlova univerzita v Praze
+396,125,64,Sedláček Oto,Československá sociologická společnost při ČSAV
+397,125,103,Sedláček Oto,Sociologický časopis / Czech Sociological Review
+398,125,109,Sedláček Oto,Studia sociologica
+399,125,114,Sedláček Oto,Sociologická knižnice nakladatelství Svoboda
+400,125,116,Sedláček Oto,Analýza (časopis)
+401,126,27,Sekot Aleš,Ústav vědeckého ateismu ČSAV
+402,126,76,Sekot Aleš,Filosofický časopis
+403,126,114,Sekot Aleš,Sociologická knižnice nakladatelství Svoboda
+404,127,20,Schoenbaum Emil,Sociální ústav ČSR
+405,127,83,Schoenbaum Emil,Naše doba
+406,128,41,Sirovátka Tomáš,Masarykova univerzita v Brně
+407,129,101,Slaminka Vladimír,Sociologická revue
+408,130,9,Slejška Dragoslav,Dům techniky ČSVTS Pardubice
+409,130,16,Slejška Dragoslav,Sociologický ústav ČSAV
+410,130,24,Slejška Dragoslav,Ústav pro výzkum veřejného mínění ČSAV
+411,130,31,Slejška Dragoslav,Výzkumný ústav strojírenské technologie a ekonomiky
+412,130,64,Slejška Dragoslav,Československá sociologická společnost při ČSAV
+413,130,76,Slejška Dragoslav,Filosofický časopis
+414,130,85,Slejška Dragoslav,Nová mysl
+415,132,26,Solař Josef,Ústav sociálně politických věd UK
+416,132,41,Solař Josef,Masarykova univerzita v Brně
+417,132,64,Solař Josef,Československá sociologická společnost při ČSAV
+418,132,88,Solař Josef,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+419,133,33,Soldát Alois,Biskupské semináře
+420,134,67,Sorokin Pitirim Alexandrovič,Sociologický kruh posluchačů vysokých škol pražských
+421,134,118,Sorokin Pitirim Alexandrovič,Parlament (časopis)
+422,135,62,Srb Vladimír,Česká demografická společnost
+423,135,79,Srb Vladimír,Historická demografie
+424,135,81,Srb Vladimír,Kruh
+425,135,106,Srb Vladimír,Statistický obzor
+426,135,114,Srb Vladimír,Sociologická knižnice nakladatelství Svoboda
+427,135,117,Srb Vladimír,Demografie (časopis)
+428,136,43,Stark Werner,Německá univerzita v Praze
+429,137,16,Strmiska Zdeněk,Sociologický ústav ČSAV
+430,137,26,Strmiska Zdeněk,Ústav sociálně politických věd UK
+431,137,64,Strmiska Zdeněk,Československá sociologická společnost při ČSAV
+432,137,87,Strmiska Zdeněk,Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+433,137,113,Strmiska Zdeněk,Sociologická knihovna MSS
+434,138,41,Střítecký Jaroslav,Masarykova univerzita v Brně
+435,139,46,Suda Zdeněk,Slezská univerzita v Opavě
+436,139,64,Suda Zdeněk,Československá sociologická společnost při ČSAV
+437,139,81,Suda Zdeněk,Kruh
+438,141,23,Svoboda Ludvík,Ústav pro sociální a hospodářskou výchovu ČSS
+439,141,39,Svoboda Ludvík,Karlova univerzita v Praze
+440,141,65,Svoboda Ludvík,Masarykova sociologická společnost
+441,141,101,Svoboda Ludvík,Sociologická revue
+442,142,21,Šapoval Mykyta,Ukrajinský sociologický ústav
+443,142,48,Šapoval Mykyta,Ukrajinská svobodná univerzita v Praze
+444,143,26,Šiklová Jiřina,Ústav sociálně politických věd UK
+445,143,39,Šiklová Jiřina,Karlova univerzita v Praze
+446,144,17,Šíma Jaroslav,Sociologický ústav ČSS
+447,144,47,Šíma Jaroslav,Svobodná škola politických nauk v Praze
+448,144,65,Šíma Jaroslav,Masarykova sociologická společnost
+449,144,73,Šíma Jaroslav,Časopis Svobodné školy politických nauk v Praze
+450,144,94,Šíma Jaroslav,Sociální pracovnice
+451,144,101,Šíma Jaroslav,Sociologická revue
+452,145,65,Škrach Vasil Kaprálek,Masarykova sociologická společnost
+453,145,74,Škrach Vasil Kaprálek,Česká mysl
+454,145,113,Škrach Vasil Kaprálek,Sociologická knihovna MSS
+455,146,65,Šmejkal Karel,Masarykova sociologická společnost
+456,146,113,Šmejkal Karel,Sociologická knihovna MSS
+457,148,33,Šrámek Jan,Biskupské semináře
+458,150,5,Štefánek Anton,Československá akademie zemědělská
+459,150,40,Štefánek Anton,Komenského univerzita v Bratislavě
+460,150,65,Štefánek Anton,Masarykova sociologická společnost
+461,150,94,Štefánek Anton,Sociální pracovnice
+462,150,101,Štefánek Anton,Sociologická revue
+463,151,20,Štern Evžen,Sociální ústav ČSR
+464,151,83,Štern Evžen,Naše doba
+465,152,5,Tauber Jan Bohumil,Československá akademie zemědělská
+466,152,11,Tauber Jan Bohumil,Institut sociologie venkova a historie zemědělství VÚZEI
+467,152,35,Tauber Jan Bohumil,Česká zemědělská univerzita v Praze
+468,152,36,Tauber Jan Bohumil,České vysoké učení technické v Praze
+469,152,64,Tauber Jan Bohumil,Československá sociologická společnost při ČSAV
+470,152,85,Tauber Jan Bohumil,Nová mysl
+471,152,105,Tauber Jan Bohumil,Sociologie a historie zemědělství
+472,154,20,Teltšík Rudolf,Sociální ústav ČSR
+473,154,92,Teltšík Rudolf,Sociální práce
+474,154,96,Teltšík Rudolf,Sociální revue
+475,155,26,Tlustý Vojtěch,Ústav sociálně politických věd UK
+476,155,39,Tlustý Vojtěch,Karlova univerzita v Praze
+477,155,64,Tlustý Vojtěch,Československá sociologická společnost při ČSAV
+478,155,85,Tlustý Vojtěch,Nová mysl
+479,156,39,Tomeš Igor,Karlova univerzita v Praze
+480,156,62,Tomeš Igor,Česká demografická společnost
+481,156,66,Tomeš Igor,Socioklub
+482,157,41,Trapl Miloslav,Masarykova univerzita v Brně
+483,157,45,Trapl Miloslav,Palackého univerzita v Olomouci
+484,159,36,Uhlíř Antonín,České vysoké učení technické v Praze
+485,159,65,Uhlíř Antonín,Masarykova sociologická společnost
+486,159,83,Uhlíř Antonín,Naše doba
+487,159,96,Uhlíř Antonín,Sociální revue
+488,160,14,Ullrich Zdeněk,Slezský ústav v Praze
+489,160,19,Ullrich Zdeněk,Státní úřad statistický
+490,160,28,Ullrich Zdeněk,Vojenský sociologický kruh
+491,160,39,Ullrich Zdeněk,Karlova univerzita v Praze
+492,160,56,Ullrich Zdeněk,Vysoká škola politická a sociální v Praze
+493,160,65,Ullrich Zdeněk,Masarykova sociologická společnost
+494,160,68,Ullrich Zdeněk,Společnost pro sociální bádání
+495,160,74,Ullrich Zdeněk,Česká mysl
+496,160,81,Ullrich Zdeněk,Kruh
+497,160,95,Ullrich Zdeněk,Sociální problémy
+498,160,106,Ullrich Zdeněk,Statistický obzor
+499,160,112,Ullrich Zdeněk,Knihovna Sociálních problémů
+500,160,113,Ullrich Zdeněk,Sociologická knihovna MSS
+501,160,118,Ullrich Zdeněk,Parlament (časopis)
+502,161,39,Urbánek Eduard,Karlova univerzita v Praze
+503,161,64,Urbánek Eduard,Československá sociologická společnost při ČSAV
+504,161,103,Urbánek Eduard,Sociologický časopis / Czech Sociological Review
+505,161,109,Urbánek Eduard,Studia sociologica
+506,162,56,Vacek Lubomír,Vysoká škola politická a sociální v Praze
+507,162,64,Vacek Lubomír,Československá sociologická společnost při ČSAV
+508,162,114,Vacek Lubomír,Sociologická knižnice nakladatelství Svoboda
+509,163,101,Václavek Bedřich,Sociologická revue
+510,164,39,Vaněk Antonín,Karlova univerzita v Praze
+511,165,33,Vašek Bedřich,Biskupské semináře
+512,165,69,Vašek Bedřich,Spolek pro založení a vydržování soukromého institutu věd sociologických a filosofických
+513,165,97,Vašek Bedřich,Sociální rozhledy
+514,166,15,Večerník Jiří,Sociologický ústav AV ČR
+515,166,22,Večerník Jiří,Ústav pro filosofii a sociologii ČSAV
+516,166,26,Večerník Jiří,Ústav sociálně politických věd UK
+517,166,87,Večerník Jiří,Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+518,166,103,Večerník Jiří,Sociologický časopis / Czech Sociological Review
+519,166,114,Večerník Jiří,Sociologická knižnice nakladatelství Svoboda
+520,166,117,Večerník Jiří,Demografie (časopis)
+521,167,23,Verunáč Václav,Ústav pro sociální a hospodářskou výchovu ČSS
+522,167,36,Verunáč Václav,České vysoké učení technické v Praze
+523,167,47,Verunáč Václav,Svobodná škola politických nauk v Praze
+524,167,65,Verunáč Václav,Masarykova sociologická společnost
+525,167,68,Verunáč Václav,Společnost pro sociální bádání
+526,167,73,Verunáč Václav,Časopis Svobodné školy politických nauk v Praze
+527,167,95,Verunáč Václav,Sociální problémy
+528,167,118,Verunáč Václav,Parlament (časopis)
+529,168,61,Voráček Josef,Česká asociace pro sociální antropologii
+530,168,68,Voráček Josef,Společnost pro sociální bádání
+531,168,95,Voráček Josef,Sociální problémy
+532,168,112,Voráček Josef,Knihovna Sociálních problémů
+533,169,95,Vybral Vladimír,Sociální problémy
+534,170,43,Weber Alfred,Německá univerzita v Praze
+535,171,19,Weyr František,Státní úřad statistický
+536,171,118,Weyr František,Parlament (časopis)
+537,172,43,Von Wieser Friedrich,Německá univerzita v Praze
+538,173,20,Winter Lev,Sociální ústav ČSR
+539,174,43,Ziegler Heinz Otto,Německá univerzita v Praze
+540,174,112,Ziegler Heinz Otto,Knihovna Sociálních problémů
+541,175,15,Zich František,Sociologický ústav AV ČR
+542,175,50,Zich František,Univerzita J. E. Purkyně v Ústí nad Labem
+543,175,55,Zich František,Vysoká škola finanční a správní v Praze
+544,175,57,Zich František,Vysoká škola politická ÚV KSČ v Praze
+545,175,64,Zich František,Československá sociologická společnost při ČSAV
+546,175,114,Zich František,Sociologická knižnice nakladatelství Svoboda
+547,176,41,Zwicker Bruno,Masarykova univerzita v Brně
+548,176,65,Zwicker Bruno,Masarykova sociologická společnost
+549,176,101,Zwicker Bruno,Sociologická revue
+550,177,65,Žalud Augustin,Masarykova sociologická společnost
+551,177,96,Žalud Augustin,Sociální revue
+552,178,36,Žmavc Ivan,České vysoké učení technické v Praze
+554,19,1,Durdík Josef,Česká akademie věd a umění
+557,85,1,Machotka Otakar,Česká akademie věd a umění
+562,114,3,Rabušic Ladislav,"Rada pro výzkum, vývoj a inovace"
+567,102,4,Nový Lubomír,Vědecké kolegium filosofie a sociologie ČSAV
+569,161,4,Urbánek Eduard,Vědecké kolegium filosofie a sociologie ČSAV
+575,63,5,Kettner Josef,Československá akademie zemědělská
+583,145,12,Škrach Vasil Kaprálek,Masarykova akademie práce
+585,167,12,Verunáč Václav,Masarykova akademie práce
+587,178,12,Žmavc Ivan,Masarykova akademie práce
+592,47,16,Charvát František,Sociologický ústav ČSAV
+598,98,16,Musil Jiří,Sociologický ústav ČSAV
+600,119,16,Richta Radovan,Sociologický ústav ČSAV
+605,166,16,Večerník Jiří,Sociologický ústav ČSAV
+611,108,18,Petrusek Miloslav,Sportpropag
+617,69,19,Korčák Jaromír,Státní úřad statistický
+619,76,19,Kučera Milan,Státní úřad statistický
+621,84,19,Machonin Pavel,Státní úřad statistický
+625,116,19,Reif Gustav,Státní úřad statistický
+627,135,19,Srb Vladimír,Státní úřad statistický
+631,21,20,Fajfr František,Sociální ústav ČSR
+633,46,20,Chalupný Emanuel,Sociální ústav ČSR
+635,85,20,Machotka Otakar,Sociální ústav ČSR
+638,109,20,Pistorius Theodor,Sociální ústav ČSR
+640,116,20,Reif Gustav,Sociální ústav ČSR
+643,145,20,Škrach Vasil Kaprálek,Sociální ústav ČSR
+647,165,20,Vašek Bedřich,Sociální ústav ČSR
+649,167,20,Verunáč Václav,Sociální ústav ČSR
+652,177,20,Žalud Augustin,Sociální ústav ČSR
+655,10,22,Brokl Lubomír,Ústav pro filosofii a sociologii ČSAV
+659,25,22,Foret Miroslav,Ústav pro filosofii a sociologii ČSAV
+662,40,22,Havelka Miloš,Ústav pro filosofii a sociologii ČSAV
+667,62,22,Keller Jan,Ústav pro filosofii a sociologii ČSAV
+673,123,22,Řehák Jan,Ústav pro filosofii a sociologii ČSAV
+675,155,22,Tlustý Vojtěch,Ústav pro filosofii a sociologii ČSAV
+678,144,23,Šíma Jaroslav,Ústav pro sociální a hospodářskou výchovu ČSS
+681,52,24,Jungmann Bohumil,Ústav pro výzkum veřejného mínění ČSAV
+684,162,24,Vacek Lubomír,Ústav pro výzkum veřejného mínění ČSAV
+687,25,25,Foret Miroslav,Ústav pro výzkum veřejného mínění FSÚ
+689,28,25,Frič Pavol,Ústav pro výzkum veřejného mínění FSÚ
+692,162,25,Vacek Lubomír,Ústav pro výzkum veřejného mínění FSÚ
+698,25,27,Foret Miroslav,Ústav vědeckého ateismu ČSAV
+702,128,29,Sirovátka Tomáš,Výzkumný ústav práce a sociálních věcí
+704,41,30,Hirner Alexander,Výzkumný ústav sociálního rozvoje a práce
+707,78,30,Lamser Václav,Výzkumný ústav sociálního rozvoje a práce
+710,7,32,Blažek Bohuslav,Výzkumný ústav výstavby a architektury
+712,78,32,Lamser Václav,Výzkumný ústav výstavby a architektury
+715,6,33,Bláha Inocenc Arnošt,Biskupské semináře
+718,113,33,Procházka Matěj,Biskupské semináře
+726,61,62,Kárníková Ludmila,Česká demografická společnost
+729,76,62,Kučera Milan,Česká demografická společnost
+733,114,62,Rabušic Ladislav,Česká demografická společnost
+737,49,63,Jeřábek Hynek,Česká sociologická společnost
+739,98,63,Musil Jiří,Česká sociologická společnost
+741,106,63,Pavlík Zdeněk,Česká sociologická společnost
+743,108,63,Petrusek Miloslav,Česká sociologická společnost
+745,114,63,Rabušic Ladislav,Česká sociologická společnost
+747,124,63,Sedláček Jan,Česká sociologická společnost
+749,139,63,Suda Zdeněk,Česká sociologická společnost
+753,54,64,Kadlec Vladimír,Československá sociologická společnost při ČSAV
+760,124,64,Sedláček Jan,Československá sociologická společnost při ČSAV
+763,147,64,Šnobl Jaroslav,Československá sociologická společnost při ČSAV
+766,164,64,Vaněk Antonín,Československá sociologická společnost při ČSAV
+773,39,65,Hanáček Jaroslav,Masarykova sociologická společnost
+776,66,65,Kohn Jindřich,Masarykova sociologická společnost
+779,77,65,Kunte Ladislav,Masarykova sociologická společnost
+785,105,65,Ovesný Miroslav,Masarykova sociologická společnost
+788,112,65,Potužil František,Masarykova sociologická společnost
+790,129,65,Slaminka Vladimír,Masarykova sociologická společnost
+795,151,65,Štern Evžen,Masarykova sociologická společnost
+797,154,65,Teltšík Rudolf,Masarykova sociologická společnost
+801,173,65,Winter Lev,Masarykova sociologická společnost
+810,109,68,Pistorius Theodor,Společnost pro sociální bádání
+813,19,71,Durdík Josef,Athenaeum
+815,26,71,Fořt Josef,Athenaeum
+819,2,72,Alan Josef,Biograf
+823,69,74,Korčák Jaromír,Česká mysl
+828,159,74,Uhlíř Antonín,Česká mysl
+830,40,76,Havelka Miloš,Filosofický časopis
+833,65,76,Klofáč Jaroslav,Filosofický časopis
+835,72,76,Král Josef,Filosofický časopis
+847,177,83,Žalud Augustin,Naše doba
+853,112,95,Potužil František,Sociální problémy
+857,145,95,Škrach Vasil Kaprálek,Sociální problémy
+859,146,95,Šmejkal Karel,Sociální problémy
+865,144,96,Šíma Jaroslav,Sociální revue
+867,151,96,Štern Evžen,Sociální revue
+872,157,100,Trapl Miloslav,Sociologica
+882,66,101,Kohn Jindřich,Sociologická revue
+884,72,101,Král Josef,Sociologická revue
+886,85,101,Machotka Otakar,Sociologická revue
+888,86,101,Maiwald Karel,Sociologická revue
+892,104,101,Obrdlíková Juliana,Sociologická revue
+894,112,101,Potužil František,Sociologická revue
+896,120,101,Rouček Joseph Slabey,Sociologická revue
+899,134,101,Sorokin Pitirim Alexandrovič,Sociologická revue
+902,142,101,Šapoval Mykyta,Sociologická revue
+905,145,101,Škrach Vasil Kaprálek,Sociologická revue
+907,146,101,Šmejkal Karel,Sociologická revue
+910,157,101,Trapl Miloslav,Sociologická revue
+912,159,101,Uhlíř Antonín,Sociologická revue
+918,10,103,Brokl Lubomír,Sociologický časopis / Czech Sociological Review
+921,22,103,Filipcová Blanka,Sociologický časopis / Czech Sociological Review
+923,32,103,Gál Fedor,Sociologický časopis / Czech Sociological Review
+925,33,103,Galla Karel,Sociologický časopis / Czech Sociological Review
+928,52,103,Jungmann Bohumil,Sociologický časopis / Czech Sociological Review
+930,57,103,Kaláb Miloš,Sociologický časopis / Czech Sociological Review
+932,65,103,Klofáč Jaroslav,Sociologický časopis / Czech Sociological Review
+934,78,103,Lamser Václav,Sociologický časopis / Czech Sociological Review
+936,84,103,Machonin Pavel,Sociologický časopis / Czech Sociological Review
+938,90,103,Marušiak Martin,Sociologický časopis / Czech Sociological Review
+940,97,103,Možný Ivo,Sociologický časopis / Czech Sociological Review
+943,108,103,Petrusek Miloslav,Sociologický časopis / Czech Sociological Review
+945,110,103,Porket Josef Ludvík,Sociologický časopis / Czech Sociological Review
+947,112,103,Potužil František,Sociologický časopis / Czech Sociological Review
+949,119,103,Richta Radovan,Sociologický časopis / Czech Sociological Review
+951,124,103,Sedláček Jan,Sociologický časopis / Czech Sociological Review
+954,164,103,Vaněk Antonín,Sociologický časopis / Czech Sociological Review
+957,175,103,Zich František,Sociologický časopis / Czech Sociological Review
+964,86,106,Maiwald Karel,Statistický obzor
+967,116,106,Reif Gustav,Statistický obzor
