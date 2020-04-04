@@ -96,25 +96,56 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
+
 	soc := data.getSCSg()
 	soc.save("sociologove.csv", []string{"index", "name", "born", "died"})
-	var edge Edge
-	edge.socTime(soc)
-	edge.save("living.csv", []string{"index", "Sociolog_1_ID", "Sociolog_2_ID", "Sociolog_1", "Sociolog_2"})
+
+	MSgS := data.getMsgS()
+	MSgS.save("ms.csv", []string{"index", "ms"})
+
 	SIZCSg := data.getSIZCSg()
 	journals := getJournals(SIZCSg)
 	journals.save("casopisy.csv", []string{"index", "Nazev"})
+	institutions := getInstitutions(SIZCSg)
+	institutions.save("instituce.csv", []string{"index", "instituce"})
+
+	VSgS := data.getVSgS()
+	VSgS.save("vs.csv", []string{"index", "vs"})
+
+	var edge Edge
+	edge.socTime(soc)
+	edge.save("living.csv", []string{"index", "Sociolog_1_ID", "Sociolog_2_ID", "Sociolog_1", "Sociolog_2"})
+
 	var socJour Edge
 	socJour.fromTwoNodes(soc, journals, "SociologistsJournals")
 	socJour.save("SocJour.csv", []string{"index", "Sociolog_ID", "Casopis_ID", "Sociolog", "Casopis"})
-	institutions := getInstitutions(SIZCSg)
-	institutions.save("instituce.csv", []string{"index", "instituce"})
+
 	var insSoc Edge
 	insSoc.fromTwoNodes(institutions, soc, "InsSoc")
 	insSoc.save("InsSoc.csv", []string{"index", "Instituce_ID", "Sociolog_ID", "Instituce", "Sociolog"})
+
 	var insJour Edge
 	insJour.fromTwoNodes(institutions, journals, "insJour")
 	insJour.save("InsJour.csv", []string{"index", "Instituce_ID", "Casopis_ID", "Instituce", "Casopis"})
-	data.getVSgS()
 
+	var msVs Edge
+	msVs.fromTwoNodes(MSgS, VSgS, "msVs")
+	msVs.save("msVs.csv", []string{"index", "ms_ID", "vs_ID", "ms", "vs"})
+
+	var socVs Edge
+	socVs.fromTwoNodes(VSgS, soc, "socVs")
+	socVs.save("socVs.csv", []string{"index", "vs_ID", "Sociolog_ID", "vs", "Sociolog"})
+
+	var sziVs Edge
+	sziVs.fromTwoNodes(VSgS, SIZCSg, "inSlVS")
+	sziVs.save("sziVs.csv", []string{"index", "vs_ID", "siz_ID", "vs", "siz"})
+
+	var socMs Edge
+	socMs.fromTwoNodes(MSgS, soc, "socMs")
+	socMs.printEdges()
+	socMs.save("socMs.csv", []string{"index", "ms_ID", "Sociolog_ID", "ms", "Sociolog"})
+
+	var sziMs Edge
+	sziMs.fromTwoNodes(MSgS, SIZCSg, "inSlVS")
+	sziMs.save("msSZI.csv", []string{"index", "ms_ID", "siz_ID", "ms", "siz"})
 }

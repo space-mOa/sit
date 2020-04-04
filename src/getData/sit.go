@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	"strings"
 )
 
 // Node v síti, hodnoty v sobě zahrnují název a atributy
@@ -100,7 +101,7 @@ func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
 			n2V.links = removeDuplicates(n2V.links) // Někdy jsou v článku uvedené stejné odkazy vícekrát, proto je odstraníme
 			var record []string                     // record: ID ID_N1 ID_N2 NÁZEV_N1 NÁZEV_N2
 			for _, link := range n2V.links {        // Projdi všechny odkazy v uzlu
-				if n1Title == link {
+				if strings.ToLower(n1Title) == strings.ToLower(link) { // strings.ToLower je volaná, protože == rozlišuje mezi velkými a malými písmeny
 					index++
 					record = append(record, strconv.FormatUint(index, 10))
 					record = append(record, n1V.line[0])
@@ -117,7 +118,8 @@ func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
 		for _, n1V := range n1.values { // Vyber uzel z nn1
 			n1V.links = removeDuplicates(n1V.links) // Někdy jsou v článku uvedené stejné odkazy vícekrát, proto je odstraníme
 			for _, link := range n1V.links {        // Projdi všechny odkazy v uzlu
-				if n2Title == link {
+				if strings.ToLower(n2Title) == strings.ToLower(link) { // strings.ToLower je volaná, protože == rozlišuje mezi velkými a malými písmeny
+					index++
 					skip := false
 					for _, line := range e.line { // Zkontroluj zdali už tam není stejný záznam
 						if line[3] == n1V.line[1] && line[4] == n2Title {

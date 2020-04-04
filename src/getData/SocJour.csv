@@ -164,51 +164,51 @@ index,Sociolog_ID,Casopis_ID,Sociolog,Casopis
 163,171,45,Weyr František,Parlament (časopis)
 164,176,32,Zwicker Bruno,Sociologická revue
 165,177,27,Žalud Augustin,Sociální revue
-166,19,2,Durdík Josef,Athenaeum
-167,26,2,Fořt Josef,Athenaeum
-168,2,3,Alan Josef,Biograf
-169,69,5,Korčák Jaromír,Česká mysl
-170,159,5,Uhlíř Antonín,Česká mysl
-171,40,7,Havelka Miloš,Filosofický časopis
-172,65,7,Klofáč Jaroslav,Filosofický časopis
-173,72,7,Král Josef,Filosofický časopis
-174,177,14,Žalud Augustin,Naše doba
-175,112,26,Potužil František,Sociální problémy
-176,145,26,Škrach Vasil Kaprálek,Sociální problémy
-177,146,26,Šmejkal Karel,Sociální problémy
-178,144,27,Šíma Jaroslav,Sociální revue
-179,151,27,Štern Evžen,Sociální revue
-180,157,31,Trapl Miloslav,Sociologica
-181,66,32,Kohn Jindřich,Sociologická revue
-182,72,32,Král Josef,Sociologická revue
-183,85,32,Machotka Otakar,Sociologická revue
-184,86,32,Maiwald Karel,Sociologická revue
-185,104,32,Obrdlíková Juliana,Sociologická revue
-186,112,32,Potužil František,Sociologická revue
-187,120,32,Rouček Joseph Slabey,Sociologická revue
-188,134,32,Sorokin Pitirim Alexandrovič,Sociologická revue
-189,142,32,Šapoval Mykyta,Sociologická revue
-190,145,32,Škrach Vasil Kaprálek,Sociologická revue
-191,146,32,Šmejkal Karel,Sociologická revue
-192,157,32,Trapl Miloslav,Sociologická revue
-193,159,32,Uhlíř Antonín,Sociologická revue
-194,10,34,Brokl Lubomír,Sociologický časopis / Czech Sociological Review
-195,22,34,Filipcová Blanka,Sociologický časopis / Czech Sociological Review
-196,32,34,Gál Fedor,Sociologický časopis / Czech Sociological Review
-197,33,34,Galla Karel,Sociologický časopis / Czech Sociological Review
-198,52,34,Jungmann Bohumil,Sociologický časopis / Czech Sociological Review
-199,57,34,Kaláb Miloš,Sociologický časopis / Czech Sociological Review
-200,65,34,Klofáč Jaroslav,Sociologický časopis / Czech Sociological Review
-201,78,34,Lamser Václav,Sociologický časopis / Czech Sociological Review
-202,84,34,Machonin Pavel,Sociologický časopis / Czech Sociological Review
-203,90,34,Marušiak Martin,Sociologický časopis / Czech Sociological Review
-204,97,34,Možný Ivo,Sociologický časopis / Czech Sociological Review
-205,108,34,Petrusek Miloslav,Sociologický časopis / Czech Sociological Review
-206,110,34,Porket Josef Ludvík,Sociologický časopis / Czech Sociological Review
-207,112,34,Potužil František,Sociologický časopis / Czech Sociological Review
-208,119,34,Richta Radovan,Sociologický časopis / Czech Sociological Review
-209,124,34,Sedláček Jan,Sociologický časopis / Czech Sociological Review
-210,164,34,Vaněk Antonín,Sociologický časopis / Czech Sociological Review
-211,175,34,Zich František,Sociologický časopis / Czech Sociological Review
-212,86,37,Maiwald Karel,Statistický obzor
-213,116,37,Reif Gustav,Statistický obzor
+167,19,2,Durdík Josef,Athenaeum
+169,26,2,Fořt Josef,Athenaeum
+173,2,3,Alan Josef,Biograf
+177,69,5,Korčák Jaromír,Česká mysl
+182,159,5,Uhlíř Antonín,Česká mysl
+184,40,7,Havelka Miloš,Filosofický časopis
+187,65,7,Klofáč Jaroslav,Filosofický časopis
+189,72,7,Král Josef,Filosofický časopis
+201,177,14,Žalud Augustin,Naše doba
+207,112,26,Potužil František,Sociální problémy
+211,145,26,Škrach Vasil Kaprálek,Sociální problémy
+213,146,26,Šmejkal Karel,Sociální problémy
+219,144,27,Šíma Jaroslav,Sociální revue
+221,151,27,Štern Evžen,Sociální revue
+226,157,31,Trapl Miloslav,Sociologica
+236,66,32,Kohn Jindřich,Sociologická revue
+238,72,32,Král Josef,Sociologická revue
+240,85,32,Machotka Otakar,Sociologická revue
+242,86,32,Maiwald Karel,Sociologická revue
+246,104,32,Obrdlíková Juliana,Sociologická revue
+248,112,32,Potužil František,Sociologická revue
+250,120,32,Rouček Joseph Slabey,Sociologická revue
+253,134,32,Sorokin Pitirim Alexandrovič,Sociologická revue
+256,142,32,Šapoval Mykyta,Sociologická revue
+259,145,32,Škrach Vasil Kaprálek,Sociologická revue
+261,146,32,Šmejkal Karel,Sociologická revue
+264,157,32,Trapl Miloslav,Sociologická revue
+266,159,32,Uhlíř Antonín,Sociologická revue
+272,10,34,Brokl Lubomír,Sociologický časopis / Czech Sociological Review
+275,22,34,Filipcová Blanka,Sociologický časopis / Czech Sociological Review
+277,32,34,Gál Fedor,Sociologický časopis / Czech Sociological Review
+279,33,34,Galla Karel,Sociologický časopis / Czech Sociological Review
+282,52,34,Jungmann Bohumil,Sociologický časopis / Czech Sociological Review
+284,57,34,Kaláb Miloš,Sociologický časopis / Czech Sociological Review
+286,65,34,Klofáč Jaroslav,Sociologický časopis / Czech Sociological Review
+288,78,34,Lamser Václav,Sociologický časopis / Czech Sociological Review
+290,84,34,Machonin Pavel,Sociologický časopis / Czech Sociological Review
+292,90,34,Marušiak Martin,Sociologický časopis / Czech Sociological Review
+294,97,34,Možný Ivo,Sociologický časopis / Czech Sociological Review
+297,108,34,Petrusek Miloslav,Sociologický časopis / Czech Sociological Review
+299,110,34,Porket Josef Ludvík,Sociologický časopis / Czech Sociological Review
+301,112,34,Potužil František,Sociologický časopis / Czech Sociological Review
+303,119,34,Richta Radovan,Sociologický časopis / Czech Sociological Review
+305,124,34,Sedláček Jan,Sociologický časopis / Czech Sociological Review
+308,164,34,Vaněk Antonín,Sociologický časopis / Czech Sociological Review
+311,175,34,Zich František,Sociologický časopis / Czech Sociological Review
+318,86,37,Maiwald Karel,Statistický obzor
+321,116,37,Reif Gustav,Statistický obzor

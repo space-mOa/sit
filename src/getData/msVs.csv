@@ -1,0 +1,198 @@
+index,ms_ID,vs_ID,ms,vs
+1,1,7,Adaptace (MSgS),Adaptace
+2,2,19,Agrese (MSgS),Agrese
+3,3,30,Alkoholismus (MSgS),Alkoholismus
+4,4,91,Anketa (MSgS),Anketa
+5,5,94,Antagonismus (MSgS),Antagonismus
+6,6,104,Antropologie (MSgS),Antropologie
+7,7,147,Armáda (MSgS),Armáda
+8,9,152,Aspirace (MSgS),Aspirace
+9,10,165,Automatizace (MSgS),Automatizace
+10,11,169,Autorita (MSgS),Autorita
+11,12,187,Behaviorismus (MSgS),Behaviorismus
+12,13,222,Buržoazie (MSgS),Buržoazie
+13,14,228,Byrokracie (MSgS),Byrokracie
+14,15,1960,Otázka cikánská (MSgS),Romové
+15,16,245,Církve (MSgS),Církev
+16,17,270,"Činnost, společenská činnost (MSgS)",Činnost
+17,18,290,Dav (MSgS),Dav
+18,19,322,Demografie (MSgS),Demografie
+19,20,327,Demokracie (MSgS),Demokracie
+20,21,353,Determinismus společenský (MSgS),Determinismus ekonomický
+21,22,313,Dělba práce (MSgS),Dělba práce
+22,23,2612,Třída dělnická (MSgS),Třída dělnická
+23,24,377,Diferenciace a integrace (MSgS),Diferenciace sociální
+24,25,384,Diktatura (MSgS),Diktatura
+25,26,396,Distance (MSgS),Distance sociální
+26,27,2445,Šetření dotazníkové (MSgS),Šetření dotazníkové
+27,28,459,Ekologie (MSgS),Ekologie
+28,31,544,Skupiny etnické (MSgS),Etnikum
+29,32,547,Etnografie (MSgS),Etnografie
+30,33,552,Etnologie (MSgS),Etnologie
+31,34,586,Experiment (MSgS),Experiment
+32,35,586,Metoda experimentální (MSgS),Experiment
+33,36,49,Analýza faktorová (MSgS),Analýza faktorová
+34,37,1610,Feudalismus (MSgS),Poddanství
+35,38,626,Filosofie dějin (MSgS),Filozofie dějin
+36,39,644,Formace společenskoekonomická (MSgS),Formace společenskoekonomická
+37,40,2143,Škola formalistická (MSgS),Sociologie formální
+38,41,2548,Vztahy skupinové formální a neformální (MSgS),Teorie sociálních sítí
+39,42,651,Frustrace (MSgS),Frustrace
+40,43,659,Funkcionalismus (MSgS),Funkcionalismus strukturální
+41,44,1799,Podmínky geografické (MSgS),Prostředí geografické
+42,45,687,Geopolitika (MSgS),Geopolitika
+43,46,688,Gerontologie (MSgS),Gerontologie
+44,47,1273,Metoda historická (MSgS),Metoda historická
+45,48,1234,Materialismus historický (MSgS),Materialismus historický
+46,49,753,Hodnoty (MSgS),Hodnota
+47,50,838,Chuligánství (MSgS),Chuligánství
+48,51,844,Ideologie (MSgS),Ideologie
+49,52,854,Imperialismus (MSgS),Imperialismus
+50,53,2289,Společnost industriální (MSgS),Společnost industriální
+51,54,875,Informace a komunikace (MSgS),Informace
+52,55,887,Instinkt (MSgS),Instinkt
+53,56,889,Instituce (MSgS),Instituce
+54,57,897,Inteligence (MSgS),Inteligence
+55,58,900,Interakce (MSgS),Interakce sociální
+56,59,914,Interview (MSgS),Interview
+57,60,938,Jazyk a řeč (MSgS),Jazyk
+58,61,971,Kapitalismus (MSgS),Kapitalismus
+59,62,976,Kasta (MSgS),Kasta
+60,63,53,Analýza kauzální (MSgS),Analýza kauzální
+61,64,1053,Komunismus (MSgS),Komunismus
+62,65,2528,Konflikt a teorie konfliktu (MSgS),Teorie konfliktu
+63,66,1096,Kontrola sociální (MSgS),Kontrola sociální
+64,67,1099,Konvence společenská (MSgS),Konvence společenská
+65,68,1146,Kultura (MSgS),Kultura
+66,70,2494,Kvantifikace (MSgS),Techniky sběru informací
+67,71,2168,Kybernetika a sociologie (MSgS),Sociologie kybernetická
+68,72,2178,Sociologie lékařská (MSgS),Sociologie medicíny
+69,73,1182,Lid (MSgS),Lid
+70,74,2272,Skupiny lokální (MSgS),Sousedství
+71,75,1210,Makrosociologie a mikrosociologie (MSgS),Makrosociologie a mikrosociologie
+72,76,2067,Skupina sociální malá (MSgS),Skupina společenská
+73,77,1217,Manažerismus (MSgS),Manažer
+74,78,1221,Manželství (MSgS),Manželství
+75,79,1229,Masa (MSgS),Masa
+76,80,1050,Komunikace masová (MSgS),Komunikace masová
+77,81,2294,Společnost masová a kultura masová (MSgS),Společnost masová
+78,82,1294,"Metody, procedury a techniky (MSgS)",Metody sociologické
+79,83,1259,Město (MSgS),Město
+80,84,1320,Mládež (MSgS),Mládež
+81,85,1325,Mobilita sociální (MSgS),Mobilita sociální
+82,86,1327,Moc (MSgS),Moc
+83,87,2183,Móda (MSgS),Sociologie módy
+84,88,1329,Model a modelování v sociologii (MSgS),Model
+85,89,1750,Procedura monografická (MSgS),Procedura monografická
+86,90,1348,Morálka (MSgS),Morálka
+87,91,1351,Motivace (MSgS),Motivace
+88,92,1364,Náboženství (MSgS),Náboženství
+89,93,1385,Národ (MSgS),Národ
+90,94,1385,Otázka národnostní (MSgS),Národ
+91,95,2200,Sociologie novopozitivistická (MSgS),Sociologie pozitivistická
+92,96,1439,Obec (MSgS),Obec
+93,97,63,Analýza obsahová (MSgS),Analýza obsahová
+94,98,1463,Odcizení (MSgS),Odcizení
+95,99,1486,Operacionalismus (MSgS),Operacionalismus
+96,100,298,Definice operativní v sociologii (MSgS),Definice operacionální
+97,101,1497,Organizace (MSgS),Organizace
+98,102,46,Dokumenty osobní (MSgS),Analýza dokumentů
+99,103,1510,Osobnost (MSgS),Osobnost
+100,104,1522,Osvěta (MSgS),Osvěta
+101,105,1539,Řád otrokářský (MSgS),Otroctví
+102,106,2447,Panel (MSgS),Šetření panelové
+103,107,1595,Pilotáž (MSgS),Pilotáž
+104,108,2669,Platnost (MSgS),Validita
+105,109,2378,Strany politické (MSgS),Strana politická
+106,110,1633,Politika (MSgS),Politika
+107,111,1648,Politologie (MSgS),Politologie
+108,112,910,Popis a interpretace (MSgS),Interpretace
+109,113,1659,Populace (MSgS),Populace
+110,114,1681,Postoje (MSgS),Postoj
+111,115,1689,Potřeby a zájmy (MSgS),Potřeby
+112,116,1758,Povolání (MSgS),Profese
+113,117,2200,Pozitivismus (MSgS),Sociologie pozitivistická
+114,118,1701,Pozorování (MSgS),Pozorování
+115,119,1703,Práce (MSgS),Práce
+116,120,2201,Skupina pracovní (MSgS),Sociologie práce
+117,121,1716,Právo (MSgS),Právo
+118,122,1727,Praxeologie (MSgS),Praxeologie
+119,123,1733,Prestiž (MSgS),Prestiž
+120,124,1792,Propaganda (MSgS),Propaganda
+121,125,1796,Prostituce (MSgS),Prostituce
+122,126,2204,Průmysl (MSgS),Sociologie průmyslu
+123,127,2196,Podnik průmyslový (MSgS),Sociologie podniku
+124,128,2302,Společnost předtřídní (MSgS),Společnost primitivní
+125,129,1823,Soustavy příbuzenské (MSgS),Příbuzenství
+126,130,1837,Psychoanalýza (MSgS),Psychoanalýza
+127,131,1838,Psychodrama a sociodrama (MSgS),Psychodrama
+128,132,1860,Psychologismus (MSgS),Psychologismus
+129,133,1707,Public relations (MSgS),Práce s veřejností
+130,134,1883,Rasa a rasové vztahy (MSgS),Rasa
+131,135,2064,Skupina referenční (MSgS),Skupina referenční
+132,136,1096,Regulace sociálních činností (MSgS),Kontrola sociální
+133,137,1914,Technika reliabilní (MSgS),Reliabilita
+134,138,1951,Rodina (MSgS),Rodina
+135,139,1955,Rolnictvo (MSgS),Rolnictvo
+136,140,2609,Země rozvojové (MSgS),„třetí svět“
+137,141,2014,Sebevražda (MSgS),Sebevražda
+138,142,833,Chování sexuální (MSgS),Chování sexuální
+139,143,2067,Skupiny společenské (MSgS),Skupina společenská
+140,144,2089,Společnost socialistická (MSgS),Socialismus
+141,145,2101,Socializace (MSgS),Socializace
+142,146,1085,Konsensus sociální (MSgS),Konsensus
+143,147,1568,Patologie sociální (MSgS),Patologie sociální
+144,148,1856,Psychologie sociální (MSgS),Psychologie sociální
+145,149,1931,Revoluce sociální (MSgS),Revoluce
+146,150,2112,Sociografie (MSgS),Sociologie
+147,152,2776,Výzkum sociologický (MSgS),Výzkum empirický
+148,154,2112,Sociologie (MSgS),Sociologie
+149,155,2117,Sociologie americká (MSgS),Sociologie americká
+150,156,2122,Sociologie britská (MSgS),Sociologie britská
+151,157,2127,Sociologie česká a slovenská (MSgS),Sociologie česká do r. 1948
+152,158,2144,Sociologie francouzská (MSgS),Sociologie francouzská
+153,159,2187,Sociologie německá (MSgS),Sociologie německá
+154,161,2247,Sociologie vědění (MSgS),Sociologie vědění
+155,162,2255,Sociologismus (MSgS),Sociologismus
+156,163,1295,Test sociometrický (MSgS),Metody sociometrické
+157,164,2256,Sociometrie (MSgS),Sociometrie
+158,165,926,Sociotechnika (MSgS),Inženýrství sociální
+159,167,2286,"Společnost, společenská skutečnost (MSgS)",Společnost
+160,168,1914,Spolehlivost (MSgS),Reliabilita
+161,169,2321,Sport (MSgS),Sport
+162,170,2341,Stát (MSgS),Stát
+163,171,2357,Statistika (MSgS),Statistiky
+164,172,2358,Status a role (MSgS),Status
+165,173,2368,Stereotyp (MSgS),Stereotyp
+166,174,2384,Strategie sociologického výzkumu (MSgS),Strategie výzkumná
+167,175,2385,Stratifikace sociální (MSgS),Stratifikace sociální
+168,177,2391,Struktura (MSgS),Struktura
+169,178,2393,Struktura sociální (MSgS),Struktura sociální
+170,179,2618,Třídy střední (MSgS),Třída střední
+171,181,2451,Škály a škálování (MSgS),Škálování
+172,182,2793,Školství (MSgS),Vzdělávání
+173,183,2488,Technika (MSgS),Technika
+174,184,2499,Technokratismus (MSgS),Technokratismus
+175,185,785,Teorie a metody human relations (MSgS),Human relations
+176,186,2611,Třídy a třídní boj (MSgS),Třída
+177,187,2626,Typ a typologie v sociologii (MSgS),Typologie
+178,188,2654,Urbanizace (MSgS),Urbanizace
+179,189,2663,Utopie sociální (MSgS),Utopie
+180,190,2671,Válka (MSgS),Válka
+181,191,1214,Vedení a řízení (MSgS),Management
+182,192,2711,Venkov (MSgS),Venkov
+183,193,1310,Mínění veřejné (MSgS),Mínění veřejné
+184,194,2680,Věda (MSgS),Věda
+185,195,1941,Revoluce vědeckotechnická (MSgS),Revoluce vědeckotechnická
+186,196,260,Skupiny sociální věkové (MSgS),Cyklus životní
+187,197,266,Čas volný (MSgS),Čas volný
+188,198,2758,Výchova (MSgS),Výchova
+189,199,1919,Vzorek reprezentativní (MSgS),Reprezentativita
+190,200,2817,Základna a nadstavba (MSgS),Základna materiálně-technická
+191,201,2196,Zaměstnanci (MSgS),Sociologie podniku
+192,202,2838,Zemědělství (MSgS),Zemědělství
+193,203,2850,Znak (MSgS),Znak
+194,204,2853,Zoosociologie (MSgS),Zoosociologie a zoopsychologie
+195,205,2868,Žena a její postavení ve společnosti (MSgS),Žena
+196,206,2407,Styl životní (MSgS),Styl životní
+197,207,205,Úroveň životní (MSgS),Blahobyt

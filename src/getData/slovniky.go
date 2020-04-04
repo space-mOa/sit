@@ -121,13 +121,12 @@ func (w *WikiData) getSIZCSg() (inst Node) {
 	return inst
 }
 
-// NEGUNHUJE
-// VSgS (Velký sociologický slovník)
+// VSgS (Velký sociologický slovník) - obsahuje i některá odkazová slovníky např. viz Adjustace
 func (w *WikiData) getVSgS() (vsgs Node) {
 	rgx := getRegexp(
 		`\[\[Kategorie:VSgS.*\]\]`, // 0 najde hesla v kategorii: VSgS (Velký sociologický slovník)
 		`\[\[[^]]*\]\]`,            // 1 Najde odkazy
-		`#REDIRECT`,                // 2 Odstraní hesla co mají #Redirect
+		`#REDIRECT`,                // 2 Odstraní hesla, co mají #REDIRECT v textu
 	)
 	vsgs.name = "Velký sociologický slovník"
 	var index uint64 = 0
@@ -143,15 +142,53 @@ func (w *WikiData) getVSgS() (vsgs Node) {
 		}
 		vsgs.addNode([]string{strconv.FormatUint(index, 10), string(chunk.Title)}, links)
 	}
-	vsgs.printNodes()
 	return vsgs
+}
+
+func (w *WikiData) allLinks() {
+	rgx := getRegexp(
+		`\[\[[^]]*\]\]`,
+	)
+	for _, chunk := range w.Page {
+		fndLinks := rgx[0].FindAll(chunk.Revision.Text, -1)
+		for _, link := range fndLinks {
+			fmt.Println(string(link), " ->  ", string(chunk.Title))
+		}
+	}
+}
+
+// MSgS (Malý sociologický slovník)
+func (w *WikiData) getMsgS() (msgs Node) {
+	rgx := getRegexp(
+		`\[\[Kategorie:MSgS.*\]\]`, // 0 najde hesla v kategorii: MSgS (Malý sociologický slovník)
+		`\[\[[^]]*\]\]`,            // 1 Najde odkazy
+		`#REDIRECT`,                // 2 Odstraní hesla, co mají #REDIRECT v textu
+		`Soubor:`,                  // 3 Vybrání souboru pro jeho zahození
+	)
+	msgs.name = "Malý sociologický slovník"
+	var index uint64 = 0
+	for _, chunk := range w.Page {
+		if len(rgx[0].FindAll(chunk.Revision.Text, -1)) == 0 || len(rgx[2].FindAll(chunk.Revision.Text, -1)) != 0 {
+			continue
+		}
+		index++
+		fndLinks := rgx[1].FindAll(chunk.Revision.Text, -1)
+		var links []string
+		for _, link := range fndLinks {
+			if rgx[3].FindAllString(string(link), -1) == nil {
+				links = append(links, trimLink(string(link), string(chunk.Title)))
+			}
+		}
+		msgs.addNode([]string{strconv.FormatUint(index, 10), string(chunk.Title)}, links)
+	}
+	return msgs
 }
 
 // Pomáhá očistit odkazy
 func trimLink(str string, title string) (newStr string) {
 	new := strings.Split(string(str), "|")
 	if len(new) > 2 {
-		fmt.Println(new, title)
+		fmt.Println("Old:", str, "New:", new, "in:", title)
 		panic("Více jak dva stringy ve splitu. Funkce trimLink()")
 	}
 	newStr = strings.TrimPrefix(new[0], `[[`)

@@ -22,7 +22,7 @@ IMPORT
 ```
 CREATE CONSTRAINT ON (sociolog:Sociolog) ASSERT sociolog.id IS UNIQUE
 
-LOAD CSV WITH HEADERS FROM "file:///soc.csv" as csvLine
+LOAD CSV WITH HEADERS FROM "file:///sociologove.csv" as csvLine
 CREATE (s:Sociolog {id: toInteger(csvLine.index), name: csvLine.name, born: csvLine.born, died: csvLine.died});
 
 LOAD CSV WITH HEADERS FROM "file:///living.csv" AS csvLine
@@ -79,11 +79,6 @@ RETURN *
 - máš skoro vytvořený uzel. Musíš upravit odkazy - tak aby se neopakovaly, nevynechávaly a zformátovat 
 - U Von Wieser Friedrich neneajde odkazy, ikdyž tam jsou - Německý uni. v Praze 
 - U Von Wieser Friedric - pokud prohledávám se speciálními znaky XML - nic to nenajde, když dám UNESCAPE najde to! \[\[[A-Za-zěščřžýáíéůúťňďĚŠČŘŽÝÁÍÉÚŮŤĎŇ0-9|\s]*\]\]
-
-## Co mám
-- vrcholy: socilogy a časopisy
-- vztahy: žili spolu, souvisí s časopisem
-- první vizualizace
 
 ## Co obsahuje
 - je tvořena 5 publikacemi: 
