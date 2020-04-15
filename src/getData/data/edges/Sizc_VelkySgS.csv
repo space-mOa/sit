@@ -1,4 +1,4 @@
-ID,SizcID,VelkySgSID,Sizc,VelkySgS
+ID,SizcID1,VelkySgSID2,Sizc,VelkySgS
 1,5,2127,Československá akademie zemědělská,Sociologie česká do r. 1948
 2,7,2791,Československý ústav pro výzkum veřejného mínění,Výzkum veřejného mínění
 3,9,2259,Dům techniky ČSVTS Pardubice,Socware
@@ -60,7 +60,7 @@ ID,SizcID,VelkySgSID,Sizc,VelkySgS
 59,117,322,Demografie (časopis),Demografie
 60,118,1562,Parlament (časopis),Parlament
 61,119,2555,Teorie vědy (časopis),Teorie vědy
-63,9,38,Dům techniky ČSVTS Pardubice,Analýza
-66,107,322,Statistika,Demografie
-69,95,1562,Sociální problémy,Parlament
-73,105,2254,Sociologie a historie zemědělství,Sociologie zemědělství
+62,9,38,Dům techniky ČSVTS Pardubice,Analýza
+63,107,322,Statistika,Demografie
+64,95,1562,Sociální problémy,Parlament
+65,105,2254,Sociologie a historie zemědělství,Sociologie zemědělství

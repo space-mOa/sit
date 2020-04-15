@@ -1,4 +1,4 @@
-ID,CasopisyID,InstituceID,Casopisy,Instituce
+ID,CasopisyID1,InstituceID2,Casopisy,Instituce
 1,1,45,Acta Universitatis Palackianae Olomucensis – Facultas Philosophica – Sociologica et Andragogica,Palackého univerzita v Olomouci
 2,6,15,Data a výzkum – SDA info,Sociologický ústav AV ČR
 3,8,29,Fórum sociální politiky,Výzkumný ústav práce a sociálních věcí
@@ -31,11 +31,11 @@ ID,CasopisyID,InstituceID,Casopisy,Instituce
 30,40,39,Studia sociologica,Karlova univerzita v Praze
 31,41,7,Veřejné mínění,Československý ústav pro výzkum veřejného mínění
 32,42,26,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy,Ústav sociálně politických věd UK
-36,43,9,Analýza (časopis),Dům techniky ČSVTS Pardubice
-38,26,19,Sociální problémy,Státní úřad statistický
-42,44,19,Demografie (časopis),Státní úřad statistický
-45,33,22,Sociologické aktuality,Ústav pro filosofii a sociologii ČSAV
-51,36,35,Sociologie a historie zemědělství,Česká zemědělská univerzita v Praze
-53,33,63,Sociologické aktuality,Česká sociologická společnost
-55,27,65,Sociální revue,Masarykova sociologická společnost
-59,33,73,Sociologické aktuality,Sociologické nakladatelství (SLON)
+33,43,9,Analýza (časopis),Dům techniky ČSVTS Pardubice
+34,26,19,Sociální problémy,Státní úřad statistický
+35,44,19,Demografie (časopis),Státní úřad statistický
+36,33,22,Sociologické aktuality,Ústav pro filosofii a sociologii ČSAV
+37,36,35,Sociologie a historie zemědělství,Česká zemědělská univerzita v Praze
+38,33,63,Sociologické aktuality,Česká sociologická společnost
+39,27,65,Sociální revue,Masarykova sociologická společnost
+40,33,73,Sociologické aktuality,Sociologické nakladatelství (SLON)

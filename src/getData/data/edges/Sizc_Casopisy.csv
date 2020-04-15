@@ -1,4 +1,4 @@
-ID,SizcID,CasopisyID,Sizc,Casopisy
+ID,SizcID1,CasopisyID2,Sizc,Casopisy
 1,4,34,Vědecké kolegium filosofie a sociologie ČSAV,Sociologický časopis / Czech Sociological Review
 2,7,41,Československý ústav pro výzkum veřejného mínění,Veřejné mínění
 3,9,43,Dům techniky ČSVTS Pardubice,Analýza (časopis)
@@ -21,58 +21,42 @@ ID,SizcID,CasopisyID,Sizc,Casopisy
 20,74,7,Česká mysl,Filosofický časopis
 21,74,16,Česká mysl,Nová mysl
 22,76,16,Filosofický časopis,Nová mysl
-23,83,2,Naše doba,Athenaeum
-24,85,5,Nová mysl,Česká mysl
-25,87,42,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy
-26,88,30,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),Sociální studia
-27,95,32,Sociální problémy,Sociologická revue
-28,95,45,Sociální problémy,Parlament (časopis)
-29,96,8,Sociální revue,Fórum sociální politiky
-30,99,19,Sociální studia,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
-31,101,26,Sociologická revue,Sociální problémy
-32,101,27,Sociologická revue,Sociální revue
-33,101,45,Sociologická revue,Parlament (časopis)
-34,103,3,Sociologický časopis / Czech Sociological Review,Biograf
-35,103,35,Sociologický časopis / Czech Sociological Review,Sociologický obzor
-36,106,38,Statistický obzor,Statistika
-37,106,44,Statistický obzor,Demografie (časopis)
-38,107,37,Statistika,Statistický obzor
-39,107,44,Statistika,Demografie (časopis)
-40,111,18,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy,Přehled vědecké a pedagogické práce kateder marxismu-leninismu
-41,115,33,Sociologické nakladatelství (SLON),Sociologické aktuality
-43,45,1,Palackého univerzita v Olomouci,Acta Universitatis Palackianae Olomucensis – Facultas Philosophica – Sociologica et Andragogica
-46,124,2,Kategorie:Vědecká a odborná periodika,Athenaeum
-48,76,5,Filosofický časopis,Česká mysl
-51,15,6,Sociologický ústav AV ČR,Data a výzkum – SDA info
-53,85,7,Nová mysl,Filosofický časopis
-56,15,9,Sociologický ústav AV ČR,"Gender, rovné příležitosti, výzkum"
-58,10,10,Etnologický ústav AV ČR,Historická demografie
-60,15,10,Sociologický ústav AV ČR,Historická demografie
-62,39,10,Karlova univerzita v Praze,Historická demografie
-64,39,11,Karlova univerzita v Praze,Historická sociologie
-67,39,13,Karlova univerzita v Praze,Lidé města
-70,124,14,Kategorie:Vědecká a odborná periodika,Naše doba
-72,15,15,Sociologický ústav AV ČR,Naše společnost
-77,41,19,Masarykova univerzita v Brně,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
-80,65,26,Masarykova sociologická společnost,Sociální problémy
-82,68,26,Společnost pro sociální bádání,Sociální problémy
-85,112,26,Knihovna Sociálních problémů,Sociální problémy
-87,118,26,Parlament (časopis),Sociální problémy
-90,77,27,Fórum sociální politiky,Sociální revue
-92,41,30,Masarykova univerzita v Brně,Sociální studia
-95,45,31,Palackého univerzita v Olomouci,Sociologica
-97,21,32,Ukrajinský sociologický ústav,Sociologická revue
-99,39,32,Karlova univerzita v Praze,Sociologická revue
-101,41,32,Masarykova univerzita v Brně,Sociologická revue
-105,96,32,Sociální revue,Sociologická revue
-107,118,32,Parlament (časopis),Sociologická revue
-109,124,32,Kategorie:Vědecká a odborná periodika,Sociologická revue
-112,15,34,Sociologický ústav AV ČR,Sociologický časopis / Czech Sociological Review
-115,72,34,Biograf,Sociologický časopis / Czech Sociological Review
-117,104,34,Sociologický obzor,Sociologický časopis / Czech Sociological Review
-119,124,34,Kategorie:Vědecká a odborná periodika,Sociologický časopis / Czech Sociological Review
-121,124,35,Kategorie:Vědecká a odborná periodika,Sociologický obzor
-123,11,36,Institut sociologie venkova a historie zemědělství VÚZEI,Sociologie a historie zemědělství
-127,117,37,Demografie (časopis),Statistický obzor
-131,117,38,Demografie (časopis),Statistika
-133,39,40,Karlova univerzita v Praze,Studia sociologica
+23,87,42,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy
+24,88,30,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),Sociální studia
+25,95,32,Sociální problémy,Sociologická revue
+26,95,45,Sociální problémy,Parlament (časopis)
+27,96,8,Sociální revue,Fórum sociální politiky
+28,101,27,Sociologická revue,Sociální revue
+29,101,45,Sociologická revue,Parlament (časopis)
+30,103,3,Sociologický časopis / Czech Sociological Review,Biograf
+31,103,35,Sociologický časopis / Czech Sociological Review,Sociologický obzor
+32,106,38,Statistický obzor,Statistika
+33,106,44,Statistický obzor,Demografie (časopis)
+34,107,44,Statistika,Demografie (časopis)
+35,115,33,Sociologické nakladatelství (SLON),Sociologické aktuality
+36,45,1,Palackého univerzita v Olomouci,Acta Universitatis Palackianae Olomucensis – Facultas Philosophica – Sociologica et Andragogica
+37,124,2,Kategorie:Vědecká a odborná periodika,Athenaeum
+38,15,6,Sociologický ústav AV ČR,Data a výzkum – SDA info
+39,15,9,Sociologický ústav AV ČR,"Gender, rovné příležitosti, výzkum"
+40,10,10,Etnologický ústav AV ČR,Historická demografie
+41,15,10,Sociologický ústav AV ČR,Historická demografie
+42,39,10,Karlova univerzita v Praze,Historická demografie
+43,39,11,Karlova univerzita v Praze,Historická sociologie
+44,39,13,Karlova univerzita v Praze,Lidé města
+45,124,14,Kategorie:Vědecká a odborná periodika,Naše doba
+46,15,15,Sociologický ústav AV ČR,Naše společnost
+47,41,19,Masarykova univerzita v Brně,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+48,65,26,Masarykova sociologická společnost,Sociální problémy
+49,68,26,Společnost pro sociální bádání,Sociální problémy
+50,112,26,Knihovna Sociálních problémů,Sociální problémy
+51,41,30,Masarykova univerzita v Brně,Sociální studia
+52,45,31,Palackého univerzita v Olomouci,Sociologica
+53,21,32,Ukrajinský sociologický ústav,Sociologická revue
+54,39,32,Karlova univerzita v Praze,Sociologická revue
+55,41,32,Masarykova univerzita v Brně,Sociologická revue
+56,124,32,Kategorie:Vědecká a odborná periodika,Sociologická revue
+57,15,34,Sociologický ústav AV ČR,Sociologický časopis / Czech Sociological Review
+58,124,34,Kategorie:Vědecká a odborná periodika,Sociologický časopis / Czech Sociological Review
+59,124,35,Kategorie:Vědecká a odborná periodika,Sociologický obzor
+60,11,36,Institut sociologie venkova a historie zemědělství VÚZEI,Sociologie a historie zemědělství
+61,39,40,Karlova univerzita v Praze,Studia sociologica

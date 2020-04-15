@@ -96,7 +96,7 @@ func (e *Edge) save(path string) {
 	// fmt.Printf("Edges \"%v\" saved to \"%v\"\n", e.name, path+e.name+".csv")
 }
 
-// makeEdges round-robin
+// makeAndSaveEdges round-robin
 // This function makes edges from nodes and saves them. All nodes with All nodes.
 func makeAndSaveEdges(path string, nodes ...Node) {
 	fmt.Printf("This function makes edges from nodes and saves them. All nodes with All nodes.")
@@ -105,13 +105,11 @@ func makeAndSaveEdges(path string, nodes ...Node) {
 	for _, n := range nodes {
 		namesN = namesN + " " + n.name
 	}
+	copyN := nodes[:]
 	fmt.Printf("\nNODES: %v\nlength: %v\nterminate at: %v\n", namesN, len(nodes), terminate)
 	for i, n := range nodes {
-		if terminate == i {
-			break
-		}
 		fmt.Printf("\n%v. %v\n", i, n.name)
-		for _, withN := range nodes[i+1:] {
+		for _, withN := range copyN[i:] {
 			var e Edge
 			fmt.Printf(" - %v\n", withN.name)
 			e.fromTwoNodes(n, withN, n.name+"_"+withN.name)
@@ -124,22 +122,19 @@ func makeAndSaveEdges(path string, nodes ...Node) {
 // názvy jsou totiž identické s první částí uvedenou v odkazech před znakem: |
 func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
 	e.name = edgeName
-	e.line = append(e.line, []string{"ID", n1.name + "ID", n2.name + "ID", n1.name, n2.name})
+	e.line = append(e.line, []string{"ID", n1.name + "ID1", n2.name + "ID2", n1.name, n2.name})
 	var index uint64 = 0
+	fmt.Println(n1.name, n2.name)
 	for _, n1V := range n1.values { // Vyber uzel z n1. vezme n1: název, n2: odkazy
 		n1Title := n1V.line[1]          // Název pro n1
 		for _, n2V := range n2.values { // Vyber uzel z n2
 			n2V.links = removeDuplicates(n2V.links) // Někdy jsou v článku uvedené stejné odkazy vícekrát, proto je odstraníme
-			var record []string                     // record: ID ID_N1 ID_N2 NÁZEV_N1 NÁZEV_N2
 			for _, link := range n2V.links {        // Projdi všechny odkazy v uzlu
 				if strings.ToLower(n1Title) == strings.ToLower(link) { // strings.ToLower je volaná, protože == rozlišuje mezi velkými a malými písmeny
-					index++
-					record = append(record, strconv.FormatUint(index, 10))
-					record = append(record, n1V.line[0])
-					record = append(record, n2V.line[0])
-					record = append(record, n1V.line[1])
-					record = append(record, n2V.line[1])
-					e.line = append(e.line, record)
+					if !(e.isThere(n2V.line[1], n1Title)) {
+						index++
+						e.appendEdge(strconv.FormatUint(index, 10), n1V.line[0], n2V.line[0], n1V.line[1], n2V.line[1])
+					}
 				}
 			}
 		}
@@ -150,22 +145,9 @@ func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
 			n1V.links = removeDuplicates(n1V.links) // Někdy jsou v článku uvedené stejné odkazy vícekrát, proto je odstraníme
 			for _, link := range n1V.links {        // Projdi všechny odkazy v uzlu
 				if strings.ToLower(n2Title) == strings.ToLower(link) { // strings.ToLower je volaná, protože == rozlišuje mezi velkými a malými písmeny
-					index++
-					skip := false
-					for _, line := range e.line { // Zkontroluj zdali už tam není stejný záznam
-						if line[3] == n1V.line[1] && line[4] == n2Title {
-							skip = true
-						}
-					}
-					if !(skip) {
-						var record []string // record: ID ID_N1 ID_N2 NÁZEV_N1 NÁZEV_N2
+					if !(e.isThere(n1V.line[1], n2Title)) { // Zkontroluj zdali už tam není stejný záznam, akorát obráceně A B = B A
 						index++
-						record = append(record, strconv.FormatUint(index, 10))
-						record = append(record, n1V.line[0])
-						record = append(record, n2V.line[0])
-						record = append(record, n1V.line[1])
-						record = append(record, n2V.line[1])
-						e.line = append(e.line, record)
+						e.appendEdge(strconv.FormatUint(index, 10), n1V.line[0], n2V.line[0], n1V.line[1], n2V.line[1])
 					}
 				}
 
@@ -173,6 +155,28 @@ func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
 		}
 
 	}
+}
+
+// Zkontroluje zdali už tam není stejný záznam A B = B A nebo A B = A B
+func (e *Edge) isThere(T1, T2 string) (found bool) {
+	found = false
+	for _, L := range e.line {
+		if strings.ToLower(L[3]) == strings.ToLower(T1) && strings.ToLower(L[4]) == strings.ToLower(T2) {
+			found = true
+		}
+		if strings.ToLower(L[3]) == strings.ToLower(T2) && strings.ToLower(L[4]) == strings.ToLower(T1) {
+			found = true
+		}
+	}
+	return found
+}
+
+func (e *Edge) appendEdge(values ...string) {
+	var record []string
+	for _, v := range values {
+		record = append(record, v)
+	}
+	e.line = append(e.line, record)
 }
 
 // socTime: Udělá vztah pokud spolu sociologové žili

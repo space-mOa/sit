@@ -1,4 +1,4 @@
-ID,SociologoveID,InstituceID,Sociologove,Instituce
+ID,SociologoveID1,InstituceID2,Sociologove,Instituce
 1,1,7,Adamec Čeněk,Československý ústav pro výzkum veřejného mínění
 2,1,24,Adamec Čeněk,Ústav pro výzkum veřejného mínění ČSAV
 3,1,25,Adamec Čeněk,Ústav pro výzkum veřejného mínění FSÚ
@@ -386,75 +386,75 @@ ID,SociologoveID,InstituceID,Sociologove,Instituce
 385,176,65,Zwicker Bruno,Masarykova sociologická společnost
 386,177,65,Žalud Augustin,Masarykova sociologická společnost
 387,178,36,Žmavc Ivan,České vysoké učení technické v Praze
-389,19,1,Durdík Josef,Česká akademie věd a umění
-392,85,1,Machotka Otakar,Česká akademie věd a umění
-397,114,3,Rabušic Ladislav,"Rada pro výzkum, vývoj a inovace"
-402,102,4,Nový Lubomír,Vědecké kolegium filosofie a sociologie ČSAV
-404,161,4,Urbánek Eduard,Vědecké kolegium filosofie a sociologie ČSAV
-410,63,5,Kettner Josef,Československá akademie zemědělská
-418,145,12,Škrach Vasil Kaprálek,Masarykova akademie práce
-420,167,12,Verunáč Václav,Masarykova akademie práce
-422,178,12,Žmavc Ivan,Masarykova akademie práce
-427,47,16,Charvát František,Sociologický ústav ČSAV
-433,98,16,Musil Jiří,Sociologický ústav ČSAV
-435,119,16,Richta Radovan,Sociologický ústav ČSAV
-440,166,16,Večerník Jiří,Sociologický ústav ČSAV
-446,108,18,Petrusek Miloslav,Sportpropag
-452,69,19,Korčák Jaromír,Státní úřad statistický
-454,76,19,Kučera Milan,Státní úřad statistický
-456,84,19,Machonin Pavel,Státní úřad statistický
-460,116,19,Reif Gustav,Státní úřad statistický
-462,135,19,Srb Vladimír,Státní úřad statistický
-466,21,20,Fajfr František,Sociální ústav ČSR
-468,46,20,Chalupný Emanuel,Sociální ústav ČSR
-470,85,20,Machotka Otakar,Sociální ústav ČSR
-473,109,20,Pistorius Theodor,Sociální ústav ČSR
-475,116,20,Reif Gustav,Sociální ústav ČSR
-478,145,20,Škrach Vasil Kaprálek,Sociální ústav ČSR
-482,165,20,Vašek Bedřich,Sociální ústav ČSR
-484,167,20,Verunáč Václav,Sociální ústav ČSR
-487,177,20,Žalud Augustin,Sociální ústav ČSR
-490,10,22,Brokl Lubomír,Ústav pro filosofii a sociologii ČSAV
-494,25,22,Foret Miroslav,Ústav pro filosofii a sociologii ČSAV
-497,40,22,Havelka Miloš,Ústav pro filosofii a sociologii ČSAV
-502,62,22,Keller Jan,Ústav pro filosofii a sociologii ČSAV
-508,123,22,Řehák Jan,Ústav pro filosofii a sociologii ČSAV
-510,155,22,Tlustý Vojtěch,Ústav pro filosofii a sociologii ČSAV
-513,144,23,Šíma Jaroslav,Ústav pro sociální a hospodářskou výchovu ČSS
-516,52,24,Jungmann Bohumil,Ústav pro výzkum veřejného mínění ČSAV
-519,162,24,Vacek Lubomír,Ústav pro výzkum veřejného mínění ČSAV
-522,25,25,Foret Miroslav,Ústav pro výzkum veřejného mínění FSÚ
-524,28,25,Frič Pavol,Ústav pro výzkum veřejného mínění FSÚ
-527,162,25,Vacek Lubomír,Ústav pro výzkum veřejného mínění FSÚ
-533,25,27,Foret Miroslav,Ústav vědeckého ateismu ČSAV
-537,128,29,Sirovátka Tomáš,Výzkumný ústav práce a sociálních věcí
-539,41,30,Hirner Alexander,Výzkumný ústav sociálního rozvoje a práce
-542,78,30,Lamser Václav,Výzkumný ústav sociálního rozvoje a práce
-545,7,32,Blažek Bohuslav,Výzkumný ústav výstavby a architektury
-547,78,32,Lamser Václav,Výzkumný ústav výstavby a architektury
-550,6,33,Bláha Inocenc Arnošt,Biskupské semináře
-553,113,33,Procházka Matěj,Biskupské semináře
-561,61,62,Kárníková Ludmila,Česká demografická společnost
-564,76,62,Kučera Milan,Česká demografická společnost
-568,114,62,Rabušic Ladislav,Česká demografická společnost
-572,49,63,Jeřábek Hynek,Česká sociologická společnost
-574,98,63,Musil Jiří,Česká sociologická společnost
-576,106,63,Pavlík Zdeněk,Česká sociologická společnost
-578,108,63,Petrusek Miloslav,Česká sociologická společnost
-580,114,63,Rabušic Ladislav,Česká sociologická společnost
-582,124,63,Sedláček Jan,Česká sociologická společnost
-584,139,63,Suda Zdeněk,Česká sociologická společnost
-588,54,64,Kadlec Vladimír,Československá sociologická společnost při ČSAV
-595,124,64,Sedláček Jan,Československá sociologická společnost při ČSAV
-598,147,64,Šnobl Jaroslav,Československá sociologická společnost při ČSAV
-601,164,64,Vaněk Antonín,Československá sociologická společnost při ČSAV
-608,39,65,Hanáček Jaroslav,Masarykova sociologická společnost
-611,66,65,Kohn Jindřich,Masarykova sociologická společnost
-614,77,65,Kunte Ladislav,Masarykova sociologická společnost
-620,105,65,Ovesný Miroslav,Masarykova sociologická společnost
-623,112,65,Potužil František,Masarykova sociologická společnost
-625,129,65,Slaminka Vladimír,Masarykova sociologická společnost
-630,151,65,Štern Evžen,Masarykova sociologická společnost
-632,154,65,Teltšík Rudolf,Masarykova sociologická společnost
-636,173,65,Winter Lev,Masarykova sociologická společnost
-645,109,68,Pistorius Theodor,Společnost pro sociální bádání
+388,19,1,Durdík Josef,Česká akademie věd a umění
+389,85,1,Machotka Otakar,Česká akademie věd a umění
+390,114,3,Rabušic Ladislav,"Rada pro výzkum, vývoj a inovace"
+391,102,4,Nový Lubomír,Vědecké kolegium filosofie a sociologie ČSAV
+392,161,4,Urbánek Eduard,Vědecké kolegium filosofie a sociologie ČSAV
+393,63,5,Kettner Josef,Československá akademie zemědělská
+394,145,12,Škrach Vasil Kaprálek,Masarykova akademie práce
+395,167,12,Verunáč Václav,Masarykova akademie práce
+396,178,12,Žmavc Ivan,Masarykova akademie práce
+397,47,16,Charvát František,Sociologický ústav ČSAV
+398,98,16,Musil Jiří,Sociologický ústav ČSAV
+399,119,16,Richta Radovan,Sociologický ústav ČSAV
+400,166,16,Večerník Jiří,Sociologický ústav ČSAV
+401,108,18,Petrusek Miloslav,Sportpropag
+402,69,19,Korčák Jaromír,Státní úřad statistický
+403,76,19,Kučera Milan,Státní úřad statistický
+404,84,19,Machonin Pavel,Státní úřad statistický
+405,116,19,Reif Gustav,Státní úřad statistický
+406,135,19,Srb Vladimír,Státní úřad statistický
+407,21,20,Fajfr František,Sociální ústav ČSR
+408,46,20,Chalupný Emanuel,Sociální ústav ČSR
+409,85,20,Machotka Otakar,Sociální ústav ČSR
+410,109,20,Pistorius Theodor,Sociální ústav ČSR
+411,116,20,Reif Gustav,Sociální ústav ČSR
+412,145,20,Škrach Vasil Kaprálek,Sociální ústav ČSR
+413,165,20,Vašek Bedřich,Sociální ústav ČSR
+414,167,20,Verunáč Václav,Sociální ústav ČSR
+415,177,20,Žalud Augustin,Sociální ústav ČSR
+416,10,22,Brokl Lubomír,Ústav pro filosofii a sociologii ČSAV
+417,25,22,Foret Miroslav,Ústav pro filosofii a sociologii ČSAV
+418,40,22,Havelka Miloš,Ústav pro filosofii a sociologii ČSAV
+419,62,22,Keller Jan,Ústav pro filosofii a sociologii ČSAV
+420,123,22,Řehák Jan,Ústav pro filosofii a sociologii ČSAV
+421,155,22,Tlustý Vojtěch,Ústav pro filosofii a sociologii ČSAV
+422,144,23,Šíma Jaroslav,Ústav pro sociální a hospodářskou výchovu ČSS
+423,52,24,Jungmann Bohumil,Ústav pro výzkum veřejného mínění ČSAV
+424,162,24,Vacek Lubomír,Ústav pro výzkum veřejného mínění ČSAV
+425,25,25,Foret Miroslav,Ústav pro výzkum veřejného mínění FSÚ
+426,28,25,Frič Pavol,Ústav pro výzkum veřejného mínění FSÚ
+427,162,25,Vacek Lubomír,Ústav pro výzkum veřejného mínění FSÚ
+428,25,27,Foret Miroslav,Ústav vědeckého ateismu ČSAV
+429,128,29,Sirovátka Tomáš,Výzkumný ústav práce a sociálních věcí
+430,41,30,Hirner Alexander,Výzkumný ústav sociálního rozvoje a práce
+431,78,30,Lamser Václav,Výzkumný ústav sociálního rozvoje a práce
+432,7,32,Blažek Bohuslav,Výzkumný ústav výstavby a architektury
+433,78,32,Lamser Václav,Výzkumný ústav výstavby a architektury
+434,6,33,Bláha Inocenc Arnošt,Biskupské semináře
+435,113,33,Procházka Matěj,Biskupské semináře
+436,61,62,Kárníková Ludmila,Česká demografická společnost
+437,76,62,Kučera Milan,Česká demografická společnost
+438,114,62,Rabušic Ladislav,Česká demografická společnost
+439,49,63,Jeřábek Hynek,Česká sociologická společnost
+440,98,63,Musil Jiří,Česká sociologická společnost
+441,106,63,Pavlík Zdeněk,Česká sociologická společnost
+442,108,63,Petrusek Miloslav,Česká sociologická společnost
+443,114,63,Rabušic Ladislav,Česká sociologická společnost
+444,124,63,Sedláček Jan,Česká sociologická společnost
+445,139,63,Suda Zdeněk,Česká sociologická společnost
+446,54,64,Kadlec Vladimír,Československá sociologická společnost při ČSAV
+447,124,64,Sedláček Jan,Československá sociologická společnost při ČSAV
+448,147,64,Šnobl Jaroslav,Československá sociologická společnost při ČSAV
+449,164,64,Vaněk Antonín,Československá sociologická společnost při ČSAV
+450,39,65,Hanáček Jaroslav,Masarykova sociologická společnost
+451,66,65,Kohn Jindřich,Masarykova sociologická společnost
+452,77,65,Kunte Ladislav,Masarykova sociologická společnost
+453,105,65,Ovesný Miroslav,Masarykova sociologická společnost
+454,112,65,Potužil František,Masarykova sociologická společnost
+455,129,65,Slaminka Vladimír,Masarykova sociologická společnost
+456,151,65,Štern Evžen,Masarykova sociologická společnost
+457,154,65,Teltšík Rudolf,Masarykova sociologická společnost
+458,173,65,Winter Lev,Masarykova sociologická společnost
+459,109,68,Pistorius Theodor,Společnost pro sociální bádání

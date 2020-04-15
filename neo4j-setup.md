@@ -15,14 +15,14 @@ IMPORT
 ```
 CREATE CONSTRAINT ON (instituce:Instituce) ASSERT instituce.id IS UNIQUE;
 
-LOAD CSV WITH HEADERS FROM "file:///instituce.csv" as csvLine
+LOAD CSV WITH HEADERS FROM "file:///nodes/Instituce.csv" as csvLine
 CREATE (i:Instituce {id: toInteger(csvLine.index), name: csvLine.instituce});
 
 
 
 CREATE CONSTRAINT ON (malySgS:MalySgS) ASSERT malySgS.id IS UNIQUE;
 
-LOAD CSV WITH HEADERS FROM "file:///malySgS.csv" as csvLine
+LOAD CSV WITH HEADERS FROM "file:///nodes/MalySgS.csv" as csvLine
 CREATE (m:MalySgS {id: toInteger(csvLine.index), title: csvLine.ms});
 
 
@@ -30,7 +30,7 @@ CREATE (m:MalySgS {id: toInteger(csvLine.index), title: csvLine.ms});
 
 CREATE CONSTRAINT ON (velkySgS:VelkySgS) ASSERT velkySgS.id IS UNIQUE;
 
-LOAD CSV WITH HEADERS FROM "file:///velkySgS.csv" as csvLine
+LOAD CSV WITH HEADERS FROM "file:///nodes/VelkySgS.csv" as csvLine
 CREATE (v:VelkySgS {id: toInteger(csvLine.index), title: csvLine.vs});
 
 

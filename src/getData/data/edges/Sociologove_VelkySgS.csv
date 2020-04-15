@@ -1,4 +1,4 @@
-ID,SociologoveID,VelkySgSID,Sociologove,VelkySgS
+ID,SociologoveID1,VelkySgSID2,Sociologove,VelkySgS
 1,1,2128,Adamec Čeněk,Sociologie česká v l. 1948–1994
 2,1,2229,Adamec Čeněk,Sociologie tělesné kultury
 3,1,2791,Adamec Čeněk,Výzkum veřejného mínění
@@ -517,13 +517,13 @@ ID,SociologoveID,VelkySgSID,Sociologove,VelkySgS
 516,176,2127,Zwicker Bruno,Sociologie česká do r. 1948
 517,176,2130,Zwicker Bruno,Sociologie deviantního chování
 518,178,2127,Žmavc Ivan,Sociologie česká do r. 1948
-520,125,38,Sedláček Oto,Analýza
-523,76,322,Kučera Milan,Demografie
-525,97,322,Možný Ivo,Demografie
-529,166,322,Večerník Jiří,Demografie
-531,20,1562,Dušek Jan,Parlament
-533,85,1562,Machotka Otakar,Parlament
-535,94,1562,Mertl Jan,Parlament
-537,134,1562,Sorokin Pitirim Alexandrovič,Parlament
-539,167,1562,Verunáč Václav,Parlament
-541,28,2555,Frič Pavol,Teorie vědy
+519,125,38,Sedláček Oto,Analýza
+520,76,322,Kučera Milan,Demografie
+521,97,322,Možný Ivo,Demografie
+522,166,322,Večerník Jiří,Demografie
+523,20,1562,Dušek Jan,Parlament
+524,85,1562,Machotka Otakar,Parlament
+525,94,1562,Mertl Jan,Parlament
+526,134,1562,Sorokin Pitirim Alexandrovič,Parlament
+527,167,1562,Verunáč Václav,Parlament
+528,28,2555,Frič Pavol,Teorie vědy

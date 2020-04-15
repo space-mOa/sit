@@ -1,0 +1,1014 @@
+Casopisy Casopisy
+
+--- [2 Athenaeum] [14 Naše doba] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ athenaeum casopisy naše doba casopisy
+
+Ukládá se
+n2 [2 Athenaeum] [14 Naše doba] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+
+--- [5 Česká mysl] [7 Filosofický časopis] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ česká mysl casopisy filosofický časopis casopisy
+
+--- [5 Česká mysl] [7 Filosofický časopis] [1 14 2 Naše doba Athenaeum] 
+
+\\ česká mysl naše doba filosofický časopis athenaeum
+
+Ukládá se
+n2 [5 Česká mysl] [7 Filosofický časopis] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+
+--- [5 Česká mysl] [16 Nová mysl] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ česká mysl casopisy nová mysl casopisy
+
+--- [5 Česká mysl] [16 Nová mysl] [1 14 2 Naše doba Athenaeum] 
+
+\\ česká mysl naše doba nová mysl athenaeum
+
+--- [5 Česká mysl] [16 Nová mysl] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ česká mysl filosofický časopis nová mysl česká mysl
+
+Ukládá se
+n2 [5 Česká mysl] [16 Nová mysl] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+
+--- [7 Filosofický časopis] [16 Nová mysl] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ filosofický časopis casopisy nová mysl casopisy
+
+--- [7 Filosofický časopis] [16 Nová mysl] [1 14 2 Naše doba Athenaeum] 
+
+\\ filosofický časopis naše doba nová mysl athenaeum
+
+--- [7 Filosofický časopis] [16 Nová mysl] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ filosofický časopis filosofický časopis nová mysl česká mysl
+
+--- [7 Filosofický časopis] [16 Nová mysl] [3 16 5 Nová mysl Česká mysl] 
+
+\\ filosofický časopis nová mysl nová mysl česká mysl
+
+Ukládá se
+n2 [7 Filosofický časopis] [16 Nová mysl] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+
+--- [14 Naše doba] [2 Athenaeum] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ naše doba casopisy athenaeum casopisy
+
+--- [14 Naše doba] [2 Athenaeum] [1 14 2 Naše doba Athenaeum] 
+
+\\ naše doba naše doba athenaeum athenaeum
+
+--- [14 Naše doba] [2 Athenaeum] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ naše doba filosofický časopis athenaeum česká mysl
+
+--- [14 Naše doba] [2 Athenaeum] [3 16 5 Nová mysl Česká mysl] 
+
+\\ naše doba nová mysl athenaeum česká mysl
+
+--- [14 Naše doba] [2 Athenaeum] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ naše doba nová mysl athenaeum filosofický časopis
+
+--- [16 Nová mysl] [5 Česká mysl] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ nová mysl casopisy česká mysl casopisy
+
+--- [16 Nová mysl] [5 Česká mysl] [1 14 2 Naše doba Athenaeum] 
+
+\\ nová mysl naše doba česká mysl athenaeum
+
+--- [16 Nová mysl] [5 Česká mysl] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ nová mysl filosofický časopis česká mysl česká mysl
+
+--- [16 Nová mysl] [5 Česká mysl] [3 16 5 Nová mysl Česká mysl] 
+
+\\ nová mysl nová mysl česká mysl česká mysl
+
+--- [16 Nová mysl] [5 Česká mysl] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ nová mysl nová mysl česká mysl filosofický časopis
+
+--- [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ přehled vědecké a pedagogické práce kateder marxismu-leninismu casopisy vědecké informace ústavu marxismu-leninismu pro vysoké školy casopisy
+
+--- [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [1 14 2 Naše doba Athenaeum] 
+
+\\ přehled vědecké a pedagogické práce kateder marxismu-leninismu naše doba vědecké informace ústavu marxismu-leninismu pro vysoké školy athenaeum
+
+--- [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ přehled vědecké a pedagogické práce kateder marxismu-leninismu filosofický časopis vědecké informace ústavu marxismu-leninismu pro vysoké školy česká mysl
+
+--- [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [3 16 5 Nová mysl Česká mysl] 
+
+\\ přehled vědecké a pedagogické práce kateder marxismu-leninismu nová mysl vědecké informace ústavu marxismu-leninismu pro vysoké školy česká mysl
+
+--- [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ přehled vědecké a pedagogické práce kateder marxismu-leninismu nová mysl vědecké informace ústavu marxismu-leninismu pro vysoké školy filosofický časopis
+
+Ukládá se
+n2 [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+
+--- [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [30 Sociální studia] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) casopisy sociální studia casopisy
+
+--- [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [30 Sociální studia] [1 14 2 Naše doba Athenaeum] 
+
+\\ sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) naše doba sociální studia athenaeum
+
+--- [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [30 Sociální studia] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) filosofický časopis sociální studia česká mysl
+
+--- [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [30 Sociální studia] [3 16 5 Nová mysl Česká mysl] 
+
+\\ sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) nová mysl sociální studia česká mysl
+
+--- [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [30 Sociální studia] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) nová mysl sociální studia filosofický časopis
+
+--- [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [30 Sociální studia] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) vědecké informace ústavu marxismu-leninismu pro vysoké školy sociální studia přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+Ukládá se
+n2 [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [30 Sociální studia] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+[5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu]
+
+--- [26 Sociální problémy] [32 Sociologická revue] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ sociální problémy casopisy sociologická revue casopisy
+
+--- [26 Sociální problémy] [32 Sociologická revue] [1 14 2 Naše doba Athenaeum] 
+
+\\ sociální problémy naše doba sociologická revue athenaeum
+
+--- [26 Sociální problémy] [32 Sociologická revue] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ sociální problémy filosofický časopis sociologická revue česká mysl
+
+--- [26 Sociální problémy] [32 Sociologická revue] [3 16 5 Nová mysl Česká mysl] 
+
+\\ sociální problémy nová mysl sociologická revue česká mysl
+
+--- [26 Sociální problémy] [32 Sociologická revue] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ sociální problémy nová mysl sociologická revue filosofický časopis
+
+--- [26 Sociální problémy] [32 Sociologická revue] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ sociální problémy vědecké informace ústavu marxismu-leninismu pro vysoké školy sociologická revue přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [26 Sociální problémy] [32 Sociologická revue] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ sociální problémy sociální studia sociologická revue sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+Ukládá se
+n2 [26 Sociální problémy] [32 Sociologická revue] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+[5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu]
+[6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)]
+
+--- [26 Sociální problémy] [45 Parlament (časopis)] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ sociální problémy casopisy parlament (časopis) casopisy
+
+--- [26 Sociální problémy] [45 Parlament (časopis)] [1 14 2 Naše doba Athenaeum] 
+
+\\ sociální problémy naše doba parlament (časopis) athenaeum
+
+--- [26 Sociální problémy] [45 Parlament (časopis)] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ sociální problémy filosofický časopis parlament (časopis) česká mysl
+
+--- [26 Sociální problémy] [45 Parlament (časopis)] [3 16 5 Nová mysl Česká mysl] 
+
+\\ sociální problémy nová mysl parlament (časopis) česká mysl
+
+--- [26 Sociální problémy] [45 Parlament (časopis)] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ sociální problémy nová mysl parlament (časopis) filosofický časopis
+
+--- [26 Sociální problémy] [45 Parlament (časopis)] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ sociální problémy vědecké informace ústavu marxismu-leninismu pro vysoké školy parlament (časopis) přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [26 Sociální problémy] [45 Parlament (časopis)] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ sociální problémy sociální studia parlament (časopis) sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [26 Sociální problémy] [45 Parlament (časopis)] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ sociální problémy sociologická revue parlament (časopis) sociální problémy
+
+Ukládá se
+n2 [26 Sociální problémy] [45 Parlament (časopis)] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+[5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu]
+[6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)]
+[7 32 26 Sociologická revue Sociální problémy]
+
+--- [27 Sociální revue] [8 Fórum sociální politiky] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ sociální revue casopisy fórum sociální politiky casopisy
+
+--- [27 Sociální revue] [8 Fórum sociální politiky] [1 14 2 Naše doba Athenaeum] 
+
+\\ sociální revue naše doba fórum sociální politiky athenaeum
+
+--- [27 Sociální revue] [8 Fórum sociální politiky] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ sociální revue filosofický časopis fórum sociální politiky česká mysl
+
+--- [27 Sociální revue] [8 Fórum sociální politiky] [3 16 5 Nová mysl Česká mysl] 
+
+\\ sociální revue nová mysl fórum sociální politiky česká mysl
+
+--- [27 Sociální revue] [8 Fórum sociální politiky] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ sociální revue nová mysl fórum sociální politiky filosofický časopis
+
+--- [27 Sociální revue] [8 Fórum sociální politiky] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ sociální revue vědecké informace ústavu marxismu-leninismu pro vysoké školy fórum sociální politiky přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [27 Sociální revue] [8 Fórum sociální politiky] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ sociální revue sociální studia fórum sociální politiky sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [27 Sociální revue] [8 Fórum sociální politiky] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ sociální revue sociologická revue fórum sociální politiky sociální problémy
+
+--- [27 Sociální revue] [8 Fórum sociální politiky] [8 45 26 Parlament (časopis) Sociální problémy] 
+
+\\ sociální revue parlament (časopis) fórum sociální politiky sociální problémy
+
+Ukládá se
+n2 [27 Sociální revue] [8 Fórum sociální politiky] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+[5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu]
+[6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)]
+[7 32 26 Sociologická revue Sociální problémy]
+[8 45 26 Parlament (časopis) Sociální problémy]
+
+--- [30 Sociální studia] [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ sociální studia casopisy sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) casopisy
+
+--- [30 Sociální studia] [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [1 14 2 Naše doba Athenaeum] 
+
+\\ sociální studia naše doba sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) athenaeum
+
+--- [30 Sociální studia] [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ sociální studia filosofický časopis sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) česká mysl
+
+--- [30 Sociální studia] [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [3 16 5 Nová mysl Česká mysl] 
+
+\\ sociální studia nová mysl sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) česká mysl
+
+--- [30 Sociální studia] [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ sociální studia nová mysl sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) filosofický časopis
+
+--- [30 Sociální studia] [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ sociální studia vědecké informace ústavu marxismu-leninismu pro vysoké školy sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [30 Sociální studia] [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ sociální studia sociální studia sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [30 Sociální studia] [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ sociální studia sociologická revue sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) sociální problémy
+
+--- [30 Sociální studia] [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [8 45 26 Parlament (časopis) Sociální problémy] 
+
+\\ sociální studia parlament (časopis) sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) sociální problémy
+
+--- [30 Sociální studia] [19 Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] [9 8 27 Fórum sociální politiky Sociální revue] 
+
+\\ sociální studia fórum sociální politiky sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g) sociální revue
+
+--- [32 Sociologická revue] [26 Sociální problémy] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ sociologická revue casopisy sociální problémy casopisy
+
+--- [32 Sociologická revue] [26 Sociální problémy] [1 14 2 Naše doba Athenaeum] 
+
+\\ sociologická revue naše doba sociální problémy athenaeum
+
+--- [32 Sociologická revue] [26 Sociální problémy] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ sociologická revue filosofický časopis sociální problémy česká mysl
+
+--- [32 Sociologická revue] [26 Sociální problémy] [3 16 5 Nová mysl Česká mysl] 
+
+\\ sociologická revue nová mysl sociální problémy česká mysl
+
+--- [32 Sociologická revue] [26 Sociální problémy] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ sociologická revue nová mysl sociální problémy filosofický časopis
+
+--- [32 Sociologická revue] [26 Sociální problémy] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ sociologická revue vědecké informace ústavu marxismu-leninismu pro vysoké školy sociální problémy přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [32 Sociologická revue] [26 Sociální problémy] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ sociologická revue sociální studia sociální problémy sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [32 Sociologická revue] [26 Sociální problémy] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ sociologická revue sociologická revue sociální problémy sociální problémy
+
+--- [32 Sociologická revue] [26 Sociální problémy] [8 45 26 Parlament (časopis) Sociální problémy] 
+
+\\ sociologická revue parlament (časopis) sociální problémy sociální problémy
+
+--- [32 Sociologická revue] [26 Sociální problémy] [9 8 27 Fórum sociální politiky Sociální revue] 
+
+\\ sociologická revue fórum sociální politiky sociální problémy sociální revue
+
+--- [32 Sociologická revue] [27 Sociální revue] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ sociologická revue casopisy sociální revue casopisy
+
+--- [32 Sociologická revue] [27 Sociální revue] [1 14 2 Naše doba Athenaeum] 
+
+\\ sociologická revue naše doba sociální revue athenaeum
+
+--- [32 Sociologická revue] [27 Sociální revue] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ sociologická revue filosofický časopis sociální revue česká mysl
+
+--- [32 Sociologická revue] [27 Sociální revue] [3 16 5 Nová mysl Česká mysl] 
+
+\\ sociologická revue nová mysl sociální revue česká mysl
+
+--- [32 Sociologická revue] [27 Sociální revue] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ sociologická revue nová mysl sociální revue filosofický časopis
+
+--- [32 Sociologická revue] [27 Sociální revue] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ sociologická revue vědecké informace ústavu marxismu-leninismu pro vysoké školy sociální revue přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [32 Sociologická revue] [27 Sociální revue] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ sociologická revue sociální studia sociální revue sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [32 Sociologická revue] [27 Sociální revue] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ sociologická revue sociologická revue sociální revue sociální problémy
+
+--- [32 Sociologická revue] [27 Sociální revue] [8 45 26 Parlament (časopis) Sociální problémy] 
+
+\\ sociologická revue parlament (časopis) sociální revue sociální problémy
+
+--- [32 Sociologická revue] [27 Sociální revue] [9 8 27 Fórum sociální politiky Sociální revue] 
+
+\\ sociologická revue fórum sociální politiky sociální revue sociální revue
+
+Ukládá se
+n2 [32 Sociologická revue] [27 Sociální revue] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+[5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu]
+[6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)]
+[7 32 26 Sociologická revue Sociální problémy]
+[8 45 26 Parlament (časopis) Sociální problémy]
+[9 8 27 Fórum sociální politiky Sociální revue]
+
+--- [32 Sociologická revue] [45 Parlament (časopis)] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ sociologická revue casopisy parlament (časopis) casopisy
+
+--- [32 Sociologická revue] [45 Parlament (časopis)] [1 14 2 Naše doba Athenaeum] 
+
+\\ sociologická revue naše doba parlament (časopis) athenaeum
+
+--- [32 Sociologická revue] [45 Parlament (časopis)] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ sociologická revue filosofický časopis parlament (časopis) česká mysl
+
+--- [32 Sociologická revue] [45 Parlament (časopis)] [3 16 5 Nová mysl Česká mysl] 
+
+\\ sociologická revue nová mysl parlament (časopis) česká mysl
+
+--- [32 Sociologická revue] [45 Parlament (časopis)] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ sociologická revue nová mysl parlament (časopis) filosofický časopis
+
+--- [32 Sociologická revue] [45 Parlament (časopis)] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ sociologická revue vědecké informace ústavu marxismu-leninismu pro vysoké školy parlament (časopis) přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [32 Sociologická revue] [45 Parlament (časopis)] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ sociologická revue sociální studia parlament (časopis) sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [32 Sociologická revue] [45 Parlament (časopis)] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ sociologická revue sociologická revue parlament (časopis) sociální problémy
+
+--- [32 Sociologická revue] [45 Parlament (časopis)] [8 45 26 Parlament (časopis) Sociální problémy] 
+
+\\ sociologická revue parlament (časopis) parlament (časopis) sociální problémy
+
+--- [32 Sociologická revue] [45 Parlament (časopis)] [9 8 27 Fórum sociální politiky Sociální revue] 
+
+\\ sociologická revue fórum sociální politiky parlament (časopis) sociální revue
+
+--- [32 Sociologická revue] [45 Parlament (časopis)] [10 27 32 Sociální revue Sociologická revue] 
+
+\\ sociologická revue sociální revue parlament (časopis) sociologická revue
+
+Ukládá se
+n2 [32 Sociologická revue] [45 Parlament (časopis)] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+[5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu]
+[6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)]
+[7 32 26 Sociologická revue Sociální problémy]
+[8 45 26 Parlament (časopis) Sociální problémy]
+[9 8 27 Fórum sociální politiky Sociální revue]
+[10 27 32 Sociální revue Sociologická revue]
+
+--- [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ sociologický časopis / czech sociological review casopisy biograf casopisy
+
+--- [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] [1 14 2 Naše doba Athenaeum] 
+
+\\ sociologický časopis / czech sociological review naše doba biograf athenaeum
+
+--- [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ sociologický časopis / czech sociological review filosofický časopis biograf česká mysl
+
+--- [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] [3 16 5 Nová mysl Česká mysl] 
+
+\\ sociologický časopis / czech sociological review nová mysl biograf česká mysl
+
+--- [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ sociologický časopis / czech sociological review nová mysl biograf filosofický časopis
+
+--- [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ sociologický časopis / czech sociological review vědecké informace ústavu marxismu-leninismu pro vysoké školy biograf přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ sociologický časopis / czech sociological review sociální studia biograf sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ sociologický časopis / czech sociological review sociologická revue biograf sociální problémy
+
+--- [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] [8 45 26 Parlament (časopis) Sociální problémy] 
+
+\\ sociologický časopis / czech sociological review parlament (časopis) biograf sociální problémy
+
+--- [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] [9 8 27 Fórum sociální politiky Sociální revue] 
+
+\\ sociologický časopis / czech sociological review fórum sociální politiky biograf sociální revue
+
+--- [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] [10 27 32 Sociální revue Sociologická revue] 
+
+\\ sociologický časopis / czech sociological review sociální revue biograf sociologická revue
+
+--- [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] [11 45 32 Parlament (časopis) Sociologická revue] 
+
+\\ sociologický časopis / czech sociological review parlament (časopis) biograf sociologická revue
+
+Ukládá se
+n2 [34 Sociologický časopis / Czech Sociological Review] [3 Biograf] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+[5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu]
+[6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)]
+[7 32 26 Sociologická revue Sociální problémy]
+[8 45 26 Parlament (časopis) Sociální problémy]
+[9 8 27 Fórum sociální politiky Sociální revue]
+[10 27 32 Sociální revue Sociologická revue]
+[11 45 32 Parlament (časopis) Sociologická revue]
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ sociologický časopis / czech sociological review casopisy sociologický obzor casopisy
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [1 14 2 Naše doba Athenaeum] 
+
+\\ sociologický časopis / czech sociological review naše doba sociologický obzor athenaeum
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ sociologický časopis / czech sociological review filosofický časopis sociologický obzor česká mysl
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [3 16 5 Nová mysl Česká mysl] 
+
+\\ sociologický časopis / czech sociological review nová mysl sociologický obzor česká mysl
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ sociologický časopis / czech sociological review nová mysl sociologický obzor filosofický časopis
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ sociologický časopis / czech sociological review vědecké informace ústavu marxismu-leninismu pro vysoké školy sociologický obzor přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ sociologický časopis / czech sociological review sociální studia sociologický obzor sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ sociologický časopis / czech sociological review sociologická revue sociologický obzor sociální problémy
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [8 45 26 Parlament (časopis) Sociální problémy] 
+
+\\ sociologický časopis / czech sociological review parlament (časopis) sociologický obzor sociální problémy
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [9 8 27 Fórum sociální politiky Sociální revue] 
+
+\\ sociologický časopis / czech sociological review fórum sociální politiky sociologický obzor sociální revue
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [10 27 32 Sociální revue Sociologická revue] 
+
+\\ sociologický časopis / czech sociological review sociální revue sociologický obzor sociologická revue
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [11 45 32 Parlament (časopis) Sociologická revue] 
+
+\\ sociologický časopis / czech sociological review parlament (časopis) sociologický obzor sociologická revue
+
+--- [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] [12 3 34 Biograf Sociologický časopis / Czech Sociological Review] 
+
+\\ sociologický časopis / czech sociological review biograf sociologický obzor sociologický časopis / czech sociological review
+
+Ukládá se
+n2 [34 Sociologický časopis / Czech Sociological Review] [35 Sociologický obzor] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+[5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu]
+[6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)]
+[7 32 26 Sociologická revue Sociální problémy]
+[8 45 26 Parlament (časopis) Sociální problémy]
+[9 8 27 Fórum sociální politiky Sociální revue]
+[10 27 32 Sociální revue Sociologická revue]
+[11 45 32 Parlament (časopis) Sociologická revue]
+[12 3 34 Biograf Sociologický časopis / Czech Sociological Review]
+
+--- [37 Statistický obzor] [38 Statistika] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ statistický obzor casopisy statistika casopisy
+
+--- [37 Statistický obzor] [38 Statistika] [1 14 2 Naše doba Athenaeum] 
+
+\\ statistický obzor naše doba statistika athenaeum
+
+--- [37 Statistický obzor] [38 Statistika] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ statistický obzor filosofický časopis statistika česká mysl
+
+--- [37 Statistický obzor] [38 Statistika] [3 16 5 Nová mysl Česká mysl] 
+
+\\ statistický obzor nová mysl statistika česká mysl
+
+--- [37 Statistický obzor] [38 Statistika] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ statistický obzor nová mysl statistika filosofický časopis
+
+--- [37 Statistický obzor] [38 Statistika] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ statistický obzor vědecké informace ústavu marxismu-leninismu pro vysoké školy statistika přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [37 Statistický obzor] [38 Statistika] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ statistický obzor sociální studia statistika sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [37 Statistický obzor] [38 Statistika] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ statistický obzor sociologická revue statistika sociální problémy
+
+--- [37 Statistický obzor] [38 Statistika] [8 45 26 Parlament (časopis) Sociální problémy] 
+
+\\ statistický obzor parlament (časopis) statistika sociální problémy
+
+--- [37 Statistický obzor] [38 Statistika] [9 8 27 Fórum sociální politiky Sociální revue] 
+
+\\ statistický obzor fórum sociální politiky statistika sociální revue
+
+--- [37 Statistický obzor] [38 Statistika] [10 27 32 Sociální revue Sociologická revue] 
+
+\\ statistický obzor sociální revue statistika sociologická revue
+
+--- [37 Statistický obzor] [38 Statistika] [11 45 32 Parlament (časopis) Sociologická revue] 
+
+\\ statistický obzor parlament (časopis) statistika sociologická revue
+
+--- [37 Statistický obzor] [38 Statistika] [12 3 34 Biograf Sociologický časopis / Czech Sociological Review] 
+
+\\ statistický obzor biograf statistika sociologický časopis / czech sociological review
+
+--- [37 Statistický obzor] [38 Statistika] [13 35 34 Sociologický obzor Sociologický časopis / Czech Sociological Review] 
+
+\\ statistický obzor sociologický obzor statistika sociologický časopis / czech sociological review
+
+Ukládá se
+n2 [37 Statistický obzor] [38 Statistika] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+[5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu]
+[6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)]
+[7 32 26 Sociologická revue Sociální problémy]
+[8 45 26 Parlament (časopis) Sociální problémy]
+[9 8 27 Fórum sociální politiky Sociální revue]
+[10 27 32 Sociální revue Sociologická revue]
+[11 45 32 Parlament (časopis) Sociologická revue]
+[12 3 34 Biograf Sociologický časopis / Czech Sociological Review]
+[13 35 34 Sociologický obzor Sociologický časopis / Czech Sociological Review]
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ statistický obzor casopisy demografie (časopis) casopisy
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [1 14 2 Naše doba Athenaeum] 
+
+\\ statistický obzor naše doba demografie (časopis) athenaeum
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ statistický obzor filosofický časopis demografie (časopis) česká mysl
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [3 16 5 Nová mysl Česká mysl] 
+
+\\ statistický obzor nová mysl demografie (časopis) česká mysl
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ statistický obzor nová mysl demografie (časopis) filosofický časopis
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ statistický obzor vědecké informace ústavu marxismu-leninismu pro vysoké školy demografie (časopis) přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ statistický obzor sociální studia demografie (časopis) sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ statistický obzor sociologická revue demografie (časopis) sociální problémy
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [8 45 26 Parlament (časopis) Sociální problémy] 
+
+\\ statistický obzor parlament (časopis) demografie (časopis) sociální problémy
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [9 8 27 Fórum sociální politiky Sociální revue] 
+
+\\ statistický obzor fórum sociální politiky demografie (časopis) sociální revue
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [10 27 32 Sociální revue Sociologická revue] 
+
+\\ statistický obzor sociální revue demografie (časopis) sociologická revue
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [11 45 32 Parlament (časopis) Sociologická revue] 
+
+\\ statistický obzor parlament (časopis) demografie (časopis) sociologická revue
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [12 3 34 Biograf Sociologický časopis / Czech Sociological Review] 
+
+\\ statistický obzor biograf demografie (časopis) sociologický časopis / czech sociological review
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [13 35 34 Sociologický obzor Sociologický časopis / Czech Sociological Review] 
+
+\\ statistický obzor sociologický obzor demografie (časopis) sociologický časopis / czech sociological review
+
+--- [37 Statistický obzor] [44 Demografie (časopis)] [14 38 37 Statistika Statistický obzor] 
+
+\\ statistický obzor statistika demografie (časopis) statistický obzor
+
+Ukládá se
+n2 [37 Statistický obzor] [44 Demografie (časopis)] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+[5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu]
+[6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)]
+[7 32 26 Sociologická revue Sociální problémy]
+[8 45 26 Parlament (časopis) Sociální problémy]
+[9 8 27 Fórum sociální politiky Sociální revue]
+[10 27 32 Sociální revue Sociologická revue]
+[11 45 32 Parlament (časopis) Sociologická revue]
+[12 3 34 Biograf Sociologický časopis / Czech Sociological Review]
+[13 35 34 Sociologický obzor Sociologický časopis / Czech Sociological Review]
+[14 38 37 Statistika Statistický obzor]
+
+--- [38 Statistika] [37 Statistický obzor] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ statistika casopisy statistický obzor casopisy
+
+--- [38 Statistika] [37 Statistický obzor] [1 14 2 Naše doba Athenaeum] 
+
+\\ statistika naše doba statistický obzor athenaeum
+
+--- [38 Statistika] [37 Statistický obzor] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ statistika filosofický časopis statistický obzor česká mysl
+
+--- [38 Statistika] [37 Statistický obzor] [3 16 5 Nová mysl Česká mysl] 
+
+\\ statistika nová mysl statistický obzor česká mysl
+
+--- [38 Statistika] [37 Statistický obzor] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ statistika nová mysl statistický obzor filosofický časopis
+
+--- [38 Statistika] [37 Statistický obzor] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ statistika vědecké informace ústavu marxismu-leninismu pro vysoké školy statistický obzor přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [38 Statistika] [37 Statistický obzor] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ statistika sociální studia statistický obzor sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [38 Statistika] [37 Statistický obzor] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ statistika sociologická revue statistický obzor sociální problémy
+
+--- [38 Statistika] [37 Statistický obzor] [8 45 26 Parlament (časopis) Sociální problémy] 
+
+\\ statistika parlament (časopis) statistický obzor sociální problémy
+
+--- [38 Statistika] [37 Statistický obzor] [9 8 27 Fórum sociální politiky Sociální revue] 
+
+\\ statistika fórum sociální politiky statistický obzor sociální revue
+
+--- [38 Statistika] [37 Statistický obzor] [10 27 32 Sociální revue Sociologická revue] 
+
+\\ statistika sociální revue statistický obzor sociologická revue
+
+--- [38 Statistika] [37 Statistický obzor] [11 45 32 Parlament (časopis) Sociologická revue] 
+
+\\ statistika parlament (časopis) statistický obzor sociologická revue
+
+--- [38 Statistika] [37 Statistický obzor] [12 3 34 Biograf Sociologický časopis / Czech Sociological Review] 
+
+\\ statistika biograf statistický obzor sociologický časopis / czech sociological review
+
+--- [38 Statistika] [37 Statistický obzor] [13 35 34 Sociologický obzor Sociologický časopis / Czech Sociological Review] 
+
+\\ statistika sociologický obzor statistický obzor sociologický časopis / czech sociological review
+
+--- [38 Statistika] [37 Statistický obzor] [14 38 37 Statistika Statistický obzor] 
+
+\\ statistika statistika statistický obzor statistický obzor
+
+--- [38 Statistika] [37 Statistický obzor] [15 44 37 Demografie (časopis) Statistický obzor] 
+
+\\ statistika demografie (časopis) statistický obzor statistický obzor
+
+--- [38 Statistika] [44 Demografie (časopis)] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ statistika casopisy demografie (časopis) casopisy
+
+--- [38 Statistika] [44 Demografie (časopis)] [1 14 2 Naše doba Athenaeum] 
+
+\\ statistika naše doba demografie (časopis) athenaeum
+
+--- [38 Statistika] [44 Demografie (časopis)] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ statistika filosofický časopis demografie (časopis) česká mysl
+
+--- [38 Statistika] [44 Demografie (časopis)] [3 16 5 Nová mysl Česká mysl] 
+
+\\ statistika nová mysl demografie (časopis) česká mysl
+
+--- [38 Statistika] [44 Demografie (časopis)] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ statistika nová mysl demografie (časopis) filosofický časopis
+
+--- [38 Statistika] [44 Demografie (časopis)] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ statistika vědecké informace ústavu marxismu-leninismu pro vysoké školy demografie (časopis) přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [38 Statistika] [44 Demografie (časopis)] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ statistika sociální studia demografie (časopis) sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [38 Statistika] [44 Demografie (časopis)] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ statistika sociologická revue demografie (časopis) sociální problémy
+
+--- [38 Statistika] [44 Demografie (časopis)] [8 45 26 Parlament (časopis) Sociální problémy] 
+
+\\ statistika parlament (časopis) demografie (časopis) sociální problémy
+
+--- [38 Statistika] [44 Demografie (časopis)] [9 8 27 Fórum sociální politiky Sociální revue] 
+
+\\ statistika fórum sociální politiky demografie (časopis) sociální revue
+
+--- [38 Statistika] [44 Demografie (časopis)] [10 27 32 Sociální revue Sociologická revue] 
+
+\\ statistika sociální revue demografie (časopis) sociologická revue
+
+--- [38 Statistika] [44 Demografie (časopis)] [11 45 32 Parlament (časopis) Sociologická revue] 
+
+\\ statistika parlament (časopis) demografie (časopis) sociologická revue
+
+--- [38 Statistika] [44 Demografie (časopis)] [12 3 34 Biograf Sociologický časopis / Czech Sociological Review] 
+
+\\ statistika biograf demografie (časopis) sociologický časopis / czech sociological review
+
+--- [38 Statistika] [44 Demografie (časopis)] [13 35 34 Sociologický obzor Sociologický časopis / Czech Sociological Review] 
+
+\\ statistika sociologický obzor demografie (časopis) sociologický časopis / czech sociological review
+
+--- [38 Statistika] [44 Demografie (časopis)] [14 38 37 Statistika Statistický obzor] 
+
+\\ statistika statistika demografie (časopis) statistický obzor
+
+--- [38 Statistika] [44 Demografie (časopis)] [15 44 37 Demografie (časopis) Statistický obzor] 
+
+\\ statistika demografie (časopis) demografie (časopis) statistický obzor
+
+Ukládá se
+n2 [38 Statistika] [44 Demografie (časopis)] 
+Line:
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+[5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu]
+[6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)]
+[7 32 26 Sociologická revue Sociální problémy]
+[8 45 26 Parlament (časopis) Sociální problémy]
+[9 8 27 Fórum sociální politiky Sociální revue]
+[10 27 32 Sociální revue Sociologická revue]
+[11 45 32 Parlament (časopis) Sociologická revue]
+[12 3 34 Biograf Sociologický časopis / Czech Sociological Review]
+[13 35 34 Sociologický obzor Sociologický časopis / Czech Sociological Review]
+[14 38 37 Statistika Statistický obzor]
+[15 44 37 Demografie (časopis) Statistický obzor]
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [ID CasopisyID1 CasopisyID2 Casopisy Casopisy] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy casopisy přehled vědecké a pedagogické práce kateder marxismu-leninismu casopisy
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [1 14 2 Naše doba Athenaeum] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy naše doba přehled vědecké a pedagogické práce kateder marxismu-leninismu athenaeum
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [2 7 5 Filosofický časopis Česká mysl] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy filosofický časopis přehled vědecké a pedagogické práce kateder marxismu-leninismu česká mysl
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [3 16 5 Nová mysl Česká mysl] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy nová mysl přehled vědecké a pedagogické práce kateder marxismu-leninismu česká mysl
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [4 16 7 Nová mysl Filosofický časopis] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy nová mysl přehled vědecké a pedagogické práce kateder marxismu-leninismu filosofický časopis
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy vědecké informace ústavu marxismu-leninismu pro vysoké školy přehled vědecké a pedagogické práce kateder marxismu-leninismu přehled vědecké a pedagogické práce kateder marxismu-leninismu
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy sociální studia přehled vědecké a pedagogické práce kateder marxismu-leninismu sborník prací filosofické fakulty brněnské univerzity – řada sociálněvědná (g)
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [7 32 26 Sociologická revue Sociální problémy] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy sociologická revue přehled vědecké a pedagogické práce kateder marxismu-leninismu sociální problémy
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [8 45 26 Parlament (časopis) Sociální problémy] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy parlament (časopis) přehled vědecké a pedagogické práce kateder marxismu-leninismu sociální problémy
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [9 8 27 Fórum sociální politiky Sociální revue] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy fórum sociální politiky přehled vědecké a pedagogické práce kateder marxismu-leninismu sociální revue
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [10 27 32 Sociální revue Sociologická revue] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy sociální revue přehled vědecké a pedagogické práce kateder marxismu-leninismu sociologická revue
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [11 45 32 Parlament (časopis) Sociologická revue] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy parlament (časopis) přehled vědecké a pedagogické práce kateder marxismu-leninismu sociologická revue
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [12 3 34 Biograf Sociologický časopis / Czech Sociological Review] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy biograf přehled vědecké a pedagogické práce kateder marxismu-leninismu sociologický časopis / czech sociological review
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [13 35 34 Sociologický obzor Sociologický časopis / Czech Sociological Review] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy sociologický obzor přehled vědecké a pedagogické práce kateder marxismu-leninismu sociologický časopis / czech sociological review
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [14 38 37 Statistika Statistický obzor] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy statistika přehled vědecké a pedagogické práce kateder marxismu-leninismu statistický obzor
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [15 44 37 Demografie (časopis) Statistický obzor] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy demografie (časopis) přehled vědecké a pedagogické práce kateder marxismu-leninismu statistický obzor
+
+--- [42 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy] [18 Přehled vědecké a pedagogické práce kateder marxismu-leninismu] [16 44 38 Demografie (časopis) Statistika] 
+
+\\ vědecké informace ústavu marxismu-leninismu pro vysoké školy demografie (časopis) přehled vědecké a pedagogické práce kateder marxismu-leninismu statistika
+[ID CasopisyID1 CasopisyID2 Casopisy Casopisy]
+[1 14 2 Naše doba Athenaeum]
+[2 7 5 Filosofický časopis Česká mysl]
+[3 16 5 Nová mysl Česká mysl]
+[4 16 7 Nová mysl Filosofický časopis]
+[5 42 18 Vědecké informace Ústavu marxismu-leninismu pro vysoké školy Přehled vědecké a pedagogické práce kateder marxismu-leninismu]
+[6 30 19 Sociální studia Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)]
+[7 32 26 Sociologická revue Sociální problémy]
+[8 45 26 Parlament (časopis) Sociální problémy]
+[9 8 27 Fórum sociální politiky Sociální revue]
+[10 27 32 Sociální revue Sociologická revue]
+[11 45 32 Parlament (časopis) Sociologická revue]
+[12 3 34 Biograf Sociologický časopis / Czech Sociological Review]
+[13 35 34 Sociologický obzor Sociologický časopis / Czech Sociological Review]
+[14 38 37 Statistika Statistický obzor]
+[15 44 37 Demografie (časopis) Statistický obzor]
+[16 44 38 Demografie (časopis) Statistika]

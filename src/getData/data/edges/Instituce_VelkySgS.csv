@@ -1,4 +1,4 @@
-ID,InstituceID,VelkySgSID,Instituce,VelkySgS
+ID,InstituceID1,VelkySgSID2,Instituce,VelkySgS
 1,5,2127,Československá akademie zemědělská,Sociologie česká do r. 1948
 2,7,2791,Československý ústav pro výzkum veřejného mínění,Výzkum veřejného mínění
 3,9,2259,Dům techniky ČSVTS Pardubice,Socware
@@ -42,4 +42,4 @@ ID,InstituceID,VelkySgSID,Instituce,VelkySgS
 41,68,2128,Společnost pro sociální bádání,Sociologie česká v l. 1948–1994
 42,72,2128,Sociologická knižnice nakladatelství Svoboda,Sociologie česká v l. 1948–1994
 43,73,2128,Sociologické nakladatelství (SLON),Sociologie česká v l. 1948–1994
-45,9,38,Dům techniky ČSVTS Pardubice,Analýza
+44,9,38,Dům techniky ČSVTS Pardubice,Analýza
