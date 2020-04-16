@@ -100,19 +100,19 @@ func (e *Edge) save(path string) {
 // This function makes edges from nodes and saves them. All nodes with All nodes.
 func makeAndSaveEdges(path string, nodes ...Node) {
 	fmt.Printf("This function makes edges from nodes and saves them. All nodes with All nodes.")
-	terminate := len(nodes) - 1
 	var namesN string
 	for _, n := range nodes {
 		namesN = namesN + " " + n.name
 	}
 	copyN := nodes[:]
-	fmt.Printf("\nNODES: %v\nlength: %v\nterminate at: %v\n", namesN, len(nodes), terminate)
+	fmt.Printf("\nNODES: %v\nlength: %v\n", namesN, len(nodes))
 	for i, n := range nodes {
 		fmt.Printf("\n%v. %v\n", i, n.name)
 		for _, withN := range copyN[i:] {
 			var e Edge
 			fmt.Printf(" - %v\n", withN.name)
 			e.fromTwoNodes(n, withN, n.name+"_"+withN.name)
+			e.checkForDp()
 			e.save(path)
 		}
 	}
@@ -124,14 +124,13 @@ func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
 	e.name = edgeName
 	e.line = append(e.line, []string{"ID", n1.name + "ID1", n2.name + "ID2", n1.name, n2.name})
 	var index uint64 = 0
-	fmt.Println(n1.name, n2.name)
-	for _, n1V := range n1.values { // Vyber uzel z n1. vezme n1: název, n2: odkazy
+	for _, n1V := range n1.values { // Vyber uzel z n1: Values
 		n1Title := n1V.line[1]          // Název pro n1
-		for _, n2V := range n2.values { // Vyber uzel z n2
+		for _, n2V := range n2.values { // Vyber uzel z n2: Values
 			n2V.links = removeDuplicates(n2V.links) // Někdy jsou v článku uvedené stejné odkazy vícekrát, proto je odstraníme
 			for _, link := range n2V.links {        // Projdi všechny odkazy v uzlu
 				if strings.ToLower(n1Title) == strings.ToLower(link) { // strings.ToLower je volaná, protože == rozlišuje mezi velkými a malými písmeny
-					if !(e.isThere(n2V.line[1], n1Title)) {
+					if !(e.isThere(n1Title, n2V.line[1])) { // Zkontroluj zdali už tam není stejný záznam A B = A B nebo A B = B A
 						index++
 						e.appendEdge(strconv.FormatUint(index, 10), n1V.line[0], n2V.line[0], n1V.line[1], n2V.line[1])
 					}
@@ -139,21 +138,21 @@ func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
 			}
 		}
 	}
-	for _, n2V := range n2.values { // Vyber uzel z n2: vezme n2: název, n1: odkazy
-		n2Title := n2V.line[1]          // Název pro n2
-		for _, n1V := range n1.values { // Vyber uzel z nn1
-			n1V.links = removeDuplicates(n1V.links) // Někdy jsou v článku uvedené stejné odkazy vícekrát, proto je odstraníme
-			for _, link := range n1V.links {        // Projdi všechny odkazy v uzlu
-				if strings.ToLower(n2Title) == strings.ToLower(link) { // strings.ToLower je volaná, protože == rozlišuje mezi velkými a malými písmeny
-					if !(e.isThere(n1V.line[1], n2Title)) { // Zkontroluj zdali už tam není stejný záznam, akorát obráceně A B = B A
-						index++
-						e.appendEdge(strconv.FormatUint(index, 10), n1V.line[0], n2V.line[0], n1V.line[1], n2V.line[1])
+	if n1.name != n2.name {
+		for _, n2V := range n2.values { // Vyber uzel z n2: Values
+			n2Title := n2V.line[1]          // Název pro n2
+			for _, n1V := range n1.values { // Vyber uzel z n1: Values
+				n1V.links = removeDuplicates(n1V.links) // Někdy jsou v článku uvedené stejné odkazy vícekrát, proto je odstraníme
+				for _, link := range n1V.links {        // Projdi všechny odkazy v uzlu
+					if strings.ToLower(n2Title) == strings.ToLower(link) { // strings.ToLower je volaná, protože == rozlišuje mezi velkými a malými písmeny
+						if !(e.isThere(n1V.line[1], n2Title)) { // Zkontroluj zdali už tam není stejný záznam A B = A B nebo A B = B A
+							index++
+							e.appendEdge(strconv.FormatUint(index, 10), n1V.line[0], n2V.line[0], n1V.line[1], n2V.line[1])
+						}
 					}
 				}
-
 			}
 		}
-
 	}
 }
 
@@ -177,6 +176,23 @@ func (e *Edge) appendEdge(values ...string) {
 		record = append(record, v)
 	}
 	e.line = append(e.line, record)
+}
+
+// Zkontroluje zdali nejsou v e.line duplikáty A B = A B nebo A B = B A
+func (e *Edge) checkForDp() {
+	for _, l := range e.line { // ID NODE1_ID NODE2_ID NODE1_NAME NODE2_NAME
+		i := 0
+		for _, c := range e.line {
+			if strings.ToLower(l[3]) == strings.ToLower(c[3]) && strings.ToLower(l[4]) == strings.ToLower(c[4]) || strings.ToLower(l[3]) == strings.ToLower(c[4]) && strings.ToLower(l[4]) == strings.ToLower(c[3]) {
+				i++
+				if i == 2 {
+					fmt.Println("\n !!! NALEZEN DUPLIKÁT !!! \nV", e.name, "Pro:\n", l, "\n", c)
+				} else if i > 2 {
+					fmt.Println(c)
+				}
+			}
+		}
+	}
 }
 
 // socTime: Udělá vztah pokud spolu sociologové žili

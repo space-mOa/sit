@@ -34,26 +34,6 @@ func getRegexp(rs ...string) []*regexp.Regexp {
 	return listReg
 }
 
-func checkCorrectness(n Node, checkN Node) {
-	fmt.Println(n.name, checkN.name, "length is same:", len(checkN.values) == len(n.values))
-	for i := 0; i < len(checkN.values)-1; i++ {
-		for iV, v := range checkN.values[i].line {
-			if v != n.values[i].line[iV] {
-				fmt.Println("error")
-				fmt.Println("check:\n", v, n.values[i].line[iV], checkN.values[i].line, n.values[i].line)
-				panic("PANIC")
-			}
-		}
-		for iL, l := range checkN.values[i].links {
-			if l != n.values[i].links[iL] {
-				fmt.Println("ERORR", n.values[i].links[iL], l)
-				fmt.Println("\n\ncheck:\n", checkN.values[i].links, "nodes\n", n.values[i].links)
-				panic("PANIC")
-			}
-		}
-	}
-}
-
 func sociologists(page Page) []string {
 	rgx := getRegexp(
 		`<span class="PERSON_BORN"><time datetime=.*>.*</time>.*</span>`, // 0 Vybere datum narození
