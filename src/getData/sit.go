@@ -67,10 +67,81 @@ func (n *Node) addNode(val []string, lin []string) {
 	n.values = append(n.values, v)
 }
 
+// convertToInt() zkonvertuje string do int64
+func convertToInt(values ...string) (converted []int) {
+	for _, val := range values {
+		parsed, err := strconv.Atoi(val)
+		if err != nil {
+			fmt.Println("\nERROR u:", values)
+			panic("fn convertToInt(): nemohla konvertovat string do int")
+		}
+		converted = append(converted, parsed)
+	}
+	return converted
+}
+
+func checkTimeRange(rangeStart, rangeStop, nodeStart, nodeStop int) bool {
+	if nodeStop >= rangeStart {
+		if rangeStop <= nodeStop {
+			if nodeStart <= rangeStop {
+				return true
+			}
+			return false
+		}
+		return true
+	}
+	return false
+}
+
+func formatDataTime(timeNode string) (start, stop int) {
+	if strings.Contains(timeNode, "–") { // pro data ve formátu YYYY–YYYY, YYYY–
+		tStr := strings.SplitAfterN(timeNode, "–", -1)
+		if tStr[1] == "" { // pro data ve formátu 1930-
+			stop = 2030
+		} else { // pro data ve formátu 1980-1985
+			stop = convertToInt(tStr[1])[0]
+		}
+		tStr[0] = strings.ReplaceAll(tStr[0], "–", "")
+		start = convertToInt(tStr[0])[0]
+		return start, stop
+	}
+	return convertToInt(timeNode)[0], convertToInt(timeNode)[0] // pro data ve formátu YYYY např. 1985
+}
+
+func makeTimeRangeNodes(timeRanges [][]int, nodes []Node) (times Node) {
+	var index uint64 = 0
+	times.name = "timeRanges"
+	times.head = []string{"ID", "NAME"}
+	for _, timeRng := range timeRanges { // Pro time range např. 1950-1960
+		var links []string
+		for _, nodeKind := range nodes { // Pro každý typ uzlů např, časopisy, sociologové
+			if strings.Contains(nodeKind.values[2].line[2], "-") { // Pro ty uzly co mají v čase znak "-"
+				for _, value := range nodeKind.values {
+					if checkTimeRange(timeRng[0], timeRng[1], convertToInt(value.line[2][:4])[0], convertToInt(value.line[3][:4])[0]) {
+						links = append(links, value.line[0]+"++"+value.line[1])
+					}
+				}
+			} else {
+				for _, value := range nodeKind.values {
+					for _, time := range value.line[2:] {
+						start, stop := formatDataTime(time)
+						if checkTimeRange(timeRng[0], timeRng[1], start, stop) {
+							links = append(links, value.line[0]+"++"+value.line[1])
+						}
+					}
+				}
+			}
+		}
+		index++
+		times.addNode([]string{strconv.FormatUint(index, 10), strconv.Itoa(timeRng[0]) + "-" + strconv.Itoa(timeRng[1])}, removeDuplicates(links)) // removeDuplicates() protože některé uzly mají více časových období
+	}
+	return times
+}
+
 // Edge je vztah mezi dvěma uzly
 type Edge struct {
 	name string
-	line [][]string
+	line [][]string // ID, ID1, ID2, NAME1, NAME2, ATRIBUTY...
 }
 
 func (e *Edge) printEdges() {
@@ -96,9 +167,51 @@ func (e *Edge) save(path string) {
 	// fmt.Printf("Edges \"%v\" saved to \"%v\"\n", e.name, path+e.name+".csv")
 }
 
+func makeTimeEdges(timeRange Node, edges []Edge) (edge Edge) {
+	var index uint64 = 0
+	edge.name = "timeRanges"
+	edge.appendEdge("ID", "ID1", "ID2", "NAME1", "NAME2", "ATR")
+	for _, values := range timeRange.values { // time range např. 1950-1980, 1940-1950
+		for _, edgeKind := range edges {
+			for _, line := range edgeKind.line { // abychom dostali pár uzelX - uzelY
+				firstNode := line[1] + "++" + line[3]  // "ID1++NAME1"
+				secondNode := line[2] + "++" + line[4] // "ID1++NAME2"
+				if isInLinks(&values.links, firstNode) && isInLinks(&values.links, secondNode) {
+					index++
+					edge.appendEdge(strconv.FormatUint(index, 10), values.line[0], line[1], values.line[1], line[3], secondNode)
+					edge.appendEdge(strconv.FormatUint(index, 10), values.line[0], line[2], values.line[1], line[4], firstNode)
+				}
+			}
+		}
+	}
+	return edge
+}
+
+func isInLinks(links *[]string, against string) bool {
+	for _, link := range *links {
+		if link == against {
+			return true
+		}
+	}
+	return false
+}
+
+func makeEdges(nodes ...Node) (edges []Edge) {
+	copyNodes := nodes[:]
+	for i, node := range nodes {
+		for _, copy := range copyNodes[i+1:] {
+			var e Edge
+			e.fromTwoNodes(node, copy, node.name+"_"+copy.name)
+			e.checkForDp()
+			edges = append(edges, e)
+		}
+	}
+	return edges
+}
+
 // makeAndSaveEdges round-robin
 // This function makes edges from nodes and saves them. All nodes with All nodes.
-func makeAndSaveEdges(path string, nodes ...Node) {
+func makeAndSaveEdges(path string, nodes ...Node) (allEdges []Edge) {
 	fmt.Printf("This function makes edges from nodes and saves them. All nodes with All nodes.")
 	var namesN string
 	for _, n := range nodes {
@@ -114,15 +227,17 @@ func makeAndSaveEdges(path string, nodes ...Node) {
 			e.fromTwoNodes(n, withN, n.name+"_"+withN.name)
 			e.checkForDp()
 			e.save(path)
+			allEdges = append(allEdges, e)
 		}
 	}
+	return allEdges
 }
 
 // fromTwoNodes bere dva uzly a vytvoří pro ně hrany na základě odkazů a názvů
 // názvy jsou totiž identické s první částí uvedenou v odkazech před znakem: |
 func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
 	e.name = edgeName
-	e.line = append(e.line, []string{"ID", n1.name + "ID1", n2.name + "ID2", n1.name, n2.name})
+	e.line = append(e.line, []string{"ID", "ID1", "ID2", "NAME1", "NAME2"})
 	var index uint64 = 0
 	for _, n1V := range n1.values { // Vyber uzel z n1: Values
 		n1Title := n1V.line[1]          // Název pro n1
@@ -183,7 +298,7 @@ func (e *Edge) checkForDp() {
 	for _, l := range e.line { // ID NODE1_ID NODE2_ID NODE1_NAME NODE2_NAME
 		i := 0
 		for _, c := range e.line {
-			if strings.ToLower(l[3]) == strings.ToLower(c[3]) && strings.ToLower(l[4]) == strings.ToLower(c[4]) || strings.ToLower(l[3]) == strings.ToLower(c[4]) && strings.ToLower(l[4]) == strings.ToLower(c[3]) {
+			if (strings.ToLower(l[3]) == strings.ToLower(c[3]) && strings.ToLower(l[4]) == strings.ToLower(c[4])) || (strings.ToLower(l[3]) == strings.ToLower(c[4]) && strings.ToLower(l[4]) == strings.ToLower(c[3])) {
 				i++
 				if i == 2 {
 					fmt.Println("\n !!! NALEZEN DUPLIKÁT !!! \nV", e.name, "Pro:\n", l, "\n", c)

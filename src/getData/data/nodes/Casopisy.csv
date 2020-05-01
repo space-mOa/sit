@@ -1,47 +1,47 @@
-ID,nazev
-1,Acta Universitatis Palackianae Olomucensis – Facultas Philosophica – Sociologica et Andragogica
-2,Athenaeum
-3,Biograf
-4,Časopis Svobodné školy politických nauk v Praze
-5,Česká mysl
-6,Data a výzkum – SDA info
-7,Filosofický časopis
-8,Fórum sociální politiky
-9,"Gender, rovné příležitosti, výzkum"
-10,Historická demografie
-11,Historická sociologie
-12,Kruh
-13,Lidé města
-14,Naše doba
-15,Naše společnost
-16,Nová mysl
-17,Pohledy
-18,Přehled vědecké a pedagogické práce kateder marxismu-leninismu
-19,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
-20,"Sborník prací Filozofické fakulty Ostravské univerzity – Filozofie, sociologie, psychologie"
-21,Sociální budoucnost
-22,Sociální péče
-23,Sociální práce
-24,Sociální práce / Sociálna práca
-25,Sociální pracovnice
-26,Sociální problémy
-27,Sociální revue
-28,Sociální rozhledy
-29,Sociální snahy
-30,Sociální studia
-31,Sociologica
-32,Sociologická revue
-33,Sociologické aktuality
-34,Sociologický časopis / Czech Sociological Review
-35,Sociologický obzor
-36,Sociologie a historie zemědělství
-37,Statistický obzor
-38,Statistika
-39,Statistika a demografie
-40,Studia sociologica
-41,Veřejné mínění
-42,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy
-43,Analýza (časopis)
-44,Demografie (časopis)
-45,Parlament (časopis)
-46,Teorie vědy (časopis)
+ID,NAME,T1,T2,T3
+1,Acta Universitatis Palackianae Olomucensis – Facultas Philosophica – Sociologica et Andragogica,1992,2005–2010
+2,Athenaeum,1883–1893
+3,Biograf,1996–
+4,Časopis Svobodné školy politických nauk v Praze,1928–1938
+5,Česká mysl,1900–1947
+6,Data a výzkum – SDA info,2007–
+7,Filosofický časopis,1953–
+8,Fórum sociální politiky,2007–
+9,"Gender, rovné příležitosti, výzkum",1999–
+10,Historická demografie,1967–
+11,Historická sociologie,2009–
+12,Kruh,1946–1948
+13,Lidé města,1999–
+14,Naše doba,1894–1949
+15,Naše společnost,2003–
+16,Nová mysl,1947–1989
+17,Pohledy,1993–2008
+18,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,1961–1969
+19,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),1957–1995
+20,"Sborník prací Filozofické fakulty Ostravské univerzity – Filozofie, sociologie, psychologie",1994–2008
+21,Sociální budoucnost,1920
+22,Sociální péče,1919–1922
+23,Sociální práce,1920–1931,1936–1938
+24,Sociální práce / Sociálna práca,1998–
+25,Sociální pracovnice,1932–1948
+26,Sociální problémy,1931–1947
+27,Sociální revue,1920–1951,1955–1962
+28,Sociální rozhledy,1925–1930
+29,Sociální snahy,1921–1940
+30,Sociální studia,2004–
+31,Sociologica,1969
+32,Sociologická revue,1930–1949
+33,Sociologické aktuality,1989–1994
+34,Sociologický časopis / Czech Sociological Review,1965–
+35,Sociologický obzor,1987–1989,1992–1995
+36,Sociologie a historie zemědělství,1965–1992
+37,Statistický obzor,1920–1961
+38,Statistika,1962–
+39,Statistika a demografie,1959–1972
+40,Studia sociologica,1968–
+41,Veřejné mínění,1947–1948
+42,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy,1965–1968
+43,Analýza (časopis),1971–1978
+44,Demografie (časopis),1959–
+45,Parlament (časopis),1921–1931,1935–1936
+46,Teorie vědy (časopis),1990–

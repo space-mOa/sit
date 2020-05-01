@@ -57,6 +57,9 @@ CALL apoc.export.json.query("MATCH (n:Sociolog) RETURN collect(n{.id, .name, .bo
 CALL apoc.export.csv.query("MATCH (n)-[r:LIVED_WITH]-(l) 
 RETURN n.id as v1_id, l.id as v2_id, n.name as v1_name, l.name as v2_name", "query.csv", {});
 
+CALL apoc.export.csv.query("MATCH (n)-[r:LINKS_SC]-(l) 
+RETURN n.id as v1_id, l.id as v2_id, n.name as v1_name, l.name as v2_name, labels(n) as v1_label, labels(l) as v2_label","query.csv", {});
+
 
 CALL apoc.export.json.query("MATCH (n)-[r:LIVED_WITH]-(l) RETURN collect(n{.name, .id}) as nodes","query.json");
 CALL apoc.export.json.query("MATCH (n)-[r:LIVED_WITH]-(l) RETURN distinct(n{.id, .name, .born, .died}) as nodes","query.json");

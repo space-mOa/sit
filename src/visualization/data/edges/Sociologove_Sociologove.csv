@@ -1,0 +1,372 @@
+ID,SociologoveID1,SociologoveID2,Sociologove1,Sociologove2
+1,16,1,Dědek František,Adamec Čeněk
+2,94,1,Mertl Jan,Adamec Čeněk
+3,32,2,Gál Fedor,Alan Josef
+4,84,2,Machonin Pavel,Alan Josef
+5,108,2,Petrusek Miloslav,Alan Josef
+6,8,4,Boháč Antonín,Auerhan Jan
+7,69,4,Korčák Jaromír,Auerhan Jan
+8,24,5,Fischer Josef Ludvík,Beneš Edvard
+9,27,5,Foustka Břetislav,Beneš Edvard
+10,33,5,Galla Karel,Beneš Edvard
+11,42,5,Hník František Maria,Beneš Edvard
+12,72,5,Král Josef,Beneš Edvard
+13,77,5,Kunte Ladislav,Beneš Edvard
+14,82,5,Macek Josef,Beneš Edvard
+15,85,5,Machotka Otakar,Beneš Edvard
+16,88,5,Malý Rudolf Ina,Beneš Edvard
+17,91,5,Masaryk Tomáš Garrigue,Beneš Edvard
+18,94,5,Mertl Jan,Beneš Edvard
+19,109,5,Pistorius Theodor,Beneš Edvard
+20,134,5,Sorokin Pitirim Alexandrovič,Beneš Edvard
+21,148,5,Šrámek Jan,Beneš Edvard
+22,5,6,Beneš Edvard,Bláha Inocenc Arnošt
+23,11,6,Butter Oskar,Bláha Inocenc Arnošt
+24,15,6,Čep Tomáš,Bláha Inocenc Arnošt
+25,31,6,Gaďourek Ivan,Bláha Inocenc Arnošt
+26,33,6,Galla Karel,Bláha Inocenc Arnošt
+27,37,6,Hájek Mojmír,Bláha Inocenc Arnošt
+28,39,6,Hanáček Jaroslav,Bláha Inocenc Arnošt
+29,42,6,Hník František Maria,Bláha Inocenc Arnošt
+30,46,6,Chalupný Emanuel,Bláha Inocenc Arnošt
+31,70,6,Kozák Jan Blahoslav,Bláha Inocenc Arnošt
+32,72,6,Král Josef,Bláha Inocenc Arnošt
+33,77,6,Kunte Ladislav,Bláha Inocenc Arnošt
+34,83,6,Macků Jan,Bláha Inocenc Arnošt
+35,85,6,Machotka Otakar,Bláha Inocenc Arnošt
+36,97,6,Možný Ivo,Bláha Inocenc Arnošt
+37,103,6,Obrdlík Antonín,Bláha Inocenc Arnošt
+38,104,6,Obrdlíková Juliana,Bláha Inocenc Arnošt
+39,120,6,Rouček Joseph Slabey,Bláha Inocenc Arnošt
+40,134,6,Sorokin Pitirim Alexandrovič,Bláha Inocenc Arnošt
+41,137,6,Strmiska Zdeněk,Bláha Inocenc Arnošt
+42,144,6,Šíma Jaroslav,Bláha Inocenc Arnošt
+43,145,6,Škrach Vasil Kaprálek,Bláha Inocenc Arnošt
+44,152,6,Tauber Jan Bohumil,Bláha Inocenc Arnošt
+45,157,6,Trapl Miloslav,Bláha Inocenc Arnošt
+46,160,6,Ullrich Zdeněk,Bláha Inocenc Arnošt
+47,176,6,Zwicker Bruno,Bláha Inocenc Arnošt
+48,178,6,Žmavc Ivan,Bláha Inocenc Arnošt
+49,61,8,Kárníková Ludmila,Boháč Antonín
+50,69,8,Korčák Jaromír,Boháč Antonín
+51,115,8,Rádl Emanuel,Boháč Antonín
+52,135,8,Srb Vladimír,Boháč Antonín
+53,139,9,Suda Zdeněk,Bolzano Bernard
+54,111,10,Potůček Martin,Brokl Lubomír
+55,70,13,Kozák Jan Blahoslav,Čapek Karel
+56,82,13,Macek Josef,Čapek Karel
+57,107,13,Peroutka Ferdinand,Čapek Karel
+58,33,15,Galla Karel,Čep Tomáš
+59,152,15,Tauber Jan Bohumil,Čep Tomáš
+60,85,18,Machotka Otakar,Dubská Irena
+61,91,19,Masaryk Tomáš Garrigue,Durdík Josef
+62,135,21,Srb Vladimír,Fajfr František
+63,23,22,Filipec Jindřich,Filipcová Blanka
+64,30,22,Gabal Ivan,Filipcová Blanka
+65,93,22,Matějů Petr,Filipcová Blanka
+66,90,23,Marušiak Martin,Filipec Jindřich
+67,139,23,Suda Zdeněk,Filipec Jindřich
+68,152,23,Tauber Jan Bohumil,Filipec Jindřich
+69,6,24,Bláha Inocenc Arnošt,Fischer Josef Ludvík
+70,9,24,Bolzano Bernard,Fischer Josef Ludvík
+71,14,24,Čecháček Jaroslav,Fischer Josef Ludvík
+72,31,24,Gaďourek Ivan,Fischer Josef Ludvík
+73,46,24,Chalupný Emanuel,Fischer Josef Ludvík
+74,51,24,Jochmann Vladimír,Fischer Josef Ludvík
+75,58,24,Kalandra Záviš,Fischer Josef Ludvík
+76,72,24,Král Josef,Fischer Josef Ludvík
+77,83,24,Macků Jan,Fischer Josef Ludvík
+78,88,24,Malý Rudolf Ina,Fischer Josef Ludvík
+79,91,24,Masaryk Tomáš Garrigue,Fischer Josef Ludvík
+80,108,24,Petrusek Miloslav,Fischer Josef Ludvík
+81,145,24,Škrach Vasil Kaprálek,Fischer Josef Ludvík
+82,157,24,Trapl Miloslav,Fischer Josef Ludvík
+83,163,24,Václavek Bedřich,Fischer Josef Ludvík
+84,176,24,Zwicker Bruno,Fischer Josef Ludvík
+85,48,25,Illner Michal,Foret Miroslav
+86,33,27,Galla Karel,Foustka Břetislav
+87,42,27,Hník František Maria,Foustka Břetislav
+88,72,27,Král Josef,Foustka Břetislav
+89,85,27,Machotka Otakar,Foustka Břetislav
+90,94,27,Mertl Jan,Foustka Břetislav
+91,160,27,Ullrich Zdeněk,Foustka Břetislav
+92,93,30,Matějů Petr,Gabal Ivan
+93,28,32,Frič Pavol,Gál Fedor
+94,72,33,Král Josef,Galla Karel
+95,90,33,Marušiak Martin,Galla Karel
+96,117,33,Reich Edvard,Galla Karel
+97,144,33,Šíma Jaroslav,Galla Karel
+98,152,33,Tauber Jan Bohumil,Galla Karel
+99,164,33,Vaněk Antonín,Galla Karel
+100,98,35,Musil Jiří,Gellner Ernest (Arnošt)
+101,69,38,Korčák Jaromír,Hampl Martin
+102,106,38,Pavlík Zdeněk,Hampl Martin
+103,115,40,Rádl Emanuel,Havelka Miloš
+104,85,41,Machotka Otakar,Hirner Alexander
+105,96,44,Modráček František,Hudec Josef
+106,65,45,Klofáč Jaroslav,Huláková Marie
+107,15,46,Čep Tomáš,Chalupný Emanuel
+108,20,46,Dušek Jan,Chalupný Emanuel
+109,33,46,Galla Karel,Chalupný Emanuel
+110,54,46,Kadlec Vladimír,Chalupný Emanuel
+111,72,46,Král Josef,Chalupný Emanuel
+112,73,46,Krejčí František,Chalupný Emanuel
+113,75,46,Krejčí Karel,Chalupný Emanuel
+114,85,46,Machotka Otakar,Chalupný Emanuel
+115,91,46,Masaryk Tomáš Garrigue,Chalupný Emanuel
+116,96,46,Modráček František,Chalupný Emanuel
+117,107,46,Peroutka Ferdinand,Chalupný Emanuel
+118,112,46,Potužil František,Chalupný Emanuel
+119,142,46,Šapoval Mykyta,Chalupný Emanuel
+120,144,46,Šíma Jaroslav,Chalupný Emanuel
+121,146,46,Šmejkal Karel,Chalupný Emanuel
+122,154,46,Teltšík Rudolf,Chalupný Emanuel
+123,158,46,Tyrš Miroslav,Chalupný Emanuel
+124,160,46,Ullrich Zdeněk,Chalupný Emanuel
+125,176,46,Zwicker Bruno,Chalupný Emanuel
+126,65,47,Klofáč Jaroslav,Charvát František
+127,81,47,Linhart Jiří,Charvát František
+128,166,47,Večerník Jiří,Charvát František
+129,123,48,Řehák Jan,Illner Michal
+130,48,52,Illner Michal,Jungmann Bohumil
+131,84,52,Machonin Pavel,Jungmann Bohumil
+132,94,54,Mertl Jan,Kadlec Vladimír
+133,140,55,Sviták Ivan,Kadlecová Erika
+134,46,57,Chalupný Emanuel,Kaláb Miloš
+135,55,57,Kadlecová Erika,Kaláb Miloš
+136,65,57,Klofáč Jaroslav,Kaláb Miloš
+137,78,57,Lamser Václav,Kaláb Miloš
+138,84,57,Machonin Pavel,Kaláb Miloš
+139,137,57,Strmiska Zdeněk,Kaláb Miloš
+140,153,58,Teige Karel,Kalandra Záviš
+141,84,60,Machonin Pavel,Kapr Jaroslav
+142,157,64,Trapl Miloslav,Klácel František Matouš
+143,17,65,Disman Miroslav,Klofáč Jaroslav
+144,84,65,Machonin Pavel,Klofáč Jaroslav
+145,155,65,Tlustý Vojtěch,Klofáč Jaroslav
+146,135,69,Srb Vladimír,Korčák Jaromír
+147,46,70,Chalupný Emanuel,Kozák Jan Blahoslav
+148,13,72,Čapek Karel,Král Josef
+149,16,72,Dědek František,Král Josef
+150,19,72,Durdík Josef,Král Josef
+151,34,72,Geist Bohumil,Král Josef
+152,54,72,Kadlec Vladimír,Král Josef
+153,66,72,Kohn Jindřich,Král Josef
+154,80,72,Lindner Gustav Adolf,Král Josef
+155,88,72,Malý Rudolf Ina,Král Josef
+156,94,72,Mertl Jan,Král Josef
+157,96,72,Modráček František,Král Josef
+158,120,72,Rouček Joseph Slabey,Král Josef
+159,134,72,Sorokin Pitirim Alexandrovič,Král Josef
+160,139,72,Suda Zdeněk,Král Josef
+161,142,72,Šapoval Mykyta,Král Josef
+162,144,72,Šíma Jaroslav,Král Josef
+163,145,72,Škrach Vasil Kaprálek,Král Josef
+164,158,72,Tyrš Miroslav,Král Josef
+165,160,72,Ullrich Zdeněk,Král Josef
+166,165,72,Vašek Bedřich,Král Josef
+167,167,72,Verunáč Václav,Král Josef
+168,168,72,Voráček Josef,Král Josef
+169,5,73,Beneš Edvard,Krejčí František
+170,6,73,Bláha Inocenc Arnošt,Krejčí František
+171,13,73,Čapek Karel,Krejčí František
+172,19,73,Durdík Josef,Krejčí František
+173,58,73,Kalandra Záviš,Krejčí František
+174,72,73,Král Josef,Krejčí František
+175,91,73,Masaryk Tomáš Garrigue,Krejčí František
+176,145,73,Škrach Vasil Kaprálek,Krejčí František
+177,3,74,Árnason Johann Pál,Krejčí Jaroslav
+178,135,76,Srb Vladimír,Kučera Milan
+179,88,77,Malý Rudolf Ina,Kunte Ladislav
+180,123,78,Řehák Jan,Lamser Václav
+181,149,78,Šrubař Ilja,Lamser Václav
+182,106,79,Pavlík Zdeněk,Librová Hana
+183,19,80,Durdík Josef,Lindner Gustav Adolf
+184,33,80,Galla Karel,Lindner Gustav Adolf
+185,87,80,Makovička Emanuel,Lindner Gustav Adolf
+186,84,81,Machonin Pavel,Linhart Jiří
+187,166,81,Večerník Jiří,Linhart Jiří
+188,94,82,Mertl Jan,Macek Josef
+189,3,84,Árnason Johann Pál,Machonin Pavel
+190,10,84,Brokl Lubomír,Machonin Pavel
+191,17,84,Disman Miroslav,Machonin Pavel
+192,24,84,Fischer Josef Ludvík,Machonin Pavel
+193,59,84,Kalinová Lenka,Machonin Pavel
+194,72,84,Král Josef,Machonin Pavel
+195,108,84,Petrusek Miloslav,Machonin Pavel
+196,119,84,Richta Radovan,Machonin Pavel
+197,137,84,Strmiska Zdeněk,Machonin Pavel
+198,139,84,Suda Zdeněk,Machonin Pavel
+199,166,84,Večerník Jiří,Machonin Pavel
+200,72,85,Král Josef,Machotka Otakar
+201,94,85,Mertl Jan,Machotka Otakar
+202,100,85,Nejedlý Zdeněk,Machotka Otakar
+203,103,85,Obrdlík Antonín,Machotka Otakar
+204,144,85,Šíma Jaroslav,Machotka Otakar
+205,145,85,Škrach Vasil Kaprálek,Machotka Otakar
+206,146,85,Šmejkal Karel,Machotka Otakar
+207,160,85,Ullrich Zdeněk,Machotka Otakar
+208,97,89,Možný Ivo,Mareš Petr
+209,128,89,Sirovátka Tomáš,Mareš Petr
+210,143,90,Šiklová Jiřina,Marušiak Martin
+211,161,90,Urbánek Eduard,Marušiak Martin
+212,6,91,Bláha Inocenc Arnošt,Masaryk Tomáš Garrigue
+213,11,91,Butter Oskar,Masaryk Tomáš Garrigue
+214,13,91,Čapek Karel,Masaryk Tomáš Garrigue
+215,21,91,Fajfr František,Masaryk Tomáš Garrigue
+216,27,91,Foustka Břetislav,Masaryk Tomáš Garrigue
+217,29,91,Fuchs Alfred,Masaryk Tomáš Garrigue
+218,33,91,Galla Karel,Masaryk Tomáš Garrigue
+219,35,91,Gellner Ernest (Arnošt),Masaryk Tomáš Garrigue
+220,42,91,Hník František Maria,Masaryk Tomáš Garrigue
+221,56,91,Kaizl Josef,Masaryk Tomáš Garrigue
+222,58,91,Kalandra Záviš,Masaryk Tomáš Garrigue
+223,66,91,Kohn Jindřich,Masaryk Tomáš Garrigue
+224,70,91,Kozák Jan Blahoslav,Masaryk Tomáš Garrigue
+225,72,91,Král Josef,Masaryk Tomáš Garrigue
+226,77,91,Kunte Ladislav,Masaryk Tomáš Garrigue
+227,80,91,Lindner Gustav Adolf,Masaryk Tomáš Garrigue
+228,88,91,Malý Rudolf Ina,Masaryk Tomáš Garrigue
+229,92,91,Masaryková Alice,Masaryk Tomáš Garrigue
+230,94,91,Mertl Jan,Masaryk Tomáš Garrigue
+231,97,91,Možný Ivo,Masaryk Tomáš Garrigue
+232,98,91,Musil Jiří,Masaryk Tomáš Garrigue
+233,99,91,Nehněvajsa Jiří,Masaryk Tomáš Garrigue
+234,100,91,Nejedlý Zdeněk,Masaryk Tomáš Garrigue
+235,102,91,Nový Lubomír,Masaryk Tomáš Garrigue
+236,107,91,Peroutka Ferdinand,Masaryk Tomáš Garrigue
+237,108,91,Petrusek Miloslav,Masaryk Tomáš Garrigue
+238,113,91,Procházka Matěj,Masaryk Tomáš Garrigue
+239,115,91,Rádl Emanuel,Masaryk Tomáš Garrigue
+240,119,91,Richta Radovan,Masaryk Tomáš Garrigue
+241,127,91,Schoenbaum Emil,Masaryk Tomáš Garrigue
+242,130,91,Slejška Dragoslav,Masaryk Tomáš Garrigue
+243,131,91,Smetana Augustin,Masaryk Tomáš Garrigue
+244,134,91,Sorokin Pitirim Alexandrovič,Masaryk Tomáš Garrigue
+245,139,91,Suda Zdeněk,Masaryk Tomáš Garrigue
+246,142,91,Šapoval Mykyta,Masaryk Tomáš Garrigue
+247,144,91,Šíma Jaroslav,Masaryk Tomáš Garrigue
+248,145,91,Škrach Vasil Kaprálek,Masaryk Tomáš Garrigue
+249,151,91,Štern Evžen,Masaryk Tomáš Garrigue
+250,157,91,Trapl Miloslav,Masaryk Tomáš Garrigue
+251,158,91,Tyrš Miroslav,Masaryk Tomáš Garrigue
+252,160,91,Ullrich Zdeněk,Masaryk Tomáš Garrigue
+253,164,91,Vaněk Antonín,Masaryk Tomáš Garrigue
+254,170,91,Weber Alfred,Masaryk Tomáš Garrigue
+255,177,91,Žalud Augustin,Masaryk Tomáš Garrigue
+256,13,92,Čapek Karel,Masaryková Alice
+257,98,92,Musil Jiří,Masaryková Alice
+258,134,92,Sorokin Pitirim Alexandrovič,Masaryková Alice
+259,166,93,Večerník Jiří,Matějů Petr
+260,33,94,Galla Karel,Mertl Jan
+261,46,94,Chalupný Emanuel,Mertl Jan
+262,112,94,Potužil František,Mertl Jan
+263,145,94,Škrach Vasil Kaprálek,Mertl Jan
+264,160,94,Ullrich Zdeněk,Mertl Jan
+265,174,94,Ziegler Heinz Otto,Mertl Jan
+266,82,96,Macek Josef,Modráček František
+267,151,96,Štern Evžen,Modráček František
+268,71,97,Köttner Mojmír,Možný Ivo
+269,93,97,Matějů Petr,Možný Ivo
+270,8,98,Boháč Antonín,Musil Jiří
+271,139,98,Suda Zdeněk,Musil Jiří
+272,160,98,Ullrich Zdeněk,Musil Jiří
+273,149,99,Šrubař Ilja,Nehněvajsa Jiří
+274,6,100,Bláha Inocenc Arnošt,Nejedlý Zdeněk
+275,13,100,Čapek Karel,Nejedlý Zdeněk
+276,19,100,Durdík Josef,Nejedlý Zdeněk
+277,24,100,Fischer Josef Ludvík,Nejedlý Zdeněk
+278,58,100,Kalandra Záviš,Nejedlý Zdeněk
+279,115,100,Rádl Emanuel,Nejedlý Zdeněk
+280,157,100,Trapl Miloslav,Nejedlý Zdeněk
+281,131,101,Smetana Augustin,Neuschl Robert
+282,104,103,Obrdlíková Juliana,Obrdlík Antonín
+283,176,103,Zwicker Bruno,Obrdlík Antonín
+284,24,104,Fischer Josef Ludvík,Obrdlíková Juliana
+285,33,104,Galla Karel,Obrdlíková Juliana
+286,83,104,Macků Jan,Obrdlíková Juliana
+287,157,104,Trapl Miloslav,Obrdlíková Juliana
+288,176,104,Zwicker Bruno,Obrdlíková Juliana
+289,61,106,Kárníková Ludmila,Pavlík Zdeněk
+290,69,106,Korčák Jaromír,Pavlík Zdeněk
+291,76,106,Kučera Milan,Pavlík Zdeněk
+292,121,106,Rychtaříková Jitka,Pavlík Zdeněk
+293,58,107,Kalandra Záviš,Peroutka Ferdinand
+294,46,108,Chalupný Emanuel,Petrusek Miloslav
+295,94,108,Mertl Jan,Petrusek Miloslav
+296,97,108,Možný Ivo,Petrusek Miloslav
+297,99,108,Nehněvajsa Jiří,Petrusek Miloslav
+298,101,113,Neuschl Robert,Procházka Matěj
+299,21,115,Fajfr František,Rádl Emanuel
+300,73,115,Krejčí František,Rádl Emanuel
+301,107,115,Peroutka Ferdinand,Rádl Emanuel
+302,145,115,Škrach Vasil Kaprálek,Rádl Emanuel
+303,157,115,Trapl Miloslav,Rádl Emanuel
+304,160,115,Ullrich Zdeněk,Rádl Emanuel
+305,46,117,Chalupný Emanuel,Reich Edvard
+306,152,117,Tauber Jan Bohumil,Reich Edvard
+307,18,119,Dubská Irena,Richta Radovan
+308,23,119,Filipec Jindřich,Richta Radovan
+309,52,119,Jungmann Bohumil,Richta Radovan
+310,143,125,Šiklová Jiřina,Sedláček Oto
+311,161,125,Urbánek Eduard,Sedláček Oto
+312,80,131,Lindner Gustav Adolf,Smetana Augustin
+313,83,132,Macků Jan,Solař Josef
+314,97,132,Možný Ivo,Solař Josef
+315,24,134,Fischer Josef Ludvík,Sorokin Pitirim Alexandrovič
+316,68,134,Kolaja Jiří Tomáš,Sorokin Pitirim Alexandrovič
+317,120,134,Rouček Joseph Slabey,Sorokin Pitirim Alexandrovič
+318,142,134,Šapoval Mykyta,Sorokin Pitirim Alexandrovič
+319,157,134,Trapl Miloslav,Sorokin Pitirim Alexandrovič
+320,160,134,Ullrich Zdeněk,Sorokin Pitirim Alexandrovič
+321,176,134,Zwicker Bruno,Sorokin Pitirim Alexandrovič
+322,178,134,Žmavc Ivan,Sorokin Pitirim Alexandrovič
+323,35,136,Gellner Ernest (Arnošt),Stark Werner
+324,46,137,Chalupný Emanuel,Strmiska Zdeněk
+325,65,137,Klofáč Jaroslav,Strmiska Zdeněk
+326,108,137,Petrusek Miloslav,Strmiska Zdeněk
+327,149,137,Šrubař Ilja,Strmiska Zdeněk
+328,149,139,Šrubař Ilja,Suda Zdeněk
+329,149,141,Šrubař Ilja,Svoboda Ludvík
+330,163,141,Václavek Bedřich,Svoboda Ludvík
+331,24,143,Fischer Josef Ludvík,Šiklová Jiřina
+332,72,143,Král Josef,Šiklová Jiřina
+333,84,143,Machonin Pavel,Šiklová Jiřina
+334,94,143,Mertl Jan,Šiklová Jiřina
+335,156,143,Tomeš Igor,Šiklová Jiřina
+336,161,143,Urbánek Eduard,Šiklová Jiřina
+337,66,144,Kohn Jindřich,Šíma Jaroslav
+338,160,144,Ullrich Zdeněk,Šíma Jaroslav
+339,164,144,Vaněk Antonín,Šíma Jaroslav
+340,168,144,Voráček Josef,Šíma Jaroslav
+341,21,145,Fajfr František,Škrach Vasil Kaprálek
+342,160,145,Ullrich Zdeněk,Škrach Vasil Kaprálek
+343,6,150,Bláha Inocenc Arnošt,Štefánek Anton
+344,41,150,Hirner Alexander,Štefánek Anton
+345,152,150,Tauber Jan Bohumil,Štefánek Anton
+346,176,151,Zwicker Bruno,Štern Evžen
+347,17,152,Disman Miroslav,Tauber Jan Bohumil
+348,163,153,Václavek Bedřich,Teige Karel
+349,176,157,Zwicker Bruno,Trapl Miloslav
+350,19,158,Durdík Josef,Tyrš Miroslav
+351,24,158,Fischer Josef Ludvík,Tyrš Miroslav
+352,27,158,Foustka Břetislav,Tyrš Miroslav
+353,5,159,Beneš Edvard,Uhlíř Antonín
+354,145,159,Škrach Vasil Kaprálek,Uhlíř Antonín
+355,160,159,Ullrich Zdeněk,Uhlíř Antonín
+356,24,160,Fischer Josef Ludvík,Ullrich Zdeněk
+357,100,160,Nejedlý Zdeněk,Ullrich Zdeněk
+358,140,162,Sviták Ivan,Vacek Lubomír
+359,97,163,Možný Ivo,Václavek Bedřich
+360,5,164,Beneš Edvard,Vaněk Antonín
+361,90,164,Marušiak Martin,Vaněk Antonín
+362,100,164,Nejedlý Zdeněk,Vaněk Antonín
+363,122,164,Rýznar Václav,Vaněk Antonín
+364,147,164,Šnobl Jaroslav,Vaněk Antonín
+365,128,166,Sirovátka Tomáš,Večerník Jiří
+366,109,167,Pistorius Theodor,Verunáč Václav
+367,33,168,Galla Karel,Voráček Josef
+368,46,168,Chalupný Emanuel,Voráček Josef
+369,46,171,Chalupný Emanuel,Weyr František
+370,169,171,Vybral Vladimír,Weyr František
+371,177,173,Žalud Augustin,Winter Lev
