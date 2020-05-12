@@ -1,0 +1,497 @@
+
+https://blog.golang.org/normalization
+ Instituce
+
+LINE:
+ [39 Karlova univerzita v Praze 1884–1949 1965–] 
+LINKS:
+  Německá univerzita v Praze
+  Ústav sociálně politických věd UK
+  Biskupské semináře
+  Masaryk Tomáš Garrigue
+  Masaryk Tomáš Garrigue
+  Foustka Břetislav
+  Beneš Edvard
+  Foustka Břetislav
+  Ullrich Zdeněk
+  Foustka Břetislav
+  Galla Karel
+  Král Josef
+  Komenského univerzita v Bratislavě
+  Král Josef
+  Galla Karel
+  Beneš Edvard
+  Král Josef
+  Boháč Antonín
+  Ullrich Zdeněk
+  Machotka Otakar
+  Beneš Edvard
+  Galla Karel
+  Král Josef
+  Machotka Otakar
+  Boháč Antonín
+  Galla Karel
+  Ullrich Zdeněk
+  Dědek František
+  Machotka Otakar
+  Ullrich Zdeněk
+  Král Josef
+  Boháč Antonín
+  Boháč Antonín
+  Král Josef
+  Galla Karel
+  Svoboda Ludvík
+  Sociologická revue
+  Urbánek Eduard
+  Marušiak Martin
+  Sedláček Oto
+  Šiklová Jiřina
+  Kapr Jaroslav
+  Petrusek Miloslav
+  Studia sociologica
+  Kapr Jaroslav
+  Šiklová Jiřina
+  Urbánek Eduard
+  Marušiak Martin
+  Filipec Jindřich
+  Vaněk Antonín
+  Sedláček Oto
+  Vaněk Antonín
+  Marušiak Martin
+  Petrusek Miloslav
+  Sedláček Oto
+  Urbánek Eduard
+  Urbánek Eduard
+  Vaněk Antonín
+  Petrusek Miloslav
+  Sedláček Oto
+  Urbánek Eduard
+  Vaněk Antonín
+  Petrusek Miloslav
+  Šiklová Jiřina
+  Šiklová Jiřina
+  Tomeš Igor
+  Boháč Antonín
+  Fajfr František
+  Pavlík Zdeněk
+  Rychtaříková Jitka
+  Korčák Jaromír
+  Hampl Martin
+  Ústav sociálně politických věd UK
+  Disman Miroslav
+  Filipcová Blanka
+  Galla Karel
+  Lamser Václav
+  Disman Miroslav
+  Gabal Ivan
+  Jeřábek Hynek
+  Matějů Petr
+  Petrusek Miloslav
+  Alan Josef
+  Jeřábek Hynek
+  Kabele Jiří
+  Petrusek Miloslav
+  Řehák Jan
+  Frič Pavol
+  Potůček Martin
+  Alan Josef
+  Potůček Martin
+  Kapr Jaroslav
+  Tlustý Vojtěch
+  Havelka Miloš
+  Árnason Johann Pál
+  Historická sociologie
+  Lidé města
+  Historická demografie
+  :Kategorie:Aut: Nešpor Zdeněk R.
+  Kategorie:Aut: Nešpor Zdeněk R.
+  Kategorie:Vysoké, případně vyšší školy 
+  Kategorie:SIZCSg
+
+ Sociologove
+
+LINE:
+ [124 Sedláček Jan 1935-03-09 2008-08-20] 
+LINKS:
+  Karlova univerzita v Praze
+  Sociologický časopis / Czech Sociological Review
+  Československá sociologická společnost při ČSAV
+  Česká sociologická společnost
+  :Kategorie:Aut: Voříšek Michael
+  Kategorie:Aut: Voříšek Michael
+  Kategorie:SCSg
+  :Kategorie:Aut: Sedláček Jan
+  KBCSg:Sedláček Jan
+  KBCSg
+
+Makes edges with suplied nodes
+Instituce with Sociologove
+N1 TITLE: [39 Karlova univerzita v Praze 1884–1949 1965–]
+[124 Sedláček Jan 1935-03-09 2008-08-20]
+Karlova univerzita v Praze
+Sociologický časopis / Czech Sociological Review
+Československá sociologická společnost při ČSAV
+Česká sociologická společnost
+:Kategorie:Aut: Voříšek Michael
+Kategorie:Aut: Voříšek Michael
+Kategorie:SCSg
+:Kategorie:Aut: Sedláček Jan
+KBCSg:Sedláček Jan
+KBCSg
+-----
+26 27
+Is valid UTF-8: true true
+BEFORE: "Karlova univerzita v Praze" : "Karlova univerzita v\u00a0Praze" AFTER: "karlovauniverzitavpraze" : "karlovauniverzitav\u00a0praze"
+4b 61 72 6c 6f 76 61 20 75 6e 69 76 65 72 7a 69 74 61 20 76 20 50 72 61 7a 65
+4b 61 72 6c 6f 76 61 20 75 6e 69 76 65 72 7a 69 74 61 20 76 c2 a0 50 72 61 7a 65
+[U+004B 'K'] false
+[U+0061 'a'] false
+[U+0072 'r'] false
+[U+006C 'l'] false
+[U+006F 'o'] false
+[U+0076 'v'] false
+[U+0061 'a'] false
+[U+0020 ' '] true
+[U+0075 'u'] false
+[U+006E 'n'] false
+[U+0069 'i'] false
+[U+0076 'v'] false
+[U+0065 'e'] false
+[U+0072 'r'] false
+[U+007A 'z'] false
+[U+0069 'i'] false
+[U+0074 't'] false
+[U+0061 'a'] false
+[U+0020 ' '] true
+[U+0076 'v'] false
+[U+00A0] true
+[U+0050 'P'] false
+[U+0072 'r'] false
+[U+0061 'a'] false
+[U+007A 'z'] false
+[U+0065 'e'] false
+check title Karlova univerzita v Praze in node Sedláček Jan 
+ Karlova univerzita v Praze == Karlova univerzita v Praze false false
+
+26 50
+Is valid UTF-8: true true
+BEFORE: "Karlova univerzita v Praze" : "Sociologický časopis / Czech Sociological Review" AFTER: "karlovauniverzitavpraze" : "sociologickýčasopis/czechsociologicalreview"
+4b 61 72 6c 6f 76 61 20 75 6e 69 76 65 72 7a 69 74 61 20 76 20 50 72 61 7a 65
+53 6f 63 69 6f 6c 6f 67 69 63 6b c3 bd 20 c4 8d 61 73 6f 70 69 73 20 2f 20 43 7a 65 63 68 20 53 6f 63 69 6f 6c 6f 67 69 63 61 6c 20 52 65 76 69 65 77
+[U+0053 'S'] false
+[U+006F 'o'] false
+[U+0063 'c'] false
+[U+0069 'i'] false
+[U+006F 'o'] false
+[U+006C 'l'] false
+[U+006F 'o'] false
+[U+0067 'g'] false
+[U+0069 'i'] false
+[U+0063 'c'] false
+[U+006B 'k'] false
+[U+00FD 'ý'] false
+[U+0020 ' '] true
+[U+010D 'č'] false
+[U+0061 'a'] false
+[U+0073 's'] false
+[U+006F 'o'] false
+[U+0070 'p'] false
+[U+0069 'i'] false
+[U+0073 's'] false
+[U+0020 ' '] true
+[U+002F '/'] false
+[U+0020 ' '] true
+[U+0043 'C'] false
+[U+007A 'z'] false
+[U+0065 'e'] false
+[U+0063 'c'] false
+[U+0068 'h'] false
+[U+0020 ' '] true
+[U+0053 'S'] false
+[U+006F 'o'] false
+[U+0063 'c'] false
+[U+0069 'i'] false
+[U+006F 'o'] false
+[U+006C 'l'] false
+[U+006F 'o'] false
+[U+0067 'g'] false
+[U+0069 'i'] false
+[U+0063 'c'] false
+[U+0061 'a'] false
+[U+006C 'l'] false
+[U+0020 ' '] true
+[U+0052 'R'] false
+[U+0065 'e'] false
+[U+0076 'v'] false
+[U+0069 'i'] false
+[U+0065 'e'] false
+[U+0077 'w'] false
+check title Karlova univerzita v Praze in node Sedláček Jan 
+ Karlova univerzita v Praze == Sociologický časopis / Czech Sociological Review false false
+
+26 53
+Is valid UTF-8: true true
+BEFORE: "Karlova univerzita v Praze" : "Československá sociologická společnost při ČSAV" AFTER: "karlovauniverzitavpraze" : "československásociologickáspolečnostpřičsav"
+4b 61 72 6c 6f 76 61 20 75 6e 69 76 65 72 7a 69 74 61 20 76 20 50 72 61 7a 65
+c4 8c 65 73 6b 6f 73 6c 6f 76 65 6e 73 6b c3 a1 20 73 6f 63 69 6f 6c 6f 67 69 63 6b c3 a1 20 73 70 6f 6c 65 c4 8d 6e 6f 73 74 20 70 c5 99 69 20 c4 8c 53 41 56
+[U+010C 'Č'] false
+[U+0065 'e'] false
+[U+0073 's'] false
+[U+006B 'k'] false
+[U+006F 'o'] false
+[U+0073 's'] false
+[U+006C 'l'] false
+[U+006F 'o'] false
+[U+0076 'v'] false
+[U+0065 'e'] false
+[U+006E 'n'] false
+[U+0073 's'] false
+[U+006B 'k'] false
+[U+00E1 'á'] false
+[U+0020 ' '] true
+[U+0073 's'] false
+[U+006F 'o'] false
+[U+0063 'c'] false
+[U+0069 'i'] false
+[U+006F 'o'] false
+[U+006C 'l'] false
+[U+006F 'o'] false
+[U+0067 'g'] false
+[U+0069 'i'] false
+[U+0063 'c'] false
+[U+006B 'k'] false
+[U+00E1 'á'] false
+[U+0020 ' '] true
+[U+0073 's'] false
+[U+0070 'p'] false
+[U+006F 'o'] false
+[U+006C 'l'] false
+[U+0065 'e'] false
+[U+010D 'č'] false
+[U+006E 'n'] false
+[U+006F 'o'] false
+[U+0073 's'] false
+[U+0074 't'] false
+[U+0020 ' '] true
+[U+0070 'p'] false
+[U+0159 'ř'] false
+[U+0069 'i'] false
+[U+0020 ' '] true
+[U+010C 'Č'] false
+[U+0053 'S'] false
+[U+0041 'A'] false
+[U+0056 'V'] false
+check title Karlova univerzita v Praze in node Sedláček Jan 
+ Karlova univerzita v Praze == Československá sociologická společnost při ČSAV false false
+
+26 33
+Is valid UTF-8: true true
+BEFORE: "Karlova univerzita v Praze" : "Česká sociologická společnost" AFTER: "karlovauniverzitavpraze" : "českásociologickáspolečnost"
+4b 61 72 6c 6f 76 61 20 75 6e 69 76 65 72 7a 69 74 61 20 76 20 50 72 61 7a 65
+c4 8c 65 73 6b c3 a1 20 73 6f 63 69 6f 6c 6f 67 69 63 6b c3 a1 20 73 70 6f 6c 65 c4 8d 6e 6f 73 74
+[U+010C 'Č'] false
+[U+0065 'e'] false
+[U+0073 's'] false
+[U+006B 'k'] false
+[U+00E1 'á'] false
+[U+0020 ' '] true
+[U+0073 's'] false
+[U+006F 'o'] false
+[U+0063 'c'] false
+[U+0069 'i'] false
+[U+006F 'o'] false
+[U+006C 'l'] false
+[U+006F 'o'] false
+[U+0067 'g'] false
+[U+0069 'i'] false
+[U+0063 'c'] false
+[U+006B 'k'] false
+[U+00E1 'á'] false
+[U+0020 ' '] true
+[U+0073 's'] false
+[U+0070 'p'] false
+[U+006F 'o'] false
+[U+006C 'l'] false
+[U+0065 'e'] false
+[U+010D 'č'] false
+[U+006E 'n'] false
+[U+006F 'o'] false
+[U+0073 's'] false
+[U+0074 't'] false
+check title Karlova univerzita v Praze in node Sedláček Jan 
+ Karlova univerzita v Praze == Česká sociologická společnost false false
+
+26 34
+Is valid UTF-8: true true
+BEFORE: "Karlova univerzita v Praze" : ":Kategorie:Aut: Voříšek Michael" AFTER: "karlovauniverzitavpraze" : ":kategorie:aut:voříšekmichael"
+4b 61 72 6c 6f 76 61 20 75 6e 69 76 65 72 7a 69 74 61 20 76 20 50 72 61 7a 65
+3a 4b 61 74 65 67 6f 72 69 65 3a 41 75 74 3a 20 56 6f c5 99 c3 ad c5 a1 65 6b 20 4d 69 63 68 61 65 6c
+[U+003A ':'] false
+[U+004B 'K'] false
+[U+0061 'a'] false
+[U+0074 't'] false
+[U+0065 'e'] false
+[U+0067 'g'] false
+[U+006F 'o'] false
+[U+0072 'r'] false
+[U+0069 'i'] false
+[U+0065 'e'] false
+[U+003A ':'] false
+[U+0041 'A'] false
+[U+0075 'u'] false
+[U+0074 't'] false
+[U+003A ':'] false
+[U+0020 ' '] true
+[U+0056 'V'] false
+[U+006F 'o'] false
+[U+0159 'ř'] false
+[U+00ED 'í'] false
+[U+0161 'š'] false
+[U+0065 'e'] false
+[U+006B 'k'] false
+[U+0020 ' '] true
+[U+004D 'M'] false
+[U+0069 'i'] false
+[U+0063 'c'] false
+[U+0068 'h'] false
+[U+0061 'a'] false
+[U+0065 'e'] false
+[U+006C 'l'] false
+check title Karlova univerzita v Praze in node Sedláček Jan 
+ Karlova univerzita v Praze == :Kategorie:Aut: Voříšek Michael false false
+
+26 33
+Is valid UTF-8: true true
+BEFORE: "Karlova univerzita v Praze" : "Kategorie:Aut: Voříšek Michael" AFTER: "karlovauniverzitavpraze" : "kategorie:aut:voříšekmichael"
+4b 61 72 6c 6f 76 61 20 75 6e 69 76 65 72 7a 69 74 61 20 76 20 50 72 61 7a 65
+4b 61 74 65 67 6f 72 69 65 3a 41 75 74 3a 20 56 6f c5 99 c3 ad c5 a1 65 6b 20 4d 69 63 68 61 65 6c
+[U+004B 'K'] false
+[U+0061 'a'] false
+[U+0074 't'] false
+[U+0065 'e'] false
+[U+0067 'g'] false
+[U+006F 'o'] false
+[U+0072 'r'] false
+[U+0069 'i'] false
+[U+0065 'e'] false
+[U+003A ':'] false
+[U+0041 'A'] false
+[U+0075 'u'] false
+[U+0074 't'] false
+[U+003A ':'] false
+[U+0020 ' '] true
+[U+0056 'V'] false
+[U+006F 'o'] false
+[U+0159 'ř'] false
+[U+00ED 'í'] false
+[U+0161 'š'] false
+[U+0065 'e'] false
+[U+006B 'k'] false
+[U+0020 ' '] true
+[U+004D 'M'] false
+[U+0069 'i'] false
+[U+0063 'c'] false
+[U+0068 'h'] false
+[U+0061 'a'] false
+[U+0065 'e'] false
+[U+006C 'l'] false
+check title Karlova univerzita v Praze in node Sedláček Jan 
+ Karlova univerzita v Praze == Kategorie:Aut: Voříšek Michael false false
+
+26 14
+Is valid UTF-8: true true
+BEFORE: "Karlova univerzita v Praze" : "Kategorie:SCSg" AFTER: "karlovauniverzitavpraze" : "kategorie:scsg"
+4b 61 72 6c 6f 76 61 20 75 6e 69 76 65 72 7a 69 74 61 20 76 20 50 72 61 7a 65
+4b 61 74 65 67 6f 72 69 65 3a 53 43 53 67
+[U+004B 'K'] false
+[U+0061 'a'] false
+[U+0074 't'] false
+[U+0065 'e'] false
+[U+0067 'g'] false
+[U+006F 'o'] false
+[U+0072 'r'] false
+[U+0069 'i'] false
+[U+0065 'e'] false
+[U+003A ':'] false
+[U+0053 'S'] false
+[U+0043 'C'] false
+[U+0053 'S'] false
+[U+0067 'g'] false
+check title Karlova univerzita v Praze in node Sedláček Jan 
+ Karlova univerzita v Praze == Kategorie:SCSg false false
+
+26 30
+Is valid UTF-8: true true
+BEFORE: "Karlova univerzita v Praze" : ":Kategorie:Aut: Sedláček Jan" AFTER: "karlovauniverzitavpraze" : ":kategorie:aut:sedláčekjan"
+4b 61 72 6c 6f 76 61 20 75 6e 69 76 65 72 7a 69 74 61 20 76 20 50 72 61 7a 65
+3a 4b 61 74 65 67 6f 72 69 65 3a 41 75 74 3a 20 53 65 64 6c c3 a1 c4 8d 65 6b 20 4a 61 6e
+[U+003A ':'] false
+[U+004B 'K'] false
+[U+0061 'a'] false
+[U+0074 't'] false
+[U+0065 'e'] false
+[U+0067 'g'] false
+[U+006F 'o'] false
+[U+0072 'r'] false
+[U+0069 'i'] false
+[U+0065 'e'] false
+[U+003A ':'] false
+[U+0041 'A'] false
+[U+0075 'u'] false
+[U+0074 't'] false
+[U+003A ':'] false
+[U+0020 ' '] true
+[U+0053 'S'] false
+[U+0065 'e'] false
+[U+0064 'd'] false
+[U+006C 'l'] false
+[U+00E1 'á'] false
+[U+010D 'č'] false
+[U+0065 'e'] false
+[U+006B 'k'] false
+[U+0020 ' '] true
+[U+004A 'J'] false
+[U+0061 'a'] false
+[U+006E 'n'] false
+check title Karlova univerzita v Praze in node Sedláček Jan 
+ Karlova univerzita v Praze == :Kategorie:Aut: Sedláček Jan false false
+
+26 20
+Is valid UTF-8: true true
+BEFORE: "Karlova univerzita v Praze" : "KBCSg:Sedláček Jan" AFTER: "karlovauniverzitavpraze" : "kbcsg:sedláčekjan"
+4b 61 72 6c 6f 76 61 20 75 6e 69 76 65 72 7a 69 74 61 20 76 20 50 72 61 7a 65
+4b 42 43 53 67 3a 53 65 64 6c c3 a1 c4 8d 65 6b 20 4a 61 6e
+[U+004B 'K'] false
+[U+0042 'B'] false
+[U+0043 'C'] false
+[U+0053 'S'] false
+[U+0067 'g'] false
+[U+003A ':'] false
+[U+0053 'S'] false
+[U+0065 'e'] false
+[U+0064 'd'] false
+[U+006C 'l'] false
+[U+00E1 'á'] false
+[U+010D 'č'] false
+[U+0065 'e'] false
+[U+006B 'k'] false
+[U+0020 ' '] true
+[U+004A 'J'] false
+[U+0061 'a'] false
+[U+006E 'n'] false
+check title Karlova univerzita v Praze in node Sedláček Jan 
+ Karlova univerzita v Praze == KBCSg:Sedláček Jan false false
+
+26 5
+Is valid UTF-8: true true
+BEFORE: "Karlova univerzita v Praze" : "KBCSg" AFTER: "karlovauniverzitavpraze" : "kbcsg"
+4b 61 72 6c 6f 76 61 20 75 6e 69 76 65 72 7a 69 74 61 20 76 20 50 72 61 7a 65
+4b 42 43 53 67
+[U+004B 'K'] false
+[U+0042 'B'] false
+[U+0043 'C'] false
+[U+0053 'S'] false
+[U+0067 'g'] false
+check title Karlova univerzita v Praze in node Sedláček Jan 
+ Karlova univerzita v Praze == KBCSg false false
+

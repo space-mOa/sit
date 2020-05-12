@@ -107,7 +107,7 @@ func (w *WikiData) getCategory(name string, head []string, r string) (ctg Node) 
 				links = append(links, trimLink(string(link), string(piece.Title)))
 			}
 		}
-		ctg.addNode([]string{strconv.FormatUint(index, 10), string(piece.Title)}, links)
+		ctg.addNode([]string{strconv.FormatUint(index, 10), string(piece.Title)}, links, piece.Revision.Text)
 	}
 	return ctg
 }
@@ -139,7 +139,7 @@ func (w *WikiData) getCategoryModify(name string, head []string, r string, f fun
 			for _, a := range attributes {
 				vals = append(vals, a)
 			}
-			ctg.addNode(vals, links)
+			ctg.addNode(vals, links, piece.Revision.Text)
 		}
 
 	}
@@ -162,7 +162,7 @@ func (w *WikiData) allLinks() {
 func trimLink(str string, title string) (newStr string) {
 	new := strings.Split(string(str), "|")
 	if len(new) > 2 {
-		fmt.Println("Old:", str, "New:", new, "in:", title)
+		fmt.Println("\nERROR:\nOld:", str, "\nNew:", new, "\nin:", title)
 		panic("Více jak dva stringy ve splitu. Funkce trimLink()")
 	}
 	newStr = strings.TrimPrefix(new[0], `[[`)

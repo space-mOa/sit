@@ -1,0 +1,227 @@
+id,id1,id2,name1,name2,atr
+1,1,1,1969-1989,Adamec Čeněk,24++Ústav pro výzkum veřejného mínění ČSAV
+2,1,1,1969-1989,Adamec Čeněk,25++Ústav pro výzkum veřejného mínění FSÚ
+3,1,1,1969-1989,Adamec Čeněk,36++České vysoké učení technické v Praze
+4,1,1,1969-1989,Adamec Čeněk,64++Československá sociologická společnost při ČSAV
+5,1,1,1969-1989,Adamec Čeněk,72++Sociologická knižnice nakladatelství Svoboda
+6,1,2,1969-1989,Alan Josef,18++Sportpropag
+7,1,2,1969-1989,Alan Josef,26++Ústav sociálně politických věd UK
+8,1,2,1969-1989,Alan Josef,30++Výzkumný ústav sociálního rozvoje a práce
+9,1,2,1969-1989,Alan Josef,39++Karlova univerzita v Praze
+10,1,2,1969-1989,Alan Josef,72++Sociologická knižnice nakladatelství Svoboda
+11,1,3,1969-1989,Árnason Johann Pál,39++Karlova univerzita v Praze
+12,1,7,1969-1989,Blažek Bohuslav,18++Sportpropag
+13,1,10,1969-1989,Brokl Lubomír,16++Sociologický ústav ČSAV
+14,1,10,1969-1989,Brokl Lubomír,26++Ústav sociálně politických věd UK
+15,1,10,1969-1989,Brokl Lubomír,31++Výzkumný ústav strojírenské technologie a ekonomiky
+16,1,17,1969-1989,Disman Miroslav,26++Ústav sociálně politických věd UK
+17,1,17,1969-1989,Disman Miroslav,39++Karlova univerzita v Praze
+18,1,17,1969-1989,Disman Miroslav,64++Československá sociologická společnost při ČSAV
+19,1,17,1969-1989,Disman Miroslav,72++Sociologická knižnice nakladatelství Svoboda
+20,1,18,1969-1989,Dubská Irena,16++Sociologický ústav ČSAV
+21,1,18,1969-1989,Dubská Irena,64++Československá sociologická společnost při ČSAV
+22,1,21,1969-1989,Fajfr František,39++Karlova univerzita v Praze
+23,1,21,1969-1989,Fajfr František,62++Česká demografická společnost
+24,1,22,1969-1989,Filipcová Blanka,16++Sociologický ústav ČSAV
+25,1,22,1969-1989,Filipcová Blanka,22++Ústav pro filosofii a sociologii ČSAV
+26,1,22,1969-1989,Filipcová Blanka,26++Ústav sociálně politických věd UK
+27,1,22,1969-1989,Filipcová Blanka,39++Karlova univerzita v Praze
+28,1,22,1969-1989,Filipcová Blanka,64++Československá sociologická společnost při ČSAV
+29,1,22,1969-1989,Filipcová Blanka,72++Sociologická knižnice nakladatelství Svoboda
+30,1,23,1969-1989,Filipec Jindřich,22++Ústav pro filosofii a sociologii ČSAV
+31,1,23,1969-1989,Filipec Jindřich,39++Karlova univerzita v Praze
+32,1,23,1969-1989,Filipec Jindřich,64++Československá sociologická společnost při ČSAV
+33,1,23,1969-1989,Filipec Jindřich,72++Sociologická knižnice nakladatelství Svoboda
+34,1,24,1969-1989,Fischer Josef Ludvík,41++Masarykova univerzita v Brně
+35,1,24,1969-1989,Fischer Josef Ludvík,45++Palackého univerzita v Olomouci
+36,1,24,1969-1989,Fischer Josef Ludvík,64++Československá sociologická společnost při ČSAV
+37,1,25,1969-1989,Foret Miroslav,42++Mendelova univerzita v Brně
+38,1,25,1969-1989,Foret Miroslav,62++Česká demografická společnost
+39,1,25,1969-1989,Foret Miroslav,72++Sociologická knižnice nakladatelství Svoboda
+40,1,28,1969-1989,Frič Pavol,39++Karlova univerzita v Praze
+41,1,30,1969-1989,Gabal Ivan,22++Ústav pro filosofii a sociologii ČSAV
+42,1,30,1969-1989,Gabal Ivan,39++Karlova univerzita v Praze
+43,1,32,1969-1989,Gál Fedor,18++Sportpropag
+44,1,33,1969-1989,Galla Karel,4++Vědecké kolegium filosofie a sociologie ČSAV
+45,1,33,1969-1989,Galla Karel,39++Karlova univerzita v Praze
+46,1,33,1969-1989,Galla Karel,64++Československá sociologická společnost při ČSAV
+47,1,34,1969-1989,Geist Bohumil,68++Společnost pro sociální bádání
+48,1,37,1969-1989,Hájek Mojmír,41++Masarykova univerzita v Brně
+49,1,38,1969-1989,Hampl Martin,39++Karlova univerzita v Praze
+50,1,40,1969-1989,Havelka Miloš,39++Karlova univerzita v Praze
+51,1,45,1969-1989,Huláková Marie,16++Sociologický ústav ČSAV
+52,1,45,1969-1989,Huláková Marie,22++Ústav pro filosofii a sociologii ČSAV
+53,1,45,1969-1989,Huláková Marie,64++Československá sociologická společnost při ČSAV
+54,1,47,1969-1989,Charvát František,4++Vědecké kolegium filosofie a sociologie ČSAV
+55,1,47,1969-1989,Charvát František,22++Ústav pro filosofii a sociologii ČSAV
+56,1,47,1969-1989,Charvát František,64++Československá sociologická společnost při ČSAV
+57,1,47,1969-1989,Charvát František,72++Sociologická knižnice nakladatelství Svoboda
+58,1,48,1969-1989,Illner Michal,16++Sociologický ústav ČSAV
+59,1,48,1969-1989,Illner Michal,22++Ústav pro filosofii a sociologii ČSAV
+60,1,48,1969-1989,Illner Michal,62++Česká demografická společnost
+61,1,48,1969-1989,Illner Michal,72++Sociologická knižnice nakladatelství Svoboda
+62,1,49,1969-1989,Jeřábek Hynek,39++Karlova univerzita v Praze
+63,1,50,1969-1989,Jodl Miroslav,16++Sociologický ústav ČSAV
+64,1,51,1969-1989,Jochmann Vladimír,45++Palackého univerzita v Olomouci
+65,1,52,1969-1989,Jungmann Bohumil,25++Ústav pro výzkum veřejného mínění FSÚ
+66,1,52,1969-1989,Jungmann Bohumil,26++Ústav sociálně politických věd UK
+67,1,52,1969-1989,Jungmann Bohumil,30++Výzkumný ústav sociálního rozvoje a práce
+68,1,53,1969-1989,Kabele Jiří,18++Sportpropag
+69,1,53,1969-1989,Kabele Jiří,39++Karlova univerzita v Praze
+70,1,55,1969-1989,Kadlecová Erika,16++Sociologický ústav ČSAV
+71,1,55,1969-1989,Kadlecová Erika,57++Vysoká škola politická ÚV KSČ v Praze
+72,1,55,1969-1989,Kadlecová Erika,64++Československá sociologická společnost při ČSAV
+73,1,57,1969-1989,Kaláb Miloš,4++Vědecké kolegium filosofie a sociologie ČSAV
+74,1,57,1969-1989,Kaláb Miloš,16++Sociologický ústav ČSAV
+75,1,57,1969-1989,Kaláb Miloš,26++Ústav sociálně politických věd UK
+76,1,57,1969-1989,Kaláb Miloš,64++Československá sociologická společnost při ČSAV
+77,1,60,1969-1989,Kapr Jaroslav,39++Karlova univerzita v Praze
+78,1,62,1969-1989,Keller Jan,41++Masarykova univerzita v Brně
+79,1,65,1969-1989,Klofáč Jaroslav,4++Vědecké kolegium filosofie a sociologie ČSAV
+80,1,65,1969-1989,Klofáč Jaroslav,57++Vysoká škola politická ÚV KSČ v Praze
+81,1,65,1969-1989,Klofáč Jaroslav,64++Československá sociologická společnost při ČSAV
+82,1,65,1969-1989,Klofáč Jaroslav,68++Společnost pro sociální bádání
+83,1,65,1969-1989,Klofáč Jaroslav,72++Sociologická knižnice nakladatelství Svoboda
+84,1,67,1969-1989,Kohout Jaroslav,4++Vědecké kolegium filosofie a sociologie ČSAV
+85,1,67,1969-1989,Kohout Jaroslav,54++Vysoká škola ekonomická v Praze
+86,1,67,1969-1989,Kohout Jaroslav,64++Československá sociologická společnost při ČSAV
+87,1,67,1969-1989,Kohout Jaroslav,72++Sociologická knižnice nakladatelství Svoboda
+88,1,69,1969-1989,Korčák Jaromír,39++Karlova univerzita v Praze
+89,1,69,1969-1989,Korčák Jaromír,62++Česká demografická společnost
+90,1,69,1969-1989,Korčák Jaromír,68++Společnost pro sociální bádání
+91,1,71,1969-1989,Köttner Mojmír,41++Masarykova univerzita v Brně
+92,1,72,1969-1989,Král Josef,39++Karlova univerzita v Praze
+93,1,72,1969-1989,Král Josef,64++Československá sociologická společnost při ČSAV
+94,1,72,1969-1989,Král Josef,68++Společnost pro sociální bádání
+95,1,78,1969-1989,Lamser Václav,16++Sociologický ústav ČSAV
+96,1,78,1969-1989,Lamser Václav,39++Karlova univerzita v Praze
+97,1,78,1969-1989,Lamser Václav,62++Česká demografická společnost
+98,1,78,1969-1989,Lamser Václav,64++Československá sociologická společnost při ČSAV
+99,1,78,1969-1989,Lamser Václav,72++Sociologická knižnice nakladatelství Svoboda
+100,1,79,1969-1989,Librová Hana,41++Masarykova univerzita v Brně
+101,1,81,1969-1989,Linhart Jiří,22++Ústav pro filosofii a sociologii ČSAV
+102,1,81,1969-1989,Linhart Jiří,26++Ústav sociálně politických věd UK
+103,1,81,1969-1989,Linhart Jiří,64++Československá sociologická společnost při ČSAV
+104,1,83,1969-1989,Macků Jan,41++Masarykova univerzita v Brně
+105,1,83,1969-1989,Macků Jan,64++Československá sociologická společnost při ČSAV
+106,1,84,1969-1989,Machonin Pavel,4++Vědecké kolegium filosofie a sociologie ČSAV
+107,1,84,1969-1989,Machonin Pavel,16++Sociologický ústav ČSAV
+108,1,84,1969-1989,Machonin Pavel,18++Sportpropag
+109,1,84,1969-1989,Machonin Pavel,26++Ústav sociálně politických věd UK
+110,1,84,1969-1989,Machonin Pavel,52++Vojenská politická akademie Klementa Gottwalda v Praze
+111,1,85,1969-1989,Machotka Otakar,39++Karlova univerzita v Praze
+112,1,85,1969-1989,Machotka Otakar,68++Společnost pro sociální bádání
+113,1,86,1969-1989,Maiwald Karel,45++Palackého univerzita v Olomouci
+114,1,89,1969-1989,Mareš Petr,41++Masarykova univerzita v Brně
+115,1,93,1969-1989,Matějů Petr,22++Ústav pro filosofii a sociologii ČSAV
+116,1,93,1969-1989,Matějů Petr,39++Karlova univerzita v Praze
+117,1,94,1969-1989,Mertl Jan,36++České vysoké učení technické v Praze
+118,1,94,1969-1989,Mertl Jan,68++Společnost pro sociální bádání
+119,1,97,1969-1989,Možný Ivo,41++Masarykova univerzita v Brně
+120,1,98,1969-1989,Musil Jiří,32++Výzkumný ústav výstavby a architektury
+121,1,98,1969-1989,Musil Jiří,36++České vysoké učení technické v Praze
+122,1,98,1969-1989,Musil Jiří,62++Česká demografická společnost
+123,1,98,1969-1989,Musil Jiří,64++Československá sociologická společnost při ČSAV
+124,1,98,1969-1989,Musil Jiří,72++Sociologická knižnice nakladatelství Svoboda
+125,1,102,1969-1989,Nový Lubomír,41++Masarykova univerzita v Brně
+126,1,103,1969-1989,Obrdlík Antonín,41++Masarykova univerzita v Brně
+127,1,104,1969-1989,Obrdlíková Juliana,41++Masarykova univerzita v Brně
+128,1,104,1969-1989,Obrdlíková Juliana,45++Palackého univerzita v Olomouci
+129,1,105,1969-1989,Ovesný Miroslav,41++Masarykova univerzita v Brně
+130,1,106,1969-1989,Pavlík Zdeněk,39++Karlova univerzita v Praze
+131,1,106,1969-1989,Pavlík Zdeněk,62++Česká demografická společnost
+132,1,108,1969-1989,Petrusek Miloslav,22++Ústav pro filosofii a sociologii ČSAV
+133,1,108,1969-1989,Petrusek Miloslav,26++Ústav sociálně politických věd UK
+134,1,108,1969-1989,Petrusek Miloslav,39++Karlova univerzita v Praze
+135,1,108,1969-1989,Petrusek Miloslav,64++Československá sociologická společnost při ČSAV
+136,1,108,1969-1989,Petrusek Miloslav,72++Sociologická knižnice nakladatelství Svoboda
+137,1,110,1969-1989,Porket Josef Ludvík,26++Ústav sociálně politických věd UK
+138,1,111,1969-1989,Potůček Martin,18++Sportpropag
+139,1,111,1969-1989,Potůček Martin,39++Karlova univerzita v Praze
+140,1,111,1969-1989,Potůček Martin,41++Masarykova univerzita v Brně
+141,1,114,1969-1989,Rabušic Ladislav,41++Masarykova univerzita v Brně
+142,1,119,1969-1989,Richta Radovan,22++Ústav pro filosofii a sociologii ČSAV
+143,1,121,1969-1989,Rychtaříková Jitka,39++Karlova univerzita v Praze
+144,1,121,1969-1989,Rychtaříková Jitka,62++Česká demografická společnost
+145,1,123,1969-1989,Řehák Jan,16++Sociologický ústav ČSAV
+146,1,123,1969-1989,Řehák Jan,39++Karlova univerzita v Praze
+147,1,123,1969-1989,Řehák Jan,64++Československá sociologická společnost při ČSAV
+148,1,125,1969-1989,Sedláček Oto,9++Dům techniky ČSVTS Pardubice
+149,1,125,1969-1989,Sedláček Oto,16++Sociologický ústav ČSAV
+150,1,125,1969-1989,Sedláček Oto,39++Karlova univerzita v Praze
+151,1,125,1969-1989,Sedláček Oto,64++Československá sociologická společnost při ČSAV
+152,1,125,1969-1989,Sedláček Oto,72++Sociologická knižnice nakladatelství Svoboda
+153,1,126,1969-1989,Sekot Aleš,27++Ústav vědeckého ateismu ČSAV
+154,1,126,1969-1989,Sekot Aleš,72++Sociologická knižnice nakladatelství Svoboda
+155,1,128,1969-1989,Sirovátka Tomáš,41++Masarykova univerzita v Brně
+156,1,130,1969-1989,Slejška Dragoslav,9++Dům techniky ČSVTS Pardubice
+157,1,130,1969-1989,Slejška Dragoslav,16++Sociologický ústav ČSAV
+158,1,130,1969-1989,Slejška Dragoslav,24++Ústav pro výzkum veřejného mínění ČSAV
+159,1,130,1969-1989,Slejška Dragoslav,31++Výzkumný ústav strojírenské technologie a ekonomiky
+160,1,130,1969-1989,Slejška Dragoslav,64++Československá sociologická společnost při ČSAV
+161,1,132,1969-1989,Solař Josef,26++Ústav sociálně politických věd UK
+162,1,132,1969-1989,Solař Josef,41++Masarykova univerzita v Brně
+163,1,132,1969-1989,Solař Josef,64++Československá sociologická společnost při ČSAV
+164,1,135,1969-1989,Srb Vladimír,62++Česká demografická společnost
+165,1,135,1969-1989,Srb Vladimír,72++Sociologická knižnice nakladatelství Svoboda
+166,1,137,1969-1989,Strmiska Zdeněk,16++Sociologický ústav ČSAV
+167,1,137,1969-1989,Strmiska Zdeněk,26++Ústav sociálně politických věd UK
+168,1,137,1969-1989,Strmiska Zdeněk,64++Československá sociologická společnost při ČSAV
+169,1,138,1969-1989,Střítecký Jaroslav,41++Masarykova univerzita v Brně
+170,1,139,1969-1989,Suda Zdeněk,64++Československá sociologická společnost při ČSAV
+171,1,141,1969-1989,Svoboda Ludvík,39++Karlova univerzita v Praze
+172,1,143,1969-1989,Šiklová Jiřina,26++Ústav sociálně politických věd UK
+173,1,143,1969-1989,Šiklová Jiřina,39++Karlova univerzita v Praze
+174,1,152,1969-1989,Tauber Jan Bohumil,11++Institut sociologie venkova a historie zemědělství VÚZEI
+175,1,152,1969-1989,Tauber Jan Bohumil,35++Česká zemědělská univerzita v Praze
+176,1,152,1969-1989,Tauber Jan Bohumil,36++České vysoké učení technické v Praze
+177,1,152,1969-1989,Tauber Jan Bohumil,64++Československá sociologická společnost při ČSAV
+178,1,155,1969-1989,Tlustý Vojtěch,26++Ústav sociálně politických věd UK
+179,1,155,1969-1989,Tlustý Vojtěch,39++Karlova univerzita v Praze
+180,1,155,1969-1989,Tlustý Vojtěch,64++Československá sociologická společnost při ČSAV
+181,1,156,1969-1989,Tomeš Igor,39++Karlova univerzita v Praze
+182,1,156,1969-1989,Tomeš Igor,62++Česká demografická společnost
+183,1,157,1969-1989,Trapl Miloslav,41++Masarykova univerzita v Brně
+184,1,157,1969-1989,Trapl Miloslav,45++Palackého univerzita v Olomouci
+185,1,161,1969-1989,Urbánek Eduard,39++Karlova univerzita v Praze
+186,1,161,1969-1989,Urbánek Eduard,64++Československá sociologická společnost při ČSAV
+187,1,162,1969-1989,Vacek Lubomír,64++Československá sociologická společnost při ČSAV
+188,1,162,1969-1989,Vacek Lubomír,72++Sociologická knižnice nakladatelství Svoboda
+189,1,164,1969-1989,Vaněk Antonín,39++Karlova univerzita v Praze
+190,1,166,1969-1989,Večerník Jiří,22++Ústav pro filosofii a sociologii ČSAV
+191,1,166,1969-1989,Večerník Jiří,26++Ústav sociálně politických věd UK
+192,1,166,1969-1989,Večerník Jiří,72++Sociologická knižnice nakladatelství Svoboda
+193,1,168,1969-1989,Voráček Josef,68++Společnost pro sociální bádání
+194,1,175,1969-1989,Zich František,57++Vysoká škola politická ÚV KSČ v Praze
+195,1,175,1969-1989,Zich František,64++Československá sociologická společnost při ČSAV
+196,1,175,1969-1989,Zich František,72++Sociologická knižnice nakladatelství Svoboda
+197,1,102,1969-1989,Nový Lubomír,4++Vědecké kolegium filosofie a sociologie ČSAV
+198,1,161,1969-1989,Urbánek Eduard,4++Vědecké kolegium filosofie a sociologie ČSAV
+199,1,47,1969-1989,Charvát František,16++Sociologický ústav ČSAV
+200,1,98,1969-1989,Musil Jiří,16++Sociologický ústav ČSAV
+201,1,119,1969-1989,Richta Radovan,16++Sociologický ústav ČSAV
+202,1,166,1969-1989,Večerník Jiří,16++Sociologický ústav ČSAV
+203,1,108,1969-1989,Petrusek Miloslav,18++Sportpropag
+204,1,10,1969-1989,Brokl Lubomír,22++Ústav pro filosofii a sociologii ČSAV
+205,1,25,1969-1989,Foret Miroslav,22++Ústav pro filosofii a sociologii ČSAV
+206,1,40,1969-1989,Havelka Miloš,22++Ústav pro filosofii a sociologii ČSAV
+207,1,62,1969-1989,Keller Jan,22++Ústav pro filosofii a sociologii ČSAV
+208,1,123,1969-1989,Řehák Jan,22++Ústav pro filosofii a sociologii ČSAV
+209,1,155,1969-1989,Tlustý Vojtěch,22++Ústav pro filosofii a sociologii ČSAV
+210,1,52,1969-1989,Jungmann Bohumil,24++Ústav pro výzkum veřejného mínění ČSAV
+211,1,162,1969-1989,Vacek Lubomír,24++Ústav pro výzkum veřejného mínění ČSAV
+212,1,25,1969-1989,Foret Miroslav,25++Ústav pro výzkum veřejného mínění FSÚ
+213,1,28,1969-1989,Frič Pavol,25++Ústav pro výzkum veřejného mínění FSÚ
+214,1,162,1969-1989,Vacek Lubomír,25++Ústav pro výzkum veřejného mínění FSÚ
+215,1,25,1969-1989,Foret Miroslav,27++Ústav vědeckého ateismu ČSAV
+216,1,41,1969-1989,Hirner Alexander,30++Výzkumný ústav sociálního rozvoje a práce
+217,1,78,1969-1989,Lamser Václav,30++Výzkumný ústav sociálního rozvoje a práce
+218,1,7,1969-1989,Blažek Bohuslav,32++Výzkumný ústav výstavby a architektury
+219,1,78,1969-1989,Lamser Václav,32++Výzkumný ústav výstavby a architektury
+220,1,76,1969-1989,Kučera Milan,62++Česká demografická společnost
+221,1,114,1969-1989,Rabušic Ladislav,62++Česká demografická společnost
+222,1,54,1969-1989,Kadlec Vladimír,64++Československá sociologická společnost při ČSAV
+223,1,124,1969-1989,Sedláček Jan,64++Československá sociologická společnost při ČSAV
+224,1,147,1969-1989,Šnobl Jaroslav,64++Československá sociologická společnost při ČSAV
+225,1,164,1969-1989,Vaněk Antonín,64++Československá sociologická společnost při ČSAV
+226,1,109,1969-1989,Pistorius Theodor,68++Společnost pro sociální bádání

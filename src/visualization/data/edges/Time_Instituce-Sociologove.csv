@@ -1,0 +1,733 @@
+id,id1,id2,name1,name2,atr
+1,2,7,1901-1948,Československý ústav pro výzkum veřejného mínění,1++Adamec Čeněk
+2,3,7,1949-1989,Československý ústav pro výzkum veřejného mínění,1++Adamec Čeněk
+3,3,24,1949-1989,Ústav pro výzkum veřejného mínění ČSAV,1++Adamec Čeněk
+4,3,25,1949-1989,Ústav pro výzkum veřejného mínění FSÚ,1++Adamec Čeněk
+5,4,25,1990-2030,Ústav pro výzkum veřejného mínění FSÚ,1++Adamec Čeněk
+6,2,36,1901-1948,České vysoké učení technické v Praze,1++Adamec Čeněk
+7,3,36,1949-1989,České vysoké učení technické v Praze,1++Adamec Čeněk
+8,4,36,1990-2030,České vysoké učení technické v Praze,1++Adamec Čeněk
+9,3,64,1949-1989,Československá sociologická společnost při ČSAV,1++Adamec Čeněk
+10,4,64,1990-2030,Československá sociologická společnost při ČSAV,1++Adamec Čeněk
+11,2,67,1901-1948,Sociologický kruh posluchačů vysokých škol pražských,1++Adamec Čeněk
+12,3,67,1949-1989,Sociologický kruh posluchačů vysokých škol pražských,1++Adamec Čeněk
+13,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,1++Adamec Čeněk
+14,3,18,1949-1989,Sportpropag,2++Alan Josef
+15,3,26,1949-1989,Ústav sociálně politických věd UK,2++Alan Josef
+16,3,30,1949-1989,Výzkumný ústav sociálního rozvoje a práce,2++Alan Josef
+17,4,30,1990-2030,Výzkumný ústav sociálního rozvoje a práce,2++Alan Josef
+18,2,39,1901-1948,Karlova univerzita v Praze,2++Alan Josef
+19,3,39,1949-1989,Karlova univerzita v Praze,2++Alan Josef
+20,4,39,1990-2030,Karlova univerzita v Praze,2++Alan Josef
+21,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,2++Alan Josef
+22,4,73,1990-2030,Sociologické nakladatelství (SLON),2++Alan Josef
+23,2,39,1901-1948,Karlova univerzita v Praze,3++Árnason Johann Pál
+24,3,39,1949-1989,Karlova univerzita v Praze,3++Árnason Johann Pál
+25,4,39,1990-2030,Karlova univerzita v Praze,3++Árnason Johann Pál
+26,2,6,1901-1948,Československý ústav zahraniční,4++Auerhan Jan
+27,2,19,1901-1948,Státní úřad statistický,4++Auerhan Jan
+28,2,20,1901-1948,Sociální ústav ČSR,5++Beneš Edvard
+29,2,36,1901-1948,České vysoké učení technické v Praze,5++Beneš Edvard
+30,1,39,1800-1900,Karlova univerzita v Praze,5++Beneš Edvard
+31,2,39,1901-1948,Karlova univerzita v Praze,5++Beneš Edvard
+32,2,65,1901-1948,Masarykova sociologická společnost,5++Beneš Edvard
+33,2,67,1901-1948,Sociologický kruh posluchačů vysokých škol pražských,5++Beneš Edvard
+34,2,71,1901-1948,Sociologická knihovna MSS,5++Beneš Edvard
+35,2,5,1901-1948,Československá akademie zemědělská,6++Bláha Inocenc Arnošt
+36,3,5,1949-1989,Československá akademie zemědělská,6++Bláha Inocenc Arnošt
+37,2,14,1901-1948,Slezský ústav v Praze,6++Bláha Inocenc Arnošt
+38,3,14,1949-1989,Slezský ústav v Praze,6++Bláha Inocenc Arnošt
+39,2,34,1901-1948,Česká technická vysoká škola v Brně,6++Bláha Inocenc Arnošt
+40,2,41,1901-1948,Masarykova univerzita v Brně,6++Bláha Inocenc Arnošt
+41,3,41,1949-1989,Masarykova univerzita v Brně,6++Bláha Inocenc Arnošt
+42,2,58,1901-1948,Vysoká škola sociální v Brně,6++Bláha Inocenc Arnošt
+43,3,58,1949-1989,Vysoká škola sociální v Brně,6++Bláha Inocenc Arnošt
+44,2,65,1901-1948,Masarykova sociologická společnost,6++Bláha Inocenc Arnošt
+45,3,65,1949-1989,Masarykova sociologická společnost,6++Bláha Inocenc Arnošt
+46,2,71,1901-1948,Sociologická knihovna MSS,6++Bláha Inocenc Arnošt
+47,3,18,1949-1989,Sportpropag,7++Blažek Bohuslav
+48,2,5,1901-1948,Československá akademie zemědělská,8++Boháč Antonín
+49,3,5,1949-1989,Československá akademie zemědělská,8++Boháč Antonín
+50,2,19,1901-1948,Státní úřad statistický,8++Boháč Antonín
+51,3,19,1949-1989,Státní úřad statistický,8++Boháč Antonín
+52,2,36,1901-1948,České vysoké učení technické v Praze,8++Boháč Antonín
+53,3,36,1949-1989,České vysoké učení technické v Praze,8++Boháč Antonín
+54,1,39,1800-1900,Karlova univerzita v Praze,8++Boháč Antonín
+55,2,39,1901-1948,Karlova univerzita v Praze,8++Boháč Antonín
+56,3,39,1949-1989,Karlova univerzita v Praze,8++Boháč Antonín
+57,2,56,1901-1948,Vysoká škola politická a sociální v Praze,8++Boháč Antonín
+58,3,56,1949-1989,Vysoká škola politická a sociální v Praze,8++Boháč Antonín
+59,2,68,1901-1948,Společnost pro sociální bádání,8++Boháč Antonín
+60,3,68,1949-1989,Společnost pro sociální bádání,8++Boháč Antonín
+61,2,70,1901-1948,Knihovna Sociálních problémů,8++Boháč Antonín
+62,4,15,1990-2030,Sociologický ústav AV ČR,10++Brokl Lubomír
+63,3,16,1949-1989,Sociologický ústav ČSAV,10++Brokl Lubomír
+64,3,26,1949-1989,Ústav sociálně politických věd UK,10++Brokl Lubomír
+65,3,31,1949-1989,Výzkumný ústav strojírenské technologie a ekonomiky,10++Brokl Lubomír
+66,4,31,1990-2030,Výzkumný ústav strojírenské technologie a ekonomiky,10++Brokl Lubomír
+67,4,49,1990-2030,Univerzita Hradec Králové,10++Brokl Lubomír
+68,2,5,1901-1948,Československá akademie zemědělská,15++Čep Tomáš
+69,3,5,1949-1989,Československá akademie zemědělská,15++Čep Tomáš
+70,2,14,1901-1948,Slezský ústav v Praze,15++Čep Tomáš
+71,3,14,1949-1989,Slezský ústav v Praze,15++Čep Tomáš
+72,2,42,1901-1948,Mendelova univerzita v Brně,15++Čep Tomáš
+73,3,42,1949-1989,Mendelova univerzita v Brně,15++Čep Tomáš
+74,2,65,1901-1948,Masarykova sociologická společnost,15++Čep Tomáš
+75,3,65,1949-1989,Masarykova sociologická společnost,15++Čep Tomáš
+76,3,26,1949-1989,Ústav sociálně politických věd UK,17++Disman Miroslav
+77,2,39,1901-1948,Karlova univerzita v Praze,17++Disman Miroslav
+78,3,39,1949-1989,Karlova univerzita v Praze,17++Disman Miroslav
+79,4,39,1990-2030,Karlova univerzita v Praze,17++Disman Miroslav
+80,3,64,1949-1989,Československá sociologická společnost při ČSAV,17++Disman Miroslav
+81,4,64,1990-2030,Československá sociologická společnost při ČSAV,17++Disman Miroslav
+82,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,17++Disman Miroslav
+83,3,16,1949-1989,Sociologický ústav ČSAV,18++Dubská Irena
+84,3,64,1949-1989,Československá sociologická společnost při ČSAV,18++Dubská Irena
+85,4,64,1990-2030,Československá sociologická společnost při ČSAV,18++Dubská Irena
+86,2,19,1901-1948,Státní úřad statistický,21++Fajfr František
+87,3,19,1949-1989,Státní úřad statistický,21++Fajfr František
+88,1,39,1800-1900,Karlova univerzita v Praze,21++Fajfr František
+89,2,39,1901-1948,Karlova univerzita v Praze,21++Fajfr František
+90,3,39,1949-1989,Karlova univerzita v Praze,21++Fajfr František
+91,3,62,1949-1989,Česká demografická společnost,21++Fajfr František
+92,2,65,1901-1948,Masarykova sociologická společnost,21++Fajfr František
+93,3,65,1949-1989,Masarykova sociologická společnost,21++Fajfr František
+94,2,71,1901-1948,Sociologická knihovna MSS,21++Fajfr František
+95,4,15,1990-2030,Sociologický ústav AV ČR,22++Filipcová Blanka
+96,3,16,1949-1989,Sociologický ústav ČSAV,22++Filipcová Blanka
+97,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,22++Filipcová Blanka
+98,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,22++Filipcová Blanka
+99,3,26,1949-1989,Ústav sociálně politických věd UK,22++Filipcová Blanka
+100,2,39,1901-1948,Karlova univerzita v Praze,22++Filipcová Blanka
+101,3,39,1949-1989,Karlova univerzita v Praze,22++Filipcová Blanka
+102,4,39,1990-2030,Karlova univerzita v Praze,22++Filipcová Blanka
+103,2,56,1901-1948,Vysoká škola politická a sociální v Praze,22++Filipcová Blanka
+104,3,56,1949-1989,Vysoká škola politická a sociální v Praze,22++Filipcová Blanka
+105,3,64,1949-1989,Československá sociologická společnost při ČSAV,22++Filipcová Blanka
+106,4,64,1990-2030,Československá sociologická společnost při ČSAV,22++Filipcová Blanka
+107,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,22++Filipcová Blanka
+108,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,23++Filipec Jindřich
+109,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,23++Filipec Jindřich
+110,2,39,1901-1948,Karlova univerzita v Praze,23++Filipec Jindřich
+111,3,39,1949-1989,Karlova univerzita v Praze,23++Filipec Jindřich
+112,4,39,1990-2030,Karlova univerzita v Praze,23++Filipec Jindřich
+113,3,64,1949-1989,Československá sociologická společnost při ČSAV,23++Filipec Jindřich
+114,4,64,1990-2030,Československá sociologická společnost při ČSAV,23++Filipec Jindřich
+115,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,23++Filipec Jindřich
+116,2,41,1901-1948,Masarykova univerzita v Brně,24++Fischer Josef Ludvík
+117,3,41,1949-1989,Masarykova univerzita v Brně,24++Fischer Josef Ludvík
+118,2,45,1901-1948,Palackého univerzita v Olomouci,24++Fischer Josef Ludvík
+119,3,45,1949-1989,Palackého univerzita v Olomouci,24++Fischer Josef Ludvík
+120,3,64,1949-1989,Československá sociologická společnost při ČSAV,24++Fischer Josef Ludvík
+121,2,65,1901-1948,Masarykova sociologická společnost,24++Fischer Josef Ludvík
+122,3,65,1949-1989,Masarykova sociologická společnost,24++Fischer Josef Ludvík
+123,2,71,1901-1948,Sociologická knihovna MSS,24++Fischer Josef Ludvík
+124,2,42,1901-1948,Mendelova univerzita v Brně,25++Foret Miroslav
+125,3,42,1949-1989,Mendelova univerzita v Brně,25++Foret Miroslav
+126,4,42,1990-2030,Mendelova univerzita v Brně,25++Foret Miroslav
+127,3,62,1949-1989,Česká demografická společnost,25++Foret Miroslav
+128,4,62,1990-2030,Česká demografická společnost,25++Foret Miroslav
+129,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,25++Foret Miroslav
+130,1,39,1800-1900,Karlova univerzita v Praze,27++Foustka Břetislav
+131,2,39,1901-1948,Karlova univerzita v Praze,27++Foustka Břetislav
+132,2,65,1901-1948,Masarykova sociologická společnost,27++Foustka Břetislav
+133,2,71,1901-1948,Sociologická knihovna MSS,27++Foustka Břetislav
+134,3,39,1949-1989,Karlova univerzita v Praze,28++Frič Pavol
+135,4,39,1990-2030,Karlova univerzita v Praze,28++Frič Pavol
+136,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,30++Gabal Ivan
+137,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,30++Gabal Ivan
+138,3,39,1949-1989,Karlova univerzita v Praze,30++Gabal Ivan
+139,4,39,1990-2030,Karlova univerzita v Praze,30++Gabal Ivan
+140,3,18,1949-1989,Sportpropag,32++Gál Fedor
+141,3,4,1949-1989,Vědecké kolegium filosofie a sociologie ČSAV,33++Galla Karel
+142,2,5,1901-1948,Československá akademie zemědělská,33++Galla Karel
+143,3,5,1949-1989,Československá akademie zemědělská,33++Galla Karel
+144,2,17,1901-1948,Sociologický ústav ČSS,33++Galla Karel
+145,2,23,1901-1948,Ústav pro sociální a hospodářskou výchovu ČSS,33++Galla Karel
+146,2,28,1901-1948,Vojenský sociologický kruh,33++Galla Karel
+147,2,39,1901-1948,Karlova univerzita v Praze,33++Galla Karel
+148,3,39,1949-1989,Karlova univerzita v Praze,33++Galla Karel
+149,3,64,1949-1989,Československá sociologická společnost při ČSAV,33++Galla Karel
+150,2,65,1901-1948,Masarykova sociologická společnost,33++Galla Karel
+151,3,65,1949-1989,Masarykova sociologická společnost,33++Galla Karel
+152,2,68,1901-1948,Společnost pro sociální bádání,34++Geist Bohumil
+153,3,68,1949-1989,Společnost pro sociální bádání,34++Geist Bohumil
+154,4,68,1990-2030,Společnost pro sociální bádání,34++Geist Bohumil
+155,4,61,1990-2030,Česká asociace pro sociální antropologii,35++Gellner Ernest (Arnošt)
+156,2,41,1901-1948,Masarykova univerzita v Brně,37++Hájek Mojmír
+157,3,41,1949-1989,Masarykova univerzita v Brně,37++Hájek Mojmír
+158,4,41,1990-2030,Masarykova univerzita v Brně,37++Hájek Mojmír
+159,2,65,1901-1948,Masarykova sociologická společnost,37++Hájek Mojmír
+160,3,65,1949-1989,Masarykova sociologická společnost,37++Hájek Mojmír
+161,2,39,1901-1948,Karlova univerzita v Praze,38++Hampl Martin
+162,3,39,1949-1989,Karlova univerzita v Praze,38++Hampl Martin
+163,4,39,1990-2030,Karlova univerzita v Praze,38++Hampl Martin
+164,2,39,1901-1948,Karlova univerzita v Praze,40++Havelka Miloš
+165,3,39,1949-1989,Karlova univerzita v Praze,40++Havelka Miloš
+166,4,39,1990-2030,Karlova univerzita v Praze,40++Havelka Miloš
+167,2,40,1901-1948,Komenského univerzita v Bratislavě,41++Hirner Alexander
+168,3,40,1949-1989,Komenského univerzita v Bratislavě,41++Hirner Alexander
+169,2,56,1901-1948,Vysoká škola politická a sociální v Praze,41++Hirner Alexander
+170,3,56,1949-1989,Vysoká škola politická a sociální v Praze,41++Hirner Alexander
+171,2,37,1901-1948,Husova československá evangelická teologická fakulta v Praze,42++Hník František Maria
+172,3,37,1949-1989,Husova československá evangelická teologická fakulta v Praze,42++Hník František Maria
+173,4,15,1990-2030,Sociologický ústav AV ČR,45++Huláková Marie
+174,3,16,1949-1989,Sociologický ústav ČSAV,45++Huláková Marie
+175,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,45++Huláková Marie
+176,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,45++Huláková Marie
+177,3,64,1949-1989,Československá sociologická společnost při ČSAV,45++Huláková Marie
+178,4,64,1990-2030,Československá sociologická společnost při ČSAV,45++Huláková Marie
+179,2,5,1901-1948,Československá akademie zemědělská,46++Chalupný Emanuel
+180,3,5,1949-1989,Československá akademie zemědělská,46++Chalupný Emanuel
+181,2,17,1901-1948,Sociologický ústav ČSS,46++Chalupný Emanuel
+182,2,36,1901-1948,České vysoké učení technické v Praze,46++Chalupný Emanuel
+183,3,36,1949-1989,České vysoké učení technické v Praze,46++Chalupný Emanuel
+184,2,41,1901-1948,Masarykova univerzita v Brně,46++Chalupný Emanuel
+185,3,41,1949-1989,Masarykova univerzita v Brně,46++Chalupný Emanuel
+186,2,47,1901-1948,Svobodná škola politických nauk v Praze,46++Chalupný Emanuel
+187,2,48,1901-1948,Ukrajinská svobodná univerzita v Praze,46++Chalupný Emanuel
+188,3,52,1949-1989,Vojenská politická akademie Klementa Gottwalda v Praze,46++Chalupný Emanuel
+189,2,65,1901-1948,Masarykova sociologická společnost,46++Chalupný Emanuel
+190,3,65,1949-1989,Masarykova sociologická společnost,46++Chalupný Emanuel
+191,2,71,1901-1948,Sociologická knihovna MSS,46++Chalupný Emanuel
+192,3,4,1949-1989,Vědecké kolegium filosofie a sociologie ČSAV,47++Charvát František
+193,4,4,1990-2030,Vědecké kolegium filosofie a sociologie ČSAV,47++Charvát František
+194,4,15,1990-2030,Sociologický ústav AV ČR,47++Charvát František
+195,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,47++Charvát František
+196,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,47++Charvát František
+197,3,64,1949-1989,Československá sociologická společnost při ČSAV,47++Charvát František
+198,4,64,1990-2030,Československá sociologická společnost při ČSAV,47++Charvát František
+199,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,47++Charvát František
+200,4,15,1990-2030,Sociologický ústav AV ČR,48++Illner Michal
+201,3,16,1949-1989,Sociologický ústav ČSAV,48++Illner Michal
+202,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,48++Illner Michal
+203,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,48++Illner Michal
+204,3,62,1949-1989,Česká demografická společnost,48++Illner Michal
+205,4,62,1990-2030,Česká demografická společnost,48++Illner Michal
+206,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,48++Illner Michal
+207,3,39,1949-1989,Karlova univerzita v Praze,49++Jeřábek Hynek
+208,4,39,1990-2030,Karlova univerzita v Praze,49++Jeřábek Hynek
+209,4,53,1990-2030,Vysoká škola CEVRO Institut v Praze,49++Jeřábek Hynek
+210,4,60,1990-2030,Západočeská univerzita v Plzni,49++Jeřábek Hynek
+211,3,16,1949-1989,Sociologický ústav ČSAV,50++Jodl Miroslav
+212,2,45,1901-1948,Palackého univerzita v Olomouci,51++Jochmann Vladimír
+213,3,45,1949-1989,Palackého univerzita v Olomouci,51++Jochmann Vladimír
+214,4,45,1990-2030,Palackého univerzita v Olomouci,51++Jochmann Vladimír
+215,3,25,1949-1989,Ústav pro výzkum veřejného mínění FSÚ,52++Jungmann Bohumil
+216,4,25,1990-2030,Ústav pro výzkum veřejného mínění FSÚ,52++Jungmann Bohumil
+217,3,26,1949-1989,Ústav sociálně politických věd UK,52++Jungmann Bohumil
+218,3,30,1949-1989,Výzkumný ústav sociálního rozvoje a práce,52++Jungmann Bohumil
+219,4,30,1990-2030,Výzkumný ústav sociálního rozvoje a práce,52++Jungmann Bohumil
+220,3,18,1949-1989,Sportpropag,53++Kabele Jiří
+221,2,39,1901-1948,Karlova univerzita v Praze,53++Kabele Jiří
+222,3,39,1949-1989,Karlova univerzita v Praze,53++Kabele Jiří
+223,4,39,1990-2030,Karlova univerzita v Praze,53++Kabele Jiří
+224,2,17,1901-1948,Sociologický ústav ČSS,54++Kadlec Vladimír
+225,2,65,1901-1948,Masarykova sociologická společnost,54++Kadlec Vladimír
+226,3,65,1949-1989,Masarykova sociologická společnost,54++Kadlec Vladimír
+227,3,16,1949-1989,Sociologický ústav ČSAV,55++Kadlecová Erika
+228,3,57,1949-1989,Vysoká škola politická ÚV KSČ v Praze,55++Kadlecová Erika
+229,4,57,1990-2030,Vysoká škola politická ÚV KSČ v Praze,55++Kadlecová Erika
+230,3,64,1949-1989,Československá sociologická společnost při ČSAV,55++Kadlecová Erika
+231,4,64,1990-2030,Československá sociologická společnost při ČSAV,55++Kadlecová Erika
+232,3,4,1949-1989,Vědecké kolegium filosofie a sociologie ČSAV,57++Kaláb Miloš
+233,4,4,1990-2030,Vědecké kolegium filosofie a sociologie ČSAV,57++Kaláb Miloš
+234,3,16,1949-1989,Sociologický ústav ČSAV,57++Kaláb Miloš
+235,3,26,1949-1989,Ústav sociálně politických věd UK,57++Kaláb Miloš
+236,3,64,1949-1989,Československá sociologická společnost při ČSAV,57++Kaláb Miloš
+237,4,64,1990-2030,Československá sociologická společnost při ČSAV,57++Kaláb Miloš
+238,2,39,1901-1948,Karlova univerzita v Praze,60++Kapr Jaroslav
+239,3,39,1949-1989,Karlova univerzita v Praze,60++Kapr Jaroslav
+240,4,39,1990-2030,Karlova univerzita v Praze,60++Kapr Jaroslav
+241,4,46,1990-2030,Slezská univerzita v Opavě,60++Kapr Jaroslav
+242,3,41,1949-1989,Masarykova univerzita v Brně,62++Keller Jan
+243,4,41,1990-2030,Masarykova univerzita v Brně,62++Keller Jan
+244,4,44,1990-2030,Ostravská univerzita v Ostravě,62++Keller Jan
+245,4,73,1990-2030,Sociologické nakladatelství (SLON),62++Keller Jan
+246,3,4,1949-1989,Vědecké kolegium filosofie a sociologie ČSAV,65++Klofáč Jaroslav
+247,3,57,1949-1989,Vysoká škola politická ÚV KSČ v Praze,65++Klofáč Jaroslav
+248,3,64,1949-1989,Československá sociologická společnost při ČSAV,65++Klofáč Jaroslav
+249,2,68,1901-1948,Společnost pro sociální bádání,65++Klofáč Jaroslav
+250,3,68,1949-1989,Společnost pro sociální bádání,65++Klofáč Jaroslav
+251,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,65++Klofáč Jaroslav
+252,3,4,1949-1989,Vědecké kolegium filosofie a sociologie ČSAV,67++Kohout Jaroslav
+253,4,4,1990-2030,Vědecké kolegium filosofie a sociologie ČSAV,67++Kohout Jaroslav
+254,3,54,1949-1989,Vysoká škola ekonomická v Praze,67++Kohout Jaroslav
+255,4,54,1990-2030,Vysoká škola ekonomická v Praze,67++Kohout Jaroslav
+256,2,56,1901-1948,Vysoká škola politická a sociální v Praze,67++Kohout Jaroslav
+257,3,56,1949-1989,Vysoká škola politická a sociální v Praze,67++Kohout Jaroslav
+258,3,64,1949-1989,Československá sociologická společnost při ČSAV,67++Kohout Jaroslav
+259,4,64,1990-2030,Československá sociologická společnost při ČSAV,67++Kohout Jaroslav
+260,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,67++Kohout Jaroslav
+261,4,73,1990-2030,Sociologické nakladatelství (SLON),67++Kohout Jaroslav
+262,1,39,1800-1900,Karlova univerzita v Praze,69++Korčák Jaromír
+263,2,39,1901-1948,Karlova univerzita v Praze,69++Korčák Jaromír
+264,3,39,1949-1989,Karlova univerzita v Praze,69++Korčák Jaromír
+265,3,62,1949-1989,Česká demografická společnost,69++Korčák Jaromír
+266,2,68,1901-1948,Společnost pro sociální bádání,69++Korčák Jaromír
+267,3,68,1949-1989,Společnost pro sociální bádání,69++Korčák Jaromír
+268,2,41,1901-1948,Masarykova univerzita v Brně,71++Köttner Mojmír
+269,3,41,1949-1989,Masarykova univerzita v Brně,71++Köttner Mojmír
+270,1,1,1800-1900,Česká akademie věd a umění,72++Král Josef
+271,2,1,1901-1948,Česká akademie věd a umění,72++Král Josef
+272,3,1,1949-1989,Česká akademie věd a umění,72++Král Josef
+273,2,5,1901-1948,Československá akademie zemědělská,72++Král Josef
+274,3,5,1949-1989,Československá akademie zemědělská,72++Král Josef
+275,2,28,1901-1948,Vojenský sociologický kruh,72++Král Josef
+276,1,39,1800-1900,Karlova univerzita v Praze,72++Král Josef
+277,2,39,1901-1948,Karlova univerzita v Praze,72++Král Josef
+278,3,39,1949-1989,Karlova univerzita v Praze,72++Král Josef
+279,2,40,1901-1948,Komenského univerzita v Bratislavě,72++Král Josef
+280,3,40,1949-1989,Komenského univerzita v Bratislavě,72++Král Josef
+281,2,56,1901-1948,Vysoká škola politická a sociální v Praze,72++Král Josef
+282,3,56,1949-1989,Vysoká škola politická a sociální v Praze,72++Král Josef
+283,3,64,1949-1989,Československá sociologická společnost při ČSAV,72++Král Josef
+284,2,65,1901-1948,Masarykova sociologická společnost,72++Král Josef
+285,3,65,1949-1989,Masarykova sociologická společnost,72++Král Josef
+286,2,67,1901-1948,Sociologický kruh posluchačů vysokých škol pražských,72++Král Josef
+287,3,67,1949-1989,Sociologický kruh posluchačů vysokých škol pražských,72++Král Josef
+288,2,68,1901-1948,Společnost pro sociální bádání,72++Král Josef
+289,3,68,1949-1989,Společnost pro sociální bádání,72++Král Josef
+290,2,70,1901-1948,Knihovna Sociálních problémů,72++Král Josef
+291,2,65,1901-1948,Masarykova sociologická společnost,75++Krejčí Karel
+292,3,65,1949-1989,Masarykova sociologická společnost,75++Krejčí Karel
+293,3,16,1949-1989,Sociologický ústav ČSAV,78++Lamser Václav
+294,2,39,1901-1948,Karlova univerzita v Praze,78++Lamser Václav
+295,3,39,1949-1989,Karlova univerzita v Praze,78++Lamser Václav
+296,3,62,1949-1989,Česká demografická společnost,78++Lamser Václav
+297,3,64,1949-1989,Československá sociologická společnost při ČSAV,78++Lamser Václav
+298,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,78++Lamser Václav
+299,2,41,1901-1948,Masarykova univerzita v Brně,79++Librová Hana
+300,3,41,1949-1989,Masarykova univerzita v Brně,79++Librová Hana
+301,4,41,1990-2030,Masarykova univerzita v Brně,79++Librová Hana
+302,4,15,1990-2030,Sociologický ústav AV ČR,81++Linhart Jiří
+303,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,81++Linhart Jiří
+304,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,81++Linhart Jiří
+305,3,26,1949-1989,Ústav sociálně politických věd UK,81++Linhart Jiří
+306,3,64,1949-1989,Československá sociologická společnost při ČSAV,81++Linhart Jiří
+307,4,64,1990-2030,Československá sociologická společnost při ČSAV,81++Linhart Jiří
+308,2,65,1901-1948,Masarykova sociologická společnost,82++Macek Josef
+309,3,65,1949-1989,Masarykova sociologická společnost,82++Macek Josef
+310,2,41,1901-1948,Masarykova univerzita v Brně,83++Macků Jan
+311,3,41,1949-1989,Masarykova univerzita v Brně,83++Macků Jan
+312,3,64,1949-1989,Československá sociologická společnost při ČSAV,83++Macků Jan
+313,3,4,1949-1989,Vědecké kolegium filosofie a sociologie ČSAV,84++Machonin Pavel
+314,4,4,1990-2030,Vědecké kolegium filosofie a sociologie ČSAV,84++Machonin Pavel
+315,4,15,1990-2030,Sociologický ústav AV ČR,84++Machonin Pavel
+316,3,16,1949-1989,Sociologický ústav ČSAV,84++Machonin Pavel
+317,3,18,1949-1989,Sportpropag,84++Machonin Pavel
+318,3,26,1949-1989,Ústav sociálně politických věd UK,84++Machonin Pavel
+319,3,52,1949-1989,Vojenská politická akademie Klementa Gottwalda v Praze,84++Machonin Pavel
+320,2,56,1901-1948,Vysoká škola politická a sociální v Praze,84++Machonin Pavel
+321,3,56,1949-1989,Vysoká škola politická a sociální v Praze,84++Machonin Pavel
+322,2,19,1901-1948,Státní úřad statistický,85++Machotka Otakar
+323,3,19,1949-1989,Státní úřad statistický,85++Machotka Otakar
+324,1,39,1800-1900,Karlova univerzita v Praze,85++Machotka Otakar
+325,2,39,1901-1948,Karlova univerzita v Praze,85++Machotka Otakar
+326,3,39,1949-1989,Karlova univerzita v Praze,85++Machotka Otakar
+327,2,40,1901-1948,Komenského univerzita v Bratislavě,85++Machotka Otakar
+328,3,40,1949-1989,Komenského univerzita v Bratislavě,85++Machotka Otakar
+329,2,56,1901-1948,Vysoká škola politická a sociální v Praze,85++Machotka Otakar
+330,3,56,1949-1989,Vysoká škola politická a sociální v Praze,85++Machotka Otakar
+331,2,65,1901-1948,Masarykova sociologická společnost,85++Machotka Otakar
+332,3,65,1949-1989,Masarykova sociologická společnost,85++Machotka Otakar
+333,2,68,1901-1948,Společnost pro sociální bádání,85++Machotka Otakar
+334,3,68,1949-1989,Společnost pro sociální bádání,85++Machotka Otakar
+335,2,70,1901-1948,Knihovna Sociálních problémů,85++Machotka Otakar
+336,2,71,1901-1948,Sociologická knihovna MSS,85++Machotka Otakar
+337,2,19,1901-1948,Státní úřad statistický,86++Maiwald Karel
+338,3,19,1949-1989,Státní úřad statistický,86++Maiwald Karel
+339,2,45,1901-1948,Palackého univerzita v Olomouci,86++Maiwald Karel
+340,3,45,1949-1989,Palackého univerzita v Olomouci,86++Maiwald Karel
+341,2,41,1901-1948,Masarykova univerzita v Brně,89++Mareš Petr
+342,3,41,1949-1989,Masarykova univerzita v Brně,89++Mareš Petr
+343,4,41,1990-2030,Masarykova univerzita v Brně,89++Mareš Petr
+344,1,39,1800-1900,Karlova univerzita v Praze,91++Masaryk Tomáš Garrigue
+345,2,39,1901-1948,Karlova univerzita v Praze,91++Masaryk Tomáš Garrigue
+346,2,65,1901-1948,Masarykova sociologická společnost,91++Masaryk Tomáš Garrigue
+347,2,20,1901-1948,Sociální ústav ČSR,92++Masaryková Alice
+348,2,65,1901-1948,Masarykova sociologická společnost,92++Masaryková Alice
+349,3,65,1949-1989,Masarykova sociologická společnost,92++Masaryková Alice
+350,4,2,1990-2030,Grantová agentura České republiky,93++Matějů Petr
+351,4,3,1990-2030,"Rada pro výzkum, vývoj a inovace",93++Matějů Petr
+352,4,15,1990-2030,Sociologický ústav AV ČR,93++Matějů Petr
+353,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,93++Matějů Petr
+354,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,93++Matějů Petr
+355,3,39,1949-1989,Karlova univerzita v Praze,93++Matějů Petr
+356,4,39,1990-2030,Karlova univerzita v Praze,93++Matějů Petr
+357,4,53,1990-2030,Vysoká škola CEVRO Institut v Praze,93++Matějů Petr
+358,4,55,1990-2030,Vysoká škola finanční a správní v Praze,93++Matějů Petr
+359,2,28,1901-1948,Vojenský sociologický kruh,94++Mertl Jan
+360,2,36,1901-1948,České vysoké učení technické v Praze,94++Mertl Jan
+361,3,36,1949-1989,České vysoké učení technické v Praze,94++Mertl Jan
+362,2,65,1901-1948,Masarykova sociologická společnost,94++Mertl Jan
+363,3,65,1949-1989,Masarykova sociologická společnost,94++Mertl Jan
+364,2,68,1901-1948,Společnost pro sociální bádání,94++Mertl Jan
+365,3,68,1949-1989,Společnost pro sociální bádání,94++Mertl Jan
+366,2,70,1901-1948,Knihovna Sociálních problémů,94++Mertl Jan
+367,2,71,1901-1948,Sociologická knihovna MSS,94++Mertl Jan
+368,2,65,1901-1948,Masarykova sociologická společnost,96++Modráček František
+369,3,65,1949-1989,Masarykova sociologická společnost,96++Modráček František
+370,2,41,1901-1948,Masarykova univerzita v Brně,97++Možný Ivo
+371,3,41,1949-1989,Masarykova univerzita v Brně,97++Možný Ivo
+372,4,41,1990-2030,Masarykova univerzita v Brně,97++Možný Ivo
+373,4,73,1990-2030,Sociologické nakladatelství (SLON),97++Možný Ivo
+374,4,15,1990-2030,Sociologický ústav AV ČR,98++Musil Jiří
+375,3,32,1949-1989,Výzkumný ústav výstavby a architektury,98++Musil Jiří
+376,4,32,1990-2030,Výzkumný ústav výstavby a architektury,98++Musil Jiří
+377,2,36,1901-1948,České vysoké učení technické v Praze,98++Musil Jiří
+378,3,36,1949-1989,České vysoké učení technické v Praze,98++Musil Jiří
+379,4,36,1990-2030,České vysoké učení technické v Praze,98++Musil Jiří
+380,3,62,1949-1989,Česká demografická společnost,98++Musil Jiří
+381,4,62,1990-2030,Česká demografická společnost,98++Musil Jiří
+382,3,64,1949-1989,Československá sociologická společnost při ČSAV,98++Musil Jiří
+383,4,64,1990-2030,Československá sociologická společnost při ČSAV,98++Musil Jiří
+384,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,98++Musil Jiří
+385,1,33,1800-1900,Biskupské semináře,101++Neuschl Robert
+386,2,33,1901-1948,Biskupské semináře,101++Neuschl Robert
+387,2,41,1901-1948,Masarykova univerzita v Brně,102++Nový Lubomír
+388,3,41,1949-1989,Masarykova univerzita v Brně,102++Nový Lubomír
+389,4,41,1990-2030,Masarykova univerzita v Brně,102++Nový Lubomír
+390,2,40,1901-1948,Komenského univerzita v Bratislavě,103++Obrdlík Antonín
+391,3,40,1949-1989,Komenského univerzita v Bratislavě,103++Obrdlík Antonín
+392,2,41,1901-1948,Masarykova univerzita v Brně,103++Obrdlík Antonín
+393,3,41,1949-1989,Masarykova univerzita v Brně,103++Obrdlík Antonín
+394,4,41,1990-2030,Masarykova univerzita v Brně,103++Obrdlík Antonín
+395,2,65,1901-1948,Masarykova sociologická společnost,103++Obrdlík Antonín
+396,3,65,1949-1989,Masarykova sociologická společnost,103++Obrdlík Antonín
+397,2,71,1901-1948,Sociologická knihovna MSS,103++Obrdlík Antonín
+398,2,41,1901-1948,Masarykova univerzita v Brně,104++Obrdlíková Juliana
+399,3,41,1949-1989,Masarykova univerzita v Brně,104++Obrdlíková Juliana
+400,2,45,1901-1948,Palackého univerzita v Olomouci,104++Obrdlíková Juliana
+401,3,45,1949-1989,Palackého univerzita v Olomouci,104++Obrdlíková Juliana
+402,2,58,1901-1948,Vysoká škola sociální v Brně,104++Obrdlíková Juliana
+403,3,58,1949-1989,Vysoká škola sociální v Brně,104++Obrdlíková Juliana
+404,2,65,1901-1948,Masarykova sociologická společnost,104++Obrdlíková Juliana
+405,3,65,1949-1989,Masarykova sociologická společnost,104++Obrdlíková Juliana
+406,2,71,1901-1948,Sociologická knihovna MSS,104++Obrdlíková Juliana
+407,2,41,1901-1948,Masarykova univerzita v Brně,105++Ovesný Miroslav
+408,3,41,1949-1989,Masarykova univerzita v Brně,105++Ovesný Miroslav
+409,4,41,1990-2030,Masarykova univerzita v Brně,105++Ovesný Miroslav
+410,2,39,1901-1948,Karlova univerzita v Praze,106++Pavlík Zdeněk
+411,3,39,1949-1989,Karlova univerzita v Praze,106++Pavlík Zdeněk
+412,4,39,1990-2030,Karlova univerzita v Praze,106++Pavlík Zdeněk
+413,4,53,1990-2030,Vysoká škola CEVRO Institut v Praze,106++Pavlík Zdeněk
+414,3,62,1949-1989,Česká demografická společnost,106++Pavlík Zdeněk
+415,4,62,1990-2030,Česká demografická společnost,106++Pavlík Zdeněk
+416,4,15,1990-2030,Sociologický ústav AV ČR,108++Petrusek Miloslav
+417,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,108++Petrusek Miloslav
+418,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,108++Petrusek Miloslav
+419,3,26,1949-1989,Ústav sociálně politických věd UK,108++Petrusek Miloslav
+420,2,39,1901-1948,Karlova univerzita v Praze,108++Petrusek Miloslav
+421,3,39,1949-1989,Karlova univerzita v Praze,108++Petrusek Miloslav
+422,4,39,1990-2030,Karlova univerzita v Praze,108++Petrusek Miloslav
+423,3,64,1949-1989,Československá sociologická společnost při ČSAV,108++Petrusek Miloslav
+424,4,64,1990-2030,Československá sociologická společnost při ČSAV,108++Petrusek Miloslav
+425,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,108++Petrusek Miloslav
+426,4,73,1990-2030,Sociologické nakladatelství (SLON),108++Petrusek Miloslav
+427,2,65,1901-1948,Masarykova sociologická společnost,109++Pistorius Theodor
+428,3,65,1949-1989,Masarykova sociologická společnost,109++Pistorius Theodor
+429,3,26,1949-1989,Ústav sociálně politických věd UK,110++Porket Josef Ludvík
+430,4,3,1990-2030,"Rada pro výzkum, vývoj a inovace",111++Potůček Martin
+431,3,18,1949-1989,Sportpropag,111++Potůček Martin
+432,2,39,1901-1948,Karlova univerzita v Praze,111++Potůček Martin
+433,3,39,1949-1989,Karlova univerzita v Praze,111++Potůček Martin
+434,4,39,1990-2030,Karlova univerzita v Praze,111++Potůček Martin
+435,2,41,1901-1948,Masarykova univerzita v Brně,111++Potůček Martin
+436,3,41,1949-1989,Masarykova univerzita v Brně,111++Potůček Martin
+437,4,41,1990-2030,Masarykova univerzita v Brně,111++Potůček Martin
+438,3,41,1949-1989,Masarykova univerzita v Brně,114++Rabušic Ladislav
+439,4,41,1990-2030,Masarykova univerzita v Brně,114++Rabušic Ladislav
+440,2,5,1901-1948,Československá akademie zemědělská,117++Reich Edvard
+441,2,42,1901-1948,Mendelova univerzita v Brně,117++Reich Edvard
+442,1,33,1800-1900,Biskupské semináře,118++Reyl František
+443,2,33,1901-1948,Biskupské semináře,118++Reyl František
+444,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,119++Richta Radovan
+445,4,15,1990-2030,Sociologický ústav AV ČR,121++Rychtaříková Jitka
+446,3,39,1949-1989,Karlova univerzita v Praze,121++Rychtaříková Jitka
+447,4,39,1990-2030,Karlova univerzita v Praze,121++Rychtaříková Jitka
+448,3,62,1949-1989,Česká demografická společnost,121++Rychtaříková Jitka
+449,4,62,1990-2030,Česká demografická společnost,121++Rychtaříková Jitka
+450,3,16,1949-1989,Sociologický ústav ČSAV,123++Řehák Jan
+451,2,39,1901-1948,Karlova univerzita v Praze,123++Řehák Jan
+452,3,39,1949-1989,Karlova univerzita v Praze,123++Řehák Jan
+453,4,39,1990-2030,Karlova univerzita v Praze,123++Řehák Jan
+454,3,64,1949-1989,Československá sociologická společnost při ČSAV,123++Řehák Jan
+455,4,64,1990-2030,Československá sociologická společnost při ČSAV,123++Řehák Jan
+456,3,9,1949-1989,Dům techniky ČSVTS Pardubice,125++Sedláček Oto
+457,4,9,1990-2030,Dům techniky ČSVTS Pardubice,125++Sedláček Oto
+458,3,16,1949-1989,Sociologický ústav ČSAV,125++Sedláček Oto
+459,4,29,1990-2030,Výzkumný ústav práce a sociálních věcí,125++Sedláček Oto
+460,2,39,1901-1948,Karlova univerzita v Praze,125++Sedláček Oto
+461,3,39,1949-1989,Karlova univerzita v Praze,125++Sedláček Oto
+462,4,39,1990-2030,Karlova univerzita v Praze,125++Sedláček Oto
+463,3,64,1949-1989,Československá sociologická společnost při ČSAV,125++Sedláček Oto
+464,4,64,1990-2030,Československá sociologická společnost při ČSAV,125++Sedláček Oto
+465,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,125++Sedláček Oto
+466,3,27,1949-1989,Ústav vědeckého ateismu ČSAV,126++Sekot Aleš
+467,4,27,1990-2030,Ústav vědeckého ateismu ČSAV,126++Sekot Aleš
+468,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,126++Sekot Aleš
+469,2,20,1901-1948,Sociální ústav ČSR,127++Schoenbaum Emil
+470,3,41,1949-1989,Masarykova univerzita v Brně,128++Sirovátka Tomáš
+471,4,41,1990-2030,Masarykova univerzita v Brně,128++Sirovátka Tomáš
+472,3,9,1949-1989,Dům techniky ČSVTS Pardubice,130++Slejška Dragoslav
+473,4,9,1990-2030,Dům techniky ČSVTS Pardubice,130++Slejška Dragoslav
+474,3,16,1949-1989,Sociologický ústav ČSAV,130++Slejška Dragoslav
+475,3,24,1949-1989,Ústav pro výzkum veřejného mínění ČSAV,130++Slejška Dragoslav
+476,3,31,1949-1989,Výzkumný ústav strojírenské technologie a ekonomiky,130++Slejška Dragoslav
+477,4,31,1990-2030,Výzkumný ústav strojírenské technologie a ekonomiky,130++Slejška Dragoslav
+478,3,64,1949-1989,Československá sociologická společnost při ČSAV,130++Slejška Dragoslav
+479,4,64,1990-2030,Československá sociologická společnost při ČSAV,130++Slejška Dragoslav
+480,3,26,1949-1989,Ústav sociálně politických věd UK,132++Solař Josef
+481,2,41,1901-1948,Masarykova univerzita v Brně,132++Solař Josef
+482,3,41,1949-1989,Masarykova univerzita v Brně,132++Solař Josef
+483,4,41,1990-2030,Masarykova univerzita v Brně,132++Solař Josef
+484,3,64,1949-1989,Československá sociologická společnost při ČSAV,132++Solař Josef
+485,4,64,1990-2030,Československá sociologická společnost při ČSAV,132++Solař Josef
+486,1,33,1800-1900,Biskupské semináře,133++Soldát Alois
+487,2,33,1901-1948,Biskupské semináře,133++Soldát Alois
+488,3,33,1949-1989,Biskupské semináře,133++Soldát Alois
+489,2,67,1901-1948,Sociologický kruh posluchačů vysokých škol pražských,134++Sorokin Pitirim Alexandrovič
+490,3,67,1949-1989,Sociologický kruh posluchačů vysokých škol pražských,134++Sorokin Pitirim Alexandrovič
+491,3,62,1949-1989,Česká demografická společnost,135++Srb Vladimír
+492,4,62,1990-2030,Česká demografická společnost,135++Srb Vladimír
+493,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,135++Srb Vladimír
+494,2,43,1901-1948,Německá univerzita v Praze,136++Stark Werner
+495,3,16,1949-1989,Sociologický ústav ČSAV,137++Strmiska Zdeněk
+496,3,26,1949-1989,Ústav sociálně politických věd UK,137++Strmiska Zdeněk
+497,3,64,1949-1989,Československá sociologická společnost při ČSAV,137++Strmiska Zdeněk
+498,4,64,1990-2030,Československá sociologická společnost při ČSAV,137++Strmiska Zdeněk
+499,2,71,1901-1948,Sociologická knihovna MSS,137++Strmiska Zdeněk
+500,2,41,1901-1948,Masarykova univerzita v Brně,138++Střítecký Jaroslav
+501,3,41,1949-1989,Masarykova univerzita v Brně,138++Střítecký Jaroslav
+502,4,41,1990-2030,Masarykova univerzita v Brně,138++Střítecký Jaroslav
+503,4,46,1990-2030,Slezská univerzita v Opavě,139++Suda Zdeněk
+504,3,64,1949-1989,Československá sociologická společnost při ČSAV,139++Suda Zdeněk
+505,4,64,1990-2030,Československá sociologická společnost při ČSAV,139++Suda Zdeněk
+506,2,23,1901-1948,Ústav pro sociální a hospodářskou výchovu ČSS,141++Svoboda Ludvík
+507,2,39,1901-1948,Karlova univerzita v Praze,141++Svoboda Ludvík
+508,3,39,1949-1989,Karlova univerzita v Praze,141++Svoboda Ludvík
+509,2,65,1901-1948,Masarykova sociologická společnost,141++Svoboda Ludvík
+510,3,65,1949-1989,Masarykova sociologická společnost,141++Svoboda Ludvík
+511,2,21,1901-1948,Ukrajinský sociologický ústav,142++Šapoval Mykyta
+512,2,48,1901-1948,Ukrajinská svobodná univerzita v Praze,142++Šapoval Mykyta
+513,3,26,1949-1989,Ústav sociálně politických věd UK,143++Šiklová Jiřina
+514,2,39,1901-1948,Karlova univerzita v Praze,143++Šiklová Jiřina
+515,3,39,1949-1989,Karlova univerzita v Praze,143++Šiklová Jiřina
+516,4,39,1990-2030,Karlova univerzita v Praze,143++Šiklová Jiřina
+517,2,17,1901-1948,Sociologický ústav ČSS,144++Šíma Jaroslav
+518,2,47,1901-1948,Svobodná škola politických nauk v Praze,144++Šíma Jaroslav
+519,2,65,1901-1948,Masarykova sociologická společnost,144++Šíma Jaroslav
+520,3,65,1949-1989,Masarykova sociologická společnost,144++Šíma Jaroslav
+521,2,65,1901-1948,Masarykova sociologická společnost,145++Škrach Vasil Kaprálek
+522,2,71,1901-1948,Sociologická knihovna MSS,145++Škrach Vasil Kaprálek
+523,2,65,1901-1948,Masarykova sociologická společnost,146++Šmejkal Karel
+524,2,71,1901-1948,Sociologická knihovna MSS,146++Šmejkal Karel
+525,1,33,1800-1900,Biskupské semináře,148++Šrámek Jan
+526,2,33,1901-1948,Biskupské semináře,148++Šrámek Jan
+527,3,33,1949-1989,Biskupské semináře,148++Šrámek Jan
+528,2,5,1901-1948,Československá akademie zemědělská,150++Štefánek Anton
+529,3,5,1949-1989,Československá akademie zemědělská,150++Štefánek Anton
+530,2,40,1901-1948,Komenského univerzita v Bratislavě,150++Štefánek Anton
+531,3,40,1949-1989,Komenského univerzita v Bratislavě,150++Štefánek Anton
+532,2,65,1901-1948,Masarykova sociologická společnost,150++Štefánek Anton
+533,3,65,1949-1989,Masarykova sociologická společnost,150++Štefánek Anton
+534,2,20,1901-1948,Sociální ústav ČSR,151++Štern Evžen
+535,2,5,1901-1948,Československá akademie zemědělská,152++Tauber Jan Bohumil
+536,3,5,1949-1989,Československá akademie zemědělská,152++Tauber Jan Bohumil
+537,3,11,1949-1989,Institut sociologie venkova a historie zemědělství VÚZEI,152++Tauber Jan Bohumil
+538,3,35,1949-1989,Česká zemědělská univerzita v Praze,152++Tauber Jan Bohumil
+539,2,36,1901-1948,České vysoké učení technické v Praze,152++Tauber Jan Bohumil
+540,3,36,1949-1989,České vysoké učení technické v Praze,152++Tauber Jan Bohumil
+541,3,64,1949-1989,Československá sociologická společnost při ČSAV,152++Tauber Jan Bohumil
+542,2,20,1901-1948,Sociální ústav ČSR,154++Teltšík Rudolf
+543,3,26,1949-1989,Ústav sociálně politických věd UK,155++Tlustý Vojtěch
+544,2,39,1901-1948,Karlova univerzita v Praze,155++Tlustý Vojtěch
+545,3,39,1949-1989,Karlova univerzita v Praze,155++Tlustý Vojtěch
+546,3,64,1949-1989,Československá sociologická společnost při ČSAV,155++Tlustý Vojtěch
+547,2,39,1901-1948,Karlova univerzita v Praze,156++Tomeš Igor
+548,3,39,1949-1989,Karlova univerzita v Praze,156++Tomeš Igor
+549,4,39,1990-2030,Karlova univerzita v Praze,156++Tomeš Igor
+550,3,62,1949-1989,Česká demografická společnost,156++Tomeš Igor
+551,4,62,1990-2030,Česká demografická společnost,156++Tomeš Igor
+552,4,66,1990-2030,Socioklub,156++Tomeš Igor
+553,2,41,1901-1948,Masarykova univerzita v Brně,157++Trapl Miloslav
+554,3,41,1949-1989,Masarykova univerzita v Brně,157++Trapl Miloslav
+555,2,45,1901-1948,Palackého univerzita v Olomouci,157++Trapl Miloslav
+556,3,45,1949-1989,Palackého univerzita v Olomouci,157++Trapl Miloslav
+557,2,36,1901-1948,České vysoké učení technické v Praze,159++Uhlíř Antonín
+558,3,36,1949-1989,České vysoké učení technické v Praze,159++Uhlíř Antonín
+559,2,65,1901-1948,Masarykova sociologická společnost,159++Uhlíř Antonín
+560,3,65,1949-1989,Masarykova sociologická společnost,159++Uhlíř Antonín
+561,2,14,1901-1948,Slezský ústav v Praze,160++Ullrich Zdeněk
+562,3,14,1949-1989,Slezský ústav v Praze,160++Ullrich Zdeněk
+563,2,19,1901-1948,Státní úřad statistický,160++Ullrich Zdeněk
+564,3,19,1949-1989,Státní úřad statistický,160++Ullrich Zdeněk
+565,2,28,1901-1948,Vojenský sociologický kruh,160++Ullrich Zdeněk
+566,2,39,1901-1948,Karlova univerzita v Praze,160++Ullrich Zdeněk
+567,3,39,1949-1989,Karlova univerzita v Praze,160++Ullrich Zdeněk
+568,2,56,1901-1948,Vysoká škola politická a sociální v Praze,160++Ullrich Zdeněk
+569,3,56,1949-1989,Vysoká škola politická a sociální v Praze,160++Ullrich Zdeněk
+570,2,65,1901-1948,Masarykova sociologická společnost,160++Ullrich Zdeněk
+571,3,65,1949-1989,Masarykova sociologická společnost,160++Ullrich Zdeněk
+572,2,68,1901-1948,Společnost pro sociální bádání,160++Ullrich Zdeněk
+573,3,68,1949-1989,Společnost pro sociální bádání,160++Ullrich Zdeněk
+574,2,70,1901-1948,Knihovna Sociálních problémů,160++Ullrich Zdeněk
+575,2,71,1901-1948,Sociologická knihovna MSS,160++Ullrich Zdeněk
+576,2,39,1901-1948,Karlova univerzita v Praze,161++Urbánek Eduard
+577,3,39,1949-1989,Karlova univerzita v Praze,161++Urbánek Eduard
+578,4,39,1990-2030,Karlova univerzita v Praze,161++Urbánek Eduard
+579,3,64,1949-1989,Československá sociologická společnost při ČSAV,161++Urbánek Eduard
+580,4,64,1990-2030,Československá sociologická společnost při ČSAV,161++Urbánek Eduard
+581,2,56,1901-1948,Vysoká škola politická a sociální v Praze,162++Vacek Lubomír
+582,3,56,1949-1989,Vysoká škola politická a sociální v Praze,162++Vacek Lubomír
+583,3,64,1949-1989,Československá sociologická společnost při ČSAV,162++Vacek Lubomír
+584,4,64,1990-2030,Československá sociologická společnost při ČSAV,162++Vacek Lubomír
+585,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,162++Vacek Lubomír
+586,2,39,1901-1948,Karlova univerzita v Praze,164++Vaněk Antonín
+587,3,39,1949-1989,Karlova univerzita v Praze,164++Vaněk Antonín
+588,4,39,1990-2030,Karlova univerzita v Praze,164++Vaněk Antonín
+589,1,33,1800-1900,Biskupské semináře,165++Vašek Bedřich
+590,2,33,1901-1948,Biskupské semináře,165++Vašek Bedřich
+591,3,33,1949-1989,Biskupské semináře,165++Vašek Bedřich
+592,2,69,1901-1948,Spolek pro založení a vydržování soukromého institutu věd sociologických a filosofických,165++Vašek Bedřich
+593,3,69,1949-1989,Spolek pro založení a vydržování soukromého institutu věd sociologických a filosofických,165++Vašek Bedřich
+594,4,15,1990-2030,Sociologický ústav AV ČR,166++Večerník Jiří
+595,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,166++Večerník Jiří
+596,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,166++Večerník Jiří
+597,3,26,1949-1989,Ústav sociálně politických věd UK,166++Večerník Jiří
+598,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,166++Večerník Jiří
+599,2,23,1901-1948,Ústav pro sociální a hospodářskou výchovu ČSS,167++Verunáč Václav
+600,2,36,1901-1948,České vysoké učení technické v Praze,167++Verunáč Václav
+601,3,36,1949-1989,České vysoké učení technické v Praze,167++Verunáč Václav
+602,2,47,1901-1948,Svobodná škola politických nauk v Praze,167++Verunáč Václav
+603,2,65,1901-1948,Masarykova sociologická společnost,167++Verunáč Václav
+604,3,65,1949-1989,Masarykova sociologická společnost,167++Verunáč Václav
+605,2,68,1901-1948,Společnost pro sociální bádání,167++Verunáč Václav
+606,3,68,1949-1989,Společnost pro sociální bádání,167++Verunáč Václav
+607,2,68,1901-1948,Společnost pro sociální bádání,168++Voráček Josef
+608,3,68,1949-1989,Společnost pro sociální bádání,168++Voráček Josef
+609,2,70,1901-1948,Knihovna Sociálních problémů,168++Voráček Josef
+610,2,43,1901-1948,Německá univerzita v Praze,170++Weber Alfred
+611,2,19,1901-1948,Státní úřad statistický,171++Weyr František
+612,3,19,1949-1989,Státní úřad statistický,171++Weyr František
+613,2,43,1901-1948,Německá univerzita v Praze,172++Von Wieser Friedrich
+614,2,20,1901-1948,Sociální ústav ČSR,173++Winter Lev
+615,2,43,1901-1948,Německá univerzita v Praze,174++Ziegler Heinz Otto
+616,2,70,1901-1948,Knihovna Sociálních problémů,174++Ziegler Heinz Otto
+617,4,15,1990-2030,Sociologický ústav AV ČR,175++Zich František
+618,4,50,1990-2030,Univerzita J. E. Purkyně v Ústí nad Labem,175++Zich František
+619,4,55,1990-2030,Vysoká škola finanční a správní v Praze,175++Zich František
+620,3,57,1949-1989,Vysoká škola politická ÚV KSČ v Praze,175++Zich František
+621,4,57,1990-2030,Vysoká škola politická ÚV KSČ v Praze,175++Zich František
+622,3,64,1949-1989,Československá sociologická společnost při ČSAV,175++Zich František
+623,4,64,1990-2030,Československá sociologická společnost při ČSAV,175++Zich František
+624,3,72,1949-1989,Sociologická knižnice nakladatelství Svoboda,175++Zich František
+625,2,41,1901-1948,Masarykova univerzita v Brně,176++Zwicker Bruno
+626,2,65,1901-1948,Masarykova sociologická společnost,176++Zwicker Bruno
+627,2,65,1901-1948,Masarykova sociologická společnost,177++Žalud Augustin
+628,2,36,1901-1948,České vysoké učení technické v Praze,178++Žmavc Ivan
+629,3,36,1949-1989,České vysoké učení technické v Praze,178++Žmavc Ivan
+630,1,1,1800-1900,Česká akademie věd a umění,19++Durdík Josef
+631,2,1,1901-1948,Česká akademie věd a umění,19++Durdík Josef
+632,1,1,1800-1900,Česká akademie věd a umění,85++Machotka Otakar
+633,2,1,1901-1948,Česká akademie věd a umění,85++Machotka Otakar
+634,3,1,1949-1989,Česká akademie věd a umění,85++Machotka Otakar
+635,4,3,1990-2030,"Rada pro výzkum, vývoj a inovace",114++Rabušic Ladislav
+636,3,4,1949-1989,Vědecké kolegium filosofie a sociologie ČSAV,102++Nový Lubomír
+637,4,4,1990-2030,Vědecké kolegium filosofie a sociologie ČSAV,102++Nový Lubomír
+638,3,4,1949-1989,Vědecké kolegium filosofie a sociologie ČSAV,161++Urbánek Eduard
+639,4,4,1990-2030,Vědecké kolegium filosofie a sociologie ČSAV,161++Urbánek Eduard
+640,2,5,1901-1948,Československá akademie zemědělská,63++Kettner Josef
+641,2,12,1901-1948,Masarykova akademie práce,145++Škrach Vasil Kaprálek
+642,2,12,1901-1948,Masarykova akademie práce,167++Verunáč Václav
+643,3,12,1949-1989,Masarykova akademie práce,167++Verunáč Václav
+644,2,12,1901-1948,Masarykova akademie práce,178++Žmavc Ivan
+645,3,12,1949-1989,Masarykova akademie práce,178++Žmavc Ivan
+646,3,16,1949-1989,Sociologický ústav ČSAV,47++Charvát František
+647,3,16,1949-1989,Sociologický ústav ČSAV,98++Musil Jiří
+648,3,16,1949-1989,Sociologický ústav ČSAV,119++Richta Radovan
+649,3,16,1949-1989,Sociologický ústav ČSAV,166++Večerník Jiří
+650,3,18,1949-1989,Sportpropag,108++Petrusek Miloslav
+651,2,19,1901-1948,Státní úřad statistický,69++Korčák Jaromír
+652,3,19,1949-1989,Státní úřad statistický,69++Korčák Jaromír
+653,2,19,1901-1948,Státní úřad statistický,76++Kučera Milan
+654,3,19,1949-1989,Státní úřad statistický,76++Kučera Milan
+655,2,19,1901-1948,Státní úřad statistický,84++Machonin Pavel
+656,3,19,1949-1989,Státní úřad statistický,84++Machonin Pavel
+657,2,19,1901-1948,Státní úřad statistický,116++Reif Gustav
+658,3,19,1949-1989,Státní úřad statistický,116++Reif Gustav
+659,2,19,1901-1948,Státní úřad statistický,135++Srb Vladimír
+660,3,19,1949-1989,Státní úřad statistický,135++Srb Vladimír
+661,2,20,1901-1948,Sociální ústav ČSR,21++Fajfr František
+662,2,20,1901-1948,Sociální ústav ČSR,46++Chalupný Emanuel
+663,2,20,1901-1948,Sociální ústav ČSR,85++Machotka Otakar
+664,2,20,1901-1948,Sociální ústav ČSR,109++Pistorius Theodor
+665,2,20,1901-1948,Sociální ústav ČSR,116++Reif Gustav
+666,2,20,1901-1948,Sociální ústav ČSR,145++Škrach Vasil Kaprálek
+667,2,20,1901-1948,Sociální ústav ČSR,165++Vašek Bedřich
+668,2,20,1901-1948,Sociální ústav ČSR,167++Verunáč Václav
+669,2,20,1901-1948,Sociální ústav ČSR,177++Žalud Augustin
+670,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,10++Brokl Lubomír
+671,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,10++Brokl Lubomír
+672,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,25++Foret Miroslav
+673,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,25++Foret Miroslav
+674,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,40++Havelka Miloš
+675,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,40++Havelka Miloš
+676,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,62++Keller Jan
+677,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,62++Keller Jan
+678,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,123++Řehák Jan
+679,4,22,1990-2030,Ústav pro filosofii a sociologii ČSAV,123++Řehák Jan
+680,3,22,1949-1989,Ústav pro filosofii a sociologii ČSAV,155++Tlustý Vojtěch
+681,2,23,1901-1948,Ústav pro sociální a hospodářskou výchovu ČSS,144++Šíma Jaroslav
+682,3,24,1949-1989,Ústav pro výzkum veřejného mínění ČSAV,52++Jungmann Bohumil
+683,3,24,1949-1989,Ústav pro výzkum veřejného mínění ČSAV,162++Vacek Lubomír
+684,3,25,1949-1989,Ústav pro výzkum veřejného mínění FSÚ,25++Foret Miroslav
+685,4,25,1990-2030,Ústav pro výzkum veřejného mínění FSÚ,25++Foret Miroslav
+686,3,25,1949-1989,Ústav pro výzkum veřejného mínění FSÚ,28++Frič Pavol
+687,4,25,1990-2030,Ústav pro výzkum veřejného mínění FSÚ,28++Frič Pavol
+688,3,25,1949-1989,Ústav pro výzkum veřejného mínění FSÚ,162++Vacek Lubomír
+689,4,25,1990-2030,Ústav pro výzkum veřejného mínění FSÚ,162++Vacek Lubomír
+690,3,27,1949-1989,Ústav vědeckého ateismu ČSAV,25++Foret Miroslav
+691,4,27,1990-2030,Ústav vědeckého ateismu ČSAV,25++Foret Miroslav
+692,4,29,1990-2030,Výzkumný ústav práce a sociálních věcí,128++Sirovátka Tomáš
+693,3,30,1949-1989,Výzkumný ústav sociálního rozvoje a práce,41++Hirner Alexander
+694,3,30,1949-1989,Výzkumný ústav sociálního rozvoje a práce,78++Lamser Václav
+695,3,32,1949-1989,Výzkumný ústav výstavby a architektury,7++Blažek Bohuslav
+696,4,32,1990-2030,Výzkumný ústav výstavby a architektury,7++Blažek Bohuslav
+697,3,32,1949-1989,Výzkumný ústav výstavby a architektury,78++Lamser Václav
+698,1,33,1800-1900,Biskupské semináře,6++Bláha Inocenc Arnošt
+699,2,33,1901-1948,Biskupské semináře,6++Bláha Inocenc Arnošt
+700,3,33,1949-1989,Biskupské semináře,6++Bláha Inocenc Arnošt
+701,1,33,1800-1900,Biskupské semináře,113++Procházka Matěj
+702,3,62,1949-1989,Česká demografická společnost,61++Kárníková Ludmila
+703,3,62,1949-1989,Česká demografická společnost,76++Kučera Milan
+704,4,62,1990-2030,Česká demografická společnost,76++Kučera Milan
+705,3,62,1949-1989,Česká demografická společnost,114++Rabušic Ladislav
+706,4,62,1990-2030,Česká demografická společnost,114++Rabušic Ladislav
+707,4,63,1990-2030,Česká sociologická společnost,49++Jeřábek Hynek
+708,4,63,1990-2030,Česká sociologická společnost,98++Musil Jiří
+709,4,63,1990-2030,Česká sociologická společnost,106++Pavlík Zdeněk
+710,4,63,1990-2030,Česká sociologická společnost,108++Petrusek Miloslav
+711,4,63,1990-2030,Česká sociologická společnost,114++Rabušic Ladislav
+712,4,63,1990-2030,Česká sociologická společnost,124++Sedláček Jan
+713,4,63,1990-2030,Česká sociologická společnost,139++Suda Zdeněk
+714,3,64,1949-1989,Československá sociologická společnost při ČSAV,54++Kadlec Vladimír
+715,3,64,1949-1989,Československá sociologická společnost při ČSAV,124++Sedláček Jan
+716,4,64,1990-2030,Československá sociologická společnost při ČSAV,124++Sedláček Jan
+717,3,64,1949-1989,Československá sociologická společnost při ČSAV,147++Šnobl Jaroslav
+718,3,64,1949-1989,Československá sociologická společnost při ČSAV,164++Vaněk Antonín
+719,4,64,1990-2030,Československá sociologická společnost při ČSAV,164++Vaněk Antonín
+720,2,65,1901-1948,Masarykova sociologická společnost,39++Hanáček Jaroslav
+721,3,65,1949-1989,Masarykova sociologická společnost,39++Hanáček Jaroslav
+722,2,65,1901-1948,Masarykova sociologická společnost,66++Kohn Jindřich
+723,2,65,1901-1948,Masarykova sociologická společnost,77++Kunte Ladislav
+724,2,65,1901-1948,Masarykova sociologická společnost,105++Ovesný Miroslav
+725,3,65,1949-1989,Masarykova sociologická společnost,105++Ovesný Miroslav
+726,2,65,1901-1948,Masarykova sociologická společnost,112++Potužil František
+727,3,65,1949-1989,Masarykova sociologická společnost,112++Potužil František
+728,2,65,1901-1948,Masarykova sociologická společnost,151++Štern Evžen
+729,2,65,1901-1948,Masarykova sociologická společnost,154++Teltšík Rudolf
+730,2,65,1901-1948,Masarykova sociologická společnost,173++Winter Lev
+731,2,68,1901-1948,Společnost pro sociální bádání,109++Pistorius Theodor
+732,3,68,1949-1989,Společnost pro sociální bádání,109++Pistorius Theodor

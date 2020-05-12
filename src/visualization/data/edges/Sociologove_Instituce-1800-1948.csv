@@ -1,0 +1,239 @@
+id,id1,id2,name1,name2,atr
+1,1,7,Adamec Čeněk,Československý ústav pro výzkum veřejného mínění,1800-1948
+2,1,36,Adamec Čeněk,České vysoké učení technické v Praze,1800-1948
+3,1,67,Adamec Čeněk,Sociologický kruh posluchačů vysokých škol pražských,1800-1948
+4,2,39,Alan Josef,Karlova univerzita v Praze,1800-1948
+5,3,39,Árnason Johann Pál,Karlova univerzita v Praze,1800-1948
+6,4,6,Auerhan Jan,Československý ústav zahraniční,1800-1948
+7,4,19,Auerhan Jan,Státní úřad statistický,1800-1948
+8,5,20,Beneš Edvard,Sociální ústav ČSR,1800-1948
+9,5,36,Beneš Edvard,České vysoké učení technické v Praze,1800-1948
+10,5,39,Beneš Edvard,Karlova univerzita v Praze,1800-1948
+11,5,65,Beneš Edvard,Masarykova sociologická společnost,1800-1948
+12,5,67,Beneš Edvard,Sociologický kruh posluchačů vysokých škol pražských,1800-1948
+13,5,71,Beneš Edvard,Sociologická knihovna MSS,1800-1948
+14,6,5,Bláha Inocenc Arnošt,Československá akademie zemědělská,1800-1948
+15,6,14,Bláha Inocenc Arnošt,Slezský ústav v Praze,1800-1948
+16,6,34,Bláha Inocenc Arnošt,Česká technická vysoká škola v Brně,1800-1948
+17,6,41,Bláha Inocenc Arnošt,Masarykova univerzita v Brně,1800-1948
+18,6,58,Bláha Inocenc Arnošt,Vysoká škola sociální v Brně,1800-1948
+19,6,65,Bláha Inocenc Arnošt,Masarykova sociologická společnost,1800-1948
+20,6,71,Bláha Inocenc Arnošt,Sociologická knihovna MSS,1800-1948
+21,8,5,Boháč Antonín,Československá akademie zemědělská,1800-1948
+22,8,19,Boháč Antonín,Státní úřad statistický,1800-1948
+23,8,36,Boháč Antonín,České vysoké učení technické v Praze,1800-1948
+24,8,39,Boháč Antonín,Karlova univerzita v Praze,1800-1948
+25,8,56,Boháč Antonín,Vysoká škola politická a sociální v Praze,1800-1948
+26,8,68,Boháč Antonín,Společnost pro sociální bádání,1800-1948
+27,8,70,Boháč Antonín,Knihovna Sociálních problémů,1800-1948
+28,15,5,Čep Tomáš,Československá akademie zemědělská,1800-1948
+29,15,14,Čep Tomáš,Slezský ústav v Praze,1800-1948
+30,15,42,Čep Tomáš,Mendelova univerzita v Brně,1800-1948
+31,15,65,Čep Tomáš,Masarykova sociologická společnost,1800-1948
+32,17,39,Disman Miroslav,Karlova univerzita v Praze,1800-1948
+33,21,19,Fajfr František,Státní úřad statistický,1800-1948
+34,21,39,Fajfr František,Karlova univerzita v Praze,1800-1948
+35,21,65,Fajfr František,Masarykova sociologická společnost,1800-1948
+36,21,71,Fajfr František,Sociologická knihovna MSS,1800-1948
+37,22,39,Filipcová Blanka,Karlova univerzita v Praze,1800-1948
+38,22,56,Filipcová Blanka,Vysoká škola politická a sociální v Praze,1800-1948
+39,23,39,Filipec Jindřich,Karlova univerzita v Praze,1800-1948
+40,24,41,Fischer Josef Ludvík,Masarykova univerzita v Brně,1800-1948
+41,24,45,Fischer Josef Ludvík,Palackého univerzita v Olomouci,1800-1948
+42,24,65,Fischer Josef Ludvík,Masarykova sociologická společnost,1800-1948
+43,24,71,Fischer Josef Ludvík,Sociologická knihovna MSS,1800-1948
+44,25,42,Foret Miroslav,Mendelova univerzita v Brně,1800-1948
+45,27,39,Foustka Břetislav,Karlova univerzita v Praze,1800-1948
+46,27,65,Foustka Břetislav,Masarykova sociologická společnost,1800-1948
+47,27,71,Foustka Břetislav,Sociologická knihovna MSS,1800-1948
+48,33,5,Galla Karel,Československá akademie zemědělská,1800-1948
+49,33,17,Galla Karel,Sociologický ústav ČSS,1800-1948
+50,33,23,Galla Karel,Ústav pro sociální a hospodářskou výchovu ČSS,1800-1948
+51,33,28,Galla Karel,Vojenský sociologický kruh,1800-1948
+52,33,39,Galla Karel,Karlova univerzita v Praze,1800-1948
+53,33,65,Galla Karel,Masarykova sociologická společnost,1800-1948
+54,34,68,Geist Bohumil,Společnost pro sociální bádání,1800-1948
+55,37,41,Hájek Mojmír,Masarykova univerzita v Brně,1800-1948
+56,37,65,Hájek Mojmír,Masarykova sociologická společnost,1800-1948
+57,38,39,Hampl Martin,Karlova univerzita v Praze,1800-1948
+58,40,39,Havelka Miloš,Karlova univerzita v Praze,1800-1948
+59,41,40,Hirner Alexander,Komenského univerzita v Bratislavě,1800-1948
+60,41,56,Hirner Alexander,Vysoká škola politická a sociální v Praze,1800-1948
+61,42,37,Hník František Maria,Husova československá evangelická teologická fakulta v Praze,1800-1948
+62,46,5,Chalupný Emanuel,Československá akademie zemědělská,1800-1948
+63,46,17,Chalupný Emanuel,Sociologický ústav ČSS,1800-1948
+64,46,36,Chalupný Emanuel,České vysoké učení technické v Praze,1800-1948
+65,46,41,Chalupný Emanuel,Masarykova univerzita v Brně,1800-1948
+66,46,47,Chalupný Emanuel,Svobodná škola politických nauk v Praze,1800-1948
+67,46,48,Chalupný Emanuel,Ukrajinská svobodná univerzita v Praze,1800-1948
+68,46,65,Chalupný Emanuel,Masarykova sociologická společnost,1800-1948
+69,46,71,Chalupný Emanuel,Sociologická knihovna MSS,1800-1948
+70,51,45,Jochmann Vladimír,Palackého univerzita v Olomouci,1800-1948
+71,53,39,Kabele Jiří,Karlova univerzita v Praze,1800-1948
+72,54,17,Kadlec Vladimír,Sociologický ústav ČSS,1800-1948
+73,54,65,Kadlec Vladimír,Masarykova sociologická společnost,1800-1948
+74,60,39,Kapr Jaroslav,Karlova univerzita v Praze,1800-1948
+75,65,68,Klofáč Jaroslav,Společnost pro sociální bádání,1800-1948
+76,67,56,Kohout Jaroslav,Vysoká škola politická a sociální v Praze,1800-1948
+77,69,39,Korčák Jaromír,Karlova univerzita v Praze,1800-1948
+78,69,68,Korčák Jaromír,Společnost pro sociální bádání,1800-1948
+79,71,41,Köttner Mojmír,Masarykova univerzita v Brně,1800-1948
+80,72,1,Král Josef,Česká akademie věd a umění,1800-1948
+81,72,5,Král Josef,Československá akademie zemědělská,1800-1948
+82,72,28,Král Josef,Vojenský sociologický kruh,1800-1948
+83,72,39,Král Josef,Karlova univerzita v Praze,1800-1948
+84,72,40,Král Josef,Komenského univerzita v Bratislavě,1800-1948
+85,72,56,Král Josef,Vysoká škola politická a sociální v Praze,1800-1948
+86,72,65,Král Josef,Masarykova sociologická společnost,1800-1948
+87,72,67,Král Josef,Sociologický kruh posluchačů vysokých škol pražských,1800-1948
+88,72,68,Král Josef,Společnost pro sociální bádání,1800-1948
+89,72,70,Král Josef,Knihovna Sociálních problémů,1800-1948
+90,75,65,Krejčí Karel,Masarykova sociologická společnost,1800-1948
+91,78,39,Lamser Václav,Karlova univerzita v Praze,1800-1948
+92,79,41,Librová Hana,Masarykova univerzita v Brně,1800-1948
+93,82,65,Macek Josef,Masarykova sociologická společnost,1800-1948
+94,83,41,Macků Jan,Masarykova univerzita v Brně,1800-1948
+95,84,56,Machonin Pavel,Vysoká škola politická a sociální v Praze,1800-1948
+96,85,19,Machotka Otakar,Státní úřad statistický,1800-1948
+97,85,39,Machotka Otakar,Karlova univerzita v Praze,1800-1948
+98,85,40,Machotka Otakar,Komenského univerzita v Bratislavě,1800-1948
+99,85,56,Machotka Otakar,Vysoká škola politická a sociální v Praze,1800-1948
+100,85,65,Machotka Otakar,Masarykova sociologická společnost,1800-1948
+101,85,68,Machotka Otakar,Společnost pro sociální bádání,1800-1948
+102,85,70,Machotka Otakar,Knihovna Sociálních problémů,1800-1948
+103,85,71,Machotka Otakar,Sociologická knihovna MSS,1800-1948
+104,86,19,Maiwald Karel,Státní úřad statistický,1800-1948
+105,86,45,Maiwald Karel,Palackého univerzita v Olomouci,1800-1948
+106,89,41,Mareš Petr,Masarykova univerzita v Brně,1800-1948
+107,91,39,Masaryk Tomáš Garrigue,Karlova univerzita v Praze,1800-1948
+108,91,65,Masaryk Tomáš Garrigue,Masarykova sociologická společnost,1800-1948
+109,92,20,Masaryková Alice,Sociální ústav ČSR,1800-1948
+110,92,65,Masaryková Alice,Masarykova sociologická společnost,1800-1948
+111,94,28,Mertl Jan,Vojenský sociologický kruh,1800-1948
+112,94,36,Mertl Jan,České vysoké učení technické v Praze,1800-1948
+113,94,65,Mertl Jan,Masarykova sociologická společnost,1800-1948
+114,94,68,Mertl Jan,Společnost pro sociální bádání,1800-1948
+115,94,70,Mertl Jan,Knihovna Sociálních problémů,1800-1948
+116,94,71,Mertl Jan,Sociologická knihovna MSS,1800-1948
+117,96,65,Modráček František,Masarykova sociologická společnost,1800-1948
+118,97,41,Možný Ivo,Masarykova univerzita v Brně,1800-1948
+119,98,36,Musil Jiří,České vysoké učení technické v Praze,1800-1948
+120,101,33,Neuschl Robert,Biskupské semináře,1800-1948
+121,102,41,Nový Lubomír,Masarykova univerzita v Brně,1800-1948
+122,103,40,Obrdlík Antonín,Komenského univerzita v Bratislavě,1800-1948
+123,103,41,Obrdlík Antonín,Masarykova univerzita v Brně,1800-1948
+124,103,65,Obrdlík Antonín,Masarykova sociologická společnost,1800-1948
+125,103,71,Obrdlík Antonín,Sociologická knihovna MSS,1800-1948
+126,104,41,Obrdlíková Juliana,Masarykova univerzita v Brně,1800-1948
+127,104,45,Obrdlíková Juliana,Palackého univerzita v Olomouci,1800-1948
+128,104,58,Obrdlíková Juliana,Vysoká škola sociální v Brně,1800-1948
+129,104,65,Obrdlíková Juliana,Masarykova sociologická společnost,1800-1948
+130,104,71,Obrdlíková Juliana,Sociologická knihovna MSS,1800-1948
+131,105,41,Ovesný Miroslav,Masarykova univerzita v Brně,1800-1948
+132,106,39,Pavlík Zdeněk,Karlova univerzita v Praze,1800-1948
+133,108,39,Petrusek Miloslav,Karlova univerzita v Praze,1800-1948
+134,109,65,Pistorius Theodor,Masarykova sociologická společnost,1800-1948
+135,111,39,Potůček Martin,Karlova univerzita v Praze,1800-1948
+136,111,41,Potůček Martin,Masarykova univerzita v Brně,1800-1948
+137,117,5,Reich Edvard,Československá akademie zemědělská,1800-1948
+138,117,42,Reich Edvard,Mendelova univerzita v Brně,1800-1948
+139,118,33,Reyl František,Biskupské semináře,1800-1948
+140,123,39,Řehák Jan,Karlova univerzita v Praze,1800-1948
+141,125,39,Sedláček Oto,Karlova univerzita v Praze,1800-1948
+142,127,20,Schoenbaum Emil,Sociální ústav ČSR,1800-1948
+143,132,41,Solař Josef,Masarykova univerzita v Brně,1800-1948
+144,133,33,Soldát Alois,Biskupské semináře,1800-1948
+145,134,67,Sorokin Pitirim Alexandrovič,Sociologický kruh posluchačů vysokých škol pražských,1800-1948
+146,136,43,Stark Werner,Německá univerzita v Praze,1800-1948
+147,137,71,Strmiska Zdeněk,Sociologická knihovna MSS,1800-1948
+148,138,41,Střítecký Jaroslav,Masarykova univerzita v Brně,1800-1948
+149,141,23,Svoboda Ludvík,Ústav pro sociální a hospodářskou výchovu ČSS,1800-1948
+150,141,39,Svoboda Ludvík,Karlova univerzita v Praze,1800-1948
+151,141,65,Svoboda Ludvík,Masarykova sociologická společnost,1800-1948
+152,142,21,Šapoval Mykyta,Ukrajinský sociologický ústav,1800-1948
+153,142,48,Šapoval Mykyta,Ukrajinská svobodná univerzita v Praze,1800-1948
+154,143,39,Šiklová Jiřina,Karlova univerzita v Praze,1800-1948
+155,144,17,Šíma Jaroslav,Sociologický ústav ČSS,1800-1948
+156,144,47,Šíma Jaroslav,Svobodná škola politických nauk v Praze,1800-1948
+157,144,65,Šíma Jaroslav,Masarykova sociologická společnost,1800-1948
+158,145,65,Škrach Vasil Kaprálek,Masarykova sociologická společnost,1800-1948
+159,145,71,Škrach Vasil Kaprálek,Sociologická knihovna MSS,1800-1948
+160,146,65,Šmejkal Karel,Masarykova sociologická společnost,1800-1948
+161,146,71,Šmejkal Karel,Sociologická knihovna MSS,1800-1948
+162,148,33,Šrámek Jan,Biskupské semináře,1800-1948
+163,150,5,Štefánek Anton,Československá akademie zemědělská,1800-1948
+164,150,40,Štefánek Anton,Komenského univerzita v Bratislavě,1800-1948
+165,150,65,Štefánek Anton,Masarykova sociologická společnost,1800-1948
+166,151,20,Štern Evžen,Sociální ústav ČSR,1800-1948
+167,152,5,Tauber Jan Bohumil,Československá akademie zemědělská,1800-1948
+168,152,36,Tauber Jan Bohumil,České vysoké učení technické v Praze,1800-1948
+169,154,20,Teltšík Rudolf,Sociální ústav ČSR,1800-1948
+170,155,39,Tlustý Vojtěch,Karlova univerzita v Praze,1800-1948
+171,156,39,Tomeš Igor,Karlova univerzita v Praze,1800-1948
+172,157,41,Trapl Miloslav,Masarykova univerzita v Brně,1800-1948
+173,157,45,Trapl Miloslav,Palackého univerzita v Olomouci,1800-1948
+174,159,36,Uhlíř Antonín,České vysoké učení technické v Praze,1800-1948
+175,159,65,Uhlíř Antonín,Masarykova sociologická společnost,1800-1948
+176,160,14,Ullrich Zdeněk,Slezský ústav v Praze,1800-1948
+177,160,19,Ullrich Zdeněk,Státní úřad statistický,1800-1948
+178,160,28,Ullrich Zdeněk,Vojenský sociologický kruh,1800-1948
+179,160,39,Ullrich Zdeněk,Karlova univerzita v Praze,1800-1948
+180,160,56,Ullrich Zdeněk,Vysoká škola politická a sociální v Praze,1800-1948
+181,160,65,Ullrich Zdeněk,Masarykova sociologická společnost,1800-1948
+182,160,68,Ullrich Zdeněk,Společnost pro sociální bádání,1800-1948
+183,160,70,Ullrich Zdeněk,Knihovna Sociálních problémů,1800-1948
+184,160,71,Ullrich Zdeněk,Sociologická knihovna MSS,1800-1948
+185,161,39,Urbánek Eduard,Karlova univerzita v Praze,1800-1948
+186,162,56,Vacek Lubomír,Vysoká škola politická a sociální v Praze,1800-1948
+187,164,39,Vaněk Antonín,Karlova univerzita v Praze,1800-1948
+188,165,33,Vašek Bedřich,Biskupské semináře,1800-1948
+189,165,69,Vašek Bedřich,Spolek pro založení a vydržování soukromého institutu věd sociologických a filosofických,1800-1948
+190,167,23,Verunáč Václav,Ústav pro sociální a hospodářskou výchovu ČSS,1800-1948
+191,167,36,Verunáč Václav,České vysoké učení technické v Praze,1800-1948
+192,167,47,Verunáč Václav,Svobodná škola politických nauk v Praze,1800-1948
+193,167,65,Verunáč Václav,Masarykova sociologická společnost,1800-1948
+194,167,68,Verunáč Václav,Společnost pro sociální bádání,1800-1948
+195,168,68,Voráček Josef,Společnost pro sociální bádání,1800-1948
+196,168,70,Voráček Josef,Knihovna Sociálních problémů,1800-1948
+197,170,43,Weber Alfred,Německá univerzita v Praze,1800-1948
+198,171,19,Weyr František,Státní úřad statistický,1800-1948
+199,172,43,Von Wieser Friedrich,Německá univerzita v Praze,1800-1948
+200,173,20,Winter Lev,Sociální ústav ČSR,1800-1948
+201,174,43,Ziegler Heinz Otto,Německá univerzita v Praze,1800-1948
+202,174,70,Ziegler Heinz Otto,Knihovna Sociálních problémů,1800-1948
+203,176,41,Zwicker Bruno,Masarykova univerzita v Brně,1800-1948
+204,176,65,Zwicker Bruno,Masarykova sociologická společnost,1800-1948
+205,177,65,Žalud Augustin,Masarykova sociologická společnost,1800-1948
+206,178,36,Žmavc Ivan,České vysoké učení technické v Praze,1800-1948
+207,19,1,Durdík Josef,Česká akademie věd a umění,1800-1948
+208,85,1,Machotka Otakar,Česká akademie věd a umění,1800-1948
+209,63,5,Kettner Josef,Československá akademie zemědělská,1800-1948
+210,145,12,Škrach Vasil Kaprálek,Masarykova akademie práce,1800-1948
+211,167,12,Verunáč Václav,Masarykova akademie práce,1800-1948
+212,178,12,Žmavc Ivan,Masarykova akademie práce,1800-1948
+213,69,19,Korčák Jaromír,Státní úřad statistický,1800-1948
+214,76,19,Kučera Milan,Státní úřad statistický,1800-1948
+215,84,19,Machonin Pavel,Státní úřad statistický,1800-1948
+216,116,19,Reif Gustav,Státní úřad statistický,1800-1948
+217,135,19,Srb Vladimír,Státní úřad statistický,1800-1948
+218,21,20,Fajfr František,Sociální ústav ČSR,1800-1948
+219,46,20,Chalupný Emanuel,Sociální ústav ČSR,1800-1948
+220,85,20,Machotka Otakar,Sociální ústav ČSR,1800-1948
+221,109,20,Pistorius Theodor,Sociální ústav ČSR,1800-1948
+222,116,20,Reif Gustav,Sociální ústav ČSR,1800-1948
+223,145,20,Škrach Vasil Kaprálek,Sociální ústav ČSR,1800-1948
+224,165,20,Vašek Bedřich,Sociální ústav ČSR,1800-1948
+225,167,20,Verunáč Václav,Sociální ústav ČSR,1800-1948
+226,177,20,Žalud Augustin,Sociální ústav ČSR,1800-1948
+227,144,23,Šíma Jaroslav,Ústav pro sociální a hospodářskou výchovu ČSS,1800-1948
+228,6,33,Bláha Inocenc Arnošt,Biskupské semináře,1800-1948
+229,113,33,Procházka Matěj,Biskupské semináře,1800-1948
+230,39,65,Hanáček Jaroslav,Masarykova sociologická společnost,1800-1948
+231,66,65,Kohn Jindřich,Masarykova sociologická společnost,1800-1948
+232,77,65,Kunte Ladislav,Masarykova sociologická společnost,1800-1948
+233,105,65,Ovesný Miroslav,Masarykova sociologická společnost,1800-1948
+234,112,65,Potužil František,Masarykova sociologická společnost,1800-1948
+235,151,65,Štern Evžen,Masarykova sociologická společnost,1800-1948
+236,154,65,Teltšík Rudolf,Masarykova sociologická společnost,1800-1948
+237,173,65,Winter Lev,Masarykova sociologická společnost,1800-1948
+238,109,68,Pistorius Theodor,Společnost pro sociální bádání,1800-1948

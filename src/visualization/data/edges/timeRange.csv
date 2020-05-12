@@ -1,0 +1,1855 @@
+ID,ID1,ID2,NAME1,NAME2,ATR
+1,1,4,1800-1900,Auerhan Jan,14++Naše doba
+1,1,14,1800-1900,Naše doba,4++Auerhan Jan
+2,1,5,1800-1900,Beneš Edvard,5++Česká mysl
+2,1,5,1800-1900,Česká mysl,5++Beneš Edvard
+3,1,5,1800-1900,Beneš Edvard,14++Naše doba
+3,1,14,1800-1900,Naše doba,5++Beneš Edvard
+4,1,6,1800-1900,Bláha Inocenc Arnošt,5++Česká mysl
+4,1,5,1800-1900,Česká mysl,6++Bláha Inocenc Arnošt
+5,1,6,1800-1900,Bláha Inocenc Arnošt,14++Naše doba
+5,1,14,1800-1900,Naše doba,6++Bláha Inocenc Arnošt
+6,1,8,1800-1900,Boháč Antonín,14++Naše doba
+6,1,14,1800-1900,Naše doba,8++Boháč Antonín
+7,1,21,1800-1900,Fajfr František,5++Česká mysl
+7,1,5,1800-1900,Česká mysl,21++Fajfr František
+8,1,24,1800-1900,Fischer Josef Ludvík,5++Česká mysl
+8,1,5,1800-1900,Česká mysl,24++Fischer Josef Ludvík
+9,1,27,1800-1900,Foustka Břetislav,5++Česká mysl
+9,1,5,1800-1900,Česká mysl,27++Foustka Břetislav
+10,1,27,1800-1900,Foustka Břetislav,14++Naše doba
+10,1,14,1800-1900,Naše doba,27++Foustka Břetislav
+11,1,56,1800-1900,Kaizl Josef,2++Athenaeum
+11,1,2,1800-1900,Athenaeum,56++Kaizl Josef
+12,1,56,1800-1900,Kaizl Josef,14++Naše doba
+12,1,14,1800-1900,Naše doba,56++Kaizl Josef
+13,1,70,1800-1900,Kozák Jan Blahoslav,5++Česká mysl
+13,1,5,1800-1900,Česká mysl,70++Kozák Jan Blahoslav
+14,1,72,1800-1900,Král Josef,5++Česká mysl
+14,1,5,1800-1900,Česká mysl,72++Král Josef
+15,1,73,1800-1900,Krejčí František,5++Česká mysl
+15,1,5,1800-1900,Česká mysl,73++Krejčí František
+16,1,82,1800-1900,Macek Josef,14++Naše doba
+16,1,14,1800-1900,Naše doba,82++Macek Josef
+17,1,91,1800-1900,Masaryk Tomáš Garrigue,2++Athenaeum
+17,1,2,1800-1900,Athenaeum,91++Masaryk Tomáš Garrigue
+18,1,91,1800-1900,Masaryk Tomáš Garrigue,5++Česká mysl
+18,1,5,1800-1900,Česká mysl,91++Masaryk Tomáš Garrigue
+19,1,91,1800-1900,Masaryk Tomáš Garrigue,14++Naše doba
+19,1,14,1800-1900,Naše doba,91++Masaryk Tomáš Garrigue
+20,1,96,1800-1900,Modráček František,14++Naše doba
+20,1,14,1800-1900,Naše doba,96++Modráček František
+21,1,115,1800-1900,Rádl Emanuel,5++Česká mysl
+21,1,5,1800-1900,Česká mysl,115++Rádl Emanuel
+22,1,115,1800-1900,Rádl Emanuel,14++Naše doba
+22,1,14,1800-1900,Naše doba,115++Rádl Emanuel
+23,1,127,1800-1900,Schoenbaum Emil,14++Naše doba
+23,1,14,1800-1900,Naše doba,127++Schoenbaum Emil
+24,1,145,1800-1900,Škrach Vasil Kaprálek,5++Česká mysl
+24,1,5,1800-1900,Česká mysl,145++Škrach Vasil Kaprálek
+25,1,151,1800-1900,Štern Evžen,14++Naše doba
+25,1,14,1800-1900,Naše doba,151++Štern Evžen
+26,1,159,1800-1900,Uhlíř Antonín,14++Naše doba
+26,1,14,1800-1900,Naše doba,159++Uhlíř Antonín
+27,1,19,1800-1900,Durdík Josef,2++Athenaeum
+27,1,2,1800-1900,Athenaeum,19++Durdík Josef
+28,1,26,1800-1900,Fořt Josef,2++Athenaeum
+28,1,2,1800-1900,Athenaeum,26++Fořt Josef
+29,1,69,1800-1900,Korčák Jaromír,5++Česká mysl
+29,1,5,1800-1900,Česká mysl,69++Korčák Jaromír
+30,1,159,1800-1900,Uhlíř Antonín,5++Česká mysl
+30,1,5,1800-1900,Česká mysl,159++Uhlíř Antonín
+31,1,177,1800-1900,Žalud Augustin,14++Naše doba
+31,1,14,1800-1900,Naše doba,177++Žalud Augustin
+32,1,5,1800-1900,Beneš Edvard,39++Karlova univerzita v Praze
+32,1,39,1800-1900,Karlova univerzita v Praze,5++Beneš Edvard
+33,1,8,1800-1900,Boháč Antonín,39++Karlova univerzita v Praze
+33,1,39,1800-1900,Karlova univerzita v Praze,8++Boháč Antonín
+34,1,21,1800-1900,Fajfr František,39++Karlova univerzita v Praze
+34,1,39,1800-1900,Karlova univerzita v Praze,21++Fajfr František
+35,1,27,1800-1900,Foustka Břetislav,39++Karlova univerzita v Praze
+35,1,39,1800-1900,Karlova univerzita v Praze,27++Foustka Břetislav
+36,1,69,1800-1900,Korčák Jaromír,39++Karlova univerzita v Praze
+36,1,39,1800-1900,Karlova univerzita v Praze,69++Korčák Jaromír
+37,1,72,1800-1900,Král Josef,1++Česká akademie věd a umění
+37,1,1,1800-1900,Česká akademie věd a umění,72++Král Josef
+38,1,72,1800-1900,Král Josef,39++Karlova univerzita v Praze
+38,1,39,1800-1900,Karlova univerzita v Praze,72++Král Josef
+39,1,85,1800-1900,Machotka Otakar,39++Karlova univerzita v Praze
+39,1,39,1800-1900,Karlova univerzita v Praze,85++Machotka Otakar
+40,1,91,1800-1900,Masaryk Tomáš Garrigue,39++Karlova univerzita v Praze
+40,1,39,1800-1900,Karlova univerzita v Praze,91++Masaryk Tomáš Garrigue
+41,1,101,1800-1900,Neuschl Robert,33++Biskupské semináře
+41,1,33,1800-1900,Biskupské semináře,101++Neuschl Robert
+42,1,118,1800-1900,Reyl František,33++Biskupské semináře
+42,1,33,1800-1900,Biskupské semináře,118++Reyl František
+43,1,133,1800-1900,Soldát Alois,33++Biskupské semináře
+43,1,33,1800-1900,Biskupské semináře,133++Soldát Alois
+44,1,148,1800-1900,Šrámek Jan,33++Biskupské semináře
+44,1,33,1800-1900,Biskupské semináře,148++Šrámek Jan
+45,1,165,1800-1900,Vašek Bedřich,33++Biskupské semináře
+45,1,33,1800-1900,Biskupské semináře,165++Vašek Bedřich
+46,1,19,1800-1900,Durdík Josef,1++Česká akademie věd a umění
+46,1,1,1800-1900,Česká akademie věd a umění,19++Durdík Josef
+47,1,85,1800-1900,Machotka Otakar,1++Česká akademie věd a umění
+47,1,1,1800-1900,Česká akademie věd a umění,85++Machotka Otakar
+48,1,6,1800-1900,Bláha Inocenc Arnošt,33++Biskupské semináře
+48,1,33,1800-1900,Biskupské semináře,6++Bláha Inocenc Arnošt
+49,1,113,1800-1900,Procházka Matěj,33++Biskupské semináře
+49,1,33,1800-1900,Biskupské semináře,113++Procházka Matěj
+50,2,4,1901-1930,Auerhan Jan,14++Naše doba
+50,2,14,1901-1930,Naše doba,4++Auerhan Jan
+51,2,4,1901-1930,Auerhan Jan,37++Statistický obzor
+51,2,37,1901-1930,Statistický obzor,4++Auerhan Jan
+52,2,5,1901-1930,Beneš Edvard,5++Česká mysl
+52,2,5,1901-1930,Česká mysl,5++Beneš Edvard
+53,2,5,1901-1930,Beneš Edvard,14++Naše doba
+53,2,14,1901-1930,Naše doba,5++Beneš Edvard
+54,2,6,1901-1930,Bláha Inocenc Arnošt,5++Česká mysl
+54,2,5,1901-1930,Česká mysl,6++Bláha Inocenc Arnošt
+55,2,6,1901-1930,Bláha Inocenc Arnošt,14++Naše doba
+55,2,14,1901-1930,Naše doba,6++Bláha Inocenc Arnošt
+56,2,6,1901-1930,Bláha Inocenc Arnošt,27++Sociální revue
+56,2,27,1901-1930,Sociální revue,6++Bláha Inocenc Arnošt
+57,2,6,1901-1930,Bláha Inocenc Arnošt,32++Sociologická revue
+57,2,32,1901-1930,Sociologická revue,6++Bláha Inocenc Arnošt
+58,2,6,1901-1930,Bláha Inocenc Arnošt,45++Parlament (časopis)
+58,2,45,1901-1930,Parlament (časopis),6++Bláha Inocenc Arnošt
+59,2,8,1901-1930,Boháč Antonín,14++Naše doba
+59,2,14,1901-1930,Naše doba,8++Boháč Antonín
+60,2,8,1901-1930,Boháč Antonín,37++Statistický obzor
+60,2,37,1901-1930,Statistický obzor,8++Boháč Antonín
+61,2,11,1901-1930,Butter Oskar,32++Sociologická revue
+61,2,32,1901-1930,Sociologická revue,11++Butter Oskar
+62,2,15,1901-1930,Čep Tomáš,32++Sociologická revue
+62,2,32,1901-1930,Sociologická revue,15++Čep Tomáš
+63,2,21,1901-1930,Fajfr František,5++Česká mysl
+63,2,5,1901-1930,Česká mysl,21++Fajfr František
+64,2,21,1901-1930,Fajfr František,32++Sociologická revue
+64,2,32,1901-1930,Sociologická revue,21++Fajfr František
+65,2,21,1901-1930,Fajfr František,37++Statistický obzor
+65,2,37,1901-1930,Statistický obzor,21++Fajfr František
+66,2,24,1901-1930,Fischer Josef Ludvík,5++Česká mysl
+66,2,5,1901-1930,Česká mysl,24++Fischer Josef Ludvík
+67,2,24,1901-1930,Fischer Josef Ludvík,32++Sociologická revue
+67,2,32,1901-1930,Sociologická revue,24++Fischer Josef Ludvík
+68,2,27,1901-1930,Foustka Břetislav,5++Česká mysl
+68,2,5,1901-1930,Česká mysl,27++Foustka Břetislav
+69,2,27,1901-1930,Foustka Břetislav,14++Naše doba
+69,2,14,1901-1930,Naše doba,27++Foustka Břetislav
+70,2,27,1901-1930,Foustka Břetislav,32++Sociologická revue
+70,2,32,1901-1930,Sociologická revue,27++Foustka Břetislav
+71,2,27,1901-1930,Foustka Břetislav,45++Parlament (časopis)
+71,2,45,1901-1930,Parlament (časopis),27++Foustka Břetislav
+72,2,33,1901-1930,Galla Karel,32++Sociologická revue
+72,2,32,1901-1930,Sociologická revue,33++Galla Karel
+73,2,39,1901-1930,Hanáček Jaroslav,32++Sociologická revue
+73,2,32,1901-1930,Sociologická revue,39++Hanáček Jaroslav
+74,2,46,1901-1930,Chalupný Emanuel,4++Časopis Svobodné školy politických nauk v Praze
+74,2,4,1901-1930,Časopis Svobodné školy politických nauk v Praze,46++Chalupný Emanuel
+75,2,46,1901-1930,Chalupný Emanuel,27++Sociální revue
+75,2,27,1901-1930,Sociální revue,46++Chalupný Emanuel
+76,2,46,1901-1930,Chalupný Emanuel,32++Sociologická revue
+76,2,32,1901-1930,Sociologická revue,46++Chalupný Emanuel
+77,2,56,1901-1930,Kaizl Josef,14++Naše doba
+77,2,14,1901-1930,Naše doba,56++Kaizl Josef
+78,2,69,1901-1930,Korčák Jaromír,37++Statistický obzor
+78,2,37,1901-1930,Statistický obzor,69++Korčák Jaromír
+79,2,70,1901-1930,Kozák Jan Blahoslav,5++Česká mysl
+79,2,5,1901-1930,Česká mysl,70++Kozák Jan Blahoslav
+80,2,72,1901-1930,Král Josef,5++Česká mysl
+80,2,5,1901-1930,Česká mysl,72++Král Josef
+81,2,72,1901-1930,Král Josef,45++Parlament (časopis)
+81,2,45,1901-1930,Parlament (časopis),72++Král Josef
+82,2,73,1901-1930,Krejčí František,5++Česká mysl
+82,2,5,1901-1930,Česká mysl,73++Krejčí František
+83,2,82,1901-1930,Macek Josef,14++Naše doba
+83,2,14,1901-1930,Naše doba,82++Macek Josef
+84,2,82,1901-1930,Macek Josef,27++Sociální revue
+84,2,27,1901-1930,Sociální revue,82++Macek Josef
+85,2,85,1901-1930,Machotka Otakar,37++Statistický obzor
+85,2,37,1901-1930,Statistický obzor,85++Machotka Otakar
+86,2,85,1901-1930,Machotka Otakar,45++Parlament (časopis)
+86,2,45,1901-1930,Parlament (časopis),85++Machotka Otakar
+87,2,86,1901-1930,Maiwald Karel,14++Naše doba
+87,2,14,1901-1930,Naše doba,86++Maiwald Karel
+88,2,91,1901-1930,Masaryk Tomáš Garrigue,5++Česká mysl
+88,2,5,1901-1930,Česká mysl,91++Masaryk Tomáš Garrigue
+89,2,91,1901-1930,Masaryk Tomáš Garrigue,14++Naše doba
+89,2,14,1901-1930,Naše doba,91++Masaryk Tomáš Garrigue
+90,2,94,1901-1930,Mertl Jan,14++Naše doba
+90,2,14,1901-1930,Naše doba,94++Mertl Jan
+91,2,94,1901-1930,Mertl Jan,27++Sociální revue
+91,2,27,1901-1930,Sociální revue,94++Mertl Jan
+92,2,94,1901-1930,Mertl Jan,45++Parlament (časopis)
+92,2,45,1901-1930,Parlament (časopis),94++Mertl Jan
+93,2,96,1901-1930,Modráček František,14++Naše doba
+93,2,14,1901-1930,Naše doba,96++Modráček František
+94,2,96,1901-1930,Modráček František,32++Sociologická revue
+94,2,32,1901-1930,Sociologická revue,96++Modráček František
+95,2,98,1901-1930,Musil Jiří,37++Statistický obzor
+95,2,37,1901-1930,Statistický obzor,98++Musil Jiří
+96,2,100,1901-1930,Nejedlý Zdeněk,32++Sociologická revue
+96,2,32,1901-1930,Sociologická revue,100++Nejedlý Zdeněk
+97,2,103,1901-1930,Obrdlík Antonín,32++Sociologická revue
+97,2,32,1901-1930,Sociologická revue,103++Obrdlík Antonín
+98,2,115,1901-1930,Rádl Emanuel,5++Česká mysl
+98,2,5,1901-1930,Česká mysl,115++Rádl Emanuel
+99,2,115,1901-1930,Rádl Emanuel,14++Naše doba
+99,2,14,1901-1930,Naše doba,115++Rádl Emanuel
+100,2,116,1901-1930,Reif Gustav,27++Sociální revue
+100,2,27,1901-1930,Sociální revue,116++Reif Gustav
+101,2,127,1901-1930,Schoenbaum Emil,14++Naše doba
+101,2,14,1901-1930,Naše doba,127++Schoenbaum Emil
+102,2,134,1901-1930,Sorokin Pitirim Alexandrovič,45++Parlament (časopis)
+102,2,45,1901-1930,Parlament (časopis),134++Sorokin Pitirim Alexandrovič
+103,2,135,1901-1930,Srb Vladimír,37++Statistický obzor
+103,2,37,1901-1930,Statistický obzor,135++Srb Vladimír
+104,2,141,1901-1930,Svoboda Ludvík,32++Sociologická revue
+104,2,32,1901-1930,Sociologická revue,141++Svoboda Ludvík
+105,2,144,1901-1930,Šíma Jaroslav,4++Časopis Svobodné školy politických nauk v Praze
+105,2,4,1901-1930,Časopis Svobodné školy politických nauk v Praze,144++Šíma Jaroslav
+106,2,144,1901-1930,Šíma Jaroslav,32++Sociologická revue
+106,2,32,1901-1930,Sociologická revue,144++Šíma Jaroslav
+107,2,145,1901-1930,Škrach Vasil Kaprálek,5++Česká mysl
+107,2,5,1901-1930,Česká mysl,145++Škrach Vasil Kaprálek
+108,2,150,1901-1930,Štefánek Anton,32++Sociologická revue
+108,2,32,1901-1930,Sociologická revue,150++Štefánek Anton
+109,2,151,1901-1930,Štern Evžen,14++Naše doba
+109,2,14,1901-1930,Naše doba,151++Štern Evžen
+110,2,154,1901-1930,Teltšík Rudolf,23++Sociální práce
+110,2,23,1901-1930,Sociální práce,154++Teltšík Rudolf
+111,2,154,1901-1930,Teltšík Rudolf,27++Sociální revue
+111,2,27,1901-1930,Sociální revue,154++Teltšík Rudolf
+112,2,159,1901-1930,Uhlíř Antonín,14++Naše doba
+112,2,14,1901-1930,Naše doba,159++Uhlíř Antonín
+113,2,159,1901-1930,Uhlíř Antonín,27++Sociální revue
+113,2,27,1901-1930,Sociální revue,159++Uhlíř Antonín
+114,2,160,1901-1930,Ullrich Zdeněk,5++Česká mysl
+114,2,5,1901-1930,Česká mysl,160++Ullrich Zdeněk
+115,2,160,1901-1930,Ullrich Zdeněk,37++Statistický obzor
+115,2,37,1901-1930,Statistický obzor,160++Ullrich Zdeněk
+116,2,160,1901-1930,Ullrich Zdeněk,45++Parlament (časopis)
+116,2,45,1901-1930,Parlament (časopis),160++Ullrich Zdeněk
+117,2,163,1901-1930,Václavek Bedřich,32++Sociologická revue
+117,2,32,1901-1930,Sociologická revue,163++Václavek Bedřich
+118,2,165,1901-1930,Vašek Bedřich,28++Sociální rozhledy
+118,2,28,1901-1930,Sociální rozhledy,165++Vašek Bedřich
+119,2,167,1901-1930,Verunáč Václav,4++Časopis Svobodné školy politických nauk v Praze
+119,2,4,1901-1930,Časopis Svobodné školy politických nauk v Praze,167++Verunáč Václav
+120,2,167,1901-1930,Verunáč Václav,45++Parlament (časopis)
+120,2,45,1901-1930,Parlament (časopis),167++Verunáč Václav
+121,2,171,1901-1930,Weyr František,45++Parlament (časopis)
+121,2,45,1901-1930,Parlament (časopis),171++Weyr František
+122,2,176,1901-1930,Zwicker Bruno,32++Sociologická revue
+122,2,32,1901-1930,Sociologická revue,176++Zwicker Bruno
+123,2,177,1901-1930,Žalud Augustin,27++Sociální revue
+123,2,27,1901-1930,Sociální revue,177++Žalud Augustin
+124,2,69,1901-1930,Korčák Jaromír,5++Česká mysl
+124,2,5,1901-1930,Česká mysl,69++Korčák Jaromír
+125,2,159,1901-1930,Uhlíř Antonín,5++Česká mysl
+125,2,5,1901-1930,Česká mysl,159++Uhlíř Antonín
+126,2,177,1901-1930,Žalud Augustin,14++Naše doba
+126,2,14,1901-1930,Naše doba,177++Žalud Augustin
+127,2,144,1901-1930,Šíma Jaroslav,27++Sociální revue
+127,2,27,1901-1930,Sociální revue,144++Šíma Jaroslav
+128,2,151,1901-1930,Štern Evžen,27++Sociální revue
+128,2,27,1901-1930,Sociální revue,151++Štern Evžen
+129,2,66,1901-1930,Kohn Jindřich,32++Sociologická revue
+129,2,32,1901-1930,Sociologická revue,66++Kohn Jindřich
+130,2,72,1901-1930,Král Josef,32++Sociologická revue
+130,2,32,1901-1930,Sociologická revue,72++Král Josef
+131,2,85,1901-1930,Machotka Otakar,32++Sociologická revue
+131,2,32,1901-1930,Sociologická revue,85++Machotka Otakar
+132,2,86,1901-1930,Maiwald Karel,32++Sociologická revue
+132,2,32,1901-1930,Sociologická revue,86++Maiwald Karel
+133,2,104,1901-1930,Obrdlíková Juliana,32++Sociologická revue
+133,2,32,1901-1930,Sociologická revue,104++Obrdlíková Juliana
+134,2,112,1901-1930,Potužil František,32++Sociologická revue
+134,2,32,1901-1930,Sociologická revue,112++Potužil František
+135,2,120,1901-1930,Rouček Joseph Slabey,32++Sociologická revue
+135,2,32,1901-1930,Sociologická revue,120++Rouček Joseph Slabey
+136,2,134,1901-1930,Sorokin Pitirim Alexandrovič,32++Sociologická revue
+136,2,32,1901-1930,Sociologická revue,134++Sorokin Pitirim Alexandrovič
+137,2,142,1901-1930,Šapoval Mykyta,32++Sociologická revue
+137,2,32,1901-1930,Sociologická revue,142++Šapoval Mykyta
+138,2,145,1901-1930,Škrach Vasil Kaprálek,32++Sociologická revue
+138,2,32,1901-1930,Sociologická revue,145++Škrach Vasil Kaprálek
+139,2,146,1901-1930,Šmejkal Karel,32++Sociologická revue
+139,2,32,1901-1930,Sociologická revue,146++Šmejkal Karel
+140,2,157,1901-1930,Trapl Miloslav,32++Sociologická revue
+140,2,32,1901-1930,Sociologická revue,157++Trapl Miloslav
+141,2,159,1901-1930,Uhlíř Antonín,32++Sociologická revue
+141,2,32,1901-1930,Sociologická revue,159++Uhlíř Antonín
+142,2,86,1901-1930,Maiwald Karel,37++Statistický obzor
+142,2,37,1901-1930,Statistický obzor,86++Maiwald Karel
+143,2,116,1901-1930,Reif Gustav,37++Statistický obzor
+143,2,37,1901-1930,Statistický obzor,116++Reif Gustav
+144,2,1,1901-1930,Adamec Čeněk,36++České vysoké učení technické v Praze
+144,2,36,1901-1930,České vysoké učení technické v Praze,1++Adamec Čeněk
+145,2,4,1901-1930,Auerhan Jan,6++Československý ústav zahraniční
+145,2,6,1901-1930,Československý ústav zahraniční,4++Auerhan Jan
+146,2,4,1901-1930,Auerhan Jan,19++Státní úřad statistický
+146,2,19,1901-1930,Státní úřad statistický,4++Auerhan Jan
+147,2,5,1901-1930,Beneš Edvard,20++Sociální ústav ČSR
+147,2,20,1901-1930,Sociální ústav ČSR,5++Beneš Edvard
+148,2,5,1901-1930,Beneš Edvard,36++České vysoké učení technické v Praze
+148,2,36,1901-1930,České vysoké učení technické v Praze,5++Beneš Edvard
+149,2,5,1901-1930,Beneš Edvard,39++Karlova univerzita v Praze
+149,2,39,1901-1930,Karlova univerzita v Praze,5++Beneš Edvard
+150,2,5,1901-1930,Beneš Edvard,65++Masarykova sociologická společnost
+150,2,65,1901-1930,Masarykova sociologická společnost,5++Beneš Edvard
+151,2,5,1901-1930,Beneš Edvard,71++Sociologická knihovna MSS
+151,2,71,1901-1930,Sociologická knihovna MSS,5++Beneš Edvard
+152,2,6,1901-1930,Bláha Inocenc Arnošt,5++Československá akademie zemědělská
+152,2,5,1901-1930,Československá akademie zemědělská,6++Bláha Inocenc Arnošt
+153,2,6,1901-1930,Bláha Inocenc Arnošt,14++Slezský ústav v Praze
+153,2,14,1901-1930,Slezský ústav v Praze,6++Bláha Inocenc Arnošt
+154,2,6,1901-1930,Bláha Inocenc Arnošt,34++Česká technická vysoká škola v Brně
+154,2,34,1901-1930,Česká technická vysoká škola v Brně,6++Bláha Inocenc Arnošt
+155,2,6,1901-1930,Bláha Inocenc Arnošt,41++Masarykova univerzita v Brně
+155,2,41,1901-1930,Masarykova univerzita v Brně,6++Bláha Inocenc Arnošt
+156,2,6,1901-1930,Bláha Inocenc Arnošt,65++Masarykova sociologická společnost
+156,2,65,1901-1930,Masarykova sociologická společnost,6++Bláha Inocenc Arnošt
+157,2,6,1901-1930,Bláha Inocenc Arnošt,71++Sociologická knihovna MSS
+157,2,71,1901-1930,Sociologická knihovna MSS,6++Bláha Inocenc Arnošt
+158,2,8,1901-1930,Boháč Antonín,5++Československá akademie zemědělská
+158,2,5,1901-1930,Československá akademie zemědělská,8++Boháč Antonín
+159,2,8,1901-1930,Boháč Antonín,19++Státní úřad statistický
+159,2,19,1901-1930,Státní úřad statistický,8++Boháč Antonín
+160,2,8,1901-1930,Boháč Antonín,36++České vysoké učení technické v Praze
+160,2,36,1901-1930,České vysoké učení technické v Praze,8++Boháč Antonín
+161,2,8,1901-1930,Boháč Antonín,39++Karlova univerzita v Praze
+161,2,39,1901-1930,Karlova univerzita v Praze,8++Boháč Antonín
+162,2,15,1901-1930,Čep Tomáš,5++Československá akademie zemědělská
+162,2,5,1901-1930,Československá akademie zemědělská,15++Čep Tomáš
+163,2,15,1901-1930,Čep Tomáš,14++Slezský ústav v Praze
+163,2,14,1901-1930,Slezský ústav v Praze,15++Čep Tomáš
+164,2,15,1901-1930,Čep Tomáš,65++Masarykova sociologická společnost
+164,2,65,1901-1930,Masarykova sociologická společnost,15++Čep Tomáš
+165,2,17,1901-1930,Disman Miroslav,39++Karlova univerzita v Praze
+165,2,39,1901-1930,Karlova univerzita v Praze,17++Disman Miroslav
+166,2,21,1901-1930,Fajfr František,19++Státní úřad statistický
+166,2,19,1901-1930,Státní úřad statistický,21++Fajfr František
+167,2,21,1901-1930,Fajfr František,39++Karlova univerzita v Praze
+167,2,39,1901-1930,Karlova univerzita v Praze,21++Fajfr František
+168,2,21,1901-1930,Fajfr František,65++Masarykova sociologická společnost
+168,2,65,1901-1930,Masarykova sociologická společnost,21++Fajfr František
+169,2,21,1901-1930,Fajfr František,71++Sociologická knihovna MSS
+169,2,71,1901-1930,Sociologická knihovna MSS,21++Fajfr František
+170,2,22,1901-1930,Filipcová Blanka,39++Karlova univerzita v Praze
+170,2,39,1901-1930,Karlova univerzita v Praze,22++Filipcová Blanka
+171,2,23,1901-1930,Filipec Jindřich,39++Karlova univerzita v Praze
+171,2,39,1901-1930,Karlova univerzita v Praze,23++Filipec Jindřich
+172,2,24,1901-1930,Fischer Josef Ludvík,41++Masarykova univerzita v Brně
+172,2,41,1901-1930,Masarykova univerzita v Brně,24++Fischer Josef Ludvík
+173,2,24,1901-1930,Fischer Josef Ludvík,65++Masarykova sociologická společnost
+173,2,65,1901-1930,Masarykova sociologická společnost,24++Fischer Josef Ludvík
+174,2,24,1901-1930,Fischer Josef Ludvík,71++Sociologická knihovna MSS
+174,2,71,1901-1930,Sociologická knihovna MSS,24++Fischer Josef Ludvík
+175,2,27,1901-1930,Foustka Břetislav,39++Karlova univerzita v Praze
+175,2,39,1901-1930,Karlova univerzita v Praze,27++Foustka Břetislav
+176,2,27,1901-1930,Foustka Břetislav,65++Masarykova sociologická společnost
+176,2,65,1901-1930,Masarykova sociologická společnost,27++Foustka Břetislav
+177,2,27,1901-1930,Foustka Břetislav,71++Sociologická knihovna MSS
+177,2,71,1901-1930,Sociologická knihovna MSS,27++Foustka Břetislav
+178,2,33,1901-1930,Galla Karel,5++Československá akademie zemědělská
+178,2,5,1901-1930,Československá akademie zemědělská,33++Galla Karel
+179,2,33,1901-1930,Galla Karel,39++Karlova univerzita v Praze
+179,2,39,1901-1930,Karlova univerzita v Praze,33++Galla Karel
+180,2,33,1901-1930,Galla Karel,65++Masarykova sociologická společnost
+180,2,65,1901-1930,Masarykova sociologická společnost,33++Galla Karel
+181,2,37,1901-1930,Hájek Mojmír,41++Masarykova univerzita v Brně
+181,2,41,1901-1930,Masarykova univerzita v Brně,37++Hájek Mojmír
+182,2,37,1901-1930,Hájek Mojmír,65++Masarykova sociologická společnost
+182,2,65,1901-1930,Masarykova sociologická společnost,37++Hájek Mojmír
+183,2,41,1901-1930,Hirner Alexander,40++Komenského univerzita v Bratislavě
+183,2,40,1901-1930,Komenského univerzita v Bratislavě,41++Hirner Alexander
+184,2,46,1901-1930,Chalupný Emanuel,5++Československá akademie zemědělská
+184,2,5,1901-1930,Československá akademie zemědělská,46++Chalupný Emanuel
+185,2,46,1901-1930,Chalupný Emanuel,36++České vysoké učení technické v Praze
+185,2,36,1901-1930,České vysoké učení technické v Praze,46++Chalupný Emanuel
+186,2,46,1901-1930,Chalupný Emanuel,41++Masarykova univerzita v Brně
+186,2,41,1901-1930,Masarykova univerzita v Brně,46++Chalupný Emanuel
+187,2,46,1901-1930,Chalupný Emanuel,47++Svobodná škola politických nauk v Praze
+187,2,47,1901-1930,Svobodná škola politických nauk v Praze,46++Chalupný Emanuel
+188,2,46,1901-1930,Chalupný Emanuel,48++Ukrajinská svobodná univerzita v Praze
+188,2,48,1901-1930,Ukrajinská svobodná univerzita v Praze,46++Chalupný Emanuel
+189,2,46,1901-1930,Chalupný Emanuel,65++Masarykova sociologická společnost
+189,2,65,1901-1930,Masarykova sociologická společnost,46++Chalupný Emanuel
+190,2,46,1901-1930,Chalupný Emanuel,71++Sociologická knihovna MSS
+190,2,71,1901-1930,Sociologická knihovna MSS,46++Chalupný Emanuel
+191,2,54,1901-1930,Kadlec Vladimír,65++Masarykova sociologická společnost
+191,2,65,1901-1930,Masarykova sociologická společnost,54++Kadlec Vladimír
+192,2,69,1901-1930,Korčák Jaromír,39++Karlova univerzita v Praze
+192,2,39,1901-1930,Karlova univerzita v Praze,69++Korčák Jaromír
+193,2,71,1901-1930,Köttner Mojmír,41++Masarykova univerzita v Brně
+193,2,41,1901-1930,Masarykova univerzita v Brně,71++Köttner Mojmír
+194,2,72,1901-1930,Král Josef,1++Česká akademie věd a umění
+194,2,1,1901-1930,Česká akademie věd a umění,72++Král Josef
+195,2,72,1901-1930,Král Josef,5++Československá akademie zemědělská
+195,2,5,1901-1930,Československá akademie zemědělská,72++Král Josef
+196,2,72,1901-1930,Král Josef,39++Karlova univerzita v Praze
+196,2,39,1901-1930,Karlova univerzita v Praze,72++Král Josef
+197,2,72,1901-1930,Král Josef,40++Komenského univerzita v Bratislavě
+197,2,40,1901-1930,Komenského univerzita v Bratislavě,72++Král Josef
+198,2,72,1901-1930,Král Josef,65++Masarykova sociologická společnost
+198,2,65,1901-1930,Masarykova sociologická společnost,72++Král Josef
+199,2,75,1901-1930,Krejčí Karel,65++Masarykova sociologická společnost
+199,2,65,1901-1930,Masarykova sociologická společnost,75++Krejčí Karel
+200,2,78,1901-1930,Lamser Václav,39++Karlova univerzita v Praze
+200,2,39,1901-1930,Karlova univerzita v Praze,78++Lamser Václav
+201,2,82,1901-1930,Macek Josef,65++Masarykova sociologická společnost
+201,2,65,1901-1930,Masarykova sociologická společnost,82++Macek Josef
+202,2,83,1901-1930,Macků Jan,41++Masarykova univerzita v Brně
+202,2,41,1901-1930,Masarykova univerzita v Brně,83++Macků Jan
+203,2,85,1901-1930,Machotka Otakar,19++Státní úřad statistický
+203,2,19,1901-1930,Státní úřad statistický,85++Machotka Otakar
+204,2,85,1901-1930,Machotka Otakar,39++Karlova univerzita v Praze
+204,2,39,1901-1930,Karlova univerzita v Praze,85++Machotka Otakar
+205,2,85,1901-1930,Machotka Otakar,40++Komenského univerzita v Bratislavě
+205,2,40,1901-1930,Komenského univerzita v Bratislavě,85++Machotka Otakar
+206,2,85,1901-1930,Machotka Otakar,65++Masarykova sociologická společnost
+206,2,65,1901-1930,Masarykova sociologická společnost,85++Machotka Otakar
+207,2,85,1901-1930,Machotka Otakar,71++Sociologická knihovna MSS
+207,2,71,1901-1930,Sociologická knihovna MSS,85++Machotka Otakar
+208,2,86,1901-1930,Maiwald Karel,19++Státní úřad statistický
+208,2,19,1901-1930,Státní úřad statistický,86++Maiwald Karel
+209,2,91,1901-1930,Masaryk Tomáš Garrigue,39++Karlova univerzita v Praze
+209,2,39,1901-1930,Karlova univerzita v Praze,91++Masaryk Tomáš Garrigue
+210,2,91,1901-1930,Masaryk Tomáš Garrigue,65++Masarykova sociologická společnost
+210,2,65,1901-1930,Masarykova sociologická společnost,91++Masaryk Tomáš Garrigue
+211,2,92,1901-1930,Masaryková Alice,20++Sociální ústav ČSR
+211,2,20,1901-1930,Sociální ústav ČSR,92++Masaryková Alice
+212,2,92,1901-1930,Masaryková Alice,65++Masarykova sociologická společnost
+212,2,65,1901-1930,Masarykova sociologická společnost,92++Masaryková Alice
+213,2,94,1901-1930,Mertl Jan,36++České vysoké učení technické v Praze
+213,2,36,1901-1930,České vysoké učení technické v Praze,94++Mertl Jan
+214,2,94,1901-1930,Mertl Jan,65++Masarykova sociologická společnost
+214,2,65,1901-1930,Masarykova sociologická společnost,94++Mertl Jan
+215,2,94,1901-1930,Mertl Jan,71++Sociologická knihovna MSS
+215,2,71,1901-1930,Sociologická knihovna MSS,94++Mertl Jan
+216,2,96,1901-1930,Modráček František,65++Masarykova sociologická společnost
+216,2,65,1901-1930,Masarykova sociologická společnost,96++Modráček František
+217,2,98,1901-1930,Musil Jiří,36++České vysoké učení technické v Praze
+217,2,36,1901-1930,České vysoké učení technické v Praze,98++Musil Jiří
+218,2,101,1901-1930,Neuschl Robert,33++Biskupské semináře
+218,2,33,1901-1930,Biskupské semináře,101++Neuschl Robert
+219,2,102,1901-1930,Nový Lubomír,41++Masarykova univerzita v Brně
+219,2,41,1901-1930,Masarykova univerzita v Brně,102++Nový Lubomír
+220,2,103,1901-1930,Obrdlík Antonín,40++Komenského univerzita v Bratislavě
+220,2,40,1901-1930,Komenského univerzita v Bratislavě,103++Obrdlík Antonín
+221,2,103,1901-1930,Obrdlík Antonín,41++Masarykova univerzita v Brně
+221,2,41,1901-1930,Masarykova univerzita v Brně,103++Obrdlík Antonín
+222,2,103,1901-1930,Obrdlík Antonín,65++Masarykova sociologická společnost
+222,2,65,1901-1930,Masarykova sociologická společnost,103++Obrdlík Antonín
+223,2,103,1901-1930,Obrdlík Antonín,71++Sociologická knihovna MSS
+223,2,71,1901-1930,Sociologická knihovna MSS,103++Obrdlík Antonín
+224,2,104,1901-1930,Obrdlíková Juliana,41++Masarykova univerzita v Brně
+224,2,41,1901-1930,Masarykova univerzita v Brně,104++Obrdlíková Juliana
+225,2,104,1901-1930,Obrdlíková Juliana,65++Masarykova sociologická společnost
+225,2,65,1901-1930,Masarykova sociologická společnost,104++Obrdlíková Juliana
+226,2,104,1901-1930,Obrdlíková Juliana,71++Sociologická knihovna MSS
+226,2,71,1901-1930,Sociologická knihovna MSS,104++Obrdlíková Juliana
+227,2,105,1901-1930,Ovesný Miroslav,41++Masarykova univerzita v Brně
+227,2,41,1901-1930,Masarykova univerzita v Brně,105++Ovesný Miroslav
+228,2,109,1901-1930,Pistorius Theodor,65++Masarykova sociologická společnost
+228,2,65,1901-1930,Masarykova sociologická společnost,109++Pistorius Theodor
+229,2,117,1901-1930,Reich Edvard,5++Československá akademie zemědělská
+229,2,5,1901-1930,Československá akademie zemědělská,117++Reich Edvard
+230,2,118,1901-1930,Reyl František,33++Biskupské semináře
+230,2,33,1901-1930,Biskupské semináře,118++Reyl František
+231,2,127,1901-1930,Schoenbaum Emil,20++Sociální ústav ČSR
+231,2,20,1901-1930,Sociální ústav ČSR,127++Schoenbaum Emil
+232,2,132,1901-1930,Solař Josef,41++Masarykova univerzita v Brně
+232,2,41,1901-1930,Masarykova univerzita v Brně,132++Solař Josef
+233,2,133,1901-1930,Soldát Alois,33++Biskupské semináře
+233,2,33,1901-1930,Biskupské semináře,133++Soldát Alois
+234,2,136,1901-1930,Stark Werner,43++Německá univerzita v Praze
+234,2,43,1901-1930,Německá univerzita v Praze,136++Stark Werner
+235,2,137,1901-1930,Strmiska Zdeněk,71++Sociologická knihovna MSS
+235,2,71,1901-1930,Sociologická knihovna MSS,137++Strmiska Zdeněk
+236,2,141,1901-1930,Svoboda Ludvík,39++Karlova univerzita v Praze
+236,2,39,1901-1930,Karlova univerzita v Praze,141++Svoboda Ludvík
+237,2,141,1901-1930,Svoboda Ludvík,65++Masarykova sociologická společnost
+237,2,65,1901-1930,Masarykova sociologická společnost,141++Svoboda Ludvík
+238,2,142,1901-1930,Šapoval Mykyta,21++Ukrajinský sociologický ústav
+238,2,21,1901-1930,Ukrajinský sociologický ústav,142++Šapoval Mykyta
+239,2,142,1901-1930,Šapoval Mykyta,48++Ukrajinská svobodná univerzita v Praze
+239,2,48,1901-1930,Ukrajinská svobodná univerzita v Praze,142++Šapoval Mykyta
+240,2,144,1901-1930,Šíma Jaroslav,47++Svobodná škola politických nauk v Praze
+240,2,47,1901-1930,Svobodná škola politických nauk v Praze,144++Šíma Jaroslav
+241,2,144,1901-1930,Šíma Jaroslav,65++Masarykova sociologická společnost
+241,2,65,1901-1930,Masarykova sociologická společnost,144++Šíma Jaroslav
+242,2,145,1901-1930,Škrach Vasil Kaprálek,65++Masarykova sociologická společnost
+242,2,65,1901-1930,Masarykova sociologická společnost,145++Škrach Vasil Kaprálek
+243,2,145,1901-1930,Škrach Vasil Kaprálek,71++Sociologická knihovna MSS
+243,2,71,1901-1930,Sociologická knihovna MSS,145++Škrach Vasil Kaprálek
+244,2,146,1901-1930,Šmejkal Karel,65++Masarykova sociologická společnost
+244,2,65,1901-1930,Masarykova sociologická společnost,146++Šmejkal Karel
+245,2,146,1901-1930,Šmejkal Karel,71++Sociologická knihovna MSS
+245,2,71,1901-1930,Sociologická knihovna MSS,146++Šmejkal Karel
+246,2,148,1901-1930,Šrámek Jan,33++Biskupské semináře
+246,2,33,1901-1930,Biskupské semináře,148++Šrámek Jan
+247,2,150,1901-1930,Štefánek Anton,5++Československá akademie zemědělská
+247,2,5,1901-1930,Československá akademie zemědělská,150++Štefánek Anton
+248,2,150,1901-1930,Štefánek Anton,40++Komenského univerzita v Bratislavě
+248,2,40,1901-1930,Komenského univerzita v Bratislavě,150++Štefánek Anton
+249,2,150,1901-1930,Štefánek Anton,65++Masarykova sociologická společnost
+249,2,65,1901-1930,Masarykova sociologická společnost,150++Štefánek Anton
+250,2,151,1901-1930,Štern Evžen,20++Sociální ústav ČSR
+250,2,20,1901-1930,Sociální ústav ČSR,151++Štern Evžen
+251,2,152,1901-1930,Tauber Jan Bohumil,5++Československá akademie zemědělská
+251,2,5,1901-1930,Československá akademie zemědělská,152++Tauber Jan Bohumil
+252,2,152,1901-1930,Tauber Jan Bohumil,36++České vysoké učení technické v Praze
+252,2,36,1901-1930,České vysoké učení technické v Praze,152++Tauber Jan Bohumil
+253,2,154,1901-1930,Teltšík Rudolf,20++Sociální ústav ČSR
+253,2,20,1901-1930,Sociální ústav ČSR,154++Teltšík Rudolf
+254,2,155,1901-1930,Tlustý Vojtěch,39++Karlova univerzita v Praze
+254,2,39,1901-1930,Karlova univerzita v Praze,155++Tlustý Vojtěch
+255,2,157,1901-1930,Trapl Miloslav,41++Masarykova univerzita v Brně
+255,2,41,1901-1930,Masarykova univerzita v Brně,157++Trapl Miloslav
+256,2,159,1901-1930,Uhlíř Antonín,36++České vysoké učení technické v Praze
+256,2,36,1901-1930,České vysoké učení technické v Praze,159++Uhlíř Antonín
+257,2,159,1901-1930,Uhlíř Antonín,65++Masarykova sociologická společnost
+257,2,65,1901-1930,Masarykova sociologická společnost,159++Uhlíř Antonín
+258,2,160,1901-1930,Ullrich Zdeněk,14++Slezský ústav v Praze
+258,2,14,1901-1930,Slezský ústav v Praze,160++Ullrich Zdeněk
+259,2,160,1901-1930,Ullrich Zdeněk,19++Státní úřad statistický
+259,2,19,1901-1930,Státní úřad statistický,160++Ullrich Zdeněk
+260,2,160,1901-1930,Ullrich Zdeněk,39++Karlova univerzita v Praze
+260,2,39,1901-1930,Karlova univerzita v Praze,160++Ullrich Zdeněk
+261,2,160,1901-1930,Ullrich Zdeněk,65++Masarykova sociologická společnost
+261,2,65,1901-1930,Masarykova sociologická společnost,160++Ullrich Zdeněk
+262,2,160,1901-1930,Ullrich Zdeněk,71++Sociologická knihovna MSS
+262,2,71,1901-1930,Sociologická knihovna MSS,160++Ullrich Zdeněk
+263,2,165,1901-1930,Vašek Bedřich,33++Biskupské semináře
+263,2,33,1901-1930,Biskupské semináře,165++Vašek Bedřich
+264,2,167,1901-1930,Verunáč Václav,36++České vysoké učení technické v Praze
+264,2,36,1901-1930,České vysoké učení technické v Praze,167++Verunáč Václav
+265,2,167,1901-1930,Verunáč Václav,47++Svobodná škola politických nauk v Praze
+265,2,47,1901-1930,Svobodná škola politických nauk v Praze,167++Verunáč Václav
+266,2,167,1901-1930,Verunáč Václav,65++Masarykova sociologická společnost
+266,2,65,1901-1930,Masarykova sociologická společnost,167++Verunáč Václav
+267,2,170,1901-1930,Weber Alfred,43++Německá univerzita v Praze
+267,2,43,1901-1930,Německá univerzita v Praze,170++Weber Alfred
+268,2,171,1901-1930,Weyr František,19++Státní úřad statistický
+268,2,19,1901-1930,Státní úřad statistický,171++Weyr František
+269,2,172,1901-1930,Von Wieser Friedrich,43++Německá univerzita v Praze
+269,2,43,1901-1930,Německá univerzita v Praze,172++Von Wieser Friedrich
+270,2,173,1901-1930,Winter Lev,20++Sociální ústav ČSR
+270,2,20,1901-1930,Sociální ústav ČSR,173++Winter Lev
+271,2,174,1901-1930,Ziegler Heinz Otto,43++Německá univerzita v Praze
+271,2,43,1901-1930,Německá univerzita v Praze,174++Ziegler Heinz Otto
+272,2,176,1901-1930,Zwicker Bruno,41++Masarykova univerzita v Brně
+272,2,41,1901-1930,Masarykova univerzita v Brně,176++Zwicker Bruno
+273,2,176,1901-1930,Zwicker Bruno,65++Masarykova sociologická společnost
+273,2,65,1901-1930,Masarykova sociologická společnost,176++Zwicker Bruno
+274,2,177,1901-1930,Žalud Augustin,65++Masarykova sociologická společnost
+274,2,65,1901-1930,Masarykova sociologická společnost,177++Žalud Augustin
+275,2,178,1901-1930,Žmavc Ivan,36++České vysoké učení technické v Praze
+275,2,36,1901-1930,České vysoké učení technické v Praze,178++Žmavc Ivan
+276,2,19,1901-1930,Durdík Josef,1++Česká akademie věd a umění
+276,2,1,1901-1930,Česká akademie věd a umění,19++Durdík Josef
+277,2,85,1901-1930,Machotka Otakar,1++Česká akademie věd a umění
+277,2,1,1901-1930,Česká akademie věd a umění,85++Machotka Otakar
+278,2,63,1901-1930,Kettner Josef,5++Československá akademie zemědělská
+278,2,5,1901-1930,Československá akademie zemědělská,63++Kettner Josef
+279,2,145,1901-1930,Škrach Vasil Kaprálek,12++Masarykova akademie práce
+279,2,12,1901-1930,Masarykova akademie práce,145++Škrach Vasil Kaprálek
+280,2,167,1901-1930,Verunáč Václav,12++Masarykova akademie práce
+280,2,12,1901-1930,Masarykova akademie práce,167++Verunáč Václav
+281,2,178,1901-1930,Žmavc Ivan,12++Masarykova akademie práce
+281,2,12,1901-1930,Masarykova akademie práce,178++Žmavc Ivan
+282,2,69,1901-1930,Korčák Jaromír,19++Státní úřad statistický
+282,2,19,1901-1930,Státní úřad statistický,69++Korčák Jaromír
+283,2,76,1901-1930,Kučera Milan,19++Státní úřad statistický
+283,2,19,1901-1930,Státní úřad statistický,76++Kučera Milan
+284,2,84,1901-1930,Machonin Pavel,19++Státní úřad statistický
+284,2,19,1901-1930,Státní úřad statistický,84++Machonin Pavel
+285,2,116,1901-1930,Reif Gustav,19++Státní úřad statistický
+285,2,19,1901-1930,Státní úřad statistický,116++Reif Gustav
+286,2,135,1901-1930,Srb Vladimír,19++Státní úřad statistický
+286,2,19,1901-1930,Státní úřad statistický,135++Srb Vladimír
+287,2,21,1901-1930,Fajfr František,20++Sociální ústav ČSR
+287,2,20,1901-1930,Sociální ústav ČSR,21++Fajfr František
+288,2,46,1901-1930,Chalupný Emanuel,20++Sociální ústav ČSR
+288,2,20,1901-1930,Sociální ústav ČSR,46++Chalupný Emanuel
+289,2,85,1901-1930,Machotka Otakar,20++Sociální ústav ČSR
+289,2,20,1901-1930,Sociální ústav ČSR,85++Machotka Otakar
+290,2,109,1901-1930,Pistorius Theodor,20++Sociální ústav ČSR
+290,2,20,1901-1930,Sociální ústav ČSR,109++Pistorius Theodor
+291,2,116,1901-1930,Reif Gustav,20++Sociální ústav ČSR
+291,2,20,1901-1930,Sociální ústav ČSR,116++Reif Gustav
+292,2,145,1901-1930,Škrach Vasil Kaprálek,20++Sociální ústav ČSR
+292,2,20,1901-1930,Sociální ústav ČSR,145++Škrach Vasil Kaprálek
+293,2,165,1901-1930,Vašek Bedřich,20++Sociální ústav ČSR
+293,2,20,1901-1930,Sociální ústav ČSR,165++Vašek Bedřich
+294,2,167,1901-1930,Verunáč Václav,20++Sociální ústav ČSR
+294,2,20,1901-1930,Sociální ústav ČSR,167++Verunáč Václav
+295,2,177,1901-1930,Žalud Augustin,20++Sociální ústav ČSR
+295,2,20,1901-1930,Sociální ústav ČSR,177++Žalud Augustin
+296,2,6,1901-1930,Bláha Inocenc Arnošt,33++Biskupské semináře
+296,2,33,1901-1930,Biskupské semináře,6++Bláha Inocenc Arnošt
+297,2,39,1901-1930,Hanáček Jaroslav,65++Masarykova sociologická společnost
+297,2,65,1901-1930,Masarykova sociologická společnost,39++Hanáček Jaroslav
+298,2,66,1901-1930,Kohn Jindřich,65++Masarykova sociologická společnost
+298,2,65,1901-1930,Masarykova sociologická společnost,66++Kohn Jindřich
+299,2,77,1901-1930,Kunte Ladislav,65++Masarykova sociologická společnost
+299,2,65,1901-1930,Masarykova sociologická společnost,77++Kunte Ladislav
+300,2,105,1901-1930,Ovesný Miroslav,65++Masarykova sociologická společnost
+300,2,65,1901-1930,Masarykova sociologická společnost,105++Ovesný Miroslav
+301,2,112,1901-1930,Potužil František,65++Masarykova sociologická společnost
+301,2,65,1901-1930,Masarykova sociologická společnost,112++Potužil František
+302,2,151,1901-1930,Štern Evžen,65++Masarykova sociologická společnost
+302,2,65,1901-1930,Masarykova sociologická společnost,151++Štern Evžen
+303,2,154,1901-1930,Teltšík Rudolf,65++Masarykova sociologická společnost
+303,2,65,1901-1930,Masarykova sociologická společnost,154++Teltšík Rudolf
+304,2,173,1901-1930,Winter Lev,65++Masarykova sociologická společnost
+304,2,65,1901-1930,Masarykova sociologická společnost,173++Winter Lev
+305,2,27,1901-1930,Sociální revue,20++Sociální ústav ČSR
+305,2,20,1901-1930,Sociální ústav ČSR,27++Sociální revue
+306,2,32,1901-1930,Sociologická revue,21++Ukrajinský sociologický ústav
+306,2,21,1901-1930,Ukrajinský sociologický ústav,32++Sociologická revue
+307,2,32,1901-1930,Sociologická revue,39++Karlova univerzita v Praze
+307,2,39,1901-1930,Karlova univerzita v Praze,32++Sociologická revue
+308,2,32,1901-1930,Sociologická revue,41++Masarykova univerzita v Brně
+308,2,41,1901-1930,Masarykova univerzita v Brně,32++Sociologická revue
+309,2,32,1901-1930,Sociologická revue,65++Masarykova sociologická společnost
+309,2,65,1901-1930,Masarykova sociologická společnost,32++Sociologická revue
+310,2,37,1901-1930,Statistický obzor,19++Státní úřad statistický
+310,2,19,1901-1930,Státní úřad statistický,37++Statistický obzor
+311,2,27,1901-1930,Sociální revue,65++Masarykova sociologická společnost
+311,2,65,1901-1930,Masarykova sociologická společnost,27++Sociální revue
+312,3,1,1931-1980,Adamec Čeněk,12++Kruh
+312,3,12,1931-1980,Kruh,1++Adamec Čeněk
+313,3,1,1931-1980,Adamec Čeněk,41++Veřejné mínění
+313,3,41,1931-1980,Veřejné mínění,1++Adamec Čeněk
+314,3,4,1931-1980,Auerhan Jan,14++Naše doba
+314,3,14,1931-1980,Naše doba,4++Auerhan Jan
+315,3,4,1931-1980,Auerhan Jan,37++Statistický obzor
+315,3,37,1931-1980,Statistický obzor,4++Auerhan Jan
+316,3,5,1931-1980,Beneš Edvard,5++Česká mysl
+316,3,5,1931-1980,Česká mysl,5++Beneš Edvard
+317,3,5,1931-1980,Beneš Edvard,14++Naše doba
+317,3,14,1931-1980,Naše doba,5++Beneš Edvard
+318,3,6,1931-1980,Bláha Inocenc Arnošt,5++Česká mysl
+318,3,5,1931-1980,Česká mysl,6++Bláha Inocenc Arnošt
+319,3,6,1931-1980,Bláha Inocenc Arnošt,14++Naše doba
+319,3,14,1931-1980,Naše doba,6++Bláha Inocenc Arnošt
+320,3,6,1931-1980,Bláha Inocenc Arnošt,19++Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+320,3,19,1931-1980,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),6++Bláha Inocenc Arnošt
+321,3,6,1931-1980,Bláha Inocenc Arnošt,25++Sociální pracovnice
+321,3,25,1931-1980,Sociální pracovnice,6++Bláha Inocenc Arnošt
+322,3,6,1931-1980,Bláha Inocenc Arnošt,27++Sociální revue
+322,3,27,1931-1980,Sociální revue,6++Bláha Inocenc Arnošt
+323,3,6,1931-1980,Bláha Inocenc Arnošt,32++Sociologická revue
+323,3,32,1931-1980,Sociologická revue,6++Bláha Inocenc Arnošt
+324,3,6,1931-1980,Bláha Inocenc Arnošt,45++Parlament (časopis)
+324,3,45,1931-1980,Parlament (časopis),6++Bláha Inocenc Arnošt
+325,3,8,1931-1980,Boháč Antonín,14++Naše doba
+325,3,14,1931-1980,Naše doba,8++Boháč Antonín
+326,3,8,1931-1980,Boháč Antonín,26++Sociální problémy
+326,3,26,1931-1980,Sociální problémy,8++Boháč Antonín
+327,3,8,1931-1980,Boháč Antonín,37++Statistický obzor
+327,3,37,1931-1980,Statistický obzor,8++Boháč Antonín
+328,3,11,1931-1980,Butter Oskar,32++Sociologická revue
+328,3,32,1931-1980,Sociologická revue,11++Butter Oskar
+329,3,15,1931-1980,Čep Tomáš,32++Sociologická revue
+329,3,32,1931-1980,Sociologická revue,15++Čep Tomáš
+330,3,17,1931-1980,Disman Miroslav,18++Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+330,3,18,1931-1980,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,17++Disman Miroslav
+331,3,17,1931-1980,Disman Miroslav,42++Vědecké informace Ústavu marxismu-leninismu pro vysoké školy
+331,3,42,1931-1980,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy,17++Disman Miroslav
+332,3,18,1931-1980,Dubská Irena,7++Filosofický časopis
+332,3,7,1931-1980,Filosofický časopis,18++Dubská Irena
+333,3,18,1931-1980,Dubská Irena,34++Sociologický časopis / Czech Sociological Review
+333,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,18++Dubská Irena
+334,3,21,1931-1980,Fajfr František,5++Česká mysl
+334,3,5,1931-1980,Česká mysl,21++Fajfr František
+335,3,21,1931-1980,Fajfr František,32++Sociologická revue
+335,3,32,1931-1980,Sociologická revue,21++Fajfr František
+336,3,21,1931-1980,Fajfr František,37++Statistický obzor
+336,3,37,1931-1980,Statistický obzor,21++Fajfr František
+337,3,21,1931-1980,Fajfr František,44++Demografie (časopis)
+337,3,44,1931-1980,Demografie (časopis),21++Fajfr František
+338,3,22,1931-1980,Filipcová Blanka,7++Filosofický časopis
+338,3,7,1931-1980,Filosofický časopis,22++Filipcová Blanka
+339,3,22,1931-1980,Filipcová Blanka,16++Nová mysl
+339,3,16,1931-1980,Nová mysl,22++Filipcová Blanka
+340,3,23,1931-1980,Filipec Jindřich,7++Filosofický časopis
+340,3,7,1931-1980,Filosofický časopis,23++Filipec Jindřich
+341,3,23,1931-1980,Filipec Jindřich,16++Nová mysl
+341,3,16,1931-1980,Nová mysl,23++Filipec Jindřich
+342,3,24,1931-1980,Fischer Josef Ludvík,5++Česká mysl
+342,3,5,1931-1980,Česká mysl,24++Fischer Josef Ludvík
+343,3,24,1931-1980,Fischer Josef Ludvík,32++Sociologická revue
+343,3,32,1931-1980,Sociologická revue,24++Fischer Josef Ludvík
+344,3,27,1931-1980,Foustka Břetislav,5++Česká mysl
+344,3,5,1931-1980,Česká mysl,27++Foustka Břetislav
+345,3,27,1931-1980,Foustka Břetislav,14++Naše doba
+345,3,14,1931-1980,Naše doba,27++Foustka Břetislav
+346,3,27,1931-1980,Foustka Břetislav,32++Sociologická revue
+346,3,32,1931-1980,Sociologická revue,27++Foustka Břetislav
+347,3,27,1931-1980,Foustka Břetislav,45++Parlament (časopis)
+347,3,45,1931-1980,Parlament (časopis),27++Foustka Břetislav
+348,3,33,1931-1980,Galla Karel,32++Sociologická revue
+348,3,32,1931-1980,Sociologická revue,33++Galla Karel
+349,3,39,1931-1980,Hanáček Jaroslav,32++Sociologická revue
+349,3,32,1931-1980,Sociologická revue,39++Hanáček Jaroslav
+350,3,40,1931-1980,Havelka Miloš,34++Sociologický časopis / Czech Sociological Review
+350,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,40++Havelka Miloš
+351,3,46,1931-1980,Chalupný Emanuel,4++Časopis Svobodné školy politických nauk v Praze
+351,3,4,1931-1980,Časopis Svobodné školy politických nauk v Praze,46++Chalupný Emanuel
+352,3,46,1931-1980,Chalupný Emanuel,27++Sociální revue
+352,3,27,1931-1980,Sociální revue,46++Chalupný Emanuel
+353,3,46,1931-1980,Chalupný Emanuel,32++Sociologická revue
+353,3,32,1931-1980,Sociologická revue,46++Chalupný Emanuel
+354,3,48,1931-1980,Illner Michal,34++Sociologický časopis / Czech Sociological Review
+354,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,48++Illner Michal
+355,3,52,1931-1980,Jungmann Bohumil,18++Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+355,3,18,1931-1980,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,52++Jungmann Bohumil
+356,3,52,1931-1980,Jungmann Bohumil,42++Vědecké informace Ústavu marxismu-leninismu pro vysoké školy
+356,3,42,1931-1980,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy,52++Jungmann Bohumil
+357,3,55,1931-1980,Kadlecová Erika,16++Nová mysl
+357,3,16,1931-1980,Nová mysl,55++Kadlecová Erika
+358,3,57,1931-1980,Kaláb Miloš,7++Filosofický časopis
+358,3,7,1931-1980,Filosofický časopis,57++Kaláb Miloš
+359,3,65,1931-1980,Klofáč Jaroslav,16++Nová mysl
+359,3,16,1931-1980,Nová mysl,65++Klofáč Jaroslav
+360,3,69,1931-1980,Korčák Jaromír,37++Statistický obzor
+360,3,37,1931-1980,Statistický obzor,69++Korčák Jaromír
+361,3,70,1931-1980,Kozák Jan Blahoslav,5++Česká mysl
+361,3,5,1931-1980,Česká mysl,70++Kozák Jan Blahoslav
+362,3,72,1931-1980,Král Josef,5++Česká mysl
+362,3,5,1931-1980,Česká mysl,72++Král Josef
+363,3,72,1931-1980,Král Josef,12++Kruh
+363,3,12,1931-1980,Kruh,72++Král Josef
+364,3,72,1931-1980,Král Josef,26++Sociální problémy
+364,3,26,1931-1980,Sociální problémy,72++Král Josef
+365,3,72,1931-1980,Král Josef,45++Parlament (časopis)
+365,3,45,1931-1980,Parlament (časopis),72++Král Josef
+366,3,73,1931-1980,Krejčí František,5++Česká mysl
+366,3,5,1931-1980,Česká mysl,73++Krejčí František
+367,3,78,1931-1980,Lamser Václav,18++Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+367,3,18,1931-1980,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,78++Lamser Václav
+368,3,78,1931-1980,Lamser Václav,44++Demografie (časopis)
+368,3,44,1931-1980,Demografie (časopis),78++Lamser Václav
+369,3,79,1931-1980,Librová Hana,19++Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+369,3,19,1931-1980,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),79++Librová Hana
+370,3,81,1931-1980,Linhart Jiří,34++Sociologický časopis / Czech Sociological Review
+370,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,81++Linhart Jiří
+371,3,82,1931-1980,Macek Josef,14++Naše doba
+371,3,14,1931-1980,Naše doba,82++Macek Josef
+372,3,82,1931-1980,Macek Josef,25++Sociální pracovnice
+372,3,25,1931-1980,Sociální pracovnice,82++Macek Josef
+373,3,82,1931-1980,Macek Josef,27++Sociální revue
+373,3,27,1931-1980,Sociální revue,82++Macek Josef
+374,3,83,1931-1980,Macků Jan,19++Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+374,3,19,1931-1980,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),83++Macků Jan
+375,3,84,1931-1980,Machonin Pavel,16++Nová mysl
+375,3,16,1931-1980,Nová mysl,84++Machonin Pavel
+376,3,84,1931-1980,Machonin Pavel,18++Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+376,3,18,1931-1980,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,84++Machonin Pavel
+377,3,85,1931-1980,Machotka Otakar,25++Sociální pracovnice
+377,3,25,1931-1980,Sociální pracovnice,85++Machotka Otakar
+378,3,85,1931-1980,Machotka Otakar,26++Sociální problémy
+378,3,26,1931-1980,Sociální problémy,85++Machotka Otakar
+379,3,85,1931-1980,Machotka Otakar,37++Statistický obzor
+379,3,37,1931-1980,Statistický obzor,85++Machotka Otakar
+380,3,85,1931-1980,Machotka Otakar,45++Parlament (časopis)
+380,3,45,1931-1980,Parlament (časopis),85++Machotka Otakar
+381,3,86,1931-1980,Maiwald Karel,14++Naše doba
+381,3,14,1931-1980,Naše doba,86++Maiwald Karel
+382,3,91,1931-1980,Masaryk Tomáš Garrigue,5++Česká mysl
+382,3,5,1931-1980,Česká mysl,91++Masaryk Tomáš Garrigue
+383,3,91,1931-1980,Masaryk Tomáš Garrigue,14++Naše doba
+383,3,14,1931-1980,Naše doba,91++Masaryk Tomáš Garrigue
+384,3,94,1931-1980,Mertl Jan,14++Naše doba
+384,3,14,1931-1980,Naše doba,94++Mertl Jan
+385,3,94,1931-1980,Mertl Jan,26++Sociální problémy
+385,3,26,1931-1980,Sociální problémy,94++Mertl Jan
+386,3,94,1931-1980,Mertl Jan,27++Sociální revue
+386,3,27,1931-1980,Sociální revue,94++Mertl Jan
+387,3,94,1931-1980,Mertl Jan,45++Parlament (časopis)
+387,3,45,1931-1980,Parlament (časopis),94++Mertl Jan
+388,3,96,1931-1980,Modráček František,14++Naše doba
+388,3,14,1931-1980,Naše doba,96++Modráček František
+389,3,96,1931-1980,Modráček František,32++Sociologická revue
+389,3,32,1931-1980,Sociologická revue,96++Modráček František
+390,3,97,1931-1980,Možný Ivo,19++Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+390,3,19,1931-1980,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),97++Možný Ivo
+391,3,97,1931-1980,Možný Ivo,44++Demografie (časopis)
+391,3,44,1931-1980,Demografie (časopis),97++Možný Ivo
+392,3,98,1931-1980,Musil Jiří,34++Sociologický časopis / Czech Sociological Review
+392,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,98++Musil Jiří
+393,3,98,1931-1980,Musil Jiří,37++Statistický obzor
+393,3,37,1931-1980,Statistický obzor,98++Musil Jiří
+394,3,98,1931-1980,Musil Jiří,44++Demografie (časopis)
+394,3,44,1931-1980,Demografie (časopis),98++Musil Jiří
+395,3,100,1931-1980,Nejedlý Zdeněk,32++Sociologická revue
+395,3,32,1931-1980,Sociologická revue,100++Nejedlý Zdeněk
+396,3,102,1931-1980,Nový Lubomír,19++Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+396,3,19,1931-1980,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),102++Nový Lubomír
+397,3,103,1931-1980,Obrdlík Antonín,32++Sociologická revue
+397,3,32,1931-1980,Sociologická revue,103++Obrdlík Antonín
+398,3,105,1931-1980,Ovesný Miroslav,19++Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+398,3,19,1931-1980,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),105++Ovesný Miroslav
+399,3,106,1931-1980,Pavlík Zdeněk,10++Historická demografie
+399,3,10,1931-1980,Historická demografie,106++Pavlík Zdeněk
+400,3,106,1931-1980,Pavlík Zdeněk,37++Statistický obzor
+400,3,37,1931-1980,Statistický obzor,106++Pavlík Zdeněk
+401,3,108,1931-1980,Petrusek Miloslav,18++Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+401,3,18,1931-1980,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,108++Petrusek Miloslav
+402,3,108,1931-1980,Petrusek Miloslav,40++Studia sociologica
+402,3,40,1931-1980,Studia sociologica,108++Petrusek Miloslav
+403,3,108,1931-1980,Petrusek Miloslav,42++Vědecké informace Ústavu marxismu-leninismu pro vysoké školy
+403,3,42,1931-1980,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy,108++Petrusek Miloslav
+404,3,109,1931-1980,Pistorius Theodor,26++Sociální problémy
+404,3,26,1931-1980,Sociální problémy,109++Pistorius Theodor
+405,3,115,1931-1980,Rádl Emanuel,5++Česká mysl
+405,3,5,1931-1980,Česká mysl,115++Rádl Emanuel
+406,3,115,1931-1980,Rádl Emanuel,14++Naše doba
+406,3,14,1931-1980,Naše doba,115++Rádl Emanuel
+407,3,116,1931-1980,Reif Gustav,26++Sociální problémy
+407,3,26,1931-1980,Sociální problémy,116++Reif Gustav
+408,3,116,1931-1980,Reif Gustav,27++Sociální revue
+408,3,27,1931-1980,Sociální revue,116++Reif Gustav
+409,3,120,1931-1980,Rouček Joseph Slabey,26++Sociální problémy
+409,3,26,1931-1980,Sociální problémy,120++Rouček Joseph Slabey
+410,3,125,1931-1980,Sedláček Oto,34++Sociologický časopis / Czech Sociological Review
+410,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,125++Sedláček Oto
+411,3,125,1931-1980,Sedláček Oto,40++Studia sociologica
+411,3,40,1931-1980,Studia sociologica,125++Sedláček Oto
+412,3,125,1931-1980,Sedláček Oto,43++Analýza (časopis)
+412,3,43,1931-1980,Analýza (časopis),125++Sedláček Oto
+413,3,126,1931-1980,Sekot Aleš,7++Filosofický časopis
+413,3,7,1931-1980,Filosofický časopis,126++Sekot Aleš
+414,3,127,1931-1980,Schoenbaum Emil,14++Naše doba
+414,3,14,1931-1980,Naše doba,127++Schoenbaum Emil
+415,3,130,1931-1980,Slejška Dragoslav,7++Filosofický časopis
+415,3,7,1931-1980,Filosofický časopis,130++Slejška Dragoslav
+416,3,130,1931-1980,Slejška Dragoslav,16++Nová mysl
+416,3,16,1931-1980,Nová mysl,130++Slejška Dragoslav
+417,3,132,1931-1980,Solař Josef,19++Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+417,3,19,1931-1980,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),132++Solař Josef
+418,3,134,1931-1980,Sorokin Pitirim Alexandrovič,45++Parlament (časopis)
+418,3,45,1931-1980,Parlament (časopis),134++Sorokin Pitirim Alexandrovič
+419,3,135,1931-1980,Srb Vladimír,10++Historická demografie
+419,3,10,1931-1980,Historická demografie,135++Srb Vladimír
+420,3,135,1931-1980,Srb Vladimír,12++Kruh
+420,3,12,1931-1980,Kruh,135++Srb Vladimír
+421,3,135,1931-1980,Srb Vladimír,37++Statistický obzor
+421,3,37,1931-1980,Statistický obzor,135++Srb Vladimír
+422,3,135,1931-1980,Srb Vladimír,44++Demografie (časopis)
+422,3,44,1931-1980,Demografie (časopis),135++Srb Vladimír
+423,3,137,1931-1980,Strmiska Zdeněk,18++Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+423,3,18,1931-1980,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,137++Strmiska Zdeněk
+424,3,139,1931-1980,Suda Zdeněk,12++Kruh
+424,3,12,1931-1980,Kruh,139++Suda Zdeněk
+425,3,141,1931-1980,Svoboda Ludvík,32++Sociologická revue
+425,3,32,1931-1980,Sociologická revue,141++Svoboda Ludvík
+426,3,144,1931-1980,Šíma Jaroslav,4++Časopis Svobodné školy politických nauk v Praze
+426,3,4,1931-1980,Časopis Svobodné školy politických nauk v Praze,144++Šíma Jaroslav
+427,3,144,1931-1980,Šíma Jaroslav,25++Sociální pracovnice
+427,3,25,1931-1980,Sociální pracovnice,144++Šíma Jaroslav
+428,3,144,1931-1980,Šíma Jaroslav,32++Sociologická revue
+428,3,32,1931-1980,Sociologická revue,144++Šíma Jaroslav
+429,3,145,1931-1980,Škrach Vasil Kaprálek,5++Česká mysl
+429,3,5,1931-1980,Česká mysl,145++Škrach Vasil Kaprálek
+430,3,150,1931-1980,Štefánek Anton,25++Sociální pracovnice
+430,3,25,1931-1980,Sociální pracovnice,150++Štefánek Anton
+431,3,150,1931-1980,Štefánek Anton,32++Sociologická revue
+431,3,32,1931-1980,Sociologická revue,150++Štefánek Anton
+432,3,151,1931-1980,Štern Evžen,14++Naše doba
+432,3,14,1931-1980,Naše doba,151++Štern Evžen
+433,3,152,1931-1980,Tauber Jan Bohumil,16++Nová mysl
+433,3,16,1931-1980,Nová mysl,152++Tauber Jan Bohumil
+434,3,152,1931-1980,Tauber Jan Bohumil,36++Sociologie a historie zemědělství
+434,3,36,1931-1980,Sociologie a historie zemědělství,152++Tauber Jan Bohumil
+435,3,154,1931-1980,Teltšík Rudolf,23++Sociální práce
+435,3,23,1931-1980,Sociální práce,154++Teltšík Rudolf
+436,3,154,1931-1980,Teltšík Rudolf,27++Sociální revue
+436,3,27,1931-1980,Sociální revue,154++Teltšík Rudolf
+437,3,155,1931-1980,Tlustý Vojtěch,16++Nová mysl
+437,3,16,1931-1980,Nová mysl,155++Tlustý Vojtěch
+438,3,159,1931-1980,Uhlíř Antonín,14++Naše doba
+438,3,14,1931-1980,Naše doba,159++Uhlíř Antonín
+439,3,159,1931-1980,Uhlíř Antonín,27++Sociální revue
+439,3,27,1931-1980,Sociální revue,159++Uhlíř Antonín
+440,3,160,1931-1980,Ullrich Zdeněk,5++Česká mysl
+440,3,5,1931-1980,Česká mysl,160++Ullrich Zdeněk
+441,3,160,1931-1980,Ullrich Zdeněk,12++Kruh
+441,3,12,1931-1980,Kruh,160++Ullrich Zdeněk
+442,3,160,1931-1980,Ullrich Zdeněk,26++Sociální problémy
+442,3,26,1931-1980,Sociální problémy,160++Ullrich Zdeněk
+443,3,160,1931-1980,Ullrich Zdeněk,37++Statistický obzor
+443,3,37,1931-1980,Statistický obzor,160++Ullrich Zdeněk
+444,3,160,1931-1980,Ullrich Zdeněk,45++Parlament (časopis)
+444,3,45,1931-1980,Parlament (časopis),160++Ullrich Zdeněk
+445,3,161,1931-1980,Urbánek Eduard,34++Sociologický časopis / Czech Sociological Review
+445,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,161++Urbánek Eduard
+446,3,161,1931-1980,Urbánek Eduard,40++Studia sociologica
+446,3,40,1931-1980,Studia sociologica,161++Urbánek Eduard
+447,3,163,1931-1980,Václavek Bedřich,32++Sociologická revue
+447,3,32,1931-1980,Sociologická revue,163++Václavek Bedřich
+448,3,166,1931-1980,Večerník Jiří,18++Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+448,3,18,1931-1980,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,166++Večerník Jiří
+449,3,166,1931-1980,Večerník Jiří,34++Sociologický časopis / Czech Sociological Review
+449,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,166++Večerník Jiří
+450,3,166,1931-1980,Večerník Jiří,44++Demografie (časopis)
+450,3,44,1931-1980,Demografie (časopis),166++Večerník Jiří
+451,3,167,1931-1980,Verunáč Václav,4++Časopis Svobodné školy politických nauk v Praze
+451,3,4,1931-1980,Časopis Svobodné školy politických nauk v Praze,167++Verunáč Václav
+452,3,167,1931-1980,Verunáč Václav,26++Sociální problémy
+452,3,26,1931-1980,Sociální problémy,167++Verunáč Václav
+453,3,167,1931-1980,Verunáč Václav,45++Parlament (časopis)
+453,3,45,1931-1980,Parlament (časopis),167++Verunáč Václav
+454,3,168,1931-1980,Voráček Josef,26++Sociální problémy
+454,3,26,1931-1980,Sociální problémy,168++Voráček Josef
+455,3,169,1931-1980,Vybral Vladimír,26++Sociální problémy
+455,3,26,1931-1980,Sociální problémy,169++Vybral Vladimír
+456,3,171,1931-1980,Weyr František,45++Parlament (časopis)
+456,3,45,1931-1980,Parlament (časopis),171++Weyr František
+457,3,176,1931-1980,Zwicker Bruno,32++Sociologická revue
+457,3,32,1931-1980,Sociologická revue,176++Zwicker Bruno
+458,3,69,1931-1980,Korčák Jaromír,5++Česká mysl
+458,3,5,1931-1980,Česká mysl,69++Korčák Jaromír
+459,3,159,1931-1980,Uhlíř Antonín,5++Česká mysl
+459,3,5,1931-1980,Česká mysl,159++Uhlíř Antonín
+460,3,40,1931-1980,Havelka Miloš,7++Filosofický časopis
+460,3,7,1931-1980,Filosofický časopis,40++Havelka Miloš
+461,3,65,1931-1980,Klofáč Jaroslav,7++Filosofický časopis
+461,3,7,1931-1980,Filosofický časopis,65++Klofáč Jaroslav
+462,3,72,1931-1980,Král Josef,7++Filosofický časopis
+462,3,7,1931-1980,Filosofický časopis,72++Král Josef
+463,3,112,1931-1980,Potužil František,26++Sociální problémy
+463,3,26,1931-1980,Sociální problémy,112++Potužil František
+464,3,145,1931-1980,Škrach Vasil Kaprálek,26++Sociální problémy
+464,3,26,1931-1980,Sociální problémy,145++Škrach Vasil Kaprálek
+465,3,146,1931-1980,Šmejkal Karel,26++Sociální problémy
+465,3,26,1931-1980,Sociální problémy,146++Šmejkal Karel
+466,3,144,1931-1980,Šíma Jaroslav,27++Sociální revue
+466,3,27,1931-1980,Sociální revue,144++Šíma Jaroslav
+467,3,151,1931-1980,Štern Evžen,27++Sociální revue
+467,3,27,1931-1980,Sociální revue,151++Štern Evžen
+468,3,157,1931-1980,Trapl Miloslav,31++Sociologica
+468,3,31,1931-1980,Sociologica,157++Trapl Miloslav
+469,3,66,1931-1980,Kohn Jindřich,32++Sociologická revue
+469,3,32,1931-1980,Sociologická revue,66++Kohn Jindřich
+470,3,72,1931-1980,Král Josef,32++Sociologická revue
+470,3,32,1931-1980,Sociologická revue,72++Král Josef
+471,3,85,1931-1980,Machotka Otakar,32++Sociologická revue
+471,3,32,1931-1980,Sociologická revue,85++Machotka Otakar
+472,3,86,1931-1980,Maiwald Karel,32++Sociologická revue
+472,3,32,1931-1980,Sociologická revue,86++Maiwald Karel
+473,3,104,1931-1980,Obrdlíková Juliana,32++Sociologická revue
+473,3,32,1931-1980,Sociologická revue,104++Obrdlíková Juliana
+474,3,112,1931-1980,Potužil František,32++Sociologická revue
+474,3,32,1931-1980,Sociologická revue,112++Potužil František
+475,3,120,1931-1980,Rouček Joseph Slabey,32++Sociologická revue
+475,3,32,1931-1980,Sociologická revue,120++Rouček Joseph Slabey
+476,3,134,1931-1980,Sorokin Pitirim Alexandrovič,32++Sociologická revue
+476,3,32,1931-1980,Sociologická revue,134++Sorokin Pitirim Alexandrovič
+477,3,142,1931-1980,Šapoval Mykyta,32++Sociologická revue
+477,3,32,1931-1980,Sociologická revue,142++Šapoval Mykyta
+478,3,145,1931-1980,Škrach Vasil Kaprálek,32++Sociologická revue
+478,3,32,1931-1980,Sociologická revue,145++Škrach Vasil Kaprálek
+479,3,146,1931-1980,Šmejkal Karel,32++Sociologická revue
+479,3,32,1931-1980,Sociologická revue,146++Šmejkal Karel
+480,3,157,1931-1980,Trapl Miloslav,32++Sociologická revue
+480,3,32,1931-1980,Sociologická revue,157++Trapl Miloslav
+481,3,159,1931-1980,Uhlíř Antonín,32++Sociologická revue
+481,3,32,1931-1980,Sociologická revue,159++Uhlíř Antonín
+482,3,10,1931-1980,Brokl Lubomír,34++Sociologický časopis / Czech Sociological Review
+482,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,10++Brokl Lubomír
+483,3,22,1931-1980,Filipcová Blanka,34++Sociologický časopis / Czech Sociological Review
+483,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,22++Filipcová Blanka
+484,3,32,1931-1980,Gál Fedor,34++Sociologický časopis / Czech Sociological Review
+484,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,32++Gál Fedor
+485,3,33,1931-1980,Galla Karel,34++Sociologický časopis / Czech Sociological Review
+485,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,33++Galla Karel
+486,3,52,1931-1980,Jungmann Bohumil,34++Sociologický časopis / Czech Sociological Review
+486,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,52++Jungmann Bohumil
+487,3,57,1931-1980,Kaláb Miloš,34++Sociologický časopis / Czech Sociological Review
+487,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,57++Kaláb Miloš
+488,3,65,1931-1980,Klofáč Jaroslav,34++Sociologický časopis / Czech Sociological Review
+488,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,65++Klofáč Jaroslav
+489,3,78,1931-1980,Lamser Václav,34++Sociologický časopis / Czech Sociological Review
+489,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,78++Lamser Václav
+490,3,84,1931-1980,Machonin Pavel,34++Sociologický časopis / Czech Sociological Review
+490,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,84++Machonin Pavel
+491,3,97,1931-1980,Možný Ivo,34++Sociologický časopis / Czech Sociological Review
+491,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,97++Možný Ivo
+492,3,108,1931-1980,Petrusek Miloslav,34++Sociologický časopis / Czech Sociological Review
+492,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,108++Petrusek Miloslav
+493,3,110,1931-1980,Porket Josef Ludvík,34++Sociologický časopis / Czech Sociological Review
+493,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,110++Porket Josef Ludvík
+494,3,112,1931-1980,Potužil František,34++Sociologický časopis / Czech Sociological Review
+494,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,112++Potužil František
+495,3,119,1931-1980,Richta Radovan,34++Sociologický časopis / Czech Sociological Review
+495,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,119++Richta Radovan
+496,3,124,1931-1980,Sedláček Jan,34++Sociologický časopis / Czech Sociological Review
+496,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,124++Sedláček Jan
+497,3,164,1931-1980,Vaněk Antonín,34++Sociologický časopis / Czech Sociological Review
+497,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,164++Vaněk Antonín
+498,3,175,1931-1980,Zich František,34++Sociologický časopis / Czech Sociological Review
+498,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,175++Zich František
+499,3,86,1931-1980,Maiwald Karel,37++Statistický obzor
+499,3,37,1931-1980,Statistický obzor,86++Maiwald Karel
+500,3,116,1931-1980,Reif Gustav,37++Statistický obzor
+500,3,37,1931-1980,Statistický obzor,116++Reif Gustav
+501,3,1,1931-1980,Adamec Čeněk,7++Československý ústav pro výzkum veřejného mínění
+501,3,7,1931-1980,Československý ústav pro výzkum veřejného mínění,1++Adamec Čeněk
+502,3,1,1931-1980,Adamec Čeněk,24++Ústav pro výzkum veřejného mínění ČSAV
+502,3,24,1931-1980,Ústav pro výzkum veřejného mínění ČSAV,1++Adamec Čeněk
+503,3,1,1931-1980,Adamec Čeněk,25++Ústav pro výzkum veřejného mínění FSÚ
+503,3,25,1931-1980,Ústav pro výzkum veřejného mínění FSÚ,1++Adamec Čeněk
+504,3,1,1931-1980,Adamec Čeněk,36++České vysoké učení technické v Praze
+504,3,36,1931-1980,České vysoké učení technické v Praze,1++Adamec Čeněk
+505,3,1,1931-1980,Adamec Čeněk,64++Československá sociologická společnost při ČSAV
+505,3,64,1931-1980,Československá sociologická společnost při ČSAV,1++Adamec Čeněk
+506,3,1,1931-1980,Adamec Čeněk,67++Sociologický kruh posluchačů vysokých škol pražských
+506,3,67,1931-1980,Sociologický kruh posluchačů vysokých škol pražských,1++Adamec Čeněk
+507,3,1,1931-1980,Adamec Čeněk,72++Sociologická knižnice nakladatelství Svoboda
+507,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,1++Adamec Čeněk
+508,3,2,1931-1980,Alan Josef,18++Sportpropag
+508,3,18,1931-1980,Sportpropag,2++Alan Josef
+509,3,2,1931-1980,Alan Josef,26++Ústav sociálně politických věd UK
+509,3,26,1931-1980,Ústav sociálně politických věd UK,2++Alan Josef
+510,3,2,1931-1980,Alan Josef,30++Výzkumný ústav sociálního rozvoje a práce
+510,3,30,1931-1980,Výzkumný ústav sociálního rozvoje a práce,2++Alan Josef
+511,3,2,1931-1980,Alan Josef,39++Karlova univerzita v Praze
+511,3,39,1931-1980,Karlova univerzita v Praze,2++Alan Josef
+512,3,2,1931-1980,Alan Josef,72++Sociologická knižnice nakladatelství Svoboda
+512,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,2++Alan Josef
+513,3,3,1931-1980,Árnason Johann Pál,39++Karlova univerzita v Praze
+513,3,39,1931-1980,Karlova univerzita v Praze,3++Árnason Johann Pál
+514,3,4,1931-1980,Auerhan Jan,6++Československý ústav zahraniční
+514,3,6,1931-1980,Československý ústav zahraniční,4++Auerhan Jan
+515,3,4,1931-1980,Auerhan Jan,19++Státní úřad statistický
+515,3,19,1931-1980,Státní úřad statistický,4++Auerhan Jan
+516,3,5,1931-1980,Beneš Edvard,20++Sociální ústav ČSR
+516,3,20,1931-1980,Sociální ústav ČSR,5++Beneš Edvard
+517,3,5,1931-1980,Beneš Edvard,36++České vysoké učení technické v Praze
+517,3,36,1931-1980,České vysoké učení technické v Praze,5++Beneš Edvard
+518,3,5,1931-1980,Beneš Edvard,39++Karlova univerzita v Praze
+518,3,39,1931-1980,Karlova univerzita v Praze,5++Beneš Edvard
+519,3,5,1931-1980,Beneš Edvard,65++Masarykova sociologická společnost
+519,3,65,1931-1980,Masarykova sociologická společnost,5++Beneš Edvard
+520,3,5,1931-1980,Beneš Edvard,67++Sociologický kruh posluchačů vysokých škol pražských
+520,3,67,1931-1980,Sociologický kruh posluchačů vysokých škol pražských,5++Beneš Edvard
+521,3,5,1931-1980,Beneš Edvard,71++Sociologická knihovna MSS
+521,3,71,1931-1980,Sociologická knihovna MSS,5++Beneš Edvard
+522,3,6,1931-1980,Bláha Inocenc Arnošt,5++Československá akademie zemědělská
+522,3,5,1931-1980,Československá akademie zemědělská,6++Bláha Inocenc Arnošt
+523,3,6,1931-1980,Bláha Inocenc Arnošt,14++Slezský ústav v Praze
+523,3,14,1931-1980,Slezský ústav v Praze,6++Bláha Inocenc Arnošt
+524,3,6,1931-1980,Bláha Inocenc Arnošt,41++Masarykova univerzita v Brně
+524,3,41,1931-1980,Masarykova univerzita v Brně,6++Bláha Inocenc Arnošt
+525,3,6,1931-1980,Bláha Inocenc Arnošt,58++Vysoká škola sociální v Brně
+525,3,58,1931-1980,Vysoká škola sociální v Brně,6++Bláha Inocenc Arnošt
+526,3,6,1931-1980,Bláha Inocenc Arnošt,65++Masarykova sociologická společnost
+526,3,65,1931-1980,Masarykova sociologická společnost,6++Bláha Inocenc Arnošt
+527,3,6,1931-1980,Bláha Inocenc Arnošt,71++Sociologická knihovna MSS
+527,3,71,1931-1980,Sociologická knihovna MSS,6++Bláha Inocenc Arnošt
+528,3,7,1931-1980,Blažek Bohuslav,18++Sportpropag
+528,3,18,1931-1980,Sportpropag,7++Blažek Bohuslav
+529,3,8,1931-1980,Boháč Antonín,5++Československá akademie zemědělská
+529,3,5,1931-1980,Československá akademie zemědělská,8++Boháč Antonín
+530,3,8,1931-1980,Boháč Antonín,19++Státní úřad statistický
+530,3,19,1931-1980,Státní úřad statistický,8++Boháč Antonín
+531,3,8,1931-1980,Boháč Antonín,36++České vysoké učení technické v Praze
+531,3,36,1931-1980,České vysoké učení technické v Praze,8++Boháč Antonín
+532,3,8,1931-1980,Boháč Antonín,39++Karlova univerzita v Praze
+532,3,39,1931-1980,Karlova univerzita v Praze,8++Boháč Antonín
+533,3,8,1931-1980,Boháč Antonín,56++Vysoká škola politická a sociální v Praze
+533,3,56,1931-1980,Vysoká škola politická a sociální v Praze,8++Boháč Antonín
+534,3,8,1931-1980,Boháč Antonín,68++Společnost pro sociální bádání
+534,3,68,1931-1980,Společnost pro sociální bádání,8++Boháč Antonín
+535,3,8,1931-1980,Boháč Antonín,70++Knihovna Sociálních problémů
+535,3,70,1931-1980,Knihovna Sociálních problémů,8++Boháč Antonín
+536,3,10,1931-1980,Brokl Lubomír,16++Sociologický ústav ČSAV
+536,3,16,1931-1980,Sociologický ústav ČSAV,10++Brokl Lubomír
+537,3,10,1931-1980,Brokl Lubomír,26++Ústav sociálně politických věd UK
+537,3,26,1931-1980,Ústav sociálně politických věd UK,10++Brokl Lubomír
+538,3,10,1931-1980,Brokl Lubomír,31++Výzkumný ústav strojírenské technologie a ekonomiky
+538,3,31,1931-1980,Výzkumný ústav strojírenské technologie a ekonomiky,10++Brokl Lubomír
+539,3,15,1931-1980,Čep Tomáš,5++Československá akademie zemědělská
+539,3,5,1931-1980,Československá akademie zemědělská,15++Čep Tomáš
+540,3,15,1931-1980,Čep Tomáš,14++Slezský ústav v Praze
+540,3,14,1931-1980,Slezský ústav v Praze,15++Čep Tomáš
+541,3,15,1931-1980,Čep Tomáš,42++Mendelova univerzita v Brně
+541,3,42,1931-1980,Mendelova univerzita v Brně,15++Čep Tomáš
+542,3,15,1931-1980,Čep Tomáš,65++Masarykova sociologická společnost
+542,3,65,1931-1980,Masarykova sociologická společnost,15++Čep Tomáš
+543,3,17,1931-1980,Disman Miroslav,26++Ústav sociálně politických věd UK
+543,3,26,1931-1980,Ústav sociálně politických věd UK,17++Disman Miroslav
+544,3,17,1931-1980,Disman Miroslav,39++Karlova univerzita v Praze
+544,3,39,1931-1980,Karlova univerzita v Praze,17++Disman Miroslav
+545,3,17,1931-1980,Disman Miroslav,64++Československá sociologická společnost při ČSAV
+545,3,64,1931-1980,Československá sociologická společnost při ČSAV,17++Disman Miroslav
+546,3,17,1931-1980,Disman Miroslav,72++Sociologická knižnice nakladatelství Svoboda
+546,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,17++Disman Miroslav
+547,3,18,1931-1980,Dubská Irena,16++Sociologický ústav ČSAV
+547,3,16,1931-1980,Sociologický ústav ČSAV,18++Dubská Irena
+548,3,18,1931-1980,Dubská Irena,64++Československá sociologická společnost při ČSAV
+548,3,64,1931-1980,Československá sociologická společnost při ČSAV,18++Dubská Irena
+549,3,21,1931-1980,Fajfr František,19++Státní úřad statistický
+549,3,19,1931-1980,Státní úřad statistický,21++Fajfr František
+550,3,21,1931-1980,Fajfr František,39++Karlova univerzita v Praze
+550,3,39,1931-1980,Karlova univerzita v Praze,21++Fajfr František
+551,3,21,1931-1980,Fajfr František,62++Česká demografická společnost
+551,3,62,1931-1980,Česká demografická společnost,21++Fajfr František
+552,3,21,1931-1980,Fajfr František,65++Masarykova sociologická společnost
+552,3,65,1931-1980,Masarykova sociologická společnost,21++Fajfr František
+553,3,21,1931-1980,Fajfr František,71++Sociologická knihovna MSS
+553,3,71,1931-1980,Sociologická knihovna MSS,21++Fajfr František
+554,3,22,1931-1980,Filipcová Blanka,16++Sociologický ústav ČSAV
+554,3,16,1931-1980,Sociologický ústav ČSAV,22++Filipcová Blanka
+555,3,22,1931-1980,Filipcová Blanka,22++Ústav pro filosofii a sociologii ČSAV
+555,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,22++Filipcová Blanka
+556,3,22,1931-1980,Filipcová Blanka,26++Ústav sociálně politických věd UK
+556,3,26,1931-1980,Ústav sociálně politických věd UK,22++Filipcová Blanka
+557,3,22,1931-1980,Filipcová Blanka,39++Karlova univerzita v Praze
+557,3,39,1931-1980,Karlova univerzita v Praze,22++Filipcová Blanka
+558,3,22,1931-1980,Filipcová Blanka,56++Vysoká škola politická a sociální v Praze
+558,3,56,1931-1980,Vysoká škola politická a sociální v Praze,22++Filipcová Blanka
+559,3,22,1931-1980,Filipcová Blanka,64++Československá sociologická společnost při ČSAV
+559,3,64,1931-1980,Československá sociologická společnost při ČSAV,22++Filipcová Blanka
+560,3,22,1931-1980,Filipcová Blanka,72++Sociologická knižnice nakladatelství Svoboda
+560,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,22++Filipcová Blanka
+561,3,23,1931-1980,Filipec Jindřich,22++Ústav pro filosofii a sociologii ČSAV
+561,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,23++Filipec Jindřich
+562,3,23,1931-1980,Filipec Jindřich,39++Karlova univerzita v Praze
+562,3,39,1931-1980,Karlova univerzita v Praze,23++Filipec Jindřich
+563,3,23,1931-1980,Filipec Jindřich,64++Československá sociologická společnost při ČSAV
+563,3,64,1931-1980,Československá sociologická společnost při ČSAV,23++Filipec Jindřich
+564,3,23,1931-1980,Filipec Jindřich,72++Sociologická knižnice nakladatelství Svoboda
+564,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,23++Filipec Jindřich
+565,3,24,1931-1980,Fischer Josef Ludvík,41++Masarykova univerzita v Brně
+565,3,41,1931-1980,Masarykova univerzita v Brně,24++Fischer Josef Ludvík
+566,3,24,1931-1980,Fischer Josef Ludvík,45++Palackého univerzita v Olomouci
+566,3,45,1931-1980,Palackého univerzita v Olomouci,24++Fischer Josef Ludvík
+567,3,24,1931-1980,Fischer Josef Ludvík,64++Československá sociologická společnost při ČSAV
+567,3,64,1931-1980,Československá sociologická společnost při ČSAV,24++Fischer Josef Ludvík
+568,3,24,1931-1980,Fischer Josef Ludvík,65++Masarykova sociologická společnost
+568,3,65,1931-1980,Masarykova sociologická společnost,24++Fischer Josef Ludvík
+569,3,24,1931-1980,Fischer Josef Ludvík,71++Sociologická knihovna MSS
+569,3,71,1931-1980,Sociologická knihovna MSS,24++Fischer Josef Ludvík
+570,3,25,1931-1980,Foret Miroslav,42++Mendelova univerzita v Brně
+570,3,42,1931-1980,Mendelova univerzita v Brně,25++Foret Miroslav
+571,3,25,1931-1980,Foret Miroslav,62++Česká demografická společnost
+571,3,62,1931-1980,Česká demografická společnost,25++Foret Miroslav
+572,3,25,1931-1980,Foret Miroslav,72++Sociologická knižnice nakladatelství Svoboda
+572,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,25++Foret Miroslav
+573,3,27,1931-1980,Foustka Břetislav,39++Karlova univerzita v Praze
+573,3,39,1931-1980,Karlova univerzita v Praze,27++Foustka Břetislav
+574,3,27,1931-1980,Foustka Břetislav,65++Masarykova sociologická společnost
+574,3,65,1931-1980,Masarykova sociologická společnost,27++Foustka Břetislav
+575,3,27,1931-1980,Foustka Břetislav,71++Sociologická knihovna MSS
+575,3,71,1931-1980,Sociologická knihovna MSS,27++Foustka Břetislav
+576,3,28,1931-1980,Frič Pavol,39++Karlova univerzita v Praze
+576,3,39,1931-1980,Karlova univerzita v Praze,28++Frič Pavol
+577,3,30,1931-1980,Gabal Ivan,22++Ústav pro filosofii a sociologii ČSAV
+577,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,30++Gabal Ivan
+578,3,30,1931-1980,Gabal Ivan,39++Karlova univerzita v Praze
+578,3,39,1931-1980,Karlova univerzita v Praze,30++Gabal Ivan
+579,3,32,1931-1980,Gál Fedor,18++Sportpropag
+579,3,18,1931-1980,Sportpropag,32++Gál Fedor
+580,3,33,1931-1980,Galla Karel,4++Vědecké kolegium filosofie a sociologie ČSAV
+580,3,4,1931-1980,Vědecké kolegium filosofie a sociologie ČSAV,33++Galla Karel
+581,3,33,1931-1980,Galla Karel,5++Československá akademie zemědělská
+581,3,5,1931-1980,Československá akademie zemědělská,33++Galla Karel
+582,3,33,1931-1980,Galla Karel,17++Sociologický ústav ČSS
+582,3,17,1931-1980,Sociologický ústav ČSS,33++Galla Karel
+583,3,33,1931-1980,Galla Karel,23++Ústav pro sociální a hospodářskou výchovu ČSS
+583,3,23,1931-1980,Ústav pro sociální a hospodářskou výchovu ČSS,33++Galla Karel
+584,3,33,1931-1980,Galla Karel,28++Vojenský sociologický kruh
+584,3,28,1931-1980,Vojenský sociologický kruh,33++Galla Karel
+585,3,33,1931-1980,Galla Karel,39++Karlova univerzita v Praze
+585,3,39,1931-1980,Karlova univerzita v Praze,33++Galla Karel
+586,3,33,1931-1980,Galla Karel,64++Československá sociologická společnost při ČSAV
+586,3,64,1931-1980,Československá sociologická společnost při ČSAV,33++Galla Karel
+587,3,33,1931-1980,Galla Karel,65++Masarykova sociologická společnost
+587,3,65,1931-1980,Masarykova sociologická společnost,33++Galla Karel
+588,3,34,1931-1980,Geist Bohumil,68++Společnost pro sociální bádání
+588,3,68,1931-1980,Společnost pro sociální bádání,34++Geist Bohumil
+589,3,37,1931-1980,Hájek Mojmír,41++Masarykova univerzita v Brně
+589,3,41,1931-1980,Masarykova univerzita v Brně,37++Hájek Mojmír
+590,3,37,1931-1980,Hájek Mojmír,65++Masarykova sociologická společnost
+590,3,65,1931-1980,Masarykova sociologická společnost,37++Hájek Mojmír
+591,3,38,1931-1980,Hampl Martin,39++Karlova univerzita v Praze
+591,3,39,1931-1980,Karlova univerzita v Praze,38++Hampl Martin
+592,3,40,1931-1980,Havelka Miloš,39++Karlova univerzita v Praze
+592,3,39,1931-1980,Karlova univerzita v Praze,40++Havelka Miloš
+593,3,41,1931-1980,Hirner Alexander,40++Komenského univerzita v Bratislavě
+593,3,40,1931-1980,Komenského univerzita v Bratislavě,41++Hirner Alexander
+594,3,41,1931-1980,Hirner Alexander,56++Vysoká škola politická a sociální v Praze
+594,3,56,1931-1980,Vysoká škola politická a sociální v Praze,41++Hirner Alexander
+595,3,42,1931-1980,Hník František Maria,37++Husova československá evangelická teologická fakulta v Praze
+595,3,37,1931-1980,Husova československá evangelická teologická fakulta v Praze,42++Hník František Maria
+596,3,45,1931-1980,Huláková Marie,16++Sociologický ústav ČSAV
+596,3,16,1931-1980,Sociologický ústav ČSAV,45++Huláková Marie
+597,3,45,1931-1980,Huláková Marie,22++Ústav pro filosofii a sociologii ČSAV
+597,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,45++Huláková Marie
+598,3,45,1931-1980,Huláková Marie,64++Československá sociologická společnost při ČSAV
+598,3,64,1931-1980,Československá sociologická společnost při ČSAV,45++Huláková Marie
+599,3,46,1931-1980,Chalupný Emanuel,5++Československá akademie zemědělská
+599,3,5,1931-1980,Československá akademie zemědělská,46++Chalupný Emanuel
+600,3,46,1931-1980,Chalupný Emanuel,17++Sociologický ústav ČSS
+600,3,17,1931-1980,Sociologický ústav ČSS,46++Chalupný Emanuel
+601,3,46,1931-1980,Chalupný Emanuel,36++České vysoké učení technické v Praze
+601,3,36,1931-1980,České vysoké učení technické v Praze,46++Chalupný Emanuel
+602,3,46,1931-1980,Chalupný Emanuel,41++Masarykova univerzita v Brně
+602,3,41,1931-1980,Masarykova univerzita v Brně,46++Chalupný Emanuel
+603,3,46,1931-1980,Chalupný Emanuel,47++Svobodná škola politických nauk v Praze
+603,3,47,1931-1980,Svobodná škola politických nauk v Praze,46++Chalupný Emanuel
+604,3,46,1931-1980,Chalupný Emanuel,48++Ukrajinská svobodná univerzita v Praze
+604,3,48,1931-1980,Ukrajinská svobodná univerzita v Praze,46++Chalupný Emanuel
+605,3,46,1931-1980,Chalupný Emanuel,52++Vojenská politická akademie Klementa Gottwalda v Praze
+605,3,52,1931-1980,Vojenská politická akademie Klementa Gottwalda v Praze,46++Chalupný Emanuel
+606,3,46,1931-1980,Chalupný Emanuel,65++Masarykova sociologická společnost
+606,3,65,1931-1980,Masarykova sociologická společnost,46++Chalupný Emanuel
+607,3,46,1931-1980,Chalupný Emanuel,71++Sociologická knihovna MSS
+607,3,71,1931-1980,Sociologická knihovna MSS,46++Chalupný Emanuel
+608,3,47,1931-1980,Charvát František,4++Vědecké kolegium filosofie a sociologie ČSAV
+608,3,4,1931-1980,Vědecké kolegium filosofie a sociologie ČSAV,47++Charvát František
+609,3,47,1931-1980,Charvát František,22++Ústav pro filosofii a sociologii ČSAV
+609,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,47++Charvát František
+610,3,47,1931-1980,Charvát František,64++Československá sociologická společnost při ČSAV
+610,3,64,1931-1980,Československá sociologická společnost při ČSAV,47++Charvát František
+611,3,47,1931-1980,Charvát František,72++Sociologická knižnice nakladatelství Svoboda
+611,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,47++Charvát František
+612,3,48,1931-1980,Illner Michal,16++Sociologický ústav ČSAV
+612,3,16,1931-1980,Sociologický ústav ČSAV,48++Illner Michal
+613,3,48,1931-1980,Illner Michal,22++Ústav pro filosofii a sociologii ČSAV
+613,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,48++Illner Michal
+614,3,48,1931-1980,Illner Michal,62++Česká demografická společnost
+614,3,62,1931-1980,Česká demografická společnost,48++Illner Michal
+615,3,48,1931-1980,Illner Michal,72++Sociologická knižnice nakladatelství Svoboda
+615,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,48++Illner Michal
+616,3,49,1931-1980,Jeřábek Hynek,39++Karlova univerzita v Praze
+616,3,39,1931-1980,Karlova univerzita v Praze,49++Jeřábek Hynek
+617,3,50,1931-1980,Jodl Miroslav,16++Sociologický ústav ČSAV
+617,3,16,1931-1980,Sociologický ústav ČSAV,50++Jodl Miroslav
+618,3,51,1931-1980,Jochmann Vladimír,45++Palackého univerzita v Olomouci
+618,3,45,1931-1980,Palackého univerzita v Olomouci,51++Jochmann Vladimír
+619,3,52,1931-1980,Jungmann Bohumil,25++Ústav pro výzkum veřejného mínění FSÚ
+619,3,25,1931-1980,Ústav pro výzkum veřejného mínění FSÚ,52++Jungmann Bohumil
+620,3,52,1931-1980,Jungmann Bohumil,26++Ústav sociálně politických věd UK
+620,3,26,1931-1980,Ústav sociálně politických věd UK,52++Jungmann Bohumil
+621,3,52,1931-1980,Jungmann Bohumil,30++Výzkumný ústav sociálního rozvoje a práce
+621,3,30,1931-1980,Výzkumný ústav sociálního rozvoje a práce,52++Jungmann Bohumil
+622,3,53,1931-1980,Kabele Jiří,18++Sportpropag
+622,3,18,1931-1980,Sportpropag,53++Kabele Jiří
+623,3,53,1931-1980,Kabele Jiří,39++Karlova univerzita v Praze
+623,3,39,1931-1980,Karlova univerzita v Praze,53++Kabele Jiří
+624,3,54,1931-1980,Kadlec Vladimír,17++Sociologický ústav ČSS
+624,3,17,1931-1980,Sociologický ústav ČSS,54++Kadlec Vladimír
+625,3,54,1931-1980,Kadlec Vladimír,65++Masarykova sociologická společnost
+625,3,65,1931-1980,Masarykova sociologická společnost,54++Kadlec Vladimír
+626,3,55,1931-1980,Kadlecová Erika,16++Sociologický ústav ČSAV
+626,3,16,1931-1980,Sociologický ústav ČSAV,55++Kadlecová Erika
+627,3,55,1931-1980,Kadlecová Erika,57++Vysoká škola politická ÚV KSČ v Praze
+627,3,57,1931-1980,Vysoká škola politická ÚV KSČ v Praze,55++Kadlecová Erika
+628,3,55,1931-1980,Kadlecová Erika,64++Československá sociologická společnost při ČSAV
+628,3,64,1931-1980,Československá sociologická společnost při ČSAV,55++Kadlecová Erika
+629,3,57,1931-1980,Kaláb Miloš,4++Vědecké kolegium filosofie a sociologie ČSAV
+629,3,4,1931-1980,Vědecké kolegium filosofie a sociologie ČSAV,57++Kaláb Miloš
+630,3,57,1931-1980,Kaláb Miloš,16++Sociologický ústav ČSAV
+630,3,16,1931-1980,Sociologický ústav ČSAV,57++Kaláb Miloš
+631,3,57,1931-1980,Kaláb Miloš,26++Ústav sociálně politických věd UK
+631,3,26,1931-1980,Ústav sociálně politických věd UK,57++Kaláb Miloš
+632,3,57,1931-1980,Kaláb Miloš,64++Československá sociologická společnost při ČSAV
+632,3,64,1931-1980,Československá sociologická společnost při ČSAV,57++Kaláb Miloš
+633,3,60,1931-1980,Kapr Jaroslav,39++Karlova univerzita v Praze
+633,3,39,1931-1980,Karlova univerzita v Praze,60++Kapr Jaroslav
+634,3,62,1931-1980,Keller Jan,41++Masarykova univerzita v Brně
+634,3,41,1931-1980,Masarykova univerzita v Brně,62++Keller Jan
+635,3,65,1931-1980,Klofáč Jaroslav,4++Vědecké kolegium filosofie a sociologie ČSAV
+635,3,4,1931-1980,Vědecké kolegium filosofie a sociologie ČSAV,65++Klofáč Jaroslav
+636,3,65,1931-1980,Klofáč Jaroslav,57++Vysoká škola politická ÚV KSČ v Praze
+636,3,57,1931-1980,Vysoká škola politická ÚV KSČ v Praze,65++Klofáč Jaroslav
+637,3,65,1931-1980,Klofáč Jaroslav,64++Československá sociologická společnost při ČSAV
+637,3,64,1931-1980,Československá sociologická společnost při ČSAV,65++Klofáč Jaroslav
+638,3,65,1931-1980,Klofáč Jaroslav,68++Společnost pro sociální bádání
+638,3,68,1931-1980,Společnost pro sociální bádání,65++Klofáč Jaroslav
+639,3,65,1931-1980,Klofáč Jaroslav,72++Sociologická knižnice nakladatelství Svoboda
+639,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,65++Klofáč Jaroslav
+640,3,67,1931-1980,Kohout Jaroslav,4++Vědecké kolegium filosofie a sociologie ČSAV
+640,3,4,1931-1980,Vědecké kolegium filosofie a sociologie ČSAV,67++Kohout Jaroslav
+641,3,67,1931-1980,Kohout Jaroslav,54++Vysoká škola ekonomická v Praze
+641,3,54,1931-1980,Vysoká škola ekonomická v Praze,67++Kohout Jaroslav
+642,3,67,1931-1980,Kohout Jaroslav,56++Vysoká škola politická a sociální v Praze
+642,3,56,1931-1980,Vysoká škola politická a sociální v Praze,67++Kohout Jaroslav
+643,3,67,1931-1980,Kohout Jaroslav,64++Československá sociologická společnost při ČSAV
+643,3,64,1931-1980,Československá sociologická společnost při ČSAV,67++Kohout Jaroslav
+644,3,67,1931-1980,Kohout Jaroslav,72++Sociologická knižnice nakladatelství Svoboda
+644,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,67++Kohout Jaroslav
+645,3,69,1931-1980,Korčák Jaromír,39++Karlova univerzita v Praze
+645,3,39,1931-1980,Karlova univerzita v Praze,69++Korčák Jaromír
+646,3,69,1931-1980,Korčák Jaromír,62++Česká demografická společnost
+646,3,62,1931-1980,Česká demografická společnost,69++Korčák Jaromír
+647,3,69,1931-1980,Korčák Jaromír,68++Společnost pro sociální bádání
+647,3,68,1931-1980,Společnost pro sociální bádání,69++Korčák Jaromír
+648,3,71,1931-1980,Köttner Mojmír,41++Masarykova univerzita v Brně
+648,3,41,1931-1980,Masarykova univerzita v Brně,71++Köttner Mojmír
+649,3,72,1931-1980,Král Josef,1++Česká akademie věd a umění
+649,3,1,1931-1980,Česká akademie věd a umění,72++Král Josef
+650,3,72,1931-1980,Král Josef,5++Československá akademie zemědělská
+650,3,5,1931-1980,Československá akademie zemědělská,72++Král Josef
+651,3,72,1931-1980,Král Josef,28++Vojenský sociologický kruh
+651,3,28,1931-1980,Vojenský sociologický kruh,72++Král Josef
+652,3,72,1931-1980,Král Josef,39++Karlova univerzita v Praze
+652,3,39,1931-1980,Karlova univerzita v Praze,72++Král Josef
+653,3,72,1931-1980,Král Josef,40++Komenského univerzita v Bratislavě
+653,3,40,1931-1980,Komenského univerzita v Bratislavě,72++Král Josef
+654,3,72,1931-1980,Král Josef,56++Vysoká škola politická a sociální v Praze
+654,3,56,1931-1980,Vysoká škola politická a sociální v Praze,72++Král Josef
+655,3,72,1931-1980,Král Josef,64++Československá sociologická společnost při ČSAV
+655,3,64,1931-1980,Československá sociologická společnost při ČSAV,72++Král Josef
+656,3,72,1931-1980,Král Josef,65++Masarykova sociologická společnost
+656,3,65,1931-1980,Masarykova sociologická společnost,72++Král Josef
+657,3,72,1931-1980,Král Josef,67++Sociologický kruh posluchačů vysokých škol pražských
+657,3,67,1931-1980,Sociologický kruh posluchačů vysokých škol pražských,72++Král Josef
+658,3,72,1931-1980,Král Josef,68++Společnost pro sociální bádání
+658,3,68,1931-1980,Společnost pro sociální bádání,72++Král Josef
+659,3,72,1931-1980,Král Josef,70++Knihovna Sociálních problémů
+659,3,70,1931-1980,Knihovna Sociálních problémů,72++Král Josef
+660,3,75,1931-1980,Krejčí Karel,65++Masarykova sociologická společnost
+660,3,65,1931-1980,Masarykova sociologická společnost,75++Krejčí Karel
+661,3,78,1931-1980,Lamser Václav,16++Sociologický ústav ČSAV
+661,3,16,1931-1980,Sociologický ústav ČSAV,78++Lamser Václav
+662,3,78,1931-1980,Lamser Václav,39++Karlova univerzita v Praze
+662,3,39,1931-1980,Karlova univerzita v Praze,78++Lamser Václav
+663,3,78,1931-1980,Lamser Václav,62++Česká demografická společnost
+663,3,62,1931-1980,Česká demografická společnost,78++Lamser Václav
+664,3,78,1931-1980,Lamser Václav,64++Československá sociologická společnost při ČSAV
+664,3,64,1931-1980,Československá sociologická společnost při ČSAV,78++Lamser Václav
+665,3,78,1931-1980,Lamser Václav,72++Sociologická knižnice nakladatelství Svoboda
+665,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,78++Lamser Václav
+666,3,79,1931-1980,Librová Hana,41++Masarykova univerzita v Brně
+666,3,41,1931-1980,Masarykova univerzita v Brně,79++Librová Hana
+667,3,81,1931-1980,Linhart Jiří,22++Ústav pro filosofii a sociologii ČSAV
+667,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,81++Linhart Jiří
+668,3,81,1931-1980,Linhart Jiří,26++Ústav sociálně politických věd UK
+668,3,26,1931-1980,Ústav sociálně politických věd UK,81++Linhart Jiří
+669,3,81,1931-1980,Linhart Jiří,64++Československá sociologická společnost při ČSAV
+669,3,64,1931-1980,Československá sociologická společnost při ČSAV,81++Linhart Jiří
+670,3,82,1931-1980,Macek Josef,65++Masarykova sociologická společnost
+670,3,65,1931-1980,Masarykova sociologická společnost,82++Macek Josef
+671,3,83,1931-1980,Macků Jan,41++Masarykova univerzita v Brně
+671,3,41,1931-1980,Masarykova univerzita v Brně,83++Macků Jan
+672,3,83,1931-1980,Macků Jan,64++Československá sociologická společnost při ČSAV
+672,3,64,1931-1980,Československá sociologická společnost při ČSAV,83++Macků Jan
+673,3,84,1931-1980,Machonin Pavel,4++Vědecké kolegium filosofie a sociologie ČSAV
+673,3,4,1931-1980,Vědecké kolegium filosofie a sociologie ČSAV,84++Machonin Pavel
+674,3,84,1931-1980,Machonin Pavel,16++Sociologický ústav ČSAV
+674,3,16,1931-1980,Sociologický ústav ČSAV,84++Machonin Pavel
+675,3,84,1931-1980,Machonin Pavel,18++Sportpropag
+675,3,18,1931-1980,Sportpropag,84++Machonin Pavel
+676,3,84,1931-1980,Machonin Pavel,26++Ústav sociálně politických věd UK
+676,3,26,1931-1980,Ústav sociálně politických věd UK,84++Machonin Pavel
+677,3,84,1931-1980,Machonin Pavel,52++Vojenská politická akademie Klementa Gottwalda v Praze
+677,3,52,1931-1980,Vojenská politická akademie Klementa Gottwalda v Praze,84++Machonin Pavel
+678,3,84,1931-1980,Machonin Pavel,56++Vysoká škola politická a sociální v Praze
+678,3,56,1931-1980,Vysoká škola politická a sociální v Praze,84++Machonin Pavel
+679,3,85,1931-1980,Machotka Otakar,19++Státní úřad statistický
+679,3,19,1931-1980,Státní úřad statistický,85++Machotka Otakar
+680,3,85,1931-1980,Machotka Otakar,39++Karlova univerzita v Praze
+680,3,39,1931-1980,Karlova univerzita v Praze,85++Machotka Otakar
+681,3,85,1931-1980,Machotka Otakar,40++Komenského univerzita v Bratislavě
+681,3,40,1931-1980,Komenského univerzita v Bratislavě,85++Machotka Otakar
+682,3,85,1931-1980,Machotka Otakar,56++Vysoká škola politická a sociální v Praze
+682,3,56,1931-1980,Vysoká škola politická a sociální v Praze,85++Machotka Otakar
+683,3,85,1931-1980,Machotka Otakar,65++Masarykova sociologická společnost
+683,3,65,1931-1980,Masarykova sociologická společnost,85++Machotka Otakar
+684,3,85,1931-1980,Machotka Otakar,68++Společnost pro sociální bádání
+684,3,68,1931-1980,Společnost pro sociální bádání,85++Machotka Otakar
+685,3,85,1931-1980,Machotka Otakar,70++Knihovna Sociálních problémů
+685,3,70,1931-1980,Knihovna Sociálních problémů,85++Machotka Otakar
+686,3,85,1931-1980,Machotka Otakar,71++Sociologická knihovna MSS
+686,3,71,1931-1980,Sociologická knihovna MSS,85++Machotka Otakar
+687,3,86,1931-1980,Maiwald Karel,19++Státní úřad statistický
+687,3,19,1931-1980,Státní úřad statistický,86++Maiwald Karel
+688,3,86,1931-1980,Maiwald Karel,45++Palackého univerzita v Olomouci
+688,3,45,1931-1980,Palackého univerzita v Olomouci,86++Maiwald Karel
+689,3,89,1931-1980,Mareš Petr,41++Masarykova univerzita v Brně
+689,3,41,1931-1980,Masarykova univerzita v Brně,89++Mareš Petr
+690,3,91,1931-1980,Masaryk Tomáš Garrigue,39++Karlova univerzita v Praze
+690,3,39,1931-1980,Karlova univerzita v Praze,91++Masaryk Tomáš Garrigue
+691,3,91,1931-1980,Masaryk Tomáš Garrigue,65++Masarykova sociologická společnost
+691,3,65,1931-1980,Masarykova sociologická společnost,91++Masaryk Tomáš Garrigue
+692,3,92,1931-1980,Masaryková Alice,20++Sociální ústav ČSR
+692,3,20,1931-1980,Sociální ústav ČSR,92++Masaryková Alice
+693,3,92,1931-1980,Masaryková Alice,65++Masarykova sociologická společnost
+693,3,65,1931-1980,Masarykova sociologická společnost,92++Masaryková Alice
+694,3,93,1931-1980,Matějů Petr,22++Ústav pro filosofii a sociologii ČSAV
+694,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,93++Matějů Petr
+695,3,93,1931-1980,Matějů Petr,39++Karlova univerzita v Praze
+695,3,39,1931-1980,Karlova univerzita v Praze,93++Matějů Petr
+696,3,94,1931-1980,Mertl Jan,28++Vojenský sociologický kruh
+696,3,28,1931-1980,Vojenský sociologický kruh,94++Mertl Jan
+697,3,94,1931-1980,Mertl Jan,36++České vysoké učení technické v Praze
+697,3,36,1931-1980,České vysoké učení technické v Praze,94++Mertl Jan
+698,3,94,1931-1980,Mertl Jan,65++Masarykova sociologická společnost
+698,3,65,1931-1980,Masarykova sociologická společnost,94++Mertl Jan
+699,3,94,1931-1980,Mertl Jan,68++Společnost pro sociální bádání
+699,3,68,1931-1980,Společnost pro sociální bádání,94++Mertl Jan
+700,3,94,1931-1980,Mertl Jan,70++Knihovna Sociálních problémů
+700,3,70,1931-1980,Knihovna Sociálních problémů,94++Mertl Jan
+701,3,94,1931-1980,Mertl Jan,71++Sociologická knihovna MSS
+701,3,71,1931-1980,Sociologická knihovna MSS,94++Mertl Jan
+702,3,96,1931-1980,Modráček František,65++Masarykova sociologická společnost
+702,3,65,1931-1980,Masarykova sociologická společnost,96++Modráček František
+703,3,97,1931-1980,Možný Ivo,41++Masarykova univerzita v Brně
+703,3,41,1931-1980,Masarykova univerzita v Brně,97++Možný Ivo
+704,3,98,1931-1980,Musil Jiří,32++Výzkumný ústav výstavby a architektury
+704,3,32,1931-1980,Výzkumný ústav výstavby a architektury,98++Musil Jiří
+705,3,98,1931-1980,Musil Jiří,36++České vysoké učení technické v Praze
+705,3,36,1931-1980,České vysoké učení technické v Praze,98++Musil Jiří
+706,3,98,1931-1980,Musil Jiří,62++Česká demografická společnost
+706,3,62,1931-1980,Česká demografická společnost,98++Musil Jiří
+707,3,98,1931-1980,Musil Jiří,64++Československá sociologická společnost při ČSAV
+707,3,64,1931-1980,Československá sociologická společnost při ČSAV,98++Musil Jiří
+708,3,98,1931-1980,Musil Jiří,72++Sociologická knižnice nakladatelství Svoboda
+708,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,98++Musil Jiří
+709,3,102,1931-1980,Nový Lubomír,41++Masarykova univerzita v Brně
+709,3,41,1931-1980,Masarykova univerzita v Brně,102++Nový Lubomír
+710,3,103,1931-1980,Obrdlík Antonín,40++Komenského univerzita v Bratislavě
+710,3,40,1931-1980,Komenského univerzita v Bratislavě,103++Obrdlík Antonín
+711,3,103,1931-1980,Obrdlík Antonín,41++Masarykova univerzita v Brně
+711,3,41,1931-1980,Masarykova univerzita v Brně,103++Obrdlík Antonín
+712,3,103,1931-1980,Obrdlík Antonín,65++Masarykova sociologická společnost
+712,3,65,1931-1980,Masarykova sociologická společnost,103++Obrdlík Antonín
+713,3,103,1931-1980,Obrdlík Antonín,71++Sociologická knihovna MSS
+713,3,71,1931-1980,Sociologická knihovna MSS,103++Obrdlík Antonín
+714,3,104,1931-1980,Obrdlíková Juliana,41++Masarykova univerzita v Brně
+714,3,41,1931-1980,Masarykova univerzita v Brně,104++Obrdlíková Juliana
+715,3,104,1931-1980,Obrdlíková Juliana,45++Palackého univerzita v Olomouci
+715,3,45,1931-1980,Palackého univerzita v Olomouci,104++Obrdlíková Juliana
+716,3,104,1931-1980,Obrdlíková Juliana,58++Vysoká škola sociální v Brně
+716,3,58,1931-1980,Vysoká škola sociální v Brně,104++Obrdlíková Juliana
+717,3,104,1931-1980,Obrdlíková Juliana,65++Masarykova sociologická společnost
+717,3,65,1931-1980,Masarykova sociologická společnost,104++Obrdlíková Juliana
+718,3,104,1931-1980,Obrdlíková Juliana,71++Sociologická knihovna MSS
+718,3,71,1931-1980,Sociologická knihovna MSS,104++Obrdlíková Juliana
+719,3,105,1931-1980,Ovesný Miroslav,41++Masarykova univerzita v Brně
+719,3,41,1931-1980,Masarykova univerzita v Brně,105++Ovesný Miroslav
+720,3,106,1931-1980,Pavlík Zdeněk,39++Karlova univerzita v Praze
+720,3,39,1931-1980,Karlova univerzita v Praze,106++Pavlík Zdeněk
+721,3,106,1931-1980,Pavlík Zdeněk,62++Česká demografická společnost
+721,3,62,1931-1980,Česká demografická společnost,106++Pavlík Zdeněk
+722,3,108,1931-1980,Petrusek Miloslav,22++Ústav pro filosofii a sociologii ČSAV
+722,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,108++Petrusek Miloslav
+723,3,108,1931-1980,Petrusek Miloslav,26++Ústav sociálně politických věd UK
+723,3,26,1931-1980,Ústav sociálně politických věd UK,108++Petrusek Miloslav
+724,3,108,1931-1980,Petrusek Miloslav,39++Karlova univerzita v Praze
+724,3,39,1931-1980,Karlova univerzita v Praze,108++Petrusek Miloslav
+725,3,108,1931-1980,Petrusek Miloslav,64++Československá sociologická společnost při ČSAV
+725,3,64,1931-1980,Československá sociologická společnost při ČSAV,108++Petrusek Miloslav
+726,3,108,1931-1980,Petrusek Miloslav,72++Sociologická knižnice nakladatelství Svoboda
+726,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,108++Petrusek Miloslav
+727,3,109,1931-1980,Pistorius Theodor,65++Masarykova sociologická společnost
+727,3,65,1931-1980,Masarykova sociologická společnost,109++Pistorius Theodor
+728,3,110,1931-1980,Porket Josef Ludvík,26++Ústav sociálně politických věd UK
+728,3,26,1931-1980,Ústav sociálně politických věd UK,110++Porket Josef Ludvík
+729,3,111,1931-1980,Potůček Martin,18++Sportpropag
+729,3,18,1931-1980,Sportpropag,111++Potůček Martin
+730,3,111,1931-1980,Potůček Martin,39++Karlova univerzita v Praze
+730,3,39,1931-1980,Karlova univerzita v Praze,111++Potůček Martin
+731,3,111,1931-1980,Potůček Martin,41++Masarykova univerzita v Brně
+731,3,41,1931-1980,Masarykova univerzita v Brně,111++Potůček Martin
+732,3,114,1931-1980,Rabušic Ladislav,41++Masarykova univerzita v Brně
+732,3,41,1931-1980,Masarykova univerzita v Brně,114++Rabušic Ladislav
+733,3,117,1931-1980,Reich Edvard,5++Československá akademie zemědělská
+733,3,5,1931-1980,Československá akademie zemědělská,117++Reich Edvard
+734,3,117,1931-1980,Reich Edvard,42++Mendelova univerzita v Brně
+734,3,42,1931-1980,Mendelova univerzita v Brně,117++Reich Edvard
+735,3,118,1931-1980,Reyl František,33++Biskupské semináře
+735,3,33,1931-1980,Biskupské semináře,118++Reyl František
+736,3,119,1931-1980,Richta Radovan,22++Ústav pro filosofii a sociologii ČSAV
+736,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,119++Richta Radovan
+737,3,121,1931-1980,Rychtaříková Jitka,39++Karlova univerzita v Praze
+737,3,39,1931-1980,Karlova univerzita v Praze,121++Rychtaříková Jitka
+738,3,121,1931-1980,Rychtaříková Jitka,62++Česká demografická společnost
+738,3,62,1931-1980,Česká demografická společnost,121++Rychtaříková Jitka
+739,3,123,1931-1980,Řehák Jan,16++Sociologický ústav ČSAV
+739,3,16,1931-1980,Sociologický ústav ČSAV,123++Řehák Jan
+740,3,123,1931-1980,Řehák Jan,39++Karlova univerzita v Praze
+740,3,39,1931-1980,Karlova univerzita v Praze,123++Řehák Jan
+741,3,123,1931-1980,Řehák Jan,64++Československá sociologická společnost při ČSAV
+741,3,64,1931-1980,Československá sociologická společnost při ČSAV,123++Řehák Jan
+742,3,125,1931-1980,Sedláček Oto,9++Dům techniky ČSVTS Pardubice
+742,3,9,1931-1980,Dům techniky ČSVTS Pardubice,125++Sedláček Oto
+743,3,125,1931-1980,Sedláček Oto,16++Sociologický ústav ČSAV
+743,3,16,1931-1980,Sociologický ústav ČSAV,125++Sedláček Oto
+744,3,125,1931-1980,Sedláček Oto,39++Karlova univerzita v Praze
+744,3,39,1931-1980,Karlova univerzita v Praze,125++Sedláček Oto
+745,3,125,1931-1980,Sedláček Oto,64++Československá sociologická společnost při ČSAV
+745,3,64,1931-1980,Československá sociologická společnost při ČSAV,125++Sedláček Oto
+746,3,125,1931-1980,Sedláček Oto,72++Sociologická knižnice nakladatelství Svoboda
+746,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,125++Sedláček Oto
+747,3,126,1931-1980,Sekot Aleš,27++Ústav vědeckého ateismu ČSAV
+747,3,27,1931-1980,Ústav vědeckého ateismu ČSAV,126++Sekot Aleš
+748,3,126,1931-1980,Sekot Aleš,72++Sociologická knižnice nakladatelství Svoboda
+748,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,126++Sekot Aleš
+749,3,127,1931-1980,Schoenbaum Emil,20++Sociální ústav ČSR
+749,3,20,1931-1980,Sociální ústav ČSR,127++Schoenbaum Emil
+750,3,128,1931-1980,Sirovátka Tomáš,41++Masarykova univerzita v Brně
+750,3,41,1931-1980,Masarykova univerzita v Brně,128++Sirovátka Tomáš
+751,3,130,1931-1980,Slejška Dragoslav,9++Dům techniky ČSVTS Pardubice
+751,3,9,1931-1980,Dům techniky ČSVTS Pardubice,130++Slejška Dragoslav
+752,3,130,1931-1980,Slejška Dragoslav,16++Sociologický ústav ČSAV
+752,3,16,1931-1980,Sociologický ústav ČSAV,130++Slejška Dragoslav
+753,3,130,1931-1980,Slejška Dragoslav,24++Ústav pro výzkum veřejného mínění ČSAV
+753,3,24,1931-1980,Ústav pro výzkum veřejného mínění ČSAV,130++Slejška Dragoslav
+754,3,130,1931-1980,Slejška Dragoslav,31++Výzkumný ústav strojírenské technologie a ekonomiky
+754,3,31,1931-1980,Výzkumný ústav strojírenské technologie a ekonomiky,130++Slejška Dragoslav
+755,3,130,1931-1980,Slejška Dragoslav,64++Československá sociologická společnost při ČSAV
+755,3,64,1931-1980,Československá sociologická společnost při ČSAV,130++Slejška Dragoslav
+756,3,132,1931-1980,Solař Josef,26++Ústav sociálně politických věd UK
+756,3,26,1931-1980,Ústav sociálně politických věd UK,132++Solař Josef
+757,3,132,1931-1980,Solař Josef,41++Masarykova univerzita v Brně
+757,3,41,1931-1980,Masarykova univerzita v Brně,132++Solař Josef
+758,3,132,1931-1980,Solař Josef,64++Československá sociologická společnost při ČSAV
+758,3,64,1931-1980,Československá sociologická společnost při ČSAV,132++Solař Josef
+759,3,133,1931-1980,Soldát Alois,33++Biskupské semináře
+759,3,33,1931-1980,Biskupské semináře,133++Soldát Alois
+760,3,134,1931-1980,Sorokin Pitirim Alexandrovič,67++Sociologický kruh posluchačů vysokých škol pražských
+760,3,67,1931-1980,Sociologický kruh posluchačů vysokých škol pražských,134++Sorokin Pitirim Alexandrovič
+761,3,135,1931-1980,Srb Vladimír,62++Česká demografická společnost
+761,3,62,1931-1980,Česká demografická společnost,135++Srb Vladimír
+762,3,135,1931-1980,Srb Vladimír,72++Sociologická knižnice nakladatelství Svoboda
+762,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,135++Srb Vladimír
+763,3,136,1931-1980,Stark Werner,43++Německá univerzita v Praze
+763,3,43,1931-1980,Německá univerzita v Praze,136++Stark Werner
+764,3,137,1931-1980,Strmiska Zdeněk,16++Sociologický ústav ČSAV
+764,3,16,1931-1980,Sociologický ústav ČSAV,137++Strmiska Zdeněk
+765,3,137,1931-1980,Strmiska Zdeněk,26++Ústav sociálně politických věd UK
+765,3,26,1931-1980,Ústav sociálně politických věd UK,137++Strmiska Zdeněk
+766,3,137,1931-1980,Strmiska Zdeněk,64++Československá sociologická společnost při ČSAV
+766,3,64,1931-1980,Československá sociologická společnost při ČSAV,137++Strmiska Zdeněk
+767,3,137,1931-1980,Strmiska Zdeněk,71++Sociologická knihovna MSS
+767,3,71,1931-1980,Sociologická knihovna MSS,137++Strmiska Zdeněk
+768,3,138,1931-1980,Střítecký Jaroslav,41++Masarykova univerzita v Brně
+768,3,41,1931-1980,Masarykova univerzita v Brně,138++Střítecký Jaroslav
+769,3,139,1931-1980,Suda Zdeněk,64++Československá sociologická společnost při ČSAV
+769,3,64,1931-1980,Československá sociologická společnost při ČSAV,139++Suda Zdeněk
+770,3,141,1931-1980,Svoboda Ludvík,23++Ústav pro sociální a hospodářskou výchovu ČSS
+770,3,23,1931-1980,Ústav pro sociální a hospodářskou výchovu ČSS,141++Svoboda Ludvík
+771,3,141,1931-1980,Svoboda Ludvík,39++Karlova univerzita v Praze
+771,3,39,1931-1980,Karlova univerzita v Praze,141++Svoboda Ludvík
+772,3,141,1931-1980,Svoboda Ludvík,65++Masarykova sociologická společnost
+772,3,65,1931-1980,Masarykova sociologická společnost,141++Svoboda Ludvík
+773,3,142,1931-1980,Šapoval Mykyta,21++Ukrajinský sociologický ústav
+773,3,21,1931-1980,Ukrajinský sociologický ústav,142++Šapoval Mykyta
+774,3,142,1931-1980,Šapoval Mykyta,48++Ukrajinská svobodná univerzita v Praze
+774,3,48,1931-1980,Ukrajinská svobodná univerzita v Praze,142++Šapoval Mykyta
+775,3,143,1931-1980,Šiklová Jiřina,26++Ústav sociálně politických věd UK
+775,3,26,1931-1980,Ústav sociálně politických věd UK,143++Šiklová Jiřina
+776,3,143,1931-1980,Šiklová Jiřina,39++Karlova univerzita v Praze
+776,3,39,1931-1980,Karlova univerzita v Praze,143++Šiklová Jiřina
+777,3,144,1931-1980,Šíma Jaroslav,17++Sociologický ústav ČSS
+777,3,17,1931-1980,Sociologický ústav ČSS,144++Šíma Jaroslav
+778,3,144,1931-1980,Šíma Jaroslav,47++Svobodná škola politických nauk v Praze
+778,3,47,1931-1980,Svobodná škola politických nauk v Praze,144++Šíma Jaroslav
+779,3,144,1931-1980,Šíma Jaroslav,65++Masarykova sociologická společnost
+779,3,65,1931-1980,Masarykova sociologická společnost,144++Šíma Jaroslav
+780,3,145,1931-1980,Škrach Vasil Kaprálek,65++Masarykova sociologická společnost
+780,3,65,1931-1980,Masarykova sociologická společnost,145++Škrach Vasil Kaprálek
+781,3,145,1931-1980,Škrach Vasil Kaprálek,71++Sociologická knihovna MSS
+781,3,71,1931-1980,Sociologická knihovna MSS,145++Škrach Vasil Kaprálek
+782,3,146,1931-1980,Šmejkal Karel,65++Masarykova sociologická společnost
+782,3,65,1931-1980,Masarykova sociologická společnost,146++Šmejkal Karel
+783,3,146,1931-1980,Šmejkal Karel,71++Sociologická knihovna MSS
+783,3,71,1931-1980,Sociologická knihovna MSS,146++Šmejkal Karel
+784,3,148,1931-1980,Šrámek Jan,33++Biskupské semináře
+784,3,33,1931-1980,Biskupské semináře,148++Šrámek Jan
+785,3,150,1931-1980,Štefánek Anton,5++Československá akademie zemědělská
+785,3,5,1931-1980,Československá akademie zemědělská,150++Štefánek Anton
+786,3,150,1931-1980,Štefánek Anton,40++Komenského univerzita v Bratislavě
+786,3,40,1931-1980,Komenského univerzita v Bratislavě,150++Štefánek Anton
+787,3,150,1931-1980,Štefánek Anton,65++Masarykova sociologická společnost
+787,3,65,1931-1980,Masarykova sociologická společnost,150++Štefánek Anton
+788,3,151,1931-1980,Štern Evžen,20++Sociální ústav ČSR
+788,3,20,1931-1980,Sociální ústav ČSR,151++Štern Evžen
+789,3,152,1931-1980,Tauber Jan Bohumil,5++Československá akademie zemědělská
+789,3,5,1931-1980,Československá akademie zemědělská,152++Tauber Jan Bohumil
+790,3,152,1931-1980,Tauber Jan Bohumil,11++Institut sociologie venkova a historie zemědělství VÚZEI
+790,3,11,1931-1980,Institut sociologie venkova a historie zemědělství VÚZEI,152++Tauber Jan Bohumil
+791,3,152,1931-1980,Tauber Jan Bohumil,35++Česká zemědělská univerzita v Praze
+791,3,35,1931-1980,Česká zemědělská univerzita v Praze,152++Tauber Jan Bohumil
+792,3,152,1931-1980,Tauber Jan Bohumil,36++České vysoké učení technické v Praze
+792,3,36,1931-1980,České vysoké učení technické v Praze,152++Tauber Jan Bohumil
+793,3,152,1931-1980,Tauber Jan Bohumil,64++Československá sociologická společnost při ČSAV
+793,3,64,1931-1980,Československá sociologická společnost při ČSAV,152++Tauber Jan Bohumil
+794,3,154,1931-1980,Teltšík Rudolf,20++Sociální ústav ČSR
+794,3,20,1931-1980,Sociální ústav ČSR,154++Teltšík Rudolf
+795,3,155,1931-1980,Tlustý Vojtěch,26++Ústav sociálně politických věd UK
+795,3,26,1931-1980,Ústav sociálně politických věd UK,155++Tlustý Vojtěch
+796,3,155,1931-1980,Tlustý Vojtěch,39++Karlova univerzita v Praze
+796,3,39,1931-1980,Karlova univerzita v Praze,155++Tlustý Vojtěch
+797,3,155,1931-1980,Tlustý Vojtěch,64++Československá sociologická společnost při ČSAV
+797,3,64,1931-1980,Československá sociologická společnost při ČSAV,155++Tlustý Vojtěch
+798,3,156,1931-1980,Tomeš Igor,39++Karlova univerzita v Praze
+798,3,39,1931-1980,Karlova univerzita v Praze,156++Tomeš Igor
+799,3,156,1931-1980,Tomeš Igor,62++Česká demografická společnost
+799,3,62,1931-1980,Česká demografická společnost,156++Tomeš Igor
+800,3,157,1931-1980,Trapl Miloslav,41++Masarykova univerzita v Brně
+800,3,41,1931-1980,Masarykova univerzita v Brně,157++Trapl Miloslav
+801,3,157,1931-1980,Trapl Miloslav,45++Palackého univerzita v Olomouci
+801,3,45,1931-1980,Palackého univerzita v Olomouci,157++Trapl Miloslav
+802,3,159,1931-1980,Uhlíř Antonín,36++České vysoké učení technické v Praze
+802,3,36,1931-1980,České vysoké učení technické v Praze,159++Uhlíř Antonín
+803,3,159,1931-1980,Uhlíř Antonín,65++Masarykova sociologická společnost
+803,3,65,1931-1980,Masarykova sociologická společnost,159++Uhlíř Antonín
+804,3,160,1931-1980,Ullrich Zdeněk,14++Slezský ústav v Praze
+804,3,14,1931-1980,Slezský ústav v Praze,160++Ullrich Zdeněk
+805,3,160,1931-1980,Ullrich Zdeněk,19++Státní úřad statistický
+805,3,19,1931-1980,Státní úřad statistický,160++Ullrich Zdeněk
+806,3,160,1931-1980,Ullrich Zdeněk,28++Vojenský sociologický kruh
+806,3,28,1931-1980,Vojenský sociologický kruh,160++Ullrich Zdeněk
+807,3,160,1931-1980,Ullrich Zdeněk,39++Karlova univerzita v Praze
+807,3,39,1931-1980,Karlova univerzita v Praze,160++Ullrich Zdeněk
+808,3,160,1931-1980,Ullrich Zdeněk,56++Vysoká škola politická a sociální v Praze
+808,3,56,1931-1980,Vysoká škola politická a sociální v Praze,160++Ullrich Zdeněk
+809,3,160,1931-1980,Ullrich Zdeněk,65++Masarykova sociologická společnost
+809,3,65,1931-1980,Masarykova sociologická společnost,160++Ullrich Zdeněk
+810,3,160,1931-1980,Ullrich Zdeněk,68++Společnost pro sociální bádání
+810,3,68,1931-1980,Společnost pro sociální bádání,160++Ullrich Zdeněk
+811,3,160,1931-1980,Ullrich Zdeněk,70++Knihovna Sociálních problémů
+811,3,70,1931-1980,Knihovna Sociálních problémů,160++Ullrich Zdeněk
+812,3,160,1931-1980,Ullrich Zdeněk,71++Sociologická knihovna MSS
+812,3,71,1931-1980,Sociologická knihovna MSS,160++Ullrich Zdeněk
+813,3,161,1931-1980,Urbánek Eduard,39++Karlova univerzita v Praze
+813,3,39,1931-1980,Karlova univerzita v Praze,161++Urbánek Eduard
+814,3,161,1931-1980,Urbánek Eduard,64++Československá sociologická společnost při ČSAV
+814,3,64,1931-1980,Československá sociologická společnost při ČSAV,161++Urbánek Eduard
+815,3,162,1931-1980,Vacek Lubomír,56++Vysoká škola politická a sociální v Praze
+815,3,56,1931-1980,Vysoká škola politická a sociální v Praze,162++Vacek Lubomír
+816,3,162,1931-1980,Vacek Lubomír,64++Československá sociologická společnost při ČSAV
+816,3,64,1931-1980,Československá sociologická společnost při ČSAV,162++Vacek Lubomír
+817,3,162,1931-1980,Vacek Lubomír,72++Sociologická knižnice nakladatelství Svoboda
+817,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,162++Vacek Lubomír
+818,3,164,1931-1980,Vaněk Antonín,39++Karlova univerzita v Praze
+818,3,39,1931-1980,Karlova univerzita v Praze,164++Vaněk Antonín
+819,3,165,1931-1980,Vašek Bedřich,33++Biskupské semináře
+819,3,33,1931-1980,Biskupské semináře,165++Vašek Bedřich
+820,3,165,1931-1980,Vašek Bedřich,69++Spolek pro založení a vydržování soukromého institutu věd sociologických a filosofických
+820,3,69,1931-1980,Spolek pro založení a vydržování soukromého institutu věd sociologických a filosofických,165++Vašek Bedřich
+821,3,166,1931-1980,Večerník Jiří,22++Ústav pro filosofii a sociologii ČSAV
+821,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,166++Večerník Jiří
+822,3,166,1931-1980,Večerník Jiří,26++Ústav sociálně politických věd UK
+822,3,26,1931-1980,Ústav sociálně politických věd UK,166++Večerník Jiří
+823,3,166,1931-1980,Večerník Jiří,72++Sociologická knižnice nakladatelství Svoboda
+823,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,166++Večerník Jiří
+824,3,167,1931-1980,Verunáč Václav,23++Ústav pro sociální a hospodářskou výchovu ČSS
+824,3,23,1931-1980,Ústav pro sociální a hospodářskou výchovu ČSS,167++Verunáč Václav
+825,3,167,1931-1980,Verunáč Václav,36++České vysoké učení technické v Praze
+825,3,36,1931-1980,České vysoké učení technické v Praze,167++Verunáč Václav
+826,3,167,1931-1980,Verunáč Václav,47++Svobodná škola politických nauk v Praze
+826,3,47,1931-1980,Svobodná škola politických nauk v Praze,167++Verunáč Václav
+827,3,167,1931-1980,Verunáč Václav,65++Masarykova sociologická společnost
+827,3,65,1931-1980,Masarykova sociologická společnost,167++Verunáč Václav
+828,3,167,1931-1980,Verunáč Václav,68++Společnost pro sociální bádání
+828,3,68,1931-1980,Společnost pro sociální bádání,167++Verunáč Václav
+829,3,168,1931-1980,Voráček Josef,68++Společnost pro sociální bádání
+829,3,68,1931-1980,Společnost pro sociální bádání,168++Voráček Josef
+830,3,168,1931-1980,Voráček Josef,70++Knihovna Sociálních problémů
+830,3,70,1931-1980,Knihovna Sociálních problémů,168++Voráček Josef
+831,3,170,1931-1980,Weber Alfred,43++Německá univerzita v Praze
+831,3,43,1931-1980,Německá univerzita v Praze,170++Weber Alfred
+832,3,171,1931-1980,Weyr František,19++Státní úřad statistický
+832,3,19,1931-1980,Státní úřad statistický,171++Weyr František
+833,3,173,1931-1980,Winter Lev,20++Sociální ústav ČSR
+833,3,20,1931-1980,Sociální ústav ČSR,173++Winter Lev
+834,3,174,1931-1980,Ziegler Heinz Otto,43++Německá univerzita v Praze
+834,3,43,1931-1980,Německá univerzita v Praze,174++Ziegler Heinz Otto
+835,3,174,1931-1980,Ziegler Heinz Otto,70++Knihovna Sociálních problémů
+835,3,70,1931-1980,Knihovna Sociálních problémů,174++Ziegler Heinz Otto
+836,3,175,1931-1980,Zich František,57++Vysoká škola politická ÚV KSČ v Praze
+836,3,57,1931-1980,Vysoká škola politická ÚV KSČ v Praze,175++Zich František
+837,3,175,1931-1980,Zich František,64++Československá sociologická společnost při ČSAV
+837,3,64,1931-1980,Československá sociologická společnost při ČSAV,175++Zich František
+838,3,175,1931-1980,Zich František,72++Sociologická knižnice nakladatelství Svoboda
+838,3,72,1931-1980,Sociologická knižnice nakladatelství Svoboda,175++Zich František
+839,3,176,1931-1980,Zwicker Bruno,41++Masarykova univerzita v Brně
+839,3,41,1931-1980,Masarykova univerzita v Brně,176++Zwicker Bruno
+840,3,176,1931-1980,Zwicker Bruno,65++Masarykova sociologická společnost
+840,3,65,1931-1980,Masarykova sociologická společnost,176++Zwicker Bruno
+841,3,178,1931-1980,Žmavc Ivan,36++České vysoké učení technické v Praze
+841,3,36,1931-1980,České vysoké učení technické v Praze,178++Žmavc Ivan
+842,3,85,1931-1980,Machotka Otakar,1++Česká akademie věd a umění
+842,3,1,1931-1980,Česká akademie věd a umění,85++Machotka Otakar
+843,3,102,1931-1980,Nový Lubomír,4++Vědecké kolegium filosofie a sociologie ČSAV
+843,3,4,1931-1980,Vědecké kolegium filosofie a sociologie ČSAV,102++Nový Lubomír
+844,3,161,1931-1980,Urbánek Eduard,4++Vědecké kolegium filosofie a sociologie ČSAV
+844,3,4,1931-1980,Vědecké kolegium filosofie a sociologie ČSAV,161++Urbánek Eduard
+845,3,63,1931-1980,Kettner Josef,5++Československá akademie zemědělská
+845,3,5,1931-1980,Československá akademie zemědělská,63++Kettner Josef
+846,3,145,1931-1980,Škrach Vasil Kaprálek,12++Masarykova akademie práce
+846,3,12,1931-1980,Masarykova akademie práce,145++Škrach Vasil Kaprálek
+847,3,167,1931-1980,Verunáč Václav,12++Masarykova akademie práce
+847,3,12,1931-1980,Masarykova akademie práce,167++Verunáč Václav
+848,3,178,1931-1980,Žmavc Ivan,12++Masarykova akademie práce
+848,3,12,1931-1980,Masarykova akademie práce,178++Žmavc Ivan
+849,3,47,1931-1980,Charvát František,16++Sociologický ústav ČSAV
+849,3,16,1931-1980,Sociologický ústav ČSAV,47++Charvát František
+850,3,98,1931-1980,Musil Jiří,16++Sociologický ústav ČSAV
+850,3,16,1931-1980,Sociologický ústav ČSAV,98++Musil Jiří
+851,3,119,1931-1980,Richta Radovan,16++Sociologický ústav ČSAV
+851,3,16,1931-1980,Sociologický ústav ČSAV,119++Richta Radovan
+852,3,166,1931-1980,Večerník Jiří,16++Sociologický ústav ČSAV
+852,3,16,1931-1980,Sociologický ústav ČSAV,166++Večerník Jiří
+853,3,108,1931-1980,Petrusek Miloslav,18++Sportpropag
+853,3,18,1931-1980,Sportpropag,108++Petrusek Miloslav
+854,3,69,1931-1980,Korčák Jaromír,19++Státní úřad statistický
+854,3,19,1931-1980,Státní úřad statistický,69++Korčák Jaromír
+855,3,76,1931-1980,Kučera Milan,19++Státní úřad statistický
+855,3,19,1931-1980,Státní úřad statistický,76++Kučera Milan
+856,3,84,1931-1980,Machonin Pavel,19++Státní úřad statistický
+856,3,19,1931-1980,Státní úřad statistický,84++Machonin Pavel
+857,3,116,1931-1980,Reif Gustav,19++Státní úřad statistický
+857,3,19,1931-1980,Státní úřad statistický,116++Reif Gustav
+858,3,135,1931-1980,Srb Vladimír,19++Státní úřad statistický
+858,3,19,1931-1980,Státní úřad statistický,135++Srb Vladimír
+859,3,21,1931-1980,Fajfr František,20++Sociální ústav ČSR
+859,3,20,1931-1980,Sociální ústav ČSR,21++Fajfr František
+860,3,46,1931-1980,Chalupný Emanuel,20++Sociální ústav ČSR
+860,3,20,1931-1980,Sociální ústav ČSR,46++Chalupný Emanuel
+861,3,85,1931-1980,Machotka Otakar,20++Sociální ústav ČSR
+861,3,20,1931-1980,Sociální ústav ČSR,85++Machotka Otakar
+862,3,109,1931-1980,Pistorius Theodor,20++Sociální ústav ČSR
+862,3,20,1931-1980,Sociální ústav ČSR,109++Pistorius Theodor
+863,3,116,1931-1980,Reif Gustav,20++Sociální ústav ČSR
+863,3,20,1931-1980,Sociální ústav ČSR,116++Reif Gustav
+864,3,145,1931-1980,Škrach Vasil Kaprálek,20++Sociální ústav ČSR
+864,3,20,1931-1980,Sociální ústav ČSR,145++Škrach Vasil Kaprálek
+865,3,165,1931-1980,Vašek Bedřich,20++Sociální ústav ČSR
+865,3,20,1931-1980,Sociální ústav ČSR,165++Vašek Bedřich
+866,3,167,1931-1980,Verunáč Václav,20++Sociální ústav ČSR
+866,3,20,1931-1980,Sociální ústav ČSR,167++Verunáč Václav
+867,3,10,1931-1980,Brokl Lubomír,22++Ústav pro filosofii a sociologii ČSAV
+867,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,10++Brokl Lubomír
+868,3,25,1931-1980,Foret Miroslav,22++Ústav pro filosofii a sociologii ČSAV
+868,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,25++Foret Miroslav
+869,3,40,1931-1980,Havelka Miloš,22++Ústav pro filosofii a sociologii ČSAV
+869,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,40++Havelka Miloš
+870,3,62,1931-1980,Keller Jan,22++Ústav pro filosofii a sociologii ČSAV
+870,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,62++Keller Jan
+871,3,123,1931-1980,Řehák Jan,22++Ústav pro filosofii a sociologii ČSAV
+871,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,123++Řehák Jan
+872,3,155,1931-1980,Tlustý Vojtěch,22++Ústav pro filosofii a sociologii ČSAV
+872,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,155++Tlustý Vojtěch
+873,3,144,1931-1980,Šíma Jaroslav,23++Ústav pro sociální a hospodářskou výchovu ČSS
+873,3,23,1931-1980,Ústav pro sociální a hospodářskou výchovu ČSS,144++Šíma Jaroslav
+874,3,52,1931-1980,Jungmann Bohumil,24++Ústav pro výzkum veřejného mínění ČSAV
+874,3,24,1931-1980,Ústav pro výzkum veřejného mínění ČSAV,52++Jungmann Bohumil
+875,3,162,1931-1980,Vacek Lubomír,24++Ústav pro výzkum veřejného mínění ČSAV
+875,3,24,1931-1980,Ústav pro výzkum veřejného mínění ČSAV,162++Vacek Lubomír
+876,3,25,1931-1980,Foret Miroslav,25++Ústav pro výzkum veřejného mínění FSÚ
+876,3,25,1931-1980,Ústav pro výzkum veřejného mínění FSÚ,25++Foret Miroslav
+877,3,28,1931-1980,Frič Pavol,25++Ústav pro výzkum veřejného mínění FSÚ
+877,3,25,1931-1980,Ústav pro výzkum veřejného mínění FSÚ,28++Frič Pavol
+878,3,162,1931-1980,Vacek Lubomír,25++Ústav pro výzkum veřejného mínění FSÚ
+878,3,25,1931-1980,Ústav pro výzkum veřejného mínění FSÚ,162++Vacek Lubomír
+879,3,25,1931-1980,Foret Miroslav,27++Ústav vědeckého ateismu ČSAV
+879,3,27,1931-1980,Ústav vědeckého ateismu ČSAV,25++Foret Miroslav
+880,3,41,1931-1980,Hirner Alexander,30++Výzkumný ústav sociálního rozvoje a práce
+880,3,30,1931-1980,Výzkumný ústav sociálního rozvoje a práce,41++Hirner Alexander
+881,3,78,1931-1980,Lamser Václav,30++Výzkumný ústav sociálního rozvoje a práce
+881,3,30,1931-1980,Výzkumný ústav sociálního rozvoje a práce,78++Lamser Václav
+882,3,7,1931-1980,Blažek Bohuslav,32++Výzkumný ústav výstavby a architektury
+882,3,32,1931-1980,Výzkumný ústav výstavby a architektury,7++Blažek Bohuslav
+883,3,78,1931-1980,Lamser Václav,32++Výzkumný ústav výstavby a architektury
+883,3,32,1931-1980,Výzkumný ústav výstavby a architektury,78++Lamser Václav
+884,3,6,1931-1980,Bláha Inocenc Arnošt,33++Biskupské semináře
+884,3,33,1931-1980,Biskupské semináře,6++Bláha Inocenc Arnošt
+885,3,61,1931-1980,Kárníková Ludmila,62++Česká demografická společnost
+885,3,62,1931-1980,Česká demografická společnost,61++Kárníková Ludmila
+886,3,76,1931-1980,Kučera Milan,62++Česká demografická společnost
+886,3,62,1931-1980,Česká demografická společnost,76++Kučera Milan
+887,3,114,1931-1980,Rabušic Ladislav,62++Česká demografická společnost
+887,3,62,1931-1980,Česká demografická společnost,114++Rabušic Ladislav
+888,3,54,1931-1980,Kadlec Vladimír,64++Československá sociologická společnost při ČSAV
+888,3,64,1931-1980,Československá sociologická společnost při ČSAV,54++Kadlec Vladimír
+889,3,124,1931-1980,Sedláček Jan,64++Československá sociologická společnost při ČSAV
+889,3,64,1931-1980,Československá sociologická společnost při ČSAV,124++Sedláček Jan
+890,3,147,1931-1980,Šnobl Jaroslav,64++Československá sociologická společnost při ČSAV
+890,3,64,1931-1980,Československá sociologická společnost při ČSAV,147++Šnobl Jaroslav
+891,3,164,1931-1980,Vaněk Antonín,64++Československá sociologická společnost při ČSAV
+891,3,64,1931-1980,Československá sociologická společnost při ČSAV,164++Vaněk Antonín
+892,3,39,1931-1980,Hanáček Jaroslav,65++Masarykova sociologická společnost
+892,3,65,1931-1980,Masarykova sociologická společnost,39++Hanáček Jaroslav
+893,3,66,1931-1980,Kohn Jindřich,65++Masarykova sociologická společnost
+893,3,65,1931-1980,Masarykova sociologická společnost,66++Kohn Jindřich
+894,3,77,1931-1980,Kunte Ladislav,65++Masarykova sociologická společnost
+894,3,65,1931-1980,Masarykova sociologická společnost,77++Kunte Ladislav
+895,3,105,1931-1980,Ovesný Miroslav,65++Masarykova sociologická společnost
+895,3,65,1931-1980,Masarykova sociologická společnost,105++Ovesný Miroslav
+896,3,112,1931-1980,Potužil František,65++Masarykova sociologická společnost
+896,3,65,1931-1980,Masarykova sociologická společnost,112++Potužil František
+897,3,151,1931-1980,Štern Evžen,65++Masarykova sociologická společnost
+897,3,65,1931-1980,Masarykova sociologická společnost,151++Štern Evžen
+898,3,154,1931-1980,Teltšík Rudolf,65++Masarykova sociologická společnost
+898,3,65,1931-1980,Masarykova sociologická společnost,154++Teltšík Rudolf
+899,3,173,1931-1980,Winter Lev,65++Masarykova sociologická společnost
+899,3,65,1931-1980,Masarykova sociologická společnost,173++Winter Lev
+900,3,109,1931-1980,Pistorius Theodor,68++Společnost pro sociální bádání
+900,3,68,1931-1980,Společnost pro sociální bádání,109++Pistorius Theodor
+901,3,10,1931-1980,Historická demografie,10++Etnologický ústav AV ČR
+901,3,10,1931-1980,Etnologický ústav AV ČR,10++Historická demografie
+902,3,10,1931-1980,Historická demografie,39++Karlova univerzita v Praze
+902,3,39,1931-1980,Karlova univerzita v Praze,10++Historická demografie
+903,3,12,1931-1980,Kruh,67++Sociologický kruh posluchačů vysokých škol pražských
+903,3,67,1931-1980,Sociologický kruh posluchačů vysokých škol pražských,12++Kruh
+904,3,18,1931-1980,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,26++Ústav sociálně politických věd UK
+904,3,26,1931-1980,Ústav sociálně politických věd UK,18++Přehled vědecké a pedagogické práce kateder marxismu-leninismu
+905,3,19,1931-1980,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),41++Masarykova univerzita v Brně
+905,3,41,1931-1980,Masarykova univerzita v Brně,19++Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G)
+906,3,26,1931-1980,Sociální problémy,65++Masarykova sociologická společnost
+906,3,65,1931-1980,Masarykova sociologická společnost,26++Sociální problémy
+907,3,26,1931-1980,Sociální problémy,68++Společnost pro sociální bádání
+907,3,68,1931-1980,Společnost pro sociální bádání,26++Sociální problémy
+908,3,26,1931-1980,Sociální problémy,70++Knihovna Sociálních problémů
+908,3,70,1931-1980,Knihovna Sociálních problémů,26++Sociální problémy
+909,3,27,1931-1980,Sociální revue,20++Sociální ústav ČSR
+909,3,20,1931-1980,Sociální ústav ČSR,27++Sociální revue
+910,3,31,1931-1980,Sociologica,45++Palackého univerzita v Olomouci
+910,3,45,1931-1980,Palackého univerzita v Olomouci,31++Sociologica
+911,3,32,1931-1980,Sociologická revue,21++Ukrajinský sociologický ústav
+911,3,21,1931-1980,Ukrajinský sociologický ústav,32++Sociologická revue
+912,3,32,1931-1980,Sociologická revue,39++Karlova univerzita v Praze
+912,3,39,1931-1980,Karlova univerzita v Praze,32++Sociologická revue
+913,3,32,1931-1980,Sociologická revue,41++Masarykova univerzita v Brně
+913,3,41,1931-1980,Masarykova univerzita v Brně,32++Sociologická revue
+914,3,32,1931-1980,Sociologická revue,65++Masarykova sociologická společnost
+914,3,65,1931-1980,Masarykova sociologická společnost,32++Sociologická revue
+915,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,4++Vědecké kolegium filosofie a sociologie ČSAV
+915,3,4,1931-1980,Vědecké kolegium filosofie a sociologie ČSAV,34++Sociologický časopis / Czech Sociological Review
+916,3,34,1931-1980,Sociologický časopis / Czech Sociological Review,22++Ústav pro filosofii a sociologii ČSAV
+916,3,22,1931-1980,Ústav pro filosofii a sociologii ČSAV,34++Sociologický časopis / Czech Sociological Review
+917,3,36,1931-1980,Sociologie a historie zemědělství,11++Institut sociologie venkova a historie zemědělství VÚZEI
+917,3,11,1931-1980,Institut sociologie venkova a historie zemědělství VÚZEI,36++Sociologie a historie zemědělství
+918,3,37,1931-1980,Statistický obzor,19++Státní úřad statistický
+918,3,19,1931-1980,Státní úřad statistický,37++Statistický obzor
+919,3,38,1931-1980,Statistika,19++Státní úřad statistický
+919,3,19,1931-1980,Státní úřad statistický,38++Statistika
+920,3,40,1931-1980,Studia sociologica,39++Karlova univerzita v Praze
+920,3,39,1931-1980,Karlova univerzita v Praze,40++Studia sociologica
+921,3,41,1931-1980,Veřejné mínění,7++Československý ústav pro výzkum veřejného mínění
+921,3,7,1931-1980,Československý ústav pro výzkum veřejného mínění,41++Veřejné mínění
+922,3,42,1931-1980,Vědecké informace Ústavu marxismu-leninismu pro vysoké školy,26++Ústav sociálně politických věd UK
+922,3,26,1931-1980,Ústav sociálně politických věd UK,42++Vědecké informace Ústavu marxismu-leninismu pro vysoké školy
+923,3,43,1931-1980,Analýza (časopis),9++Dům techniky ČSVTS Pardubice
+923,3,9,1931-1980,Dům techniky ČSVTS Pardubice,43++Analýza (časopis)
+924,3,26,1931-1980,Sociální problémy,19++Státní úřad statistický
+924,3,19,1931-1980,Státní úřad statistický,26++Sociální problémy
+925,3,44,1931-1980,Demografie (časopis),19++Státní úřad statistický
+925,3,19,1931-1980,Státní úřad statistický,44++Demografie (časopis)
+926,3,36,1931-1980,Sociologie a historie zemědělství,35++Česká zemědělská univerzita v Praze
+926,3,35,1931-1980,Česká zemědělská univerzita v Praze,36++Sociologie a historie zemědělství
+927,3,27,1931-1980,Sociální revue,65++Masarykova sociologická společnost
+927,3,65,1931-1980,Masarykova sociologická společnost,27++Sociální revue

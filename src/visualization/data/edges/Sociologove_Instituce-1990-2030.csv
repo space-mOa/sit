@@ -1,0 +1,158 @@
+id,id1,id2,name1,name2,atr
+1,1,25,Adamec Čeněk,Ústav pro výzkum veřejného mínění FSÚ,1990-2030
+2,1,36,Adamec Čeněk,České vysoké učení technické v Praze,1990-2030
+3,1,64,Adamec Čeněk,Československá sociologická společnost při ČSAV,1990-2030
+4,2,30,Alan Josef,Výzkumný ústav sociálního rozvoje a práce,1990-2030
+5,2,39,Alan Josef,Karlova univerzita v Praze,1990-2030
+6,2,73,Alan Josef,Sociologické nakladatelství (SLON),1990-2030
+7,3,39,Árnason Johann Pál,Karlova univerzita v Praze,1990-2030
+8,10,15,Brokl Lubomír,Sociologický ústav AV ČR,1990-2030
+9,10,31,Brokl Lubomír,Výzkumný ústav strojírenské technologie a ekonomiky,1990-2030
+10,10,49,Brokl Lubomír,Univerzita Hradec Králové,1990-2030
+11,17,39,Disman Miroslav,Karlova univerzita v Praze,1990-2030
+12,17,64,Disman Miroslav,Československá sociologická společnost při ČSAV,1990-2030
+13,18,64,Dubská Irena,Československá sociologická společnost při ČSAV,1990-2030
+14,22,15,Filipcová Blanka,Sociologický ústav AV ČR,1990-2030
+15,22,22,Filipcová Blanka,Ústav pro filosofii a sociologii ČSAV,1990-2030
+16,22,39,Filipcová Blanka,Karlova univerzita v Praze,1990-2030
+17,22,64,Filipcová Blanka,Československá sociologická společnost při ČSAV,1990-2030
+18,23,22,Filipec Jindřich,Ústav pro filosofii a sociologii ČSAV,1990-2030
+19,23,39,Filipec Jindřich,Karlova univerzita v Praze,1990-2030
+20,23,64,Filipec Jindřich,Československá sociologická společnost při ČSAV,1990-2030
+21,25,42,Foret Miroslav,Mendelova univerzita v Brně,1990-2030
+22,25,62,Foret Miroslav,Česká demografická společnost,1990-2030
+23,28,39,Frič Pavol,Karlova univerzita v Praze,1990-2030
+24,30,22,Gabal Ivan,Ústav pro filosofii a sociologii ČSAV,1990-2030
+25,30,39,Gabal Ivan,Karlova univerzita v Praze,1990-2030
+26,34,68,Geist Bohumil,Společnost pro sociální bádání,1990-2030
+27,35,61,Gellner Ernest (Arnošt),Česká asociace pro sociální antropologii,1990-2030
+28,37,41,Hájek Mojmír,Masarykova univerzita v Brně,1990-2030
+29,38,39,Hampl Martin,Karlova univerzita v Praze,1990-2030
+30,40,39,Havelka Miloš,Karlova univerzita v Praze,1990-2030
+31,45,15,Huláková Marie,Sociologický ústav AV ČR,1990-2030
+32,45,22,Huláková Marie,Ústav pro filosofii a sociologii ČSAV,1990-2030
+33,45,64,Huláková Marie,Československá sociologická společnost při ČSAV,1990-2030
+34,47,4,Charvát František,Vědecké kolegium filosofie a sociologie ČSAV,1990-2030
+35,47,15,Charvát František,Sociologický ústav AV ČR,1990-2030
+36,47,22,Charvát František,Ústav pro filosofii a sociologii ČSAV,1990-2030
+37,47,64,Charvát František,Československá sociologická společnost při ČSAV,1990-2030
+38,48,15,Illner Michal,Sociologický ústav AV ČR,1990-2030
+39,48,22,Illner Michal,Ústav pro filosofii a sociologii ČSAV,1990-2030
+40,48,62,Illner Michal,Česká demografická společnost,1990-2030
+41,49,39,Jeřábek Hynek,Karlova univerzita v Praze,1990-2030
+42,49,53,Jeřábek Hynek,Vysoká škola CEVRO Institut v Praze,1990-2030
+43,49,60,Jeřábek Hynek,Západočeská univerzita v Plzni,1990-2030
+44,51,45,Jochmann Vladimír,Palackého univerzita v Olomouci,1990-2030
+45,52,25,Jungmann Bohumil,Ústav pro výzkum veřejného mínění FSÚ,1990-2030
+46,52,30,Jungmann Bohumil,Výzkumný ústav sociálního rozvoje a práce,1990-2030
+47,53,39,Kabele Jiří,Karlova univerzita v Praze,1990-2030
+48,55,57,Kadlecová Erika,Vysoká škola politická ÚV KSČ v Praze,1990-2030
+49,55,64,Kadlecová Erika,Československá sociologická společnost při ČSAV,1990-2030
+50,57,4,Kaláb Miloš,Vědecké kolegium filosofie a sociologie ČSAV,1990-2030
+51,57,64,Kaláb Miloš,Československá sociologická společnost při ČSAV,1990-2030
+52,60,39,Kapr Jaroslav,Karlova univerzita v Praze,1990-2030
+53,60,46,Kapr Jaroslav,Slezská univerzita v Opavě,1990-2030
+54,62,41,Keller Jan,Masarykova univerzita v Brně,1990-2030
+55,62,44,Keller Jan,Ostravská univerzita v Ostravě,1990-2030
+56,62,73,Keller Jan,Sociologické nakladatelství (SLON),1990-2030
+57,67,4,Kohout Jaroslav,Vědecké kolegium filosofie a sociologie ČSAV,1990-2030
+58,67,54,Kohout Jaroslav,Vysoká škola ekonomická v Praze,1990-2030
+59,67,64,Kohout Jaroslav,Československá sociologická společnost při ČSAV,1990-2030
+60,67,73,Kohout Jaroslav,Sociologické nakladatelství (SLON),1990-2030
+61,79,41,Librová Hana,Masarykova univerzita v Brně,1990-2030
+62,81,15,Linhart Jiří,Sociologický ústav AV ČR,1990-2030
+63,81,22,Linhart Jiří,Ústav pro filosofii a sociologii ČSAV,1990-2030
+64,81,64,Linhart Jiří,Československá sociologická společnost při ČSAV,1990-2030
+65,84,4,Machonin Pavel,Vědecké kolegium filosofie a sociologie ČSAV,1990-2030
+66,84,15,Machonin Pavel,Sociologický ústav AV ČR,1990-2030
+67,89,41,Mareš Petr,Masarykova univerzita v Brně,1990-2030
+68,93,2,Matějů Petr,Grantová agentura České republiky,1990-2030
+69,93,3,Matějů Petr,"Rada pro výzkum, vývoj a inovace",1990-2030
+70,93,15,Matějů Petr,Sociologický ústav AV ČR,1990-2030
+71,93,22,Matějů Petr,Ústav pro filosofii a sociologii ČSAV,1990-2030
+72,93,39,Matějů Petr,Karlova univerzita v Praze,1990-2030
+73,93,53,Matějů Petr,Vysoká škola CEVRO Institut v Praze,1990-2030
+74,93,55,Matějů Petr,Vysoká škola finanční a správní v Praze,1990-2030
+75,97,41,Možný Ivo,Masarykova univerzita v Brně,1990-2030
+76,97,73,Možný Ivo,Sociologické nakladatelství (SLON),1990-2030
+77,98,15,Musil Jiří,Sociologický ústav AV ČR,1990-2030
+78,98,32,Musil Jiří,Výzkumný ústav výstavby a architektury,1990-2030
+79,98,36,Musil Jiří,České vysoké učení technické v Praze,1990-2030
+80,98,62,Musil Jiří,Česká demografická společnost,1990-2030
+81,98,64,Musil Jiří,Československá sociologická společnost při ČSAV,1990-2030
+82,102,41,Nový Lubomír,Masarykova univerzita v Brně,1990-2030
+83,103,41,Obrdlík Antonín,Masarykova univerzita v Brně,1990-2030
+84,105,41,Ovesný Miroslav,Masarykova univerzita v Brně,1990-2030
+85,106,39,Pavlík Zdeněk,Karlova univerzita v Praze,1990-2030
+86,106,53,Pavlík Zdeněk,Vysoká škola CEVRO Institut v Praze,1990-2030
+87,106,62,Pavlík Zdeněk,Česká demografická společnost,1990-2030
+88,108,15,Petrusek Miloslav,Sociologický ústav AV ČR,1990-2030
+89,108,22,Petrusek Miloslav,Ústav pro filosofii a sociologii ČSAV,1990-2030
+90,108,39,Petrusek Miloslav,Karlova univerzita v Praze,1990-2030
+91,108,64,Petrusek Miloslav,Československá sociologická společnost při ČSAV,1990-2030
+92,108,73,Petrusek Miloslav,Sociologické nakladatelství (SLON),1990-2030
+93,111,3,Potůček Martin,"Rada pro výzkum, vývoj a inovace",1990-2030
+94,111,39,Potůček Martin,Karlova univerzita v Praze,1990-2030
+95,111,41,Potůček Martin,Masarykova univerzita v Brně,1990-2030
+96,114,41,Rabušic Ladislav,Masarykova univerzita v Brně,1990-2030
+97,121,15,Rychtaříková Jitka,Sociologický ústav AV ČR,1990-2030
+98,121,39,Rychtaříková Jitka,Karlova univerzita v Praze,1990-2030
+99,121,62,Rychtaříková Jitka,Česká demografická společnost,1990-2030
+100,123,39,Řehák Jan,Karlova univerzita v Praze,1990-2030
+101,123,64,Řehák Jan,Československá sociologická společnost při ČSAV,1990-2030
+102,125,9,Sedláček Oto,Dům techniky ČSVTS Pardubice,1990-2030
+103,125,29,Sedláček Oto,Výzkumný ústav práce a sociálních věcí,1990-2030
+104,125,39,Sedláček Oto,Karlova univerzita v Praze,1990-2030
+105,125,64,Sedláček Oto,Československá sociologická společnost při ČSAV,1990-2030
+106,126,27,Sekot Aleš,Ústav vědeckého ateismu ČSAV,1990-2030
+107,128,41,Sirovátka Tomáš,Masarykova univerzita v Brně,1990-2030
+108,130,9,Slejška Dragoslav,Dům techniky ČSVTS Pardubice,1990-2030
+109,130,31,Slejška Dragoslav,Výzkumný ústav strojírenské technologie a ekonomiky,1990-2030
+110,130,64,Slejška Dragoslav,Československá sociologická společnost při ČSAV,1990-2030
+111,132,41,Solař Josef,Masarykova univerzita v Brně,1990-2030
+112,132,64,Solař Josef,Československá sociologická společnost při ČSAV,1990-2030
+113,135,62,Srb Vladimír,Česká demografická společnost,1990-2030
+114,137,64,Strmiska Zdeněk,Československá sociologická společnost při ČSAV,1990-2030
+115,138,41,Střítecký Jaroslav,Masarykova univerzita v Brně,1990-2030
+116,139,46,Suda Zdeněk,Slezská univerzita v Opavě,1990-2030
+117,139,64,Suda Zdeněk,Československá sociologická společnost při ČSAV,1990-2030
+118,143,39,Šiklová Jiřina,Karlova univerzita v Praze,1990-2030
+119,156,39,Tomeš Igor,Karlova univerzita v Praze,1990-2030
+120,156,62,Tomeš Igor,Česká demografická společnost,1990-2030
+121,156,66,Tomeš Igor,Socioklub,1990-2030
+122,161,39,Urbánek Eduard,Karlova univerzita v Praze,1990-2030
+123,161,64,Urbánek Eduard,Československá sociologická společnost při ČSAV,1990-2030
+124,162,64,Vacek Lubomír,Československá sociologická společnost při ČSAV,1990-2030
+125,164,39,Vaněk Antonín,Karlova univerzita v Praze,1990-2030
+126,166,15,Večerník Jiří,Sociologický ústav AV ČR,1990-2030
+127,166,22,Večerník Jiří,Ústav pro filosofii a sociologii ČSAV,1990-2030
+128,175,15,Zich František,Sociologický ústav AV ČR,1990-2030
+129,175,50,Zich František,Univerzita J. E. Purkyně v Ústí nad Labem,1990-2030
+130,175,55,Zich František,Vysoká škola finanční a správní v Praze,1990-2030
+131,175,57,Zich František,Vysoká škola politická ÚV KSČ v Praze,1990-2030
+132,175,64,Zich František,Československá sociologická společnost při ČSAV,1990-2030
+133,114,3,Rabušic Ladislav,"Rada pro výzkum, vývoj a inovace",1990-2030
+134,102,4,Nový Lubomír,Vědecké kolegium filosofie a sociologie ČSAV,1990-2030
+135,161,4,Urbánek Eduard,Vědecké kolegium filosofie a sociologie ČSAV,1990-2030
+136,10,22,Brokl Lubomír,Ústav pro filosofii a sociologii ČSAV,1990-2030
+137,25,22,Foret Miroslav,Ústav pro filosofii a sociologii ČSAV,1990-2030
+138,40,22,Havelka Miloš,Ústav pro filosofii a sociologii ČSAV,1990-2030
+139,62,22,Keller Jan,Ústav pro filosofii a sociologii ČSAV,1990-2030
+140,123,22,Řehák Jan,Ústav pro filosofii a sociologii ČSAV,1990-2030
+141,25,25,Foret Miroslav,Ústav pro výzkum veřejného mínění FSÚ,1990-2030
+142,28,25,Frič Pavol,Ústav pro výzkum veřejného mínění FSÚ,1990-2030
+143,162,25,Vacek Lubomír,Ústav pro výzkum veřejného mínění FSÚ,1990-2030
+144,25,27,Foret Miroslav,Ústav vědeckého ateismu ČSAV,1990-2030
+145,128,29,Sirovátka Tomáš,Výzkumný ústav práce a sociálních věcí,1990-2030
+146,7,32,Blažek Bohuslav,Výzkumný ústav výstavby a architektury,1990-2030
+147,76,62,Kučera Milan,Česká demografická společnost,1990-2030
+148,114,62,Rabušic Ladislav,Česká demografická společnost,1990-2030
+149,49,63,Jeřábek Hynek,Česká sociologická společnost,1990-2030
+150,98,63,Musil Jiří,Česká sociologická společnost,1990-2030
+151,106,63,Pavlík Zdeněk,Česká sociologická společnost,1990-2030
+152,108,63,Petrusek Miloslav,Česká sociologická společnost,1990-2030
+153,114,63,Rabušic Ladislav,Česká sociologická společnost,1990-2030
+154,124,63,Sedláček Jan,Česká sociologická společnost,1990-2030
+155,139,63,Suda Zdeněk,Česká sociologická společnost,1990-2030
+156,124,64,Sedláček Jan,Československá sociologická společnost při ČSAV,1990-2030
+157,164,64,Vaněk Antonín,Československá sociologická společnost při ČSAV,1990-2030

@@ -6,6 +6,8 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"unicode"
+	"unicode/utf8"
 )
 
 // Node v síti, hodnoty v sobě zahrnují název a atributy
@@ -20,6 +22,13 @@ type Node struct {
 type Values struct {
 	line  []string // !!! line: ŘADA MUSÍ BÝT NÁSLEDUJÍCÍ: ID NÁZEV ATRIBUTY...
 	links []string
+	text  []byte
+}
+
+func (v *Values) printLinks() {
+	for _, l := range v.links {
+		fmt.Println(l)
+	}
 }
 
 func (n *Node) save(path string) {
@@ -46,17 +55,24 @@ func saveNodes(path string, nodes ...Node) {
 	}
 }
 
-func (n *Node) printNodes() {
-	fmt.Println(n.name)
+func (n *Node) printNodes(title string) {
+	fmt.Println("\n", n.name)
 	for _, v := range n.values {
-		fmt.Println("\nLINE:\n", v.line, "\nLINKS:")
-		for _, link := range v.links {
-			fmt.Println(" ", link)
+		if title == v.line[1] {
+			fmt.Println("\nLINE:\n", v.line, "\nLINKS:")
+			for _, link := range v.links {
+				fmt.Println(" ", link)
+			}
+		} else if title == "" {
+			fmt.Println("\nLINE:\n", v.line, "\nLINKS:")
+			for _, link := range v.links {
+				fmt.Println(" ", link)
+			}
 		}
 	}
 }
 
-func (n *Node) addNode(val []string, lin []string) {
+func (n *Node) addNode(val []string, lin []string, text []byte) {
 	var v Values
 	for _, i := range val {
 		v.line = append(v.line, i)
@@ -64,6 +80,7 @@ func (n *Node) addNode(val []string, lin []string) {
 	for _, i := range lin {
 		v.links = append(v.links, i)
 	}
+	v.text = text
 	n.values = append(n.values, v)
 }
 
@@ -110,8 +127,8 @@ func formatDataTime(timeNode string) (start, stop int) {
 
 func makeTimeRangeNodes(timeRanges [][]int, nodes []Node) (times Node) {
 	var index uint64 = 0
-	times.name = "timeRanges"
-	times.head = []string{"ID", "NAME"}
+	times.name = "Time"
+	times.head = []string{"id", "name"}
 	for _, timeRng := range timeRanges { // Pro time range např. 1950-1960
 		var links []string
 		for _, nodeKind := range nodes { // Pro každý typ uzlů např, časopisy, sociologové
@@ -133,7 +150,7 @@ func makeTimeRangeNodes(timeRanges [][]int, nodes []Node) (times Node) {
 			}
 		}
 		index++
-		times.addNode([]string{strconv.FormatUint(index, 10), strconv.Itoa(timeRng[0]) + "-" + strconv.Itoa(timeRng[1])}, removeDuplicates(links)) // removeDuplicates() protože některé uzly mají více časových období
+		times.addNode([]string{strconv.FormatUint(index, 10), strconv.Itoa(timeRng[0]) + "-" + strconv.Itoa(timeRng[1])}, removeDuplicates(links), []byte{}) // removeDuplicates() protože některé uzly mají více časových období
 	}
 	return times
 }
@@ -167,26 +184,37 @@ func (e *Edge) save(path string) {
 	// fmt.Printf("Edges \"%v\" saved to \"%v\"\n", e.name, path+e.name+".csv")
 }
 
-func makeTimeEdges(timeRange Node, edges []Edge) (edge Edge) {
-	var index uint64 = 0
-	edge.name = "timeRanges"
-	edge.appendEdge("ID", "ID1", "ID2", "NAME1", "NAME2", "ATR")
-	for _, values := range timeRange.values { // time range např. 1950-1980, 1940-1950
-		for _, edgeKind := range edges {
-			for _, line := range edgeKind.line { // abychom dostali pár uzelX - uzelY
-				firstNode := line[1] + "++" + line[3]  // "ID1++NAME1"
-				secondNode := line[2] + "++" + line[4] // "ID1++NAME2"
-				if isInLinks(&values.links, firstNode) && isInLinks(&values.links, secondNode) {
+func makeTimeEdgeEdgeAndSave(path string, timeRange Node, edges []Edge) {
+	fmt.Println("Edges length:", len(edges))
+	for _, e := range edges {
+		fmt.Println(e.name)
+		var index uint64 = 0
+		var edge1, edge2, edge3 Edge
+		edge1.appendEdge("id", "id1", "id2", "name1", "name2", "atr")
+		edge2.appendEdge("id", "id1", "id2", "name1", "name2", "atr")
+		edge3.appendEdge("id", "id1", "id2", "name1", "name2", "atr")
+		edge1.name = timeRange.name + "_" + strings.Split(e.name, "_")[0] + "-" + strings.Split(e.name, "_")[1] // TIME - UZEL 1 (uzel2)
+		edge2.name = timeRange.name + "_" + strings.Split(e.name, "_")[1] + "-" + strings.Split(e.name, "_")[0] // TIME - UZEL 2 (uzel1)
+		edge3.name = strings.Split(e.name, "_")[0] + "_" + strings.Split(e.name, "_")[1] + "-Time"              // UZEL1 - Uzel2 (time)
+		for _, line := range e.line {                                                                           // získej pár UZEL1 - UZEL2
+			firstNode := line[1] + "++" + line[3]  // UZEL1 "ID1++NAME1"
+			secondNode := line[2] + "++" + line[4] // UZEL2 "ID1++NAME2"
+			for _, time := range timeRange.values {
+				if isInLinks(&time.links, firstNode) && isInLinks(&time.links, secondNode) {
 					index++
-					edge.appendEdge(strconv.FormatUint(index, 10), values.line[0], line[1], values.line[1], line[3], secondNode)
-					edge.appendEdge(strconv.FormatUint(index, 10), values.line[0], line[2], values.line[1], line[4], firstNode)
+					edge1.appendEdge(strconv.FormatUint(index, 10), time.line[0], line[1], time.line[1], line[3], secondNode)
+					edge2.appendEdge(strconv.FormatUint(index, 10), time.line[0], line[2], time.line[1], line[4], firstNode)
+					edge3.appendEdge(strconv.FormatUint(index, 10), line[1], line[2], line[3], line[4], time.line[1])
 				}
 			}
 		}
+		edge1.save(path)
+		edge2.save(path)
+		edge3.save(path)
 	}
-	return edge
 }
 
+// je ID1++NAME1 v lincích pro období
 func isInLinks(links *[]string, against string) bool {
 	for _, link := range *links {
 		if link == against {
@@ -197,9 +225,11 @@ func isInLinks(links *[]string, against string) bool {
 }
 
 func makeEdges(nodes ...Node) (edges []Edge) {
+	fmt.Println("\nMakes edges with suplied nodes")
 	copyNodes := nodes[:]
 	for i, node := range nodes {
 		for _, copy := range copyNodes[i+1:] {
+			fmt.Printf("%v with %v\n", node.name, copy.name)
 			var e Edge
 			e.fromTwoNodes(node, copy, node.name+"_"+copy.name)
 			e.checkForDp()
@@ -233,17 +263,73 @@ func makeAndSaveEdges(path string, nodes ...Node) (allEdges []Edge) {
 	return allEdges
 }
 
+func compareStrings(s1, s2 string) bool {
+	fmt.Printf("%v %v\n", len(s1), len(s2))
+	fmt.Println("Is valid UTF-8:", utf8.ValidString(s1), utf8.ValidString(s2))
+	fmt.Printf("BEFORE: %#v : %#v AFTER: %#v : %#v\n% x\n% x\n", s1, s2, strings.ReplaceAll(strings.TrimSpace(strings.ToLower(s1)), " ", ""), strings.ReplaceAll(strings.TrimSpace(strings.ToLower(s2)), " ", ""), s1, s2)
+	for _, ch := range s2 {
+		fmt.Printf("%#U %v\n", []rune{ch}, unicode.IsSpace(ch))
+	}
+	return strings.TrimSpace(strings.ToLower(s1)) == strings.TrimSpace(strings.ToLower(s2))
+}
+
+func checkStrings(nodes ...Node) {
+	fmt.Println("\ncheckStrings()")
+	var wS []rune
+	for _, cat := range nodes {
+		for _, v := range cat.values {
+			wS = isValid(v.line[1], wS)
+			for _, l := range v.links {
+				wS = isValid(l, wS)
+			}
+		}
+	}
+	fmt.Printf("%#v", string(wS))
+}
+func isValid(s string, wS []rune) []rune {
+	for _, ch := range s {
+		if !(unicode.IsLetter(ch)) {
+			//fmt.Printf("%#U %v\n", []rune{ch}, unicode.IsLetter(ch))
+			var found bool
+			for _, w := range wS {
+				if w == ch {
+					found = true
+				}
+			}
+			if !(found) {
+				wS = append(wS, ch)
+				fmt.Println(s)
+			}
+		}
+	}
+	return wS
+}
+
 // fromTwoNodes bere dva uzly a vytvoří pro ně hrany na základě odkazů a názvů
 // názvy jsou totiž identické s první částí uvedenou v odkazech před znakem: |
 func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
 	e.name = edgeName
-	e.line = append(e.line, []string{"ID", "ID1", "ID2", "NAME1", "NAME2"})
+	e.line = append(e.line, []string{"id", "id1", "id2", "name1", "name2"})
+	var wS []rune
 	var index uint64 = 0
 	for _, n1V := range n1.values { // Vyber uzel z n1: Values
-		n1Title := n1V.line[1]          // Název pro n1
+		n1Title := n1V.line[1] // Název pro n1
+		if n1Title == "Karlova univerzita v Praze" {
+			fmt.Println("N1 TITLE:", n1V.line)
+		}
 		for _, n2V := range n2.values { // Vyber uzel z n2: Values
 			n2V.links = removeDuplicates(n2V.links) // Někdy jsou v článku uvedené stejné odkazy vícekrát, proto je odstraníme
-			for _, link := range n2V.links {        // Projdi všechny odkazy v uzlu
+			if n2V.line[1] == "Sedláček Jan" && n1Title == "Karlova univerzita v Praze" {
+				fmt.Println(n2V.line)
+				n2V.printLinks()
+				fmt.Println("-----")
+			}
+			for _, link := range n2V.links { // Projdi všechny odkazy v uzlu
+				if n2V.line[1] == "Sedláček Jan" && n1Title == "Karlova univerzita v Praze" {
+					fmt.Println("check title", n1Title, "in node", n2V.line[1], "\n", n1Title, "==", link, strings.ToLower(n1Title) == strings.ToLower(link), compareStrings(n1Title, link))
+					fmt.Println()
+				}
+				wS = isValid(link, wS)
 				if strings.ToLower(n1Title) == strings.ToLower(link) { // strings.ToLower je volaná, protože == rozlišuje mezi velkými a malými písmeny
 					if !(e.isThere(n1Title, n2V.line[1])) { // Zkontroluj zdali už tam není stejný záznam A B = A B nebo A B = B A
 						index++
@@ -253,22 +339,25 @@ func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
 			}
 		}
 	}
-	if n1.name != n2.name {
-		for _, n2V := range n2.values { // Vyber uzel z n2: Values
-			n2Title := n2V.line[1]          // Název pro n2
-			for _, n1V := range n1.values { // Vyber uzel z n1: Values
-				n1V.links = removeDuplicates(n1V.links) // Někdy jsou v článku uvedené stejné odkazy vícekrát, proto je odstraníme
-				for _, link := range n1V.links {        // Projdi všechny odkazy v uzlu
-					if strings.ToLower(n2Title) == strings.ToLower(link) { // strings.ToLower je volaná, protože == rozlišuje mezi velkými a malými písmeny
-						if !(e.isThere(n1V.line[1], n2Title)) { // Zkontroluj zdali už tam není stejný záznam A B = A B nebo A B = B A
-							index++
-							e.appendEdge(strconv.FormatUint(index, 10), n1V.line[0], n2V.line[0], n1V.line[1], n2V.line[1])
+	fmt.Printf("%#v", string(wS))
+	/*
+		if n1.name != n2.name {
+			for _, n2V := range n2.values { // Vyber uzel z n2: Values
+				n2Title := n2V.line[1]          // Název pro n2
+				for _, n1V := range n1.values { // Vyber uzel z n1: Values
+					n1V.links = removeDuplicates(n1V.links) // Někdy jsou v článku uvedené stejné odkazy vícekrát, proto je odstraníme
+					for _, link := range n1V.links {        // Projdi všechny odkazy v uzlu
+						if strings.ToLower(n2Title) == strings.ToLower(link) { // strings.ToLower je volaná, protože == rozlišuje mezi velkými a malými písmeny
+							if !(e.isThere(n1V.line[1], n2Title)) { // Zkontroluj zdali už tam není stejný záznam A B = A B nebo A B = B A
+								index++
+								e.appendEdge(strconv.FormatUint(index, 10), n1V.line[0], n2V.line[0], n1V.line[1], n2V.line[1])
+							}
 						}
 					}
 				}
 			}
 		}
-	}
+	*/
 }
 
 // Zkontroluje zdali už tam není stejný záznam A B = B A nebo A B = A B

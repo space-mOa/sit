@@ -1,0 +1,81 @@
+id,id1,id2,name1,name2,atr
+1,1,35,1969-1989,Sociologický obzor,2++Alan Josef
+2,1,33,1969-1989,Sociologické aktuality,10++Brokl Lubomír
+3,1,18,1969-1989,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,17++Disman Miroslav
+4,1,7,1969-1989,Filosofický časopis,18++Dubská Irena
+5,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,18++Dubská Irena
+6,1,44,1969-1989,Demografie (časopis),21++Fajfr František
+7,1,7,1969-1989,Filosofický časopis,22++Filipcová Blanka
+8,1,16,1969-1989,Nová mysl,22++Filipcová Blanka
+9,1,7,1969-1989,Filosofický časopis,23++Filipec Jindřich
+10,1,16,1969-1989,Nová mysl,23++Filipec Jindřich
+11,1,35,1969-1989,Sociologický obzor,30++Gabal Ivan
+12,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,40++Havelka Miloš
+13,1,33,1969-1989,Sociologické aktuality,48++Illner Michal
+14,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,48++Illner Michal
+15,1,18,1969-1989,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,52++Jungmann Bohumil
+16,1,16,1969-1989,Nová mysl,55++Kadlecová Erika
+17,1,7,1969-1989,Filosofický časopis,57++Kaláb Miloš
+18,1,33,1969-1989,Sociologické aktuality,60++Kapr Jaroslav
+19,1,33,1969-1989,Sociologické aktuality,62++Keller Jan
+20,1,16,1969-1989,Nová mysl,65++Klofáč Jaroslav
+21,1,18,1969-1989,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,78++Lamser Václav
+22,1,44,1969-1989,Demografie (časopis),78++Lamser Václav
+23,1,19,1969-1989,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),79++Librová Hana
+24,1,33,1969-1989,Sociologické aktuality,81++Linhart Jiří
+25,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,81++Linhart Jiří
+26,1,19,1969-1989,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),83++Macků Jan
+27,1,16,1969-1989,Nová mysl,84++Machonin Pavel
+28,1,18,1969-1989,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,84++Machonin Pavel
+29,1,19,1969-1989,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),97++Možný Ivo
+30,1,35,1969-1989,Sociologický obzor,97++Možný Ivo
+31,1,44,1969-1989,Demografie (časopis),97++Možný Ivo
+32,1,33,1969-1989,Sociologické aktuality,98++Musil Jiří
+33,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,98++Musil Jiří
+34,1,44,1969-1989,Demografie (časopis),98++Musil Jiří
+35,1,19,1969-1989,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),102++Nový Lubomír
+36,1,19,1969-1989,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),105++Ovesný Miroslav
+37,1,10,1969-1989,Historická demografie,106++Pavlík Zdeněk
+38,1,18,1969-1989,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,108++Petrusek Miloslav
+39,1,33,1969-1989,Sociologické aktuality,108++Petrusek Miloslav
+40,1,35,1969-1989,Sociologický obzor,108++Petrusek Miloslav
+41,1,40,1969-1989,Studia sociologica,108++Petrusek Miloslav
+42,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,125++Sedláček Oto
+43,1,40,1969-1989,Studia sociologica,125++Sedláček Oto
+44,1,43,1969-1989,Analýza (časopis),125++Sedláček Oto
+45,1,7,1969-1989,Filosofický časopis,126++Sekot Aleš
+46,1,7,1969-1989,Filosofický časopis,130++Slejška Dragoslav
+47,1,16,1969-1989,Nová mysl,130++Slejška Dragoslav
+48,1,19,1969-1989,Sborník prací Filosofické fakulty brněnské univerzity – Řada sociálněvědná (G),132++Solař Josef
+49,1,10,1969-1989,Historická demografie,135++Srb Vladimír
+50,1,44,1969-1989,Demografie (časopis),135++Srb Vladimír
+51,1,18,1969-1989,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,137++Strmiska Zdeněk
+52,1,16,1969-1989,Nová mysl,152++Tauber Jan Bohumil
+53,1,36,1969-1989,Sociologie a historie zemědělství,152++Tauber Jan Bohumil
+54,1,16,1969-1989,Nová mysl,155++Tlustý Vojtěch
+55,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,161++Urbánek Eduard
+56,1,40,1969-1989,Studia sociologica,161++Urbánek Eduard
+57,1,18,1969-1989,Přehled vědecké a pedagogické práce kateder marxismu-leninismu,166++Večerník Jiří
+58,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,166++Večerník Jiří
+59,1,44,1969-1989,Demografie (časopis),166++Večerník Jiří
+60,1,7,1969-1989,Filosofický časopis,40++Havelka Miloš
+61,1,7,1969-1989,Filosofický časopis,65++Klofáč Jaroslav
+62,1,7,1969-1989,Filosofický časopis,72++Král Josef
+63,1,31,1969-1989,Sociologica,157++Trapl Miloslav
+64,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,10++Brokl Lubomír
+65,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,22++Filipcová Blanka
+66,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,32++Gál Fedor
+67,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,33++Galla Karel
+68,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,52++Jungmann Bohumil
+69,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,57++Kaláb Miloš
+70,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,65++Klofáč Jaroslav
+71,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,78++Lamser Václav
+72,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,84++Machonin Pavel
+73,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,97++Možný Ivo
+74,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,108++Petrusek Miloslav
+75,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,110++Porket Josef Ludvík
+76,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,112++Potužil František
+77,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,119++Richta Radovan
+78,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,124++Sedláček Jan
+79,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,164++Vaněk Antonín
+80,1,34,1969-1989,Sociologický časopis / Czech Sociological Review,175++Zich František

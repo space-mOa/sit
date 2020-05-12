@@ -2,14 +2,15 @@ d3.csv("./data/nodes/Sociologove.csv").then(soc => {
     d3.csv("./data/nodes/Instituce.csv").then(ins => {
         d3.csv("./data/edges/Sociologove_Sociologove.csv").then(soc_soc => {
             d3.csv("./data/edges/Sociologove_Instituce.csv").then(soc_ins => {
-                d3.csv("./data/edges/Instituce_Instituce.csv").then(ins_ins => {                    
-                    console.log(makeYearsRange(toDates(soc, ["umrti", "narozeni"]),["narozeni", "umrti"], toDates([{start: "1800", end: "1900"}], ["start", "end"])))
-                    /*
-                    draw({
-                        nodes: giveIDs([soc, ins], ["sociolog", "instituce"]), 
-                        edges: makeEdges(giveIDs([soc, ins], ["sociolog", "instituce"]), [soc_ins,ins_ins])
+                d3.csv("./data/edges/Instituce_Instituce.csv").then(ins_ins => {   
+                    d3.csv("./data/nodes/Time.csv").then(time => {   
+                        d3.csv("./data/edges/Time_Instituce-Sociologove.csv").then(rangeTime => {  
+                            draw({
+                                nodes: giveIDs([ins, time], ["instituce", "cas"]),
+                                edges: makeEdges(giveIDs([ins, time], ["instituce", "cas"]), [rangeTime]),
+                            })
+                        }) 
                     })
-                    */
                 })
             })
         })
@@ -22,7 +23,7 @@ function draw(data) {
     let h = (innerHeight  * 3)
     let r = 35
     let simulation = d3.forceSimulation(data.nodes)
-        .force("charge", d3.forceManyBody().strength(-380))
+        .force("charge", d3.forceManyBody().strength(350))
         .force("colide", d3.forceCollide(r + 35))
         .force("link", d3.forceLink(data.edges).distance(350))
         .force("center", d3.forceCenter(w/2, h/2))
@@ -32,11 +33,16 @@ function draw(data) {
         .enter()
         .append("line")
             .style("stroke", d => {
-                if (d.edgeName === "instituce_instituce") {
+                if (d.source.name === "1800-1900") {
                     return colors(0)
-                } else {
+                } else if (d.source.name === "1901-1948") {
                     return colors(1)
+                } else if (d.source.name === "1949-1989") {
+                    return colors(2)
+                } else if (d.source.name === "1990-2030") {
+                    return colors(3)
                 }
+                return colors(4)
             })
             .style("stroke-width", 2)
     let gc = cvs.append("g").selectAll("nodes")
@@ -45,11 +51,22 @@ function draw(data) {
         .append("g").attr("class", "g.nodes")
     let nodes = gc.append("circle")
             .attr("r", r)
-            .style("fill", (d,i) => (d.nodeName === "sociolog") ? colors(1) : colors(0))
+            .style("fill", (d,i) => {
+                if (d.name === "1800-1900") {
+                    return colors(0)
+                } else if (d.name === "1901-1948") {
+                    return colors(1)
+                } else if (d.name === "1949-1989") {
+                    return colors(2)
+                } else if (d.name === "1990-2030") {
+                    return colors(3)
+                }
+                return colors(4)
+            })
     let labels = gc
             .append("text")
                 .text(d => d.name)
-                .attr("fill", d => (d.nodeName === "sociolog") ? "#022b09" : "#42310a")
+                .attr("fill", d => "black")
                 .attr("text-anchor", "middle")
                 .style("font", "8px")
                 .attr("x", 0)
@@ -71,41 +88,14 @@ function draw(data) {
     });
 }
 
-function makeEdgesTime(timeRanges, check1, time1, check2) {
-    timeRanges.forEach(r => {
-        check1.forEach(node1 => {
-            if (isInRange(node1[time[0]], node1[time[1]], r)) {
-                
-            }
-        })
-    })
-}
-
-// Parses string do Date objektu vrací nový array
-function toDates(obj, keys) {
-    return obj.map(p => {
-        keys.forEach(k => {
-            p[k] = new Date (p[k])
-        })
-        return p
-    })
-}
-
-function isInRange(start, end, range) {
-    if (start.getFullYear() >= range.start.getFullYear() && end.getFullYear() <= range.end.getFullYear()) {
-        return true
-    } else {
-        return false
-    }
-}
-
 function colors(i) {
-    let c = ["#47cde7", "#f97c8e"]
+    let c = ["#9f8578", "#6EA299", "#eea0f3", "#f1aaaa", "#8dc0ed"] 
     return c[i]
 }
 
 // Přiřadí nové ID pro uzly, které spojí dohromady 
 // + přiřadí jméno např. všechny UZLY reprezenrující časopisy budou mít atribut nodeName: časopisy
+// všechny uzly se spojí do jednoho uzlu
 function giveIDs(nodes, ids) {
     let newID = 0
     nodes.forEach((e, i) => {
@@ -132,7 +122,7 @@ function makeEdges(nodes, edges) {
 }
 
 // Vytvoří novou hranu 
-// !!! předpokládá u hran toto pořadí: ID, ID1, ID2, NÁZEV1, NÁZEV2 v hran -> ID: 1, NÁZEV1: 3, ID2: 2...
+// !!! předpokládá u hran toto pořadí: ID, ID1, ID2, NÁZEV1, NÁZEV2 v hran = ID: 1, NÁZEV1: 3, ID2: 2...
 function makeEdge(edge, nodes) {
     let start = lookUp(edge[Object.keys(edge)[1]], edge[Object.keys(edge)[3]], nodes) // start node
     let end = lookUp(edge[Object.keys(edge)[2]], edge[Object.keys(edge)[4]], nodes)   // end node
@@ -145,8 +135,8 @@ function makeEdge(edge, nodes) {
     }
 }
 
-// Vyhledá newID pro id a value uvedenou ve vztahu 
-// !!! předpokládá u uzlů toto pořadí: ID, NÁZEV, ATRIBUTY -> ID: 0, NÁZEV: 1, ATRIBUT1: 2...
+// Vyhledá newID pro id a value uvedenou ve vztahu uzelX - uzelY
+// !!! předpokládá u uzlů toto pořadí: ID: 0, NÁZEV: 1, ATRIBUT1: 2, ATRIBUT2: 3...
 function lookUp(id, value, nodes) {
     let newNode = nodes
         .filter(e => {

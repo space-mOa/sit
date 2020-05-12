@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+	"io/ioutil"
 	"regexp"
 	"strings"
+	"unicode"
 )
 
 func removeDuplicates(slice []string) (newSlice []string) {
@@ -95,11 +97,13 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	Sizc := data.getCategory("Sizc", []string{"ID", "NAME"}, `(\[\[Kategorie:SIZCSg.*\]\])`)
-	MalySgS := data.getCategory("MalySgS", []string{"ID", "NAME"}, `\[\[Kategorie:MSgS.*\]\]`)
-	VelkySgS := data.getCategory("VelkySgS", []string{"ID", "NAME"}, `\[\[Kategorie:VSgS.*\]\]`)
-	sociologists := data.getCategoryModify("Sociologove", []string{"ID", "NAME", "BORN", "DIED"}, `\[\[Kategorie:SCSg.*\]\]`, sociologists)
-	journals := data.getCategoryModify("Casopisy", []string{"ID", "NAME", "T1", "T2", "T3"}, `(\[\[Kategorie:SIZCSg.*\]\])`, func(page Page) []string {
+	sociologists := data.getCategoryModify("Sociologove", []string{"id", "name", "born", "died"}, `\[\[Kategorie:SCSg.*\]\]`, sociologists)
+	/*
+		Sizc := data.getCategory("Sizc", []string{"id", "name"}, `(\[\[Kategorie:SIZCSg.*\]\])`)
+		MalySgS := data.getCategory("MalySgS", []string{"id", "name"}, `\[\[Kategorie:MSgS.*\]\]`)
+		VelkySgS := data.getCategory("VelkySgS", []string{"ID", "NAME"}, `\[\[Kategorie:VSgS.*\]\]`)
+	*/
+	journals := data.getCategoryModify("Casopisy", []string{"id", "name", "t1", "t2", "t3"}, `(\[\[Kategorie:SIZCSg.*\]\])`, func(page Page) []string {
 		rgx := getRegexp(
 			`\[\[Kategorie:Vědecká a odborná periodika.*\]\]`,            // 0 Vyber Vědecká a odborná periodika
 			`\[\[Kategorie:Ostatní subjekty se vztahem k sociologii\]\]`, // 1 Vyber Ostatní subjekty se vztahem k sociologii pro vyhození
@@ -116,7 +120,8 @@ func main() {
 		}
 		return nil
 	})
-	institutions := data.getCategoryModify("Instituce", []string{"ID", "NAME", "T1", "T2", "T3"}, `\[\[Kategorie:SIZCSg.*\]\]`, func(page Page) []string {
+
+	institutions := data.getCategoryModify("Instituce", []string{"id", "name", "t1", "t2", "t3"}, `\[\[Kategorie:SIZCSg.*\]\]`, func(page Page) []string {
 		rgx := getRegexp(
 			`\[\[Kategorie:Vědecká a odborná periodika.*\]\]`, // 0 vybere Vědecká a odborná periodika)
 		)
@@ -130,15 +135,88 @@ func main() {
 		}
 		return nil
 	})
-	saveNodes("./data/nodes/", sociologists, MalySgS, Sizc, journals, institutions, VelkySgS)
-	makeAndSaveEdges("./data/edges/", sociologists, MalySgS, Sizc, journals, institutions, VelkySgS)
-	timeNodes := makeTimeRangeNodes([][]int{
-		{1800, 1900},
-		{1901, 1930},
-		{1931, 1980},
-	},
-		[]Node{sociologists, journals, institutions})
-	timeEdges := makeTimeEdges(timeNodes, makeEdges(sociologists, journals, institutions))
-	timeNodes.save("./data/nodes/")
-	timeEdges.save("./data/edges/")
+	/*
+		institutions.printNodes("Karlova univerzita v Praze")
+		sociologists.printNodes("Sedláček Jan")
+		/*
+		// makeEdges(institutions, sociologists)
+		// checkStrings(institutions, sociologists, VelkySgS, journals, MalySgS, Sizc)
+
+		saveNodes("./data/nodes/", sociologists, MalySgS, Sizc, journals, institutions)
+		makeAndSaveEdges("./data/edges/", sociologists, MalySgS, Sizc, journals, institutions)
+		timeNodes := makeTimeRangeNodes([][]int{
+			{1969, 1989},
+		},
+			[]Node{sociologists, journals, institutions})
+		timeNodes.save("./data/nodes/")
+		makeTimeEdgeEdgeAndSave("./data/edges/", timeNodes, makeEdges(sociologists, journals, institutions))
+		output([]Node{sociologists, institutions, VelkySgS})
+	*/
+	saveText(highlight(sociologists, []Node{sociologists, institutions, journals}), "out.txt")
+	//highlight(sociologists)
+}
+
+func highlight(node Node, col []Node) string {
+	var newText string
+	for _, val := range node.values {
+		txt := string(val.text)
+		for fndlinks(txt) != nil {
+			txt = insertSpan(txt, val.line[1], node.name, fndlinks(txt), col)
+		}
+		newText = newText + txt
+	}
+	return newText
+}
+
+func saveText(text, name string) {
+	err := ioutil.WriteFile(name, []byte(text), 0644)
+	if err != nil {
+		fmt.Println("\nERROR:", err)
+	}
+
+}
+
+func insertSpan(text, title, nodeType string, positions []int, col []Node) string {
+	// sta := ` <span style="color:red">`
+	end := `</span> `
+	trimed := trimLink(text[positions[0]:positions[1]], title)
+	newlink := colorizeSpan(trimed, col) + trimLink(text[positions[0]:positions[1]], title) + end
+	return text[:positions[0]] + newlink + text[positions[1]:]
+}
+
+func fndlinks(text string) []int {
+	rgx := getRegexp(
+		`\[\[[^]]*\]\]`,
+	)
+	return rgx[0].FindStringIndex(text)
+}
+
+func colorizeSpan(link string, nodes []Node) string {
+	for _, n := range nodes {
+		for _, v := range n.values {
+			if strings.ToLower(checkforWs(v.line[1])) == strings.ToLower(checkforWs(link)) {
+				switch n.name {
+				case "Sociologove":
+					return ` <span style="background-color: #66ccff">`
+				case "Instituce":
+					return ` <span style="background-color: #99ff33">`
+				case "Casopisy":
+					return ` <span style="background-color: #ff6699">`
+				}
+			}
+		}
+	}
+	return ` <span style="background-color: #ff9966">`
+}
+
+func checkforWs(link string) string {
+	var runes []rune
+	for _, r := range link {
+		if unicode.IsSpace(r) {
+			runes = append(runes, []rune(" ")[0])
+		} else {
+			runes = append(runes, r)
+		}
+	}
+	return string(runes)
 }

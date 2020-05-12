@@ -1,74 +1,74 @@
-ID,name
-1,Česká akademie věd a umění
-2,Grantová agentura České republiky
-3,"Rada pro výzkum, vývoj a inovace"
-4,Vědecké kolegium filosofie a sociologie ČSAV
-5,Československá akademie zemědělská
-6,Československý ústav zahraniční
-7,Československý ústav pro výzkum veřejného mínění
-8,Československý ústav práce
-9,Dům techniky ČSVTS Pardubice
-10,Etnologický ústav AV ČR
-11,Institut sociologie venkova a historie zemědělství VÚZEI
-12,Masarykova akademie práce
-13,Slezský studijní ústav v Opavě
-14,Slezský ústav v Praze
-15,Sociologický ústav AV ČR
-16,Sociologický ústav ČSAV
-17,Sociologický ústav ČSS
-18,Sportpropag
-19,Státní úřad statistický
-20,Sociální ústav ČSR
-21,Ukrajinský sociologický ústav
-22,Ústav pro filosofii a sociologii ČSAV
-23,Ústav pro sociální a hospodářskou výchovu ČSS
-24,Ústav pro výzkum veřejného mínění ČSAV
-25,Ústav pro výzkum veřejného mínění FSÚ
-26,Ústav sociálně politických věd UK
-27,Ústav vědeckého ateismu ČSAV
-28,Vojenský sociologický kruh
-29,Výzkumný ústav práce a sociálních věcí
-30,Výzkumný ústav sociálního rozvoje a práce
-31,Výzkumný ústav strojírenské technologie a ekonomiky
-32,Výzkumný ústav výstavby a architektury
-33,Biskupské semináře
-34,Česká technická vysoká škola v Brně
-35,Česká zemědělská univerzita v Praze
-36,České vysoké učení technické v Praze
-37,Husova československá evangelická teologická fakulta v Praze
-38,Jihočeská univerzita v Českých Budějovicích
-39,Karlova univerzita v Praze
-40,Komenského univerzita v Bratislavě
-41,Masarykova univerzita v Brně
-42,Mendelova univerzita v Brně
-43,Německá univerzita v Praze
-44,Ostravská univerzita v Ostravě
-45,Palackého univerzita v Olomouci
-46,Slezská univerzita v Opavě
-47,Svobodná škola politických nauk v Praze
-48,Ukrajinská svobodná univerzita v Praze
-49,Univerzita Hradec Králové
-50,Univerzita J. E. Purkyně v Ústí nad Labem
-51,Univerzita Pardubice
-52,Vojenská politická akademie Klementa Gottwalda v Praze
-53,Vysoká škola CEVRO Institut v Praze
-54,Vysoká škola ekonomická v Praze
-55,Vysoká škola finanční a správní v Praze
-56,Vysoká škola politická a sociální v Praze
-57,Vysoká škola politická ÚV KSČ v Praze
-58,Vysoká škola sociální v Brně
-59,Vysoká škola strojní a elektrotechnická v Plzni
-60,Západočeská univerzita v Plzni
-61,Česká asociace pro sociální antropologii
-62,Česká demografická společnost
-63,Česká sociologická společnost
-64,Československá sociologická společnost při ČSAV
-65,Masarykova sociologická společnost
-66,Socioklub
-67,Sociologický kruh posluchačů vysokých škol pražských
-68,Společnost pro sociální bádání
-69,Spolek pro založení a vydržování soukromého institutu věd sociologických a filosofických
-70,Knihovna Sociálních problémů
-71,Sociologická knihovna MSS
-72,Sociologická knižnice nakladatelství Svoboda
-73,Sociologické nakladatelství (SLON)
+id,name,t1,t2,t3
+1,Česká akademie věd a umění,1891–1952
+2,Grantová agentura České republiky,1993–
+3,"Rada pro výzkum, vývoj a inovace",1993–
+4,Vědecké kolegium filosofie a sociologie ČSAV,1962–1992
+5,Československá akademie zemědělská,1924–1952
+6,Československý ústav zahraniční,1928–1941
+7,Československý ústav pro výzkum veřejného mínění,1946–1950
+8,Československý ústav práce,1947–1952
+9,Dům techniky ČSVTS Pardubice,1970–1990
+10,Etnologický ústav AV ČR,1952–
+11,Institut sociologie venkova a historie zemědělství VÚZEI,1965–1970
+12,Masarykova akademie práce,1920–1952
+13,Slezský studijní ústav v Opavě,1947–1993
+14,Slezský ústav v Praze,1906–1957
+15,Sociologický ústav AV ČR,1990–
+16,Sociologický ústav ČSAV,1965–1970
+17,Sociologický ústav ČSS,1941–1946
+18,Sportpropag,1973–1984
+19,Státní úřad statistický,1919–1961
+20,Sociální ústav ČSR,1919–1941
+21,Ukrajinský sociologický ústav,1924–1932
+22,Ústav pro filosofii a sociologii ČSAV,1970–1990
+23,Ústav pro sociální a hospodářskou výchovu ČSS,1941–1946
+24,Ústav pro výzkum veřejného mínění ČSAV,1967–1972
+25,Ústav pro výzkum veřejného mínění FSÚ,1972–2000
+26,Ústav sociálně politických věd UK,1957–1969
+27,Ústav vědeckého ateismu ČSAV,1969–1993
+28,Vojenský sociologický kruh,1934–1939
+29,Výzkumný ústav práce a sociálních věcí,1992–
+30,Výzkumný ústav sociálního rozvoje a práce,1964–1992
+31,Výzkumný ústav strojírenské technologie a ekonomiky,1965–1992
+32,Výzkumný ústav výstavby a architektury,1951–1994
+33,Biskupské semináře,1898–1950
+34,Česká technická vysoká škola v Brně,1919–1920
+35,Česká zemědělská univerzita v Praze,1965–1970,1990–
+36,České vysoké učení technické v Praze,1914–1915,1922–49,1965–1969,1976–
+37,Husova československá evangelická teologická fakulta v Praze,1936–1950
+38,Jihočeská univerzita v Českých Budějovicích,1991–
+39,Karlova univerzita v Praze,1884–1949,1965–
+40,Komenského univerzita v Bratislavě,1923–1949
+41,Masarykova univerzita v Brně,1921–1949,1965–
+42,Mendelova univerzita v Brně,1935–1951,1963–1970,1990–
+43,Německá univerzita v Praze,1929–1931,1934–1938
+44,Ostravská univerzita v Ostravě,1995–
+45,Palackého univerzita v Olomouci,1946–1949,1968–1969,1971–
+46,Slezská univerzita v Opavě,1994–
+47,Svobodná škola politických nauk v Praze,1928–1939
+48,Ukrajinská svobodná univerzita v Praze,1921–1932
+49,Univerzita Hradec Králové,2008–
+50,Univerzita J. E. Purkyně v Ústí nad Labem,1991–
+51,Univerzita Pardubice,2003–2010
+52,Vojenská politická akademie Klementa Gottwalda v Praze,1966–1969
+53,Vysoká škola CEVRO Institut v Praze,2011
+54,Vysoká škola ekonomická v Praze,1963–
+55,Vysoká škola finanční a správní v Praze,2011–2015
+56,Vysoká škola politická a sociální v Praze,1946–1949
+57,Vysoká škola politická ÚV KSČ v Praze,1965–1990
+58,Vysoká škola sociální v Brně,1947–1949
+59,Vysoká škola strojní a elektrotechnická v Plzni,1966–1991
+60,Západočeská univerzita v Plzni,2006–
+61,Česká asociace pro sociální antropologii,2008–
+62,Česká demografická společnost,1964–
+63,Česká sociologická společnost,1993–
+64,Československá sociologická společnost při ČSAV,1964–1992
+65,Masarykova sociologická společnost,1925–1950
+66,Socioklub,1995–2002
+67,Sociologický kruh posluchačů vysokých škol pražských,1946–1950
+68,Společnost pro sociální bádání,1937–1980,1990–2003
+69,Spolek pro založení a vydržování soukromého institutu věd sociologických a filosofických,1937–1952
+70,Knihovna Sociálních problémů,1934–1938
+71,Sociologická knihovna MSS,1927–1937,1946–1948
+72,Sociologická knižnice nakladatelství Svoboda,1965–1989
+73,Sociologické nakladatelství (SLON),1991–
