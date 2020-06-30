@@ -7,8 +7,9 @@ d3.csv("./data/nodes/Sociologove.csv").then(soc => {
                         d3.csv("./data/edges/Casopisy_Casopisy.csv").then(cas_cas => {
                             d3.csv("./data/edges/Instituce_Instituce.csv").then(ins_ins => {
                                 d3.csv("./data/edges/Sociologove_Sociologove.csv").then(soc_soc => {
+                                    console.log(ins)
                                     draw({
-                                        nodes: giveYs(giveIDs([soc, ins, cas], ["sociolog", "instituce", "casopis"]), ["sociolog", "sociolog", "sociolog", "instituce", "casopis"]),
+                                        nodes: giveYs(giveIDs([soc, ins, cas], ["sociolog", "instituce", "casopis"]), ["sociolog", "sociolog", "sociolog", "sociolog", "sociolog", "instituce", "casopis"]),
                                         edges: makeEdges(
                                             giveIDs([soc, ins, cas], ["sociolog", "instituce", "casopis"]), 
                                             [soc_cas, soc_ins, cas_ins, cas_cas, ins_ins, soc_soc]),
@@ -24,17 +25,73 @@ d3.csv("./data/nodes/Sociologove.csv").then(soc => {
 })
 
 
-// use rectangles
+// Potřeba opravit: čvut - chybí, čtvrtý čas; opravit data končící např. -46
+// Rozdělit časovou aktivitu - na nečinost v sociologii dle skeče
+// Opravit 2030
+
+// upravit na to uzly na line tak, aby šli po sobě časově a zároveň uzly vedle sebe by měli co nejvíce vztahů, rozdělit do období např. ?
+
 
 function draw(data) {
-    let w = (innerWidth * 6)
-    let h = (innerHeight  * 6)
+    let w = (innerWidth * 2)
+    let h = (innerHeight  * 50)
+    let rH = 70
     let cvs = setCanvas(w,h)
-    console.log(data, h)
+    console.log(data)
     let tS = d3.scaleTime()
-        .domain([new Date(1780, 0, 1), new Date(2820, 0, 1)])
-        .range(0, h - 50)
+        .domain([new Date("1781"), new Date("2030")])
+        .range([80, w])
+        .nice()
+    let xA = d3.axisBottom()
+        .scale(tS)
+    cvs.append("g")
+        .attr("class", "xAxis")
+        .call(xA);
+        // .attr("transform", `translate( ${0}, ${h-180})`)
     
+    cvs.append("g").selectAll("links")
+    .data(data.edges)
+    .enter()
+    .append("line")
+        .attr("x1", d => tS(getNode(data.nodes, d.startName, "name")[0].t1s))
+        .attr("y1", d => getNode(data.nodes, d.startName, "name")[0].y)
+        .attr("x2", d => tS(highestTimeForANode(getNode(data.nodes, d.endName, "name")[0])))
+        .attr("y2", d => getNode(data.nodes, d.endName, "name")[0].y)
+        .style("stroke",  d => { if (d.startName === "Masaryk Tomáš Garrigue" || d.endName === "Masaryk Tomáš Garrigue") {return "black"} else {return"#FF70A6"}})
+        .style("stroke-width", 2)   
+    
+    let grl = cvs.append("g").selectAll("rectangles")
+        .data(data.nodes)
+        .enter()
+        .append("g").attr("class", "g.rectangles");
+
+    grl.append("rect")
+        .attr("x", d => rectangle(tS(d.t1s), d.y, tS(highestTimeForANode(d)), rH).x)
+        .attr("y", d => rectangle(tS(d.t1s), d.y, tS(highestTimeForANode(d)), rH).y)
+        .attr("width", d => rectangle(tS(d.t1s), d.y, tS(highestTimeForANode(d)), rH).width)
+        .attr("height", d=> rectangle(tS(d.t1s), d.y, tS(highestTimeForANode(d)), rH).height)
+        .attr("fill", d => colors(d.nodeName))
+        /*
+            .attr("stroke", "red")
+            .attr("stroke-width", 5)
+        */
+    grl.append("text")
+        .text(d => d.name)
+        .attr("fill", "white")
+        .attr("text-anchor", "left")
+        .style("font", "15px")
+        .attr("x", d => rectangle(tS(d.t1s), d.y, tS(d.t1e), rH).x + 10)
+        .attr("y", d => rectangle(tS(d.t1s), d.y, tS(d.t1e), rH).y + 40)
+        
+    console.log(rectangle(50, 20, 150, 40), getNode(data.nodes, data.edges[0].startName, "name"))
+}
+
+function getNode(nodes, value, key) {
+    let node = nodes.filter(n => value === n[key])
+    if (node.length > 1 ) { 
+        console.log("ERROR, fn getNode()")
+    } 
+    return node
 }
 
 // Přiřadí nové ID pro uzly, které spojí dohromady 
@@ -126,6 +183,12 @@ function dates(node, nodeName) {
         case "sociolog":
             node.t1s = parseTime(node.born)
             node.t1e = parseTime(node.died)
+            if (node.t1e.getTime() === new Date ("0000").getTime()) {
+                ny = node.t1s.getFullYear() + 2
+                // console.log(node.name, node.t1s.getFullYear(), "died:",node.t1e.getFullYear(), "| 0 means unkown death, date of death is set to born + 2 years:", new Date(ny.toString(10)).getFullYear(), new Date(ny.toString(10)))
+                node.t1e = new Date(ny.toString(10))
+                console.log("for", node.name, "0000 ->", node.t1e.getFullYear())
+            }
             node.t2 = ""
             node.t3 = ""
             return node
@@ -174,22 +237,15 @@ function checkLengthAndParse(strings) {
     }
 }
 
-/* 
-<svg width="800" height="400">
-  <rect x="50" y="20" width="150" height="150" style="fill:blue;opacity:0.5" />
-  <path d = "M50 180 L200 180 Z" style = "stroke:pink; stroke-width:5" />
-</svg>
-*/
-
 function giveYs(nodes, nodeNames) {
-    let [y, p, newNs] = [40, 40, []]
+    let [y, p, newNs] = [40, 180, []]
     while (true) {
         nodeNames.forEach(name => {
-            y = y + p
             let named = nodes
                 .filter(n => n.nodeName === name)
                 .filter(n => !(newNs.includes(n)))
             if (named.length != 0) {
+                y = y + p
                 newNs.push(findLine(named, y))
                 newNs = newNs.flat()
             }
@@ -260,8 +316,42 @@ function findLowestBasedOnPrevious(nodes, previousMin) {
 }
 
 function highestTimeForANode(node) {
+    if (node.t1e.getTime() === new Date ("0000").getTime()) { 
+        console.log(node.name, "has time of death: 0000")
+    }
     if (node.t1s === undefined) { console.log("ERROR, node nemá přidělený čas fn highestTimeForNode().", node) }
     if (node.t3 !== "") { return node.t3e }
     if (node.t2 !== "") { return node.t2e }
     return node.t1e
+}
+
+/* 
+<svg width="800" height="400">
+  <rect x="50" y="20" width="150" height="150" style="fill:blue;opacity:0.5" />
+  <path d = "M50 180 L200 180 Z" style = "stroke:pink; stroke-width:5" />
+</svg>
+    width = x1 - x2
+*/
+
+function rectangle(x1, y, x2, height) {
+    return {
+        x: x1, 
+        y: y, 
+        width: x2 - x1, 
+        height: height, 
+    }
+}
+
+function colors(nodeName) {
+    switch (nodeName) {
+        case "sociolog":
+            return "#5C5D8D"    
+        case "instituce":
+            return "#654F6F"
+        case "casopis":
+            return "#0FA3B1"
+        default:
+            console.log(`Some node does not have correct nodeName, ${nodeName}`)
+            return "red"
+    }
 }
