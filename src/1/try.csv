@@ -1,0 +1,575 @@
+id,id1,id2,name1,name2
+1,1,19,Česká akademie věd a umění,Durdík Josef
+2,1,72,Česká akademie věd a umění,Král Josef
+3,1,85,Česká akademie věd a umění,Machotka Otakar
+4,2,93,Grantová agentura České republiky,Matějů Petr
+5,3,93,"Rada pro výzkum, vývoj a inovace",Matějů Petr
+6,3,111,"Rada pro výzkum, vývoj a inovace",Potůček Martin
+7,3,114,"Rada pro výzkum, vývoj a inovace",Rabušic Ladislav
+8,4,57,Vědecké kolegium filosofie a sociologie ČSAV,Kaláb Miloš
+9,4,65,Vědecké kolegium filosofie a sociologie ČSAV,Klofáč Jaroslav
+10,4,84,Vědecké kolegium filosofie a sociologie ČSAV,Machonin Pavel
+11,4,102,Vědecké kolegium filosofie a sociologie ČSAV,Nový Lubomír
+12,4,161,Vědecké kolegium filosofie a sociologie ČSAV,Urbánek Eduard
+13,5,6,Československá akademie zemědělská,Bláha Inocenc Arnošt
+14,5,15,Československá akademie zemědělská,Čep Tomáš
+15,5,33,Československá akademie zemědělská,Galla Karel
+16,5,46,Československá akademie zemědělská,Chalupný Emanuel
+17,5,63,Československá akademie zemědělská,Kettner Josef
+18,5,117,Československá akademie zemědělská,Reich Edvard
+19,6,4,Československý ústav zahraniční,Auerhan Jan
+20,7,1,Československý ústav pro výzkum veřejného mínění,Adamec Čeněk
+21,9,125,Dům techniky ČSVTS Pardubice,Sedláček Oto
+22,9,130,Dům techniky ČSVTS Pardubice,Slejška Dragoslav
+23,10,54,Etnologický ústav AV ČR,Kadlec Vladimír
+24,11,152,Institut sociologie venkova a historie zemědělství VÚZEI,Tauber Jan Bohumil
+25,12,145,Masarykova akademie práce,Škrach Vasil Kaprálek
+26,12,167,Masarykova akademie práce,Verunáč Václav
+27,12,178,Masarykova akademie práce,Žmavc Ivan
+28,15,10,Sociologický ústav AV ČR,Brokl Lubomír
+29,15,40,Sociologický ústav AV ČR,Havelka Miloš
+30,15,48,Sociologický ústav AV ČR,Illner Michal
+31,15,57,Sociologický ústav AV ČR,Kaláb Miloš
+32,15,76,Sociologický ústav AV ČR,Kučera Milan
+33,15,81,Sociologický ústav AV ČR,Linhart Jiří
+34,15,84,Sociologický ústav AV ČR,Machonin Pavel
+35,15,93,Sociologický ústav AV ČR,Matějů Petr
+36,15,130,Sociologický ústav AV ČR,Slejška Dragoslav
+37,15,149,Sociologický ústav AV ČR,Šrubař Ilja
+38,15,166,Sociologický ústav AV ČR,Večerník Jiří
+39,15,175,Sociologický ústav AV ČR,Zich František
+40,16,10,Sociologický ústav ČSAV,Brokl Lubomír
+41,16,22,Sociologický ústav ČSAV,Filipcová Blanka
+42,16,45,Sociologický ústav ČSAV,Huláková Marie
+43,16,47,Sociologický ústav ČSAV,Charvát František
+44,16,48,Sociologický ústav ČSAV,Illner Michal
+45,16,50,Sociologický ústav ČSAV,Jodl Miroslav
+46,16,55,Sociologický ústav ČSAV,Kadlecová Erika
+47,16,57,Sociologický ústav ČSAV,Kaláb Miloš
+48,16,98,Sociologický ústav ČSAV,Musil Jiří
+49,16,119,Sociologický ústav ČSAV,Richta Radovan
+50,16,125,Sociologický ústav ČSAV,Sedláček Oto
+51,16,130,Sociologický ústav ČSAV,Slejška Dragoslav
+52,16,137,Sociologický ústav ČSAV,Strmiska Zdeněk
+53,16,166,Sociologický ústav ČSAV,Večerník Jiří
+54,17,33,Sociologický ústav ČSS,Galla Karel
+55,17,144,Sociologický ústav ČSS,Šíma Jaroslav
+56,18,53,Sportpropag,Kabele Jiří
+57,18,84,Sportpropag,Machonin Pavel
+58,18,108,Sportpropag,Petrusek Miloslav
+59,18,111,Sportpropag,Potůček Martin
+60,19,4,Státní úřad statistický,Auerhan Jan
+61,19,8,Státní úřad statistický,Boháč Antonín
+62,19,21,Státní úřad statistický,Fajfr František
+63,19,69,Státní úřad statistický,Korčák Jaromír
+64,19,76,Státní úřad statistický,Kučera Milan
+65,19,84,Státní úřad statistický,Machonin Pavel
+66,19,85,Státní úřad statistický,Machotka Otakar
+67,19,86,Státní úřad statistický,Maiwald Karel
+68,19,116,Státní úřad statistický,Reif Gustav
+69,19,135,Státní úřad statistický,Srb Vladimír
+70,19,160,Státní úřad statistický,Ullrich Zdeněk
+71,19,171,Státní úřad statistický,Weyr František
+72,20,21,Sociální ústav ČSR,Fajfr František
+73,20,46,Sociální ústav ČSR,Chalupný Emanuel
+74,20,85,Sociální ústav ČSR,Machotka Otakar
+75,20,92,Sociální ústav ČSR,Masaryková Alice
+76,20,109,Sociální ústav ČSR,Pistorius Theodor
+77,20,116,Sociální ústav ČSR,Reif Gustav
+78,20,127,Sociální ústav ČSR,Schoenbaum Emil
+79,20,145,Sociální ústav ČSR,Škrach Vasil Kaprálek
+80,20,151,Sociální ústav ČSR,Štern Evžen
+81,20,154,Sociální ústav ČSR,Teltšík Rudolf
+82,20,165,Sociální ústav ČSR,Vašek Bedřich
+83,20,167,Sociální ústav ČSR,Verunáč Václav
+84,20,173,Sociální ústav ČSR,Winter Lev
+85,20,177,Sociální ústav ČSR,Žalud Augustin
+86,21,142,Ukrajinský sociologický ústav,Šapoval Mykyta
+87,22,10,Ústav pro filosofii a sociologii ČSAV,Brokl Lubomír
+88,22,22,Ústav pro filosofii a sociologii ČSAV,Filipcová Blanka
+89,22,23,Ústav pro filosofii a sociologii ČSAV,Filipec Jindřich
+90,22,25,Ústav pro filosofii a sociologii ČSAV,Foret Miroslav
+91,22,30,Ústav pro filosofii a sociologii ČSAV,Gabal Ivan
+92,22,40,Ústav pro filosofii a sociologii ČSAV,Havelka Miloš
+93,22,45,Ústav pro filosofii a sociologii ČSAV,Huláková Marie
+94,22,47,Ústav pro filosofii a sociologii ČSAV,Charvát František
+95,22,48,Ústav pro filosofii a sociologii ČSAV,Illner Michal
+96,22,62,Ústav pro filosofii a sociologii ČSAV,Keller Jan
+97,22,81,Ústav pro filosofii a sociologii ČSAV,Linhart Jiří
+98,22,93,Ústav pro filosofii a sociologii ČSAV,Matějů Petr
+99,22,108,Ústav pro filosofii a sociologii ČSAV,Petrusek Miloslav
+100,22,119,Ústav pro filosofii a sociologii ČSAV,Richta Radovan
+101,22,123,Ústav pro filosofii a sociologii ČSAV,Řehák Jan
+102,22,155,Ústav pro filosofii a sociologii ČSAV,Tlustý Vojtěch
+103,22,166,Ústav pro filosofii a sociologii ČSAV,Večerník Jiří
+104,23,144,Ústav pro sociální a hospodářskou výchovu ČSS,Šíma Jaroslav
+105,24,1,Ústav pro výzkum veřejného mínění ČSAV,Adamec Čeněk
+106,24,52,Ústav pro výzkum veřejného mínění ČSAV,Jungmann Bohumil
+107,24,130,Ústav pro výzkum veřejného mínění ČSAV,Slejška Dragoslav
+108,24,162,Ústav pro výzkum veřejného mínění ČSAV,Vacek Lubomír
+109,25,1,Ústav pro výzkum veřejného mínění FSÚ,Adamec Čeněk
+110,25,25,Ústav pro výzkum veřejného mínění FSÚ,Foret Miroslav
+111,25,28,Ústav pro výzkum veřejného mínění FSÚ,Frič Pavol
+112,25,52,Ústav pro výzkum veřejného mínění FSÚ,Jungmann Bohumil
+113,25,162,Ústav pro výzkum veřejného mínění FSÚ,Vacek Lubomír
+114,26,2,Ústav sociálně politických věd UK,Alan Josef
+115,26,52,Ústav sociálně politických věd UK,Jungmann Bohumil
+116,26,84,Ústav sociálně politických věd UK,Machonin Pavel
+117,26,166,Ústav sociálně politických věd UK,Večerník Jiří
+118,27,25,Ústav vědeckého ateismu ČSAV,Foret Miroslav
+119,27,126,Ústav vědeckého ateismu ČSAV,Sekot Aleš
+120,29,125,Výzkumný ústav práce a sociálních věcí,Sedláček Oto
+121,29,128,Výzkumný ústav práce a sociálních věcí,Sirovátka Tomáš
+122,30,41,Výzkumný ústav sociálního rozvoje a práce,Hirner Alexander
+123,30,52,Výzkumný ústav sociálního rozvoje a práce,Jungmann Bohumil
+124,30,78,Výzkumný ústav sociálního rozvoje a práce,Lamser Václav
+125,31,10,Výzkumný ústav strojírenské technologie a ekonomiky,Brokl Lubomír
+126,32,7,Výzkumný ústav výstavby a architektury,Blažek Bohuslav
+127,32,78,Výzkumný ústav výstavby a architektury,Lamser Václav
+128,32,98,Výzkumný ústav výstavby a architektury,Musil Jiří
+129,33,6,Biskupské semináře,Bláha Inocenc Arnošt
+130,33,101,Biskupské semináře,Neuschl Robert
+131,33,113,Biskupské semináře,Procházka Matěj
+132,33,118,Biskupské semináře,Reyl František
+133,33,133,Biskupské semináře,Soldát Alois
+134,33,148,Biskupské semináře,Šrámek Jan
+135,33,165,Biskupské semináře,Vašek Bedřich
+136,34,6,Česká technická vysoká škola v Brně,Bláha Inocenc Arnošt
+137,34,71,Česká technická vysoká škola v Brně,Köttner Mojmír
+138,34,146,Česká technická vysoká škola v Brně,Šmejkal Karel
+139,35,17,Česká zemědělská univerzita v Praze,Disman Miroslav
+140,35,25,Česká zemědělská univerzita v Praze,Foret Miroslav
+141,36,1,České vysoké učení technické v Praze,Adamec Čeněk
+142,36,5,České vysoké učení technické v Praze,Beneš Edvard
+143,36,7,České vysoké učení technické v Praze,Blažek Bohuslav
+144,36,8,České vysoké učení technické v Praze,Boháč Antonín
+145,36,20,České vysoké učení technické v Praze,Dušek Jan
+146,36,22,České vysoké učení technické v Praze,Filipcová Blanka
+147,36,46,České vysoké učení technické v Praze,Chalupný Emanuel
+148,36,47,České vysoké učení technické v Praze,Charvát František
+149,36,54,České vysoké učení technické v Praze,Kadlec Vladimír
+150,36,56,České vysoké učení technické v Praze,Kaizl Josef
+151,36,65,České vysoké učení technické v Praze,Klofáč Jaroslav
+152,36,69,České vysoké učení technické v Praze,Korčák Jaromír
+153,36,72,České vysoké učení technické v Praze,Král Josef
+154,36,74,České vysoké učení technické v Praze,Krejčí Jaroslav
+155,36,76,České vysoké učení technické v Praze,Kučera Milan
+156,36,82,České vysoké učení technické v Praze,Macek Josef
+157,36,94,České vysoké učení technické v Praze,Mertl Jan
+158,36,98,České vysoké učení technické v Praze,Musil Jiří
+159,36,110,České vysoké učení technické v Praze,Porket Josef Ludvík
+160,36,117,České vysoké učení technické v Praze,Reich Edvard
+161,36,146,České vysoké učení technické v Praze,Šmejkal Karel
+162,36,152,České vysoké učení technické v Praze,Tauber Jan Bohumil
+163,36,158,České vysoké učení technické v Praze,Tyrš Miroslav
+164,36,159,České vysoké učení technické v Praze,Uhlíř Antonín
+165,36,167,České vysoké učení technické v Praze,Verunáč Václav
+166,36,178,České vysoké učení technické v Praze,Žmavc Ivan
+167,37,42,Husova československá evangelická teologická fakulta v Praze,Hník František Maria
+168,37,144,Husova československá evangelická teologická fakulta v Praze,Šíma Jaroslav
+169,39,2,Karlova univerzita v Praze,Alan Josef
+170,39,3,Karlova univerzita v Praze,Árnason Johann Pál
+171,39,4,Karlova univerzita v Praze,Auerhan Jan
+172,39,5,Karlova univerzita v Praze,Beneš Edvard
+173,39,6,Karlova univerzita v Praze,Bláha Inocenc Arnošt
+174,39,8,Karlova univerzita v Praze,Boháč Antonín
+175,39,10,Karlova univerzita v Praze,Brokl Lubomír
+176,39,11,Karlova univerzita v Praze,Butter Oskar
+177,39,12,Karlova univerzita v Praze,Čapek Emil
+178,39,13,Karlova univerzita v Praze,Čapek Karel
+179,39,14,Karlova univerzita v Praze,Čecháček Jaroslav
+180,39,15,Karlova univerzita v Praze,Čep Tomáš
+181,39,16,Karlova univerzita v Praze,Dědek František
+182,39,17,Karlova univerzita v Praze,Disman Miroslav
+183,39,18,Karlova univerzita v Praze,Dubská Irena
+184,39,19,Karlova univerzita v Praze,Durdík Josef
+185,39,21,Karlova univerzita v Praze,Fajfr František
+186,39,23,Karlova univerzita v Praze,Filipec Jindřich
+187,39,24,Karlova univerzita v Praze,Fischer Josef Ludvík
+188,39,26,Karlova univerzita v Praze,Fořt Josef
+189,39,27,Karlova univerzita v Praze,Foustka Břetislav
+190,39,28,Karlova univerzita v Praze,Frič Pavol
+191,39,29,Karlova univerzita v Praze,Fuchs Alfred
+192,39,30,Karlova univerzita v Praze,Gabal Ivan
+193,39,33,Karlova univerzita v Praze,Galla Karel
+194,39,34,Karlova univerzita v Praze,Geist Bohumil
+195,39,36,Karlova univerzita v Praze,Hájek František
+196,39,38,Karlova univerzita v Praze,Hampl Martin
+197,39,40,Karlova univerzita v Praze,Havelka Miloš
+198,39,42,Karlova univerzita v Praze,Hník František Maria
+199,39,43,Karlova univerzita v Praze,Hrdina Josef
+200,39,45,Karlova univerzita v Praze,Huláková Marie
+201,39,46,Karlova univerzita v Praze,Chalupný Emanuel
+202,39,47,Karlova univerzita v Praze,Charvát František
+203,39,48,Karlova univerzita v Praze,Illner Michal
+204,39,49,Karlova univerzita v Praze,Jeřábek Hynek
+205,39,50,Karlova univerzita v Praze,Jodl Miroslav
+206,39,52,Karlova univerzita v Praze,Jungmann Bohumil
+207,39,53,Karlova univerzita v Praze,Kabele Jiří
+208,39,54,Karlova univerzita v Praze,Kadlec Vladimír
+209,39,55,Karlova univerzita v Praze,Kadlecová Erika
+210,39,56,Karlova univerzita v Praze,Kaizl Josef
+211,39,57,Karlova univerzita v Praze,Kaláb Miloš
+212,39,58,Karlova univerzita v Praze,Kalandra Záviš
+213,39,59,Karlova univerzita v Praze,Kalinová Lenka
+214,39,60,Karlova univerzita v Praze,Kapr Jaroslav
+215,39,61,Karlova univerzita v Praze,Kárníková Ludmila
+216,39,63,Karlova univerzita v Praze,Kettner Josef
+217,39,65,Karlova univerzita v Praze,Klofáč Jaroslav
+218,39,66,Karlova univerzita v Praze,Kohn Jindřich
+219,39,68,Karlova univerzita v Praze,Kolaja Jiří Tomáš
+220,39,69,Karlova univerzita v Praze,Korčák Jaromír
+221,39,70,Karlova univerzita v Praze,Kozák Jan Blahoslav
+222,39,72,Karlova univerzita v Praze,Král Josef
+223,39,73,Karlova univerzita v Praze,Krejčí František
+224,39,74,Karlova univerzita v Praze,Krejčí Jaroslav
+225,39,75,Karlova univerzita v Praze,Krejčí Karel
+226,39,76,Karlova univerzita v Praze,Kučera Milan
+227,39,78,Karlova univerzita v Praze,Lamser Václav
+228,39,80,Karlova univerzita v Praze,Lindner Gustav Adolf
+229,39,81,Karlova univerzita v Praze,Linhart Jiří
+230,39,82,Karlova univerzita v Praze,Macek Josef
+231,39,85,Karlova univerzita v Praze,Machotka Otakar
+232,39,87,Karlova univerzita v Praze,Makovička Emanuel
+233,39,88,Karlova univerzita v Praze,Malý Rudolf Ina
+234,39,90,Karlova univerzita v Praze,Marušiak Martin
+235,39,91,Karlova univerzita v Praze,Masaryk Tomáš Garrigue
+236,39,92,Karlova univerzita v Praze,Masaryková Alice
+237,39,93,Karlova univerzita v Praze,Matějů Petr
+238,39,94,Karlova univerzita v Praze,Mertl Jan
+239,39,95,Karlova univerzita v Praze,Mlčoch Lubomír
+240,39,97,Karlova univerzita v Praze,Možný Ivo
+241,39,98,Karlova univerzita v Praze,Musil Jiří
+242,39,100,Karlova univerzita v Praze,Nejedlý Zdeněk
+243,39,108,Karlova univerzita v Praze,Petrusek Miloslav
+244,39,109,Karlova univerzita v Praze,Pistorius Theodor
+245,39,111,Karlova univerzita v Praze,Potůček Martin
+246,39,112,Karlova univerzita v Praze,Potužil František
+247,39,115,Karlova univerzita v Praze,Rádl Emanuel
+248,39,119,Karlova univerzita v Praze,Richta Radovan
+249,39,120,Karlova univerzita v Praze,Rouček Joseph Slabey
+250,39,121,Karlova univerzita v Praze,Rychtaříková Jitka
+251,39,123,Karlova univerzita v Praze,Řehák Jan
+252,39,124,Karlova univerzita v Praze,Sedláček Jan
+253,39,125,Karlova univerzita v Praze,Sedláček Oto
+254,39,127,Karlova univerzita v Praze,Schoenbaum Emil
+255,39,130,Karlova univerzita v Praze,Slejška Dragoslav
+256,39,134,Karlova univerzita v Praze,Sorokin Pitirim Alexandrovič
+257,39,135,Karlova univerzita v Praze,Srb Vladimír
+258,39,139,Karlova univerzita v Praze,Suda Zdeněk
+259,39,140,Karlova univerzita v Praze,Sviták Ivan
+260,39,141,Karlova univerzita v Praze,Svoboda Ludvík
+261,39,143,Karlova univerzita v Praze,Šiklová Jiřina
+262,39,144,Karlova univerzita v Praze,Šíma Jaroslav
+263,39,145,Karlova univerzita v Praze,Škrach Vasil Kaprálek
+264,39,147,Karlova univerzita v Praze,Šnobl Jaroslav
+265,39,149,Karlova univerzita v Praze,Šrubař Ilja
+266,39,151,Karlova univerzita v Praze,Štern Evžen
+267,39,152,Karlova univerzita v Praze,Tauber Jan Bohumil
+268,39,153,Karlova univerzita v Praze,Teige Karel
+269,39,154,Karlova univerzita v Praze,Teltšík Rudolf
+270,39,155,Karlova univerzita v Praze,Tlustý Vojtěch
+271,39,156,Karlova univerzita v Praze,Tomeš Igor
+272,39,157,Karlova univerzita v Praze,Trapl Miloslav
+273,39,158,Karlova univerzita v Praze,Tyrš Miroslav
+274,39,159,Karlova univerzita v Praze,Uhlíř Antonín
+275,39,160,Karlova univerzita v Praze,Ullrich Zdeněk
+276,39,161,Karlova univerzita v Praze,Urbánek Eduard
+277,39,163,Karlova univerzita v Praze,Václavek Bedřich
+278,39,164,Karlova univerzita v Praze,Vaněk Antonín
+279,39,168,Karlova univerzita v Praze,Voráček Josef
+280,39,171,Karlova univerzita v Praze,Weyr František
+281,39,173,Karlova univerzita v Praze,Winter Lev
+282,39,177,Karlova univerzita v Praze,Žalud Augustin
+283,40,41,Komenského univerzita v Bratislavě,Hirner Alexander
+284,40,72,Komenského univerzita v Bratislavě,Král Josef
+285,40,85,Komenského univerzita v Bratislavě,Machotka Otakar
+286,40,103,Komenského univerzita v Bratislavě,Obrdlík Antonín
+287,40,150,Komenského univerzita v Bratislavě,Štefánek Anton
+288,41,2,Masarykova univerzita v Brně,Alan Josef
+289,41,6,Masarykova univerzita v Brně,Bláha Inocenc Arnošt
+290,41,24,Masarykova univerzita v Brně,Fischer Josef Ludvík
+291,41,25,Masarykova univerzita v Brně,Foret Miroslav
+292,41,30,Masarykova univerzita v Brně,Gabal Ivan
+293,41,31,Masarykova univerzita v Brně,Gaďourek Ivan
+294,41,33,Masarykova univerzita v Brně,Galla Karel
+295,41,37,Masarykova univerzita v Brně,Hájek Mojmír
+296,41,39,Masarykova univerzita v Brně,Hanáček Jaroslav
+297,41,40,Masarykova univerzita v Brně,Havelka Miloš
+298,41,42,Masarykova univerzita v Brně,Hník František Maria
+299,41,43,Masarykova univerzita v Brně,Hrdina Josef
+300,41,46,Masarykova univerzita v Brně,Chalupný Emanuel
+301,41,53,Masarykova univerzita v Brně,Kabele Jiří
+302,41,62,Masarykova univerzita v Brně,Keller Jan
+303,41,68,Masarykova univerzita v Brně,Kolaja Jiří Tomáš
+304,41,71,Masarykova univerzita v Brně,Köttner Mojmír
+305,41,74,Masarykova univerzita v Brně,Krejčí Jaroslav
+306,41,79,Masarykova univerzita v Brně,Librová Hana
+307,41,83,Masarykova univerzita v Brně,Macků Jan
+308,41,86,Masarykova univerzita v Brně,Maiwald Karel
+309,41,89,Masarykova univerzita v Brně,Mareš Petr
+310,41,93,Masarykova univerzita v Brně,Matějů Petr
+311,41,97,Masarykova univerzita v Brně,Možný Ivo
+312,41,99,Masarykova univerzita v Brně,Nehněvajsa Jiří
+313,41,102,Masarykova univerzita v Brně,Nový Lubomír
+314,41,103,Masarykova univerzita v Brně,Obrdlík Antonín
+315,41,104,Masarykova univerzita v Brně,Obrdlíková Juliana
+316,41,105,Masarykova univerzita v Brně,Ovesný Miroslav
+317,41,108,Masarykova univerzita v Brně,Petrusek Miloslav
+318,41,111,Masarykova univerzita v Brně,Potůček Martin
+319,41,114,Masarykova univerzita v Brně,Rabušic Ladislav
+320,41,122,Masarykova univerzita v Brně,Rýznar Václav
+321,41,126,Masarykova univerzita v Brně,Sekot Aleš
+322,41,128,Masarykova univerzita v Brně,Sirovátka Tomáš
+323,41,129,Masarykova univerzita v Brně,Slaminka Vladimír
+324,41,132,Masarykova univerzita v Brně,Solař Josef
+325,41,137,Masarykova univerzita v Brně,Strmiska Zdeněk
+326,41,138,Masarykova univerzita v Brně,Střítecký Jaroslav
+327,41,141,Masarykova univerzita v Brně,Svoboda Ludvík
+328,41,144,Masarykova univerzita v Brně,Šíma Jaroslav
+329,41,157,Masarykova univerzita v Brně,Trapl Miloslav
+330,41,163,Masarykova univerzita v Brně,Václavek Bedřich
+331,41,166,Masarykova univerzita v Brně,Večerník Jiří
+332,41,169,Masarykova univerzita v Brně,Vybral Vladimír
+333,41,171,Masarykova univerzita v Brně,Weyr František
+334,41,176,Masarykova univerzita v Brně,Zwicker Bruno
+335,42,15,Mendelova univerzita v Brně,Čep Tomáš
+336,42,25,Mendelova univerzita v Brně,Foret Miroslav
+337,43,136,Německá univerzita v Praze,Stark Werner
+338,43,170,Německá univerzita v Praze,Weber Alfred
+339,43,172,Německá univerzita v Praze,Von Wieser Friedrich
+340,43,178,Německá univerzita v Praze,Žmavc Ivan
+341,44,62,Ostravská univerzita v Ostravě,Keller Jan
+342,44,98,Ostravská univerzita v Ostravě,Musil Jiří
+343,45,24,Palackého univerzita v Olomouci,Fischer Josef Ludvík
+344,45,51,Palackého univerzita v Olomouci,Jochmann Vladimír
+345,45,86,Palackého univerzita v Olomouci,Maiwald Karel
+346,45,104,Palackého univerzita v Olomouci,Obrdlíková Juliana
+347,45,129,Palackého univerzita v Olomouci,Slaminka Vladimír
+348,45,137,Palackého univerzita v Olomouci,Strmiska Zdeněk
+349,45,157,Palackého univerzita v Olomouci,Trapl Miloslav
+350,45,165,Palackého univerzita v Olomouci,Vašek Bedřich
+351,46,60,Slezská univerzita v Opavě,Kapr Jaroslav
+352,46,99,Slezská univerzita v Opavě,Nehněvajsa Jiří
+353,46,139,Slezská univerzita v Opavě,Suda Zdeněk
+354,47,29,Svobodná škola politických nauk v Praze,Fuchs Alfred
+355,47,46,Svobodná škola politických nauk v Praze,Chalupný Emanuel
+356,47,54,Svobodná škola politických nauk v Praze,Kadlec Vladimír
+357,47,144,Svobodná škola politických nauk v Praze,Šíma Jaroslav
+358,47,146,Svobodná škola politických nauk v Praze,Šmejkal Karel
+359,47,151,Svobodná škola politických nauk v Praze,Štern Evžen
+360,47,167,Svobodná škola politických nauk v Praze,Verunáč Václav
+361,49,10,Univerzita Hradec Králové,Brokl Lubomír
+362,50,106,Univerzita J. E. Purkyně v Ústí nad Labem,Pavlík Zdeněk
+363,50,175,Univerzita J. E. Purkyně v Ústí nad Labem,Zich František
+364,52,23,Vojenská politická akademie Klementa Gottwalda v Praze,Filipec Jindřich
+365,54,10,Vysoká škola ekonomická v Praze,Brokl Lubomír
+366,54,32,Vysoká škola ekonomická v Praze,Gál Fedor
+367,54,47,Vysoká škola ekonomická v Praze,Charvát František
+368,54,59,Vysoká škola ekonomická v Praze,Kalinová Lenka
+369,54,67,Vysoká škola ekonomická v Praze,Kohout Jaroslav
+370,54,95,Vysoká škola ekonomická v Praze,Mlčoch Lubomír
+371,54,106,Vysoká škola ekonomická v Praze,Pavlík Zdeněk
+372,54,110,Vysoká škola ekonomická v Praze,Porket Josef Ludvík
+373,54,111,Vysoká škola ekonomická v Praze,Potůček Martin
+374,54,166,Vysoká škola ekonomická v Praze,Večerník Jiří
+375,55,47,Vysoká škola finanční a správní v Praze,Charvát František
+376,55,93,Vysoká škola finanční a správní v Praze,Matějů Petr
+377,55,106,Vysoká škola finanční a správní v Praze,Pavlík Zdeněk
+378,55,175,Vysoká škola finanční a správní v Praze,Zich František
+379,56,8,Vysoká škola politická a sociální v Praze,Boháč Antonín
+380,56,41,Vysoká škola politická a sociální v Praze,Hirner Alexander
+381,56,46,Vysoká škola politická a sociální v Praze,Chalupný Emanuel
+382,56,69,Vysoká škola politická a sociální v Praze,Korčák Jaromír
+383,56,72,Vysoká škola politická a sociální v Praze,Král Josef
+384,56,74,Vysoká škola politická a sociální v Praze,Krejčí Jaroslav
+385,56,85,Vysoká škola politická a sociální v Praze,Machotka Otakar
+386,56,86,Vysoká škola politická a sociální v Praze,Maiwald Karel
+387,56,120,Vysoká škola politická a sociální v Praze,Rouček Joseph Slabey
+388,56,147,Vysoká škola politická a sociální v Praze,Šnobl Jaroslav
+389,56,160,Vysoká škola politická a sociální v Praze,Ullrich Zdeněk
+390,57,45,Vysoká škola politická ÚV KSČ v Praze,Huláková Marie
+391,57,65,Vysoká škola politická ÚV KSČ v Praze,Klofáč Jaroslav
+392,57,175,Vysoká škola politická ÚV KSČ v Praze,Zich František
+393,59,22,Vysoká škola strojní a elektrotechnická v Plzni,Filipcová Blanka
+394,59,67,Vysoká škola strojní a elektrotechnická v Plzni,Kohout Jaroslav
+395,59,84,Vysoká škola strojní a elektrotechnická v Plzni,Machonin Pavel
+396,59,162,Vysoká škola strojní a elektrotechnická v Plzni,Vacek Lubomír
+397,60,49,Západočeská univerzita v Plzni,Jeřábek Hynek
+398,62,21,Česká demografická společnost,Fajfr František
+399,62,61,Česká demografická společnost,Kárníková Ludmila
+400,62,69,Česká demografická společnost,Korčák Jaromír
+401,62,76,Česká demografická společnost,Kučera Milan
+402,62,98,Česká demografická společnost,Musil Jiří
+403,62,106,Česká demografická společnost,Pavlík Zdeněk
+404,62,114,Česká demografická společnost,Rabušic Ladislav
+405,62,121,Česká demografická společnost,Rychtaříková Jitka
+406,62,135,Česká demografická společnost,Srb Vladimír
+407,63,49,Česká sociologická společnost,Jeřábek Hynek
+408,63,98,Česká sociologická společnost,Musil Jiří
+409,63,106,Česká sociologická společnost,Pavlík Zdeněk
+410,63,108,Česká sociologická společnost,Petrusek Miloslav
+411,63,114,Česká sociologická společnost,Rabušic Ladislav
+412,63,124,Česká sociologická společnost,Sedláček Jan
+413,63,139,Česká sociologická společnost,Suda Zdeněk
+414,64,22,Československá sociologická společnost při ČSAV,Filipcová Blanka
+415,64,33,Československá sociologická společnost při ČSAV,Galla Karel
+416,64,54,Československá sociologická společnost při ČSAV,Kadlec Vladimír
+417,64,57,Československá sociologická společnost při ČSAV,Kaláb Miloš
+418,64,65,Československá sociologická společnost při ČSAV,Klofáč Jaroslav
+419,64,67,Československá sociologická společnost při ČSAV,Kohout Jaroslav
+420,64,72,Československá sociologická společnost při ČSAV,Král Josef
+421,64,78,Československá sociologická společnost při ČSAV,Lamser Václav
+422,64,124,Československá sociologická společnost při ČSAV,Sedláček Jan
+423,64,132,Československá sociologická společnost při ČSAV,Solař Josef
+424,64,147,Československá sociologická společnost při ČSAV,Šnobl Jaroslav
+425,64,161,Československá sociologická společnost při ČSAV,Urbánek Eduard
+426,64,164,Československá sociologická společnost při ČSAV,Vaněk Antonín
+427,64,175,Československá sociologická společnost při ČSAV,Zich František
+428,65,6,Masarykova sociologická společnost,Bláha Inocenc Arnošt
+429,65,15,Masarykova sociologická společnost,Čep Tomáš
+430,65,21,Masarykova sociologická společnost,Fajfr František
+431,65,33,Masarykova sociologická společnost,Galla Karel
+432,65,39,Masarykova sociologická společnost,Hanáček Jaroslav
+433,65,46,Masarykova sociologická společnost,Chalupný Emanuel
+434,65,66,Masarykova sociologická společnost,Kohn Jindřich
+435,65,72,Masarykova sociologická společnost,Král Josef
+436,65,77,Masarykova sociologická společnost,Kunte Ladislav
+437,65,85,Masarykova sociologická společnost,Machotka Otakar
+438,65,92,Masarykova sociologická společnost,Masaryková Alice
+439,65,94,Masarykova sociologická společnost,Mertl Jan
+440,65,104,Masarykova sociologická společnost,Obrdlíková Juliana
+441,65,105,Masarykova sociologická společnost,Ovesný Miroslav
+442,65,109,Masarykova sociologická společnost,Pistorius Theodor
+443,65,112,Masarykova sociologická společnost,Potužil František
+444,65,129,Masarykova sociologická společnost,Slaminka Vladimír
+445,65,144,Masarykova sociologická společnost,Šíma Jaroslav
+446,65,145,Masarykova sociologická společnost,Škrach Vasil Kaprálek
+447,65,146,Masarykova sociologická společnost,Šmejkal Karel
+448,65,151,Masarykova sociologická společnost,Štern Evžen
+449,65,154,Masarykova sociologická společnost,Teltšík Rudolf
+450,65,160,Masarykova sociologická společnost,Ullrich Zdeněk
+451,65,167,Masarykova sociologická společnost,Verunáč Václav
+452,65,173,Masarykova sociologická společnost,Winter Lev
+453,67,1,Sociologický kruh posluchačů vysokých škol pražských,Adamec Čeněk
+454,67,16,Sociologický kruh posluchačů vysokých škol pražských,Dědek František
+455,68,16,Společnost pro sociální bádání,Dědek František
+456,68,34,Společnost pro sociální bádání,Geist Bohumil
+457,68,72,Společnost pro sociální bádání,Král Josef
+458,68,85,Společnost pro sociální bádání,Machotka Otakar
+459,68,94,Společnost pro sociální bádání,Mertl Jan
+460,68,109,Společnost pro sociální bádání,Pistorius Theodor
+461,68,167,Společnost pro sociální bádání,Verunáč Václav
+462,71,19,Athenaeum,Durdík Josef
+463,71,26,Athenaeum,Fořt Josef
+464,71,56,Athenaeum,Kaizl Josef
+465,71,91,Athenaeum,Masaryk Tomáš Garrigue
+466,72,2,Biograf,Alan Josef
+467,73,46,Časopis Svobodné školy politických nauk v Praze,Chalupný Emanuel
+468,73,146,Časopis Svobodné školy politických nauk v Praze,Šmejkal Karel
+469,74,21,Česká mysl,Fajfr František
+470,74,27,Česká mysl,Foustka Břetislav
+471,74,69,Česká mysl,Korčák Jaromír
+472,74,72,Česká mysl,Král Josef
+473,74,73,Česká mysl,Krejčí František
+474,74,145,Česká mysl,Škrach Vasil Kaprálek
+475,74,159,Česká mysl,Uhlíř Antonín
+476,76,40,Filosofický časopis,Havelka Miloš
+477,76,57,Filosofický časopis,Kaláb Miloš
+478,76,65,Filosofický časopis,Klofáč Jaroslav
+479,76,72,Filosofický časopis,Král Josef
+480,76,130,Filosofický časopis,Slejška Dragoslav
+481,81,1,Kruh,Adamec Čeněk
+482,81,16,Kruh,Dědek František
+483,83,5,Naše doba,Beneš Edvard
+484,83,8,Naše doba,Boháč Antonín
+485,83,27,Naše doba,Foustka Břetislav
+486,83,56,Naše doba,Kaizl Josef
+487,83,82,Naše doba,Macek Josef
+488,83,91,Naše doba,Masaryk Tomáš Garrigue
+489,83,151,Naše doba,Štern Evžen
+490,83,177,Naše doba,Žalud Augustin
+491,95,72,Sociální problémy,Král Josef
+492,95,85,Sociální problémy,Machotka Otakar
+493,95,94,Sociální problémy,Mertl Jan
+494,95,109,Sociální problémy,Pistorius Theodor
+495,95,112,Sociální problémy,Potužil František
+496,95,116,Sociální problémy,Reif Gustav
+497,95,120,Sociální problémy,Rouček Joseph Slabey
+498,95,145,Sociální problémy,Škrach Vasil Kaprálek
+499,95,146,Sociální problémy,Šmejkal Karel
+500,95,160,Sociální problémy,Ullrich Zdeněk
+501,95,167,Sociální problémy,Verunáč Václav
+502,95,168,Sociální problémy,Voráček Josef
+503,95,169,Sociální problémy,Vybral Vladimír
+504,96,144,Sociální revue,Šíma Jaroslav
+505,96,151,Sociální revue,Štern Evžen
+506,96,154,Sociální revue,Teltšík Rudolf
+507,96,177,Sociální revue,Žalud Augustin
+508,97,165,Sociální rozhledy,Vašek Bedřich
+509,100,157,Sociologica,Trapl Miloslav
+510,101,6,Sociologická revue,Bláha Inocenc Arnošt
+511,101,11,Sociologická revue,Butter Oskar
+512,101,15,Sociologická revue,Čep Tomáš
+513,101,21,Sociologická revue,Fajfr František
+514,101,24,Sociologická revue,Fischer Josef Ludvík
+515,101,33,Sociologická revue,Galla Karel
+516,101,39,Sociologická revue,Hanáček Jaroslav
+517,101,46,Sociologická revue,Chalupný Emanuel
+518,101,66,Sociologická revue,Kohn Jindřich
+519,101,72,Sociologická revue,Král Josef
+520,101,85,Sociologická revue,Machotka Otakar
+521,101,86,Sociologická revue,Maiwald Karel
+522,101,96,Sociologická revue,Modráček František
+523,101,103,Sociologická revue,Obrdlík Antonín
+524,101,104,Sociologická revue,Obrdlíková Juliana
+525,101,112,Sociologická revue,Potužil František
+526,101,120,Sociologická revue,Rouček Joseph Slabey
+527,101,129,Sociologická revue,Slaminka Vladimír
+528,101,134,Sociologická revue,Sorokin Pitirim Alexandrovič
+529,101,141,Sociologická revue,Svoboda Ludvík
+530,101,142,Sociologická revue,Šapoval Mykyta
+531,101,144,Sociologická revue,Šíma Jaroslav
+532,101,145,Sociologická revue,Škrach Vasil Kaprálek
+533,101,146,Sociologická revue,Šmejkal Karel
+534,101,150,Sociologická revue,Štefánek Anton
+535,101,157,Sociologická revue,Trapl Miloslav
+536,101,159,Sociologická revue,Uhlíř Antonín
+537,101,163,Sociologická revue,Václavek Bedřich
+538,101,176,Sociologická revue,Zwicker Bruno
+539,102,81,Sociologické aktuality,Linhart Jiří
+540,102,98,Sociologické aktuality,Musil Jiří
+541,103,10,Sociologický časopis / Czech Sociological Review,Brokl Lubomír
+542,103,18,Sociologický časopis / Czech Sociological Review,Dubská Irena
+543,103,22,Sociologický časopis / Czech Sociological Review,Filipcová Blanka
+544,103,32,Sociologický časopis / Czech Sociological Review,Gál Fedor
+545,103,33,Sociologický časopis / Czech Sociological Review,Galla Karel
+546,103,40,Sociologický časopis / Czech Sociological Review,Havelka Miloš
+547,103,52,Sociologický časopis / Czech Sociological Review,Jungmann Bohumil
+548,103,57,Sociologický časopis / Czech Sociological Review,Kaláb Miloš
+549,103,65,Sociologický časopis / Czech Sociological Review,Klofáč Jaroslav
+550,103,78,Sociologický časopis / Czech Sociological Review,Lamser Václav
+551,103,84,Sociologický časopis / Czech Sociological Review,Machonin Pavel
+552,103,90,Sociologický časopis / Czech Sociological Review,Marušiak Martin
+553,103,97,Sociologický časopis / Czech Sociological Review,Možný Ivo
+554,103,98,Sociologický časopis / Czech Sociological Review,Musil Jiří
+555,103,108,Sociologický časopis / Czech Sociological Review,Petrusek Miloslav
+556,103,110,Sociologický časopis / Czech Sociological Review,Porket Josef Ludvík
+557,103,112,Sociologický časopis / Czech Sociological Review,Potužil František
+558,103,119,Sociologický časopis / Czech Sociological Review,Richta Radovan
+559,103,124,Sociologický časopis / Czech Sociological Review,Sedláček Jan
+560,103,161,Sociologický časopis / Czech Sociological Review,Urbánek Eduard
+561,103,164,Sociologický časopis / Czech Sociological Review,Vaněk Antonín
+562,103,166,Sociologický časopis / Czech Sociological Review,Večerník Jiří
+563,103,175,Sociologický časopis / Czech Sociological Review,Zich František
+564,104,2,Sociologický obzor,Alan Josef
+565,104,108,Sociologický obzor,Petrusek Miloslav
+566,106,8,Statistický obzor,Boháč Antonín
+567,106,21,Statistický obzor,Fajfr František
+568,106,69,Statistický obzor,Korčák Jaromír
+569,106,86,Statistický obzor,Maiwald Karel
+570,106,98,Statistický obzor,Musil Jiří
+571,106,116,Statistický obzor,Reif Gustav
+572,106,160,Statistický obzor,Ullrich Zdeněk
+573,110,1,Veřejné mínění,Adamec Čeněk
+574,113,6,Sociologická knihovna MSS,Bláha Inocenc Arnošt
