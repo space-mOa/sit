@@ -17,33 +17,6 @@ type Edge struct {
 
 // fromTwoNodes bere dva uzly a vytvoří pro ně hrany na základě odkazů a názvů
 // názvy jsou totiž identické s první částí uvedenou v odkazech před znakem: |
-
-// func (e *Edge) fromTwoNodes(n1 Node, n2 Node, edgeName string) {
-// 	e.name = edgeName
-// 	e.line = append(e.line, []string{"id", "id1", "id2", "name1", "name2"})
-// 	var index uint64 = 0
-// 	for _, n1V := range n1.values { // Vyber vrchol ze skupiny vrcholů, n1
-// 		n1Title := n1V.line[1] // Název pro n1
-// 		// DEBUG
-// 		/*
-// 			nutné projít i z opačné strany n2VTitle, links
-// 		*/
-// 		// DEBUG
-// 		for _, n2V := range n2.values { // Vyber vrchol ze skupiny vrcholů, n2
-// 			n2V.links = removeDuplicates(n2V.links) // Někdy jsou v článku uvedené stejné odkazy vícekrát, proto je odstraníme
-// 			for _, link := range n2V.links {        // Projdi všechny odkazy pro daný vrchol
-// 				if cleanString(n1Title) == cleanString(link) { // Odstraní mezery a transformuje všechna písmenka na malá
-// 					if !(e.isThere(n1Title, n2V.line[1])) { // Zkontroluj zdali už tam není stejný záznam, A B = A B nebo A B = B A
-// 						index++
-// 						e.appendEdge(strconv.FormatUint(index, 10), n1V.line[0], n2V.line[0], n1V.line[1], n2V.line[1])
-// 					}
-// 				}
-// 			}
-// 		}
-// 	}
-// 	// DËBUG: fmt.Printf("%#v", string(wS))
-// }
-
 func fromTwoNodes(n1 Node, n2 Node, edgeName string) (e Edge) {
 	e.walk(n2, n1, 0)
 	i, err := strconv.ParseUint(e.line[len(e.line)-1][0], 10, 64)
@@ -59,10 +32,10 @@ func (e *Edge) walk(x Node, y Node, index uint64) {
 	for _, xv := range x.values {
 		xt := cleanString(xv.line[1])
 		for _, yv := range y.values {
-			yls := removeDuplicates(yv.links)
-			for _, yl := range yls {
-				if xt == cleanString(yl) {
-					if !(e.isThere(xt, yv.line[1])) {
+			yls := removeDuplicates(yv.links) // Někdy jsou v článku uvedené stejné odkazy vícekrát, proto je odstraníme
+			for _, yl := range yls {          // Projdi všechny odkazy
+				if xt == cleanString(yl) { // Odstraní netisknutelné znaky a transformuje všechna písmenka na malá
+					if !(e.isThere(xt, yv.line[1])) { // Zkontroluj zdali už tam není stejný záznam, A B = A B nebo A B = B A
 						index++
 						e.appendEdge(strconv.FormatUint(index, 10), xv.line[0], yv.line[0], xv.line[1], yv.line[1])
 					}
