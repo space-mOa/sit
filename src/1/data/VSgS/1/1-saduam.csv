@@ -1,0 +1,122 @@
+ID,NAME
+1,Analýza dat explorační
+2,Analýza dat konfirmační
+3,Analýza dat rychlá
+4,Analýza dat statistická
+5,Analýza diskriminační
+6,Analýza drah
+7,Analýza dvourozměrné statistické řady
+8,Analýza faktorová
+9,Analýza implikačních struktur
+10,Analýza kanonická
+11,Analýza kauzální
+12,Analýza korespondenční
+13,Analýza kovariančních struktur
+14,Analýza latentní struktury
+15,Analýza latentních tříd
+16,Analýza regresní
+17,Analýza reziduí dekompoziční
+18,Analýza rozptylu
+19,Analýza rozptylu vícerozměrná
+20,Analýza seskupovací
+21,Analýza spojených měření
+22,Analýza statistická mnohorozměrná
+23,Analýza statistické řady
+24,Analýza větvených interakčních struktur
+25,Bod inflexní
+26,Čárkování
+27,Četnost
+28,Data
+29,Data primární
+30,Explanace statistická
+31,Extrapolace
+32,Hodnota extrémní
+33,Hypotéza statistická
+34,Charakteristiky kvantilové
+35,Charakteristiky momentové
+36,Chí-kvadrát
+37,Chyba směrodatná
+38,Chyba výběrová
+39,Index korelace
+40,Index statistický
+41,Inference statistická
+42,Interakce statistická
+43,Intervaly spolehlivosti
+44,Intervaly spolehlivosti simultánní
+45,Koeficient determinace
+46,Koeficient lineární korelace
+47,Koeficient parciální determinace
+48,Koeficient parciální korelace
+49,Koeficient vícenásobné korelace
+50,Koeficient vnitrotřídní korelace
+51,Koeficienty asociace
+52,Koeficienty pořadové korelace
+53,Koeficienty statistické
+54,Korelace
+55,Korelace kanonická
+56,Korelace nepravá
+57,Korelace skrytá
+58,Metoda hlavních komponent
+59,Metoda párového srovnání
+60,Metoda statistická
+61,Metody matematicko-statistické
+62,Metody neparametrické
+63,Metody parametrické
+64,Model statistický
+65,Modely logaritmicko-lineární
+66,Modely logitové
+67,Odhad bodový
+68,Odhad intervalový
+69,Opora výběru
+70,Poměr korelační
+71,Procesy stochastické
+72,Programy počítačové pro společenské vědy
+73,Randomizace
+74,Reprezentativita
+75,Rozhodování
+76,Rozklad statistický
+77,Rozložení normální
+78,Rozložení statistické
+79,Řetězce Markovovy
+80,Samovýběr
+81,Shoda statistická
+82,Schéma znaménkové
+83,Simulace
+84,Skalogram Guttmanův
+85,Socware
+86,Soubor výběrový
+87,Soubor základní
+88,SPSS
+89,Šetření výběrová
+90,Škálování mnohorozměrné
+91,Tabulky kontingenční
+92,Tabulky náhodných čísel
+93,Tabulky statistické
+94,Taxonomie
+95,Teorie front
+96,Teorie grafů
+97,Teorie her
+98,Teorie katastrof
+99,Test statistický
+100,Testování statistických hypotéz
+101,Testování statistických hypotéz simultánní
+102,Veličina
+103,Veličina náhodná
+104,Věrohodnost
+105,Výběr dvou- (více-) fázový
+106,Výběr komplexní
+107,Výběr kvótní
+108,Výběr metodou sněhové koule
+109,Výběr pravděpodobnostní
+110,Výběr prostý náhodný
+111,Výběr řízený
+112,Výběr se stejnými pravděpodobnostmi
+113,Výběr skupinkový
+114,Výběr spontánní
+115,Výběr stratifikovaný
+116,Výběr systematický
+117,Výběr vícestupňový
+118,Výběr záměrný
+119,Výběry geografické
+120,Zákony velkých čísel
+121,Závislost statistická

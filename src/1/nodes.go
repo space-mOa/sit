@@ -149,7 +149,7 @@ func (v *Values) printLinks() {
 
 // Vytisne uložené "Values" pro daný Vrchol
 func (n *Node) printValues() {
-	fmt.Println("\n", n.name, "\n")
+	fmt.Println("\n", n.name, len(n.values))
 	for _, v := range n.values {
 		fmt.Printf("\n\nTITLE:\t %v, %v\n", v.line[0], v.line[1])
 		fmt.Println("LINE:\t", v.line)
@@ -159,7 +159,7 @@ func (n *Node) printValues() {
 }
 
 // Vytiskne Vales na základě zadaného titlu
-func (n *Node) printNode(title string) {
+func (n *Node) printNode(title string) (c Values) {
 	fmt.Println("\n", n.name)
 	for _, v := range n.values {
 		if title == v.line[1] {
@@ -167,6 +167,7 @@ func (n *Node) printNode(title string) {
 			for _, link := range v.links {
 				fmt.Println(" ", link)
 			}
+			c = v
 		} else if title == "" {
 			fmt.Println("\nLINE:\n", v.line, "\nLINKS:")
 			for _, link := range v.links {
@@ -174,6 +175,7 @@ func (n *Node) printNode(title string) {
 			}
 		}
 	}
+	return c
 }
 
 // Uloží skupinu "Vrcholů" do ".CSV" souboru
@@ -206,7 +208,7 @@ func saveNodes(path string, nodes ...Node) {
 func contains(s string, in []string) (there bool) {
 	there = false
 	for _, i := range in {
-		if modifyString(s) == modifyString(i) {
+		if cleanString(s) == cleanString(i) {
 			there = true
 		}
 	}
