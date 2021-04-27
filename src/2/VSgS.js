@@ -123,7 +123,7 @@ function draw(d) {
 }
 
 function setHTML(b) {
-    document.getElementsByTagName("body")[0].style.color = b
+    document.body.style.backgroundColor = b
 }
 
 // !! KÓD BYL PŘEVZAT A UPRAVEN: https://observablehq.com/@d3/tidy-tree?collection=@d3/d3-hierarchy
@@ -133,3 +133,4 @@ function setHTML(b) {
 // d3.stratify():           https://github.com/d3/d3-hierarchy/blob/v2.0.0/README.md#stratify
 // d3.tree:                 https://observablehq.com/@d3/tidy-tree?collection=@d3/d3-hierarchy
 // js, vysvětlení o.m()():  https://stackoverflow.com/questions/18234491/two-sets-of-parentheses-after-function-call
+// js, body a stylování:    https://www.w3schools.com/jsref/prop_doc_body.asp
