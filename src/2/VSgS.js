@@ -1,3 +1,5 @@
+// !! KÓD BYL PŘEVZAT A UPRAVEN: https://observablehq.com/@d3/tidy-tree?collection=@d3/d3-hierarchy
+
 let f = [
     "./data/VSgS/tree.csv",
 ]
@@ -76,15 +78,15 @@ function drawTree(canvas, l, a) {
             .attr("r", a.node.r);  
 
     nodes.append("text")
-        .attr("dy", a.text.size)
+        .style("font", a.text.size)
         .attr("x", d => d.children ? -6 : 6)
         .attr("text-anchor", d => d.children ? "end" : "start")
         .text(d => d.id)
-            .attr("fill", a.text.fill)    
+            .attr("fill", a.text.fill)
 }
 
+setHTML("white")
 Promise.all(load(f)).then(v => draw(name(n, v)))
-
 
 function draw(d) {
     let w = innerWidth
@@ -93,6 +95,7 @@ function draw(d) {
         black:  "#222222",
         green:  "#227843",
         orange: "#F8A646",
+        white:  "#FBF9F9",
     }
     const a = {
             link: {
@@ -107,7 +110,7 @@ function draw(d) {
             },
             text: {
                 fill: c.black,
-                size: "0.31em",
+                size: 14,
             } 
 
     }
@@ -119,6 +122,11 @@ function draw(d) {
     )
 }
 
+function setHTML(b) {
+    document.getElementsByTagName("body")[0].style.color = b
+}
+
+// !! KÓD BYL PŘEVZAT A UPRAVEN: https://observablehq.com/@d3/tidy-tree?collection=@d3/d3-hierarchy
 
 // d3 .join:                https://observablehq.com/@d3/selection-join
 // d3 layouts:              https://www.d3indepth.com/layouts/
